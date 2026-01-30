@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { ViewTransitions } from 'astro:transitions';
 import Header from '@components/layout/Header.astro';
 import Footer from '@components/layout/Footer.astro';
 import LocalBusinessSchema from '@components/seo/LocalBusinessSchema.astro';
@@ -56,6 +57,9 @@ const fullTitle = title === siteConfig.name
     <!-- Local Business Schema -->
     {includeSchema && <LocalBusinessSchema />}
 
+    <!-- View Transitions -->
+    <ViewTransitions />
+
     <!-- Theme script - runs before paint to prevent flash -->
     <script is:inline>
       const theme = localStorage.getItem('theme') ||
@@ -70,21 +74,40 @@ const fullTitle = title === siteConfig.name
     </main>
     <Footer />
 
-    <!-- Header scroll behavior -->
+    <!-- Header scroll behavior - works with view transitions -->
     <script>
-      const header = document.querySelector('.site-header');
-      if (header) {
-        let lastScroll = 0;
-        window.addEventListener('scroll', () => {
-          const currentScroll = window.scrollY;
-          if (currentScroll > 50) {
+      function initHeaderScroll() {
+        const header = document.querySelector('.site-header');
+        if (header) {
+          // Set initial state based on current scroll position
+          if (window.scrollY > 50) {
             header.classList.add('scrolled');
-          } else {
-            header.classList.remove('scrolled');
           }
-          lastScroll = currentScroll;
-        }, { passive: true });
+
+          window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+              header.classList.add('scrolled');
+            } else {
+              header.classList.remove('scrolled');
+            }
+          }, { passive: true });
+        }
       }
+
+      // Run on initial load
+      initHeaderScroll();
+
+      // Re-run after view transitions
+      document.addEventListener('astro:after-swap', initHeaderScroll);
+    </script>
+
+    <!-- Preserve theme across view transitions -->
+    <script>
+      document.addEventListener('astro:after-swap', () => {
+        const theme = localStorage.getItem('theme') ||
+          (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = theme;
+      });
     </script>
   </body>
 </html>

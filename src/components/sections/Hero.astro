@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import Container from '@components/common/Container.astro';
 import Button from '@components/common/Button.astro';
 
@@ -6,6 +8,10 @@ interface Props {
   title: string;
   subtitle?: string;
   description?: string;
+  /** Background/feature image for split and overlay variants */
+  image?: ImageMetadata;
+  /** Alt text for image */
+  imageAlt?: string;
   primaryCta?: {
     text: string;
     href: string;
@@ -14,37 +20,99 @@ interface Props {
     text: string;
     href: string;
   };
-  variant?: 'simple' | 'centered';
+  /**
+   * Hero variant:
+   * - simple: Text only, left-aligned
+   * - centered: Text only, centered
+   * - split: Text + image side by side
+   * - overlay: Text over background image
+   */
+  variant?: 'simple' | 'centered' | 'split' | 'overlay';
+  /** Image position for split variant */
+  imagePosition?: 'left' | 'right';
 }
 
 const {
   title,
   subtitle,
   description,
+  image,
+  imageAlt = '',
   primaryCta,
   secondaryCta,
   variant = 'simple',
+  imagePosition = 'right',
 } = Astro.props;
+
+const needsImage = variant === 'split' || variant === 'overlay';
 ---
 
 <section class:list={['hero', `hero--${variant}`]}>
-  <Container>
-    <div class="hero__content">
-      {subtitle && <span class="hero__subtitle">{subtitle}</span>}
-      <h1 class="hero__title">{title}</h1>
-      {description && <p class="hero__description">{description}</p>}
+  {/* Background image for overlay variant */}
+  {variant === 'overlay' && image && (
+    <div class="hero__background">
+      <Image
+        src={image}
+        alt=""
+        width={1920}
+        height={1080}
+        format="webp"
+        quality={80}
+        loading="eager"
+        class="hero__bg-image"
+      />
+      <div class="hero__overlay" aria-hidden="true" />
+    </div>
+  )}
 
-      {(primaryCta || secondaryCta) && (
-        <div class="hero__actions">
-          {primaryCta && (
-            <Button href={primaryCta.href} variant="primary" size="lg">
-              {primaryCta.text}
-            </Button>
-          )}
-          {secondaryCta && (
-            <Button href={secondaryCta.href} variant="outline" size="lg">
-              {secondaryCta.text}
-            </Button>
+  {/* Placeholder background for overlay without image */}
+  {variant === 'overlay' && !image && (
+    <div class="hero__background hero__background--placeholder">
+      <div class="hero__overlay" aria-hidden="true" />
+    </div>
+  )}
+
+  <Container>
+    <div class:list={['hero__content', { 'hero__content--reverse': imagePosition === 'left' }]}>
+      <div class="hero__text">
+        {subtitle && <span class="hero__subtitle">{subtitle}</span>}
+        <h1 class="hero__title">{title}</h1>
+        {description && <p class="hero__description">{description}</p>}
+
+        {(primaryCta || secondaryCta) && (
+          <div class="hero__actions">
+            {primaryCta && (
+              <Button href={primaryCta.href} variant="primary" size="lg">
+                {primaryCta.text}
+              </Button>
+            )}
+            {secondaryCta && (
+              <Button href={secondaryCta.href} variant={variant === 'overlay' ? 'ghost' : 'outline'} size="lg">
+                {secondaryCta.text}
+              </Button>
+            )}
+          </div>
+        )}
+      </div>
+
+      {/* Side image for split variant */}
+      {variant === 'split' && (
+        <div class="hero__image">
+          {image ? (
+            <Image
+              src={image}
+              alt={imageAlt}
+              width={800}
+              height={600}
+              format="webp"
+              quality={85}
+              loading="eager"
+              class="hero__img"
+            />
+          ) : (
+            <div class="hero__img-placeholder">
+              <span>Add image prop</span>
+            </div>
           )}
         </div>
       )}
@@ -58,6 +126,16 @@ const {
     background-color: var(--color-surface);
   }
 
+  /* ================================
+     Simple variant (default)
+     ================================ */
+  .hero--simple .hero__content {
+    max-width: 700px;
+  }
+
+  /* ================================
+     Centered variant
+     ================================ */
   .hero--centered {
     text-align: center;
   }
@@ -71,6 +149,130 @@ const {
     justify-content: center;
   }
 
+  .hero--centered .hero__description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ================================
+     Split variant (text + image)
+     ================================ */
+  .hero--split {
+    padding: 4rem 0;
+  }
+
+  .hero--split .hero__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .hero--split .hero__content {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .hero--split .hero__content--reverse {
+      direction: rtl;
+    }
+
+    .hero--split .hero__content--reverse > * {
+      direction: ltr;
+    }
+  }
+
+  .hero__image {
+    order: 2;
+  }
+
+  .hero--split .hero__content--reverse .hero__image {
+    order: 1;
+  }
+
+  .hero--split .hero__content--reverse .hero__text {
+    order: 2;
+  }
+
+  .hero__img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 20px 40px oklch(0 0 0 / 0.15);
+  }
+
+  .hero__img-placeholder {
+    aspect-ratio: 4 / 3;
+    background-color: var(--color-border);
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    border: 2px dashed var(--color-text-muted);
+  }
+
+  /* ================================
+     Overlay variant (text over image)
+     ================================ */
+  .hero--overlay {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 6rem 0;
+    color: var(--color-text-inverse);
+  }
+
+  .hero__background {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .hero__background--placeholder {
+    background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
+  }
+
+  .hero__bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to right,
+      oklch(0.1 0.02 250 / 0.85),
+      oklch(0.1 0.02 250 / 0.5)
+    );
+  }
+
+  .hero--overlay .hero__content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+  }
+
+  .hero--overlay .hero__title {
+    color: white;
+  }
+
+  .hero--overlay .hero__subtitle {
+    color: var(--color-primary-light);
+  }
+
+  .hero--overlay .hero__description {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  /* ================================
+     Shared styles
+     ================================ */
   .hero__subtitle {
     display: inline-block;
     font-size: 0.875rem;
@@ -93,14 +295,20 @@ const {
     max-width: 600px;
   }
 
-  .hero--centered .hero__description {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .hero__actions {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+  }
+
+  /* Button adjustments for overlay variant */
+  .hero--overlay :global(.btn-ghost) {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .hero--overlay :global(.btn-ghost:hover) {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
   }
 </style>

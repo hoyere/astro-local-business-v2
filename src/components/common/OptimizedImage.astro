@@ -1,0 +1,95 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import { getImage } from '@lib/images';
+
+interface Props {
+  /** Image source - can be ImageMetadata or path relative to src/assets/images/ */
+  src: ImageMetadata | string;
+  /** Alt text for accessibility */
+  alt: string;
+  /** Override width (optional) */
+  width?: number;
+  /** Override height (optional) */
+  height?: number;
+  /** CSS class */
+  class?: string;
+  /** Loading strategy */
+  loading?: 'lazy' | 'eager';
+  /** Responsive sizes attribute */
+  sizes?: string;
+  /** Output format */
+  format?: 'webp' | 'avif' | 'png' | 'jpg';
+  /** Quality 1-100 */
+  quality?: number;
+  /** Aspect ratio constraint */
+  aspectRatio?: '16:9' | '4:3' | '1:1' | '3:2' | 'auto';
+}
+
+const {
+  src,
+  alt,
+  width,
+  height,
+  class: className = '',
+  loading = 'lazy',
+  sizes = '100vw',
+  format = 'webp',
+  quality = 80,
+  aspectRatio = 'auto',
+} = Astro.props;
+
+// Resolve string paths to ImageMetadata
+let resolvedSrc: ImageMetadata | undefined;
+
+if (typeof src === 'string') {
+  resolvedSrc = getImage(src);
+  if (!resolvedSrc) {
+    console.warn(`OptimizedImage: Image not found at ${src}`);
+  }
+} else {
+  resolvedSrc = src;
+}
+
+// Calculate dimensions based on aspect ratio if needed
+let finalWidth = width;
+let finalHeight = height;
+
+if (resolvedSrc && aspectRatio !== 'auto' && width && !height) {
+  const [w, h] = aspectRatio.split(':').map(Number);
+  finalHeight = Math.round(width * (h / w));
+} else if (resolvedSrc && aspectRatio !== 'auto' && height && !width) {
+  const [w, h] = aspectRatio.split(':').map(Number);
+  finalWidth = Math.round(height * (w / h));
+}
+
+// Use original dimensions if not specified
+if (resolvedSrc) {
+  finalWidth = finalWidth || resolvedSrc.width;
+  finalHeight = finalHeight || resolvedSrc.height;
+}
+---
+
+{resolvedSrc ? (
+  <Image
+    src={resolvedSrc}
+    alt={alt}
+    width={finalWidth}
+    height={finalHeight}
+    class={className}
+    loading={loading}
+    format={format}
+    quality={quality}
+    sizes={sizes}
+  />
+) : (
+  <img
+    src="/placeholder.svg"
+    alt={alt}
+    width={width || 800}
+    height={height || 600}
+    class={className}
+    loading={loading}
+    style="object-fit: cover;"
+  />
+)}
