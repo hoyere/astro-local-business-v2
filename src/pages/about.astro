@@ -1,0 +1,137 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Hero from '@components/sections/Hero.astro';
+import Team from '@components/sections/Team.astro';
+import Testimonials from '@components/sections/Testimonials.astro';
+import CTA from '@components/sections/CTA.astro';
+import Container from '@components/common/Container.astro';
+import { siteConfig } from '../site.config';
+---
+
+<BaseLayout
+  title={`About Us | ${siteConfig.name}`}
+  description="Learn more about our company, our team, and our commitment to excellence."
+>
+  <Hero
+    title="About Us"
+    subtitle="Our Story"
+    description="Learn more about who we are and why we do what we do."
+    variant="centered"
+  />
+
+  <section class="section">
+    <Container>
+      <div class="about-content">
+        <div class="about-story">
+          <h2>Our Story</h2>
+          <p>
+            Founded with a passion for excellence, {siteConfig.name} has been serving our
+            community for over two decades. What started as a small operation has grown
+            into a trusted name in the industry, thanks to our unwavering commitment to
+            quality and customer satisfaction.
+          </p>
+          <p>
+            We believe in doing things right the first time. Our team of dedicated
+            professionals brings years of experience and expertise to every project,
+            ensuring that our clients receive nothing but the best.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <h3>Our Mission</h3>
+            <p>
+              To provide exceptional service that exceeds expectations while building
+              lasting relationships with our clients and community.
+            </p>
+          </div>
+          <div class="value-card">
+            <h3>Our Vision</h3>
+            <p>
+              To be the most trusted and respected service provider in our region,
+              known for quality, integrity, and customer care.
+            </p>
+          </div>
+          <div class="value-card">
+            <h3>Our Values</h3>
+            <p>
+              Integrity, excellence, and respect guide everything we do. We treat
+              every project as if it were our own.
+            </p>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <Team />
+
+  <Testimonials
+    title="What People Say About Us"
+    subtitle="Don't just take our word for it"
+  />
+
+  <CTA
+    title="Want to Work With Us?"
+    description="We'd love to hear from you. Get in touch today."
+    primaryCta={{ text: "Contact Us", href: "/contact" }}
+  />
+</BaseLayout>
+
+<style>
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-story {
+    margin-bottom: 3rem;
+  }
+
+  .about-story h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-story p {
+    color: var(--color-text-muted);
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-story p:last-child {
+    margin-bottom: 0;
+  }
+
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .values-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .value-card {
+    padding: 1.5rem;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+  }
+
+  .value-card h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-primary);
+  }
+
+  .value-card p {
+    color: var(--color-text-muted);
+    margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+</style>

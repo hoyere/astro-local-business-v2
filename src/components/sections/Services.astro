@@ -1,0 +1,135 @@
+---
+import Container from '@components/common/Container.astro';
+import Button from '@components/common/Button.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  showAll?: boolean;
+  limit?: number;
+}
+
+const {
+  title = "Our Services",
+  subtitle = "Professional solutions tailored to your needs",
+  showAll = false,
+  limit = 3,
+} = Astro.props;
+
+const allServices = await getCollection('services');
+const services = allServices
+  .sort((a, b) => a.data.order - b.data.order)
+  .filter(s => showAll || s.data.featured)
+  .slice(0, showAll ? undefined : limit);
+---
+
+<section class="section services-section">
+  <Container>
+    <div class="section-header">
+      <h2>{title}</h2>
+      <p class="text-muted">{subtitle}</p>
+    </div>
+
+    <div class="services-grid">
+      {services.map((service) => (
+        <article class="service-card">
+          <h3>{service.data.title}</h3>
+          <p>{service.data.description}</p>
+          {service.data.features && (
+            <ul class="service-features">
+              {service.data.features.slice(0, 3).map((feature) => (
+                <li>{feature}</li>
+              ))}
+            </ul>
+          )}
+          <Button href={`/services/${service.id}`} variant="outline" size="sm">
+            Learn More
+          </Button>
+        </article>
+      ))}
+    </div>
+
+    {!showAll && (
+      <div class="section-footer">
+        <Button href="/services" variant="primary">
+          View All Services
+        </Button>
+      </div>
+    )}
+  </Container>
+</section>
+
+<style>
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .section-header h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .services-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .service-card {
+    padding: 2rem;
+    background-color: var(--color-surface);
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-card h3 {
+    margin-bottom: 0.75rem;
+  }
+
+  .service-card > p {
+    color: var(--color-text-muted);
+    margin-bottom: 1rem;
+  }
+
+  .service-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+    flex-grow: 1;
+  }
+
+  .service-features li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+  }
+
+  .service-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+  }
+
+  .section-footer {
+    text-align: center;
+    margin-top: 3rem;
+  }
+</style>

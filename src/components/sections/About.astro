@@ -1,0 +1,110 @@
+---
+import Container from '@components/common/Container.astro';
+import Button from '@components/common/Button.astro';
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  content?: string;
+  features?: { title: string; description: string }[];
+  showCta?: boolean;
+}
+
+const {
+  title = "About Us",
+  subtitle = "Your trusted local partner",
+  content = "We are a dedicated team of professionals committed to providing exceptional service to our community. With years of experience and a passion for what we do, we've built a reputation for quality, reliability, and customer satisfaction.",
+  features = [
+    { title: "Experience", description: "20+ years serving our community" },
+    { title: "Quality", description: "Committed to excellence in everything" },
+    { title: "Trust", description: "Building lasting relationships" },
+  ],
+  showCta = true,
+} = Astro.props;
+---
+
+<section class="section about-section">
+  <Container>
+    <div class="about-content">
+      <div class="about-text">
+        <span class="section-label">{subtitle}</span>
+        <h2>{title}</h2>
+        <p class="about-description">{content}</p>
+        {showCta && (
+          <Button href="/about" variant="primary">
+            Learn More About Us
+          </Button>
+        )}
+      </div>
+
+      <div class="about-features">
+        {features.map((feature) => (
+          <div class="feature-item">
+            <h3>{feature.title}</h3>
+            <p>{feature.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </Container>
+</section>
+
+<style>
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .about-content {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .section-label {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+  }
+
+  .about-text h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-description {
+    color: var(--color-text-muted);
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+
+  .about-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .feature-item {
+    padding: 1.5rem;
+    background-color: var(--color-surface);
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-border);
+  }
+
+  .feature-item h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .feature-item p {
+    color: var(--color-text-muted);
+    margin: 0;
+    font-size: 0.875rem;
+  }
+</style>

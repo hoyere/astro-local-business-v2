@@ -1,0 +1,126 @@
+---
+import Container from '@components/common/Container.astro';
+
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  items?: FAQItem[];
+}
+
+const {
+  title = "Frequently Asked Questions",
+  subtitle = "Find answers to common questions",
+  items = [
+    {
+      question: "What areas do you serve?",
+      answer: "We proudly serve the greater metropolitan area and surrounding communities. Contact us to confirm service availability in your specific location.",
+    },
+    {
+      question: "Do you offer free estimates?",
+      answer: "Yes! We provide free, no-obligation estimates for all our services. Contact us to schedule a consultation.",
+    },
+    {
+      question: "What are your business hours?",
+      answer: "We're open Monday through Friday, 8:00 AM to 6:00 PM, and Saturday 9:00 AM to 4:00 PM. We're closed on Sundays.",
+    },
+    {
+      question: "Do you offer warranties?",
+      answer: "Yes, we stand behind our work. All our services come with a satisfaction guarantee and applicable warranties.",
+    },
+  ],
+} = Astro.props;
+---
+
+<section class="section faq-section">
+  <Container>
+    <div class="section-header">
+      <h2>{title}</h2>
+      <p class="text-muted">{subtitle}</p>
+    </div>
+
+    <div class="faq-list">
+      {items.map((item, index) => (
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>{item.question}</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="faq-answer">
+            <p>{item.answer}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </Container>
+</section>
+
+<style>
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .section-header h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .faq-item {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    list-style: none;
+  }
+
+  .faq-question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-question:hover {
+    background-color: var(--color-background);
+  }
+
+  .faq-icon {
+    flex-shrink: 0;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--color-primary);
+    transition: transform 0.2s;
+  }
+
+  .faq-item[open] .faq-icon {
+    transform: rotate(45deg);
+  }
+
+  .faq-answer {
+    padding: 0 1.5rem 1.25rem;
+  }
+
+  .faq-answer p {
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+</style>

@@ -1,0 +1,140 @@
+---
+import Container from '@components/common/Container.astro';
+import { getCollection, render } from 'astro:content';
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  limit?: number;
+  featuredOnly?: boolean;
+}
+
+const {
+  title = "What Our Clients Say",
+  subtitle = "Trusted by businesses and homeowners alike",
+  limit = 3,
+  featuredOnly = true,
+} = Astro.props;
+
+const allTestimonials = await getCollection('testimonials');
+const testimonials = allTestimonials
+  .filter(t => !featuredOnly || t.data.featured)
+  .slice(0, limit);
+
+function renderStars(rating: number) {
+  return '★'.repeat(rating) + '☆'.repeat(5 - rating);
+}
+
+// Pre-render all testimonials
+const renderedTestimonials = await Promise.all(
+  testimonials.map(async (testimonial) => {
+    const { Content } = await render(testimonial);
+    return { testimonial, Content };
+  })
+);
+---
+
+<section class="section section-alt testimonials-section">
+  <Container>
+    <div class="section-header">
+      <h2>{title}</h2>
+      <p class="text-muted">{subtitle}</p>
+    </div>
+
+    <div class="testimonials-grid">
+      {renderedTestimonials.map(({ testimonial, Content }) => (
+        <article class="testimonial-card">
+          <div class="testimonial-rating" aria-label={`${testimonial.data.rating} out of 5 stars`}>
+            {renderStars(testimonial.data.rating)}
+          </div>
+          <blockquote class="testimonial-content">
+            <Content />
+          </blockquote>
+          <footer class="testimonial-author">
+            <span class="author-name">{testimonial.data.author}</span>
+            {(testimonial.data.role || testimonial.data.company) && (
+              <span class="author-info">
+                {testimonial.data.role}
+                {testimonial.data.role && testimonial.data.company && ', '}
+                {testimonial.data.company}
+              </span>
+            )}
+          </footer>
+        </article>
+      ))}
+    </div>
+  </Container>
+</section>
+
+<style>
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .section-header h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    .testimonials-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .testimonials-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .testimonial-card {
+    background-color: var(--color-surface);
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-border);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-rating {
+    color: #fbbf24;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1em;
+  }
+
+  .testimonial-content {
+    flex-grow: 1;
+    margin: 0 0 1.5rem 0;
+    font-style: italic;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+  }
+
+  .testimonial-content :global(p) {
+    margin: 0;
+  }
+
+  .testimonial-author {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .author-name {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .author-info {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+</style>

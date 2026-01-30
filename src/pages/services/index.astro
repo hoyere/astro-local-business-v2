@@ -1,0 +1,32 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Hero from '@components/sections/Hero.astro';
+import Services from '@components/sections/Services.astro';
+import CTA from '@components/sections/CTA.astro';
+import { siteConfig } from '../../site.config';
+---
+
+<BaseLayout
+  title={`Our Services | ${siteConfig.name}`}
+  description="Explore our comprehensive range of professional services designed to meet your needs."
+>
+  <Hero
+    title="Our Services"
+    subtitle="What We Offer"
+    description="Comprehensive solutions tailored to your needs. Browse our services to see how we can help."
+    variant="centered"
+  />
+
+  <Services
+    title="All Services"
+    subtitle="Professional solutions for every need"
+    showAll={true}
+  />
+
+  <CTA
+    title="Need Help Choosing?"
+    description="Not sure which service is right for you? Contact us for a free consultation."
+    primaryCta={{ text: "Get a Free Quote", href: "/contact" }}
+    secondaryCta={{ text: "Call Us", href: `tel:${siteConfig.contact.phone.replace(/[^\d+]/g, '')}` }}
+  />
+</BaseLayout>

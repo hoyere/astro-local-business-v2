@@ -1,0 +1,77 @@
+---
+import Container from '@components/common/Container.astro';
+import Button from '@components/common/Button.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  primaryCta?: { text: string; href: string };
+  secondaryCta?: { text: string; href: string };
+  variant?: 'default' | 'highlight';
+}
+
+const {
+  title = "Ready to Get Started?",
+  description = "Contact us today for a free consultation",
+  primaryCta = { text: "Contact Us", href: "/contact" },
+  secondaryCta,
+  variant = 'default',
+} = Astro.props;
+---
+
+<section class:list={['section', 'cta-section', `cta--${variant}`]}>
+  <Container>
+    <div class="cta-content">
+      <h2>{title}</h2>
+      <p class="cta-description">{description}</p>
+      <div class="cta-actions">
+        <Button href={primaryCta.href} variant="primary" size="lg">
+          {primaryCta.text}
+        </Button>
+        {secondaryCta && (
+          <Button href={secondaryCta.href} variant="outline" size="lg">
+            {secondaryCta.text}
+          </Button>
+        )}
+      </div>
+    </div>
+  </Container>
+</section>
+
+<style>
+  .cta-section {
+    background-color: var(--color-surface);
+  }
+
+  .cta--highlight {
+    background-color: var(--color-primary);
+    color: white;
+  }
+
+  .cta--highlight .cta-description {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .cta-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .cta-content h2 {
+    margin-bottom: 0.75rem;
+  }
+
+  .cta-description {
+    color: var(--color-text-muted);
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+
+  .cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+</style>

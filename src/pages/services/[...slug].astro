@@ -1,0 +1,216 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Container from '@components/common/Container.astro';
+import Button from '@components/common/Button.astro';
+import CTA from '@components/sections/CTA.astro';
+import { siteConfig } from '../../site.config';
+
+export async function getStaticPaths() {
+  const services = await getCollection('services');
+  return services.map((service) => ({
+    params: { slug: service.id },
+    props: { service },
+  }));
+}
+
+const { service } = Astro.props;
+const { Content } = await render(service);
+---
+
+<BaseLayout
+  title={`${service.data.title} | ${siteConfig.name}`}
+  description={service.data.description}
+>
+  <section class="section service-hero">
+    <Container>
+      <div class="service-hero-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span>/</span>
+          <a href="/services">Services</a>
+          <span>/</span>
+          <span>{service.data.title}</span>
+        </nav>
+        <h1>{service.data.title}</h1>
+        <p class="service-description">{service.data.description}</p>
+      </div>
+    </Container>
+  </section>
+
+  <section class="section">
+    <Container>
+      <div class="service-layout">
+        <article class="service-content">
+          <Content />
+        </article>
+
+        <aside class="service-sidebar">
+          {service.data.features && service.data.features.length > 0 && (
+            <div class="sidebar-card">
+              <h3>Key Features</h3>
+              <ul class="features-list">
+                {service.data.features.map((feature) => (
+                  <li>{feature}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <div class="sidebar-card">
+            <h3>Get Started</h3>
+            <p>Ready to learn more? Contact us for a free consultation.</p>
+            <Button href="/contact" variant="primary">
+              Contact Us
+            </Button>
+          </div>
+        </aside>
+      </div>
+    </Container>
+  </section>
+
+  <CTA
+    title="Interested in This Service?"
+    description="Get in touch to discuss your needs and receive a personalized quote."
+    primaryCta={{ text: "Request a Quote", href: "/contact" }}
+    secondaryCta={{ text: "View All Services", href: "/services" }}
+  />
+</BaseLayout>
+
+<style>
+  .service-hero {
+    background-color: var(--color-surface);
+  }
+
+  .service-hero-content {
+    max-width: 800px;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    margin-bottom: 1.5rem;
+  }
+
+  .breadcrumb a {
+    color: var(--color-text-muted);
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-primary);
+  }
+
+  .breadcrumb span:last-child {
+    color: var(--color-text);
+  }
+
+  .service-hero h1 {
+    margin-bottom: 1rem;
+  }
+
+  .service-description {
+    font-size: 1.25rem;
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+
+  .service-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    .service-layout {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+
+  .service-content {
+    max-width: none;
+  }
+
+  .service-content :global(h2) {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-content :global(h2:first-child) {
+    margin-top: 0;
+  }
+
+  .service-content :global(p) {
+    color: var(--color-text-muted);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+
+  .service-content :global(ul),
+  .service-content :global(ol) {
+    color: var(--color-text-muted);
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .service-content :global(li) {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+
+  .service-content :global(strong) {
+    color: var(--color-text);
+  }
+
+  .service-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .sidebar-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  .sidebar-card h3 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+
+  .sidebar-card p {
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+    margin-bottom: 1rem;
+  }
+
+  .features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .features-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+  }
+
+  .features-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+  }
+
+  .features-list li:last-child {
+    margin-bottom: 0;
+  }
+</style>
