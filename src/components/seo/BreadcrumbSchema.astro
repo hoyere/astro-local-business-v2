@@ -1,0 +1,27 @@
+---
+import { siteConfig } from '../../site.config';
+
+interface BreadcrumbItem {
+  name: string;
+  href: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": items.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.name,
+    "item": new URL(item.href, siteConfig.url).toString(),
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema, null, 2)} />

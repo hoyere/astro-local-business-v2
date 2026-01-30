@@ -1,0 +1,62 @@
+---
+import { siteConfig } from '../../site.config';
+
+interface Props {
+  type?: string;
+}
+
+const { type = "LocalBusiness" } = Astro.props;
+
+const { name, description, url, contact, hours, social } = siteConfig;
+
+// Convert hours to schema.org format
+const openingHours = hours
+  .filter(h => h.hours !== "Closed")
+  .map(h => {
+    // Simple conversion - customize as needed
+    const dayMap: Record<string, string> = {
+      "Monday": "Mo",
+      "Tuesday": "Tu",
+      "Wednesday": "We",
+      "Thursday": "Th",
+      "Friday": "Fr",
+      "Saturday": "Sa",
+      "Sunday": "Su",
+    };
+
+    // Handle ranges like "Monday - Friday"
+    if (h.days.includes(" - ")) {
+      const [start, end] = h.days.split(" - ");
+      return `${dayMap[start] || start}-${dayMap[end] || end} ${h.hours.replace(" AM", "").replace(" PM", "")}`;
+    }
+    return `${dayMap[h.days] || h.days} ${h.hours}`;
+  });
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": type,
+  "name": name,
+  "description": description,
+  "url": url,
+  "telephone": contact.phone,
+  "email": contact.email,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": contact.address.street,
+    "addressLocality": contact.address.city,
+    "addressRegion": contact.address.state,
+    "postalCode": contact.address.zip,
+    "addressCountry": "US"
+  },
+  "openingHours": openingHours,
+  ...(social.facebook && { "sameAs": [
+    social.facebook,
+    social.instagram,
+    social.twitter,
+    social.linkedin,
+    social.youtube,
+  ].filter(Boolean) }),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema, null, 2)} />

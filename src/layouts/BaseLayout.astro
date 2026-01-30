@@ -2,18 +2,21 @@
 import '../styles/global.css';
 import Header from '@components/layout/Header.astro';
 import Footer from '@components/layout/Footer.astro';
+import LocalBusinessSchema from '@components/seo/LocalBusinessSchema.astro';
 import { siteConfig } from '../site.config';
 
 interface Props {
   title?: string;
   description?: string;
   ogImage?: string;
+  includeSchema?: boolean;
 }
 
 const {
   title = siteConfig.name,
   description = siteConfig.description,
   ogImage = '/og-image.jpg',
+  includeSchema = true,
 } = Astro.props;
 
 const fullTitle = title === siteConfig.name
@@ -46,6 +49,12 @@ const fullTitle = title === siteConfig.name
     <meta name="twitter:image" content={ogImage} />
 
     <title>{fullTitle}</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href={Astro.url} />
+
+    <!-- Local Business Schema -->
+    {includeSchema && <LocalBusinessSchema />}
 
     <!-- Theme script - runs before paint to prevent flash -->
     <script is:inline>
