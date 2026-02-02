@@ -31,7 +31,7 @@ const team = defineCollection({
     bio: z.string().optional(),
     social: z.object({
       linkedin: z.string().url().optional(),
-      twitter: z.string().url().optional(),
+      bluesky: z.string().url().optional(),
       email: z.string().email().optional(),
     }).optional(),
     order: z.number().default(0),

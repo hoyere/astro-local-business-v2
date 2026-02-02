@@ -5,51 +5,257 @@
    ============================================ */
 
 @theme {
-  /* Colors */
-  --color-primary: oklch(0.55 0.2 250);
-  --color-primary-light: oklch(0.65 0.18 250);
-  --color-primary-dark: oklch(0.45 0.22 250);
+  /* ----------------------------------------
+     GA Brand Colors - Primary (Emerald Green)
+     Source: Growth_Automations_Brand_Guidelines_v1_1.md
+     ---------------------------------------- */
+  --color-primary: oklch(0.58 0.15 160);
+  --color-primary-light: oklch(0.75 0.17 160);
+  --color-primary-dark: oklch(0.48 0.12 160);
 
-  --color-secondary: oklch(0.55 0.05 250);
+  --color-secondary: oklch(0.50 0.05 160);
 
-  --color-text: oklch(0.2 0.02 250);
-  --color-text-muted: oklch(0.45 0.02 250);
+  /* ----------------------------------------
+     GA Brand Colors - Accent (Golden Yellow)
+     ---------------------------------------- */
+  --color-accent: oklch(0.90 0.13 90);
+  --color-accent-light: oklch(0.94 0.10 95);
+  --color-accent-dark: oklch(0.80 0.14 85);
+
+  /* ----------------------------------------
+     Colors - Text (Green-Black Tones)
+     ---------------------------------------- */
+  --color-text: oklch(0.15 0.02 160);
+  --color-text-secondary: oklch(0.35 0.03 160);
+  --color-text-muted: oklch(0.50 0.03 160);
   --color-text-inverse: oklch(0.98 0 0);
 
-  --color-background: oklch(1 0 0);
-  --color-surface: oklch(0.97 0.005 250);
-  --color-border: oklch(0.9 0.01 250);
+  /* Text on colored backgrounds */
+  --color-on-primary: oklch(1 0 0);
+  --color-on-accent: oklch(0.15 0.02 160);
 
-  /* Spacing */
+  /* ----------------------------------------
+     Colors - Surfaces (Green Tint)
+     ---------------------------------------- */
+  --color-background: oklch(1 0 0);
+  --color-surface: oklch(1 0 0);
+  --color-surface-alt: oklch(0.98 0.01 160);
+  --color-surface-elevated: oklch(1 0 0);
+  --color-border: oklch(0.92 0.02 160);
+
+  /* ----------------------------------------
+     Colors - Focus
+     ---------------------------------------- */
+  --color-focus: oklch(0.58 0.15 160);
+
+  /* ----------------------------------------
+     Semantic/Status Colors
+     ---------------------------------------- */
+  --color-success: oklch(0.55 0.15 145);
+  --color-success-light: oklch(0.92 0.05 145);
+  --color-error: oklch(0.55 0.20 25);
+  --color-error-light: oklch(0.95 0.05 25);
+  --color-warning: oklch(0.75 0.15 70);
+  --color-warning-light: oklch(0.94 0.06 70);
+  --color-info: oklch(0.55 0.15 230);
+  --color-info-light: oklch(0.92 0.05 230);
+
+  /* ----------------------------------------
+     Interactive States
+     ---------------------------------------- */
+  --color-disabled: oklch(0.92 0.01 160);
+  --color-disabled-text: oklch(0.60 0.02 160);
+  --color-selection: oklch(0.58 0.15 160 / 0.2);
+  --color-placeholder: oklch(0.50 0.03 160);
+
+  /* ----------------------------------------
+     Colors - Footer (Dark Green Theme)
+     ---------------------------------------- */
+  --color-footer-bg: oklch(0.18 0.03 160);
+  --color-footer-text: oklch(0.97 0.01 160);
+  --color-footer-text-muted: oklch(0.70 0.03 160);
+  --color-footer-border: oklch(0.28 0.03 160);
+  --color-footer-accent: oklch(0.75 0.17 160);
+
+  /* ----------------------------------------
+     Overlays (Green-tinted darks)
+     ---------------------------------------- */
+  --overlay-dark-light: oklch(0.13 0.02 160 / 0.3);
+  --overlay-dark-medium: oklch(0.13 0.02 160 / 0.5);
+  --overlay-dark-heavy: oklch(0.13 0.02 160 / 0.7);
+  --overlay-white-light: oklch(1 0 0 / 0.1);
+  --overlay-white-medium: oklch(1 0 0 / 0.3);
+  --overlay-white-heavy: oklch(1 0 0 / 0.5);
+  --overlay-white-text: oklch(1 0 0 / 0.9);
+
+  /* ----------------------------------------
+     Spacing Scale
+     Based on 4px (0.25rem) base unit
+     ---------------------------------------- */
+  --space-px: 1px;
+  --space-0: 0;
+  --space-0-5: 0.125rem;  /* 2px */
+  --space-1: 0.25rem;     /* 4px */
+  --space-1-5: 0.375rem;  /* 6px */
+  --space-2: 0.5rem;      /* 8px */
+  --space-2-5: 0.625rem;  /* 10px */
+  --space-3: 0.75rem;     /* 12px */
+  --space-3-5: 0.875rem;  /* 14px */
+  --space-4: 1rem;        /* 16px */
+  --space-5: 1.25rem;     /* 20px */
+  --space-6: 1.5rem;      /* 24px */
+  --space-7: 1.75rem;     /* 28px */
+  --space-8: 2rem;        /* 32px */
+  --space-9: 2.25rem;     /* 36px */
+  --space-10: 2.5rem;     /* 40px */
+  --space-11: 2.75rem;    /* 44px */
+  --space-12: 3rem;       /* 48px */
+  --space-14: 3.5rem;     /* 56px */
+  --space-16: 4rem;       /* 64px */
+  --space-20: 5rem;       /* 80px */
+  --space-24: 6rem;       /* 96px */
+  --space-28: 7rem;       /* 112px */
+  --space-32: 8rem;       /* 128px */
+
+  /* ----------------------------------------
+     Typography Scale (Fluid with clamp)
+     ---------------------------------------- */
+  --text-xs: clamp(0.7rem, 0.65rem + 0.25vw, 0.75rem);
+  --text-sm: clamp(0.8rem, 0.75rem + 0.25vw, 0.875rem);
+  --text-base: clamp(0.9rem, 0.85rem + 0.25vw, 1rem);
+  --text-lg: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+  --text-xl: clamp(1.1rem, 1rem + 0.5vw, 1.25rem);
+  --text-2xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+  --text-3xl: clamp(1.5rem, 1.25rem + 1.25vw, 1.875rem);
+  --text-4xl: clamp(1.75rem, 1.4rem + 1.75vw, 2.25rem);
+  --text-5xl: clamp(2rem, 1.5rem + 2.5vw, 3rem);
+  --text-6xl: clamp(2.5rem, 1.75rem + 3.75vw, 3.75rem);
+  --text-7xl: clamp(3rem, 2rem + 5vw, 4.5rem);
+
+  /* Line Heights */
+  --leading-none: 1;
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+
+  /* Letter Spacing */
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+
+  /* ----------------------------------------
+     Layout
+     ---------------------------------------- */
   --header-height: 80px;
   --header-height-scrolled: 64px;
-  --section-padding-y: 5rem;
+  --section-padding-y: var(--space-20);
   --container-max: 1280px;
 
-  /* Typography */
+  /* ----------------------------------------
+     Fonts
+     ---------------------------------------- */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-display: 'Inter', system-ui, -apple-system, sans-serif;
 
-  /* Transitions */
+  /* ----------------------------------------
+     Transitions
+     ---------------------------------------- */
   --transition-fast: 150ms ease;
   --transition-base: 250ms ease;
   --transition-slow: 400ms ease;
 
-  /* Shadows */
+  /* ----------------------------------------
+     Shadows
+     ---------------------------------------- */
   --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px oklch(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px oklch(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px oklch(0 0 0 / 0.1);
+
+  /* ----------------------------------------
+     Border Radius
+     ---------------------------------------- */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-full: 9999px;
 }
 
-/* Dark mode overrides */
+/* Dark mode overrides - GA Brand */
 [data-theme="dark"] {
-  --color-text: oklch(0.95 0.01 250);
-  --color-text-muted: oklch(0.7 0.02 250);
-  --color-text-inverse: oklch(0.15 0.02 250);
+  /* Primary - brighter emerald for dark mode */
+  --color-primary: oklch(0.75 0.17 160);
+  --color-primary-light: oklch(0.82 0.15 160);
+  --color-primary-dark: oklch(0.60 0.14 160);
 
-  --color-background: oklch(0.15 0.02 250);
-  --color-surface: oklch(0.2 0.02 250);
-  --color-border: oklch(0.3 0.02 250);
+  /* Accent - slightly muted gold for dark mode */
+  --color-accent: oklch(0.87 0.13 85);
+  --color-accent-dark: oklch(0.80 0.14 85);
+
+  /* Text colors - light on dark green */
+  --color-text: oklch(0.97 0.01 160);
+  --color-text-secondary: oklch(0.87 0.02 160);
+  --color-text-muted: oklch(0.70 0.03 160);
+  --color-text-inverse: oklch(0.13 0.02 160);
+
+  /* On-color adjustments for dark mode */
+  --color-on-primary: oklch(0.13 0.02 160);
+  --color-on-accent: oklch(0.13 0.02 160);
+
+  /* Background - dark green-black */
+  --color-background: oklch(0.13 0.02 160);
+  --color-surface: oklch(0.18 0.03 160);
+  --color-surface-alt: oklch(0.24 0.03 160);
+  --color-surface-elevated: oklch(0.28 0.03 160);
+  --color-border: oklch(0.28 0.03 160);
+
+  /* Focus - brighter for visibility */
+  --color-focus: oklch(0.75 0.17 160);
+
+  /* Footer - darker in dark mode */
+  --color-footer-bg: oklch(0.10 0.02 160);
+  --color-footer-text: oklch(0.97 0.01 160);
+  --color-footer-text-muted: oklch(0.65 0.03 160);
+  --color-footer-border: oklch(0.20 0.02 160);
+  --color-footer-accent: oklch(0.75 0.17 160);
+
+  /* Semantic colors - brighter for dark mode */
+  --color-success: oklch(0.70 0.17 145);
+  --color-success-light: oklch(0.25 0.05 145);
+  --color-error: oklch(0.70 0.18 25);
+  --color-error-light: oklch(0.25 0.08 25);
+  --color-warning: oklch(0.80 0.13 70);
+  --color-warning-light: oklch(0.28 0.06 70);
+  --color-info: oklch(0.70 0.15 230);
+  --color-info-light: oklch(0.25 0.05 230);
+
+  /* Interactive states - dark mode */
+  --color-disabled: oklch(0.25 0.02 160);
+  --color-disabled-text: oklch(0.50 0.02 160);
+  --color-selection: oklch(0.75 0.17 160 / 0.3);
+
+  /* Shadows - more pronounced in dark mode */
+  --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.3);
+  --shadow-md: 0 4px 6px oklch(0 0 0 / 0.4);
+  --shadow-lg: 0 10px 15px oklch(0 0 0 / 0.4);
+  --shadow-xl: 0 20px 25px oklch(0 0 0 / 0.45);
+}
+
+/* Dark mode image handling */
+[data-theme="dark"] img {
+  /* Slightly reduce brightness to avoid harsh contrast */
+  filter: brightness(0.95);
+}
+
+[data-theme="dark"] img:hover {
+  filter: brightness(1);
 }
 
 /* ============================================
@@ -68,6 +274,12 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Text Selection */
+::selection {
+  background-color: var(--color-selection);
+  color: var(--color-text);
 }
 
 /* ============================================
@@ -231,4 +443,102 @@ a:hover {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+/* ============================================
+   Accessibility - Focus States
+   ============================================ */
+
+/* Visible focus ring for keyboard navigation */
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* Remove default outline when :focus-visible is supported */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Skip to content link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-4);
+  z-index: 100;
+  padding: var(--space-3) var(--space-6);
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: top var(--transition-fast);
+}
+
+.skip-link:focus {
+  top: var(--space-4);
+}
+
+/* ============================================
+   Accessibility - Touch Targets
+   ============================================ */
+
+/* Minimum 44x44px touch targets (WCAG 2.5.5) */
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ============================================
+   Background Utilities
+   ============================================ */
+
+.bg-cover-center {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-overlay {
+  position: relative;
+}
+
+.bg-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 0%, oklch(0 0 0 / 0.6) 100%);
+  pointer-events: none;
+}
+
+.bg-overlay-dark::before {
+  background: oklch(0 0 0 / 0.5);
+}
+
+.bg-overlay-light::before {
+  background: oklch(1 0 0 / 0.7);
+}
+
+/* Ensure content appears above overlay */
+.bg-overlay > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================
+   Reduced Motion
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -1,9 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-    <path d="M50.4 78.5a75.1 75.1 0 0 0-28.5 6.9l24.2-65.7c.7-2 1.9-3.2 3.4-3.2h29c1.5 0 2.7 1.2 3.4 3.2l24.2 65.7s-11.6-7-28.5-7L67 45.5c-.4-1.7-1.6-2.8-2.9-2.8-1.3 0-2.5 1.1-2.9 2.7L50.4 78.5Zm-1.1 28.2Zm-4.2-20.2c-2 6.6-.6 15.8 4.2 20.2a17.5 17.5 0 0 1 .2-.7 5.5 5.5 0 0 1 5.7-4.5c2.8.1 4.3 1.5 4.7 4.7.2 1.1.2 2.3.2 3.5v.4c0 2.7.7 5.2 2.2 7.4a13 13 0 0 0 5.7 4.9v-.3l-.2-.3c-1.8-5.6-.5-9.5 4.4-12.8l1.5-1a73 73 0 0 0 3.2-2.2 16 16 0 0 0 6.8-11.4c.3-2 .1-4-.6-6l-.8.6-1.6 1a37 37 0 0 1-22.4 2.7c-5-.7-9.7-2-13.2-6.2Z" />
-    <style>
-        path { fill: #000; }
-        @media (prefers-color-scheme: dark) {
-            path { fill: #FFF; }
-        }
-    </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Growth Automations Favicon -->
+  <!-- Gear represents automation, sprout represents growth -->
+
+  <!-- Gear/Cog (centered lower) -->
+  <g transform="translate(64, 75)">
+    <!-- Outer gear teeth -->
+    <path d="M0,-45 L6,-45 L8,-38 L12,-38 L14,-45 L20,-43 L18,-36 L22,-34 L26,-40 L31,-36 L26,-30 L29,-27 L36,-31 L39,-25 L32,-21 L33,-17 L40,-15 L40,-9 L33,-7 L32,-3 L39,1 L36,7 L29,3 L26,6 L31,12 L25,16 L20,10 L16,12 L18,19 L12,20 L10,13 L6,13 L4,20 L-2,19 L0,12 L-4,10 L-9,16 L-14,12 L-10,6 L-13,3 L-20,7 L-23,1 L-16,-3 L-17,-7 L-24,-9 L-24,-15 L-17,-17 L-16,-21 L-23,-25 L-20,-31 L-13,-27 L-10,-30 L-15,-36 L-10,-40 L-6,-34 L-2,-36 L-4,-43 L2,-45 L4,-38 L0,-38 Z"
+          fill="#0f1c18"/>
+    <!-- Inner circle (yin-yang base) -->
+    <circle cx="0" cy="0" r="28" fill="#0f1c18"/>
+    <!-- Yin-yang white part -->
+    <path d="M0,-28 A28,28 0 0,1 0,28 A14,14 0 0,1 0,0 A14,14 0 0,0 0,-28" fill="#ffffff"/>
+    <!-- Small circles for yin-yang -->
+    <circle cx="0" cy="-14" r="5" fill="#0f1c18"/>
+    <circle cx="0" cy="14" r="5" fill="#ffffff"/>
+  </g>
+
+  <!-- Sprout/Leaf (green, on top) -->
+  <g transform="translate(64, 25)">
+    <!-- Main leaf -->
+    <path d="M0,35 Q-5,20 -15,15 Q-25,10 -20,0 Q-15,-10 0,0 Q15,-10 20,0 Q25,10 15,15 Q5,20 0,35"
+          fill="#02a26a" stroke="none"/>
+    <!-- Stem curl -->
+    <path d="M0,35 Q5,25 0,18 Q-8,10 0,5"
+          fill="none" stroke="#02a26a" stroke-width="4" stroke-linecap="round"/>
+    <!-- Small inner leaf detail -->
+    <ellipse cx="-8" cy="8" rx="8" ry="12" fill="#3ad69e" transform="rotate(-30, -8, 8)"/>
+  </g>
 </svg>

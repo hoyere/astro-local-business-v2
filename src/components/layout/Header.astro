@@ -1,16 +1,60 @@
 ---
 import { siteConfig } from '../../site.config';
 import ThemeToggle from '@components/common/ThemeToggle.astro';
+import { Image } from 'astro:assets';
+import logoLight from '@assets/images/brand/GA-logo-dev.png';
+import logoDark from '@assets/images/brand/GA-logo-dev-darktheme.png';
 
 const { navigation, name, contact } = siteConfig;
 const currentPath = Astro.url.pathname;
+
+/**
+ * Logo display mode:
+ * - 'logo-only': Just the logo image (name in alt text for a11y)
+ * - 'logo-and-name': Logo + company name side by side (name hides on mobile)
+ * - 'wordmark': Logo contains text, treated as single unit
+ * - 'text-only': No logo, just styled text name
+ */
+type LogoMode = 'logo-only' | 'logo-and-name' | 'wordmark' | 'text-only';
+const logoMode: LogoMode = 'logo-and-name';
+
+// Whether logo images are available
+const hasLogo = true;
 ---
 
 <header class="site-header">
   <div class="header-container">
     <!-- Logo -->
-    <a href="/" class="header-logo">
-      <span class="logo-text">{name}</span>
+    <a href="/" class="header-logo" aria-label={`${name} - Go to homepage`}>
+      {/* Logo Image (if available and not text-only mode) */}
+      {hasLogo && logoMode !== 'text-only' && (
+        <span class="logo-image-wrapper">
+          <Image
+            src={logoLight}
+            alt={logoMode === 'logo-only' ? name : ''}
+            height={40}
+            class="logo-image logo-light"
+            loading="eager"
+          />
+          <Image
+            src={logoDark}
+            alt={logoMode === 'logo-only' ? name : ''}
+            height={40}
+            class="logo-image logo-dark"
+            loading="eager"
+          />
+        </span>
+      )}
+
+      {/* Company Name Text */}
+      {(logoMode === 'text-only' || logoMode === 'logo-and-name' || (!hasLogo && logoMode !== 'wordmark')) && (
+        <span class:list={[
+          'logo-text',
+          { 'logo-text-with-image': hasLogo && logoMode === 'logo-and-name' }
+        ]}>
+          {name}
+        </span>
+      )}
     </a>
 
     <!-- Desktop Navigation -->
@@ -71,11 +115,71 @@ const currentPath = Astro.url.pathname;
 </header>
 
 <style>
-  /* Logo */
+  /* Logo Container */
+  .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+  }
+
+  /* Logo Image Wrapper */
+  .logo-image-wrapper {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  .logo-image {
+    height: 40px;
+    width: auto;
+    display: block;
+  }
+
+  /* Theme-aware logo switching */
+  .logo-light {
+    display: block;
+  }
+
+  .logo-dark {
+    display: none;
+  }
+
+  :global([data-theme="dark"]) .logo-light {
+    display: none;
+  }
+
+  :global([data-theme="dark"]) .logo-dark {
+    display: block;
+  }
+
+  /* Logo Text */
   .logo-text {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-text);
+    white-space: nowrap;
+  }
+
+  /* Hide name on mobile when paired with logo */
+  .logo-text-with-image {
+    display: none;
+  }
+
+  @media (min-width: 640px) {
+    .logo-text-with-image {
+      display: block;
+    }
+  }
+
+  /* Larger logo on bigger screens */
+  @media (min-width: 768px) {
+    .logo-image {
+      height: 48px;
+    }
+
+    .logo-text {
+      font-size: 1.5rem;
+    }
   }
 
   /* Desktop Navigation */

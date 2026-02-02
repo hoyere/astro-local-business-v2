@@ -66,14 +66,7 @@
   }
 </style>
 
-<script>
-  const toggle = document.querySelector('.theme-toggle');
-  if (toggle) {
-    toggle.addEventListener('click', () => {
-      const currentTheme = document.documentElement.dataset.theme;
-      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      document.documentElement.dataset.theme = newTheme;
-      localStorage.setItem('theme', newTheme);
-    });
-  }
-</script>
+<!--
+  Theme toggle logic is handled in BaseLayout.astro via event delegation.
+  This ensures it works correctly with View Transitions.
+-->

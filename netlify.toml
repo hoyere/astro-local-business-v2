@@ -1,0 +1,52 @@
+# Netlify Configuration for Astro Static Site
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # Build command for Astro
+  command = "npm run build"
+  # Output directory (Astro defaults to dist/)
+  publish = "dist"
+
+[build.environment]
+  # Node version
+  NODE_VERSION = "20"
+
+# Redirects and headers for SPA-like behavior with ViewTransitions
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Security headers
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache images (but allow revalidation)
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+# Redirect www to non-www (customize as needed)
+# [[redirects]]
+#   from = "https://www.example.com/*"
+#   to = "https://example.com/:splat"
+#   status = 301
+#   force = true
+
+# Handle 404s with custom page
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404

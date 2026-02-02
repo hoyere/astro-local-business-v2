@@ -1,10 +1,9 @@
 ---
-interface Props {
-  href?: string;
-  variant?: 'primary' | 'outline' | 'ghost';
-  size?: 'sm' | 'md' | 'lg';
-  class?: string;
-  type?: 'button' | 'submit' | 'reset';
+import type { ButtonProps } from '@/types';
+
+interface Props extends ButtonProps {
+  target?: '_blank' | '_self';
+  'aria-label'?: string;
 }
 
 const {
@@ -13,6 +12,10 @@ const {
   size = 'md',
   class: className = '',
   type = 'button',
+  disabled = false,
+  fullWidth = false,
+  target,
+  'aria-label': ariaLabel,
 } = Astro.props;
 
 const classes = [
@@ -20,18 +23,34 @@ const classes = [
   `btn-${variant}`,
   size === 'lg' && 'btn-lg',
   size === 'sm' && 'btn-sm',
+  fullWidth && 'btn-full',
+  disabled && 'btn-disabled',
   className,
 ].filter(Boolean);
 
-const Tag = href ? 'a' : 'button';
+// Handle external links safely
+const isExternal = target === '_blank';
+const rel = isExternal ? 'noopener noreferrer' : undefined;
 ---
 
 {href ? (
-  <a href={href} class:list={classes}>
+  <a
+    href={href}
+    class:list={classes}
+    target={target}
+    rel={rel}
+    aria-label={ariaLabel}
+  >
     <slot />
+    {isExternal && <span class="sr-only">(opens in new tab)</span>}
   </a>
 ) : (
-  <button type={type} class:list={classes}>
+  <button
+    type={type}
+    class:list={classes}
+    disabled={disabled}
+    aria-label={ariaLabel}
+  >
     <slot />
   </button>
 )}
@@ -49,5 +68,28 @@ const Tag = href ? 'a' : 'button';
 
   .btn-ghost:hover {
     background-color: var(--color-surface);
+  }
+
+  .btn-link {
+    background-color: transparent;
+    color: var(--color-primary);
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  .btn-link:hover {
+    color: var(--color-primary-dark);
+    text-decoration-thickness: 2px;
+  }
+
+  .btn-full {
+    width: 100%;
+  }
+
+  .btn-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
   }
 </style>

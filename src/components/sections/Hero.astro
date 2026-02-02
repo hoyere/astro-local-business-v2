@@ -267,7 +267,7 @@ const needsImage = variant === 'split' || variant === 'overlay';
   }
 
   .hero--overlay .hero__description {
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--overlay-white-text);
   }
 
   /* ================================
@@ -304,11 +304,11 @@ const needsImage = variant === 'split' || variant === 'overlay';
   /* Button adjustments for overlay variant */
   .hero--overlay :global(.btn-ghost) {
     color: white;
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: var(--overlay-white-medium);
   }
 
   .hero--overlay :global(.btn-ghost:hover) {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--overlay-white-light);
+    border-color: var(--overlay-white-heavy);
   }
 </style>

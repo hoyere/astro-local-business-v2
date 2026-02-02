@@ -28,7 +28,7 @@ export const siteConfig = {
   social: {
     facebook: "https://facebook.com/example",
     instagram: "https://instagram.com/example",
-    twitter: "https://twitter.com/example",
+    bluesky: "https://bsky.app/profile/example.bsky.social",
     linkedin: "",
     youtube: "",
   },
