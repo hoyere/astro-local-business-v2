@@ -14,19 +14,78 @@ A production-ready Astro template for local business websites. Built with modern
 - **Responsive Design** with mobile-first approach
 - **Accessible** with semantic HTML and ARIA attributes
 
-## Quick Start
+---
+
+## Quick Start (New Client Project)
 
 ```bash
-# Clone the template
-git clone https://github.com/hoyere/astro-local-business-v2.git my-business-site
-cd my-business-site
+# 1. Clone the template
+git clone https://github.com/hoyere/astro-local-business-v2.git client-name-site
+cd client-name-site
 
-# Install dependencies
+# 2. Remove template git history and start fresh
+rm -rf .git
+git init
+
+# 3. Install dependencies
 npm install
 
-# Start development server
+# 4. Start development server
 npm run dev
 ```
+
+Open http://localhost:4321 to see your site.
+
+## What's Included
+
+| Folder | Purpose | For End Users? |
+|--------|---------|----------------|
+| `src/` | Template source code | Yes - edit this |
+| `docs/` | Documentation & audit guides | Optional reference |
+| `tools/image-studio/` | CLI for fetching/generating images | Optional tool |
+
+> **Note:** The `docs/` and `tools/` folders are for development reference. You can delete them from client projects if not needed.
+
+---
+
+## Step-by-Step: New Client Setup
+
+### 1. Clone & Initialize
+```bash
+git clone https://github.com/hoyere/astro-local-business-v2.git acme-plumbing
+cd acme-plumbing && rm -rf .git && git init
+npm install && npm run dev
+```
+
+### 2. Configure Business Info
+Edit `src/site.config.ts` with client details (name, phone, email, address).
+
+### 3. Apply Brand Colors
+Edit `src/styles/global.css` - update the `@theme` block with client's brand colors.
+See [docs/THEME_APPLICATION_GUIDE.md](./docs/THEME_APPLICATION_GUIDE.md) for OKLCH color conversion.
+
+### 4. Add Images
+```bash
+cd tools/image-studio && npm install && npm run build
+cp .env.example .env  # Add UNSPLASH_ACCESS_KEY
+node dist/cli.js fetch plumbing -o ../../src/assets/images/photos
+```
+
+### 5. Update Content
+- Edit markdown files in `src/content/services/`
+- Edit markdown files in `src/content/team/`
+- Edit markdown files in `src/content/testimonials/`
+
+### 6. Pre-Ship Audit
+Run through [docs/AUDIT_V2_TEMPLATE_QUICK.md](./docs/AUDIT_V2_TEMPLATE_QUICK.md) checklist.
+
+### 7. Deploy
+```bash
+npm run build
+npx vercel --prod  # or: npx netlify deploy --prod --dir=dist
+```
+
+---
 
 ## Project Structure
 
@@ -146,26 +205,31 @@ Testimonial content...
 Use the included **image-studio** CLI tool (in `tools/image-studio/`):
 
 ```bash
-# Setup
+# Setup (one-time)
 cd tools/image-studio
 npm install
+npm run build
 cp .env.example .env  # Add your Unsplash API key
 
 # Fetch stock photos
 node dist/cli.js fetch landscaping -o ../../src/assets/images/photos
 
-# Or generate with AI (requires OpenAI key)
-node dist/cli.js generate "modern office interior"
+# Or generate with AI (requires OpenAI key in .env)
+node dist/cli.js generate "modern office interior" -o ../../src/assets/images/photos
 ```
 
 Then reference in components:
 
-```typescript
-import { getImage } from '@lib/images';
-const heroImage = getImage('photos/hero.jpg');
+```astro
+---
+import { Image } from 'astro:assets';
+import heroImage from '@assets/images/photos/landscaping_hero.jpg';
+---
+
+<Image src={heroImage} alt="Description" width={1200} />
 ```
 
-See `tools/image-studio/README.md` for full documentation.
+See [tools/image-studio/README.md](./tools/image-studio/README.md) for full documentation including AI generation and Astro dev toolbar integration.
 
 ### 5. Customize Components
 
@@ -220,6 +284,32 @@ This template is optimized for high Lighthouse scores:
 - CSS is minimal and scoped
 - JavaScript is minimal (view transitions only)
 - Fonts use system stack (no external fonts)
+
+## Deployment
+
+Pre-configured for one-click deployment:
+
+### Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hoyere/astro-local-business-v2)
+
+Or use the CLI:
+```bash
+npm run build
+npx vercel --prod
+```
+
+### Netlify
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hoyere/astro-local-business-v2)
+
+Or use the CLI:
+```bash
+npm run build
+npx netlify deploy --prod --dir=dist
+```
+
+Configuration files included: `vercel.json`, `netlify.toml`
+
+---
 
 ## Documentation
 
