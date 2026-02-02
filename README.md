@@ -10,7 +10,7 @@ A production-ready Astro template for local business websites. Built with modern
 - **Content Collections** for services, team, and testimonials
 - **Dark Mode** with system preference detection and localStorage persistence
 - **View Transitions** for smooth page navigation
-- **SEO Ready** with meta tags, Open Graph, Twitter Cards, and LocalBusiness schema
+- **SEO Ready** with meta tags, Open Graph, social cards, and LocalBusiness schema
 - **Responsive Design** with mobile-first approach
 - **Accessible** with semantic HTML and ARIA attributes
 
@@ -31,26 +31,39 @@ npm run dev
 ## Project Structure
 
 ```
+.
+├── src/                     # Template source (what you'll edit)
+│   ├── assets/images/       # Local images (processed by Astro)
+│   ├── components/          # UI components
+│   ├── content/             # Markdown content collections
+│   ├── layouts/             # Page layouts
+│   ├── lib/                 # Utilities
+│   ├── pages/               # Route pages
+│   ├── styles/              # Global CSS with theme tokens
+│   ├── content.config.ts    # Collection schemas
+│   └── site.config.ts       # Site configuration
+├── docs/                    # Template documentation & audit guides
+└── tools/
+    └── image-studio/        # CLI for fetching/generating images
+```
+
+### Source Structure Details
+
+```
 src/
-├── assets/images/       # Local images (processed by Astro)
+├── assets/images/
 │   ├── photos/          # Stock photos
 │   ├── brand/           # Logo files
 │   └── icons/           # SVG icons
 ├── components/
-│   ├── common/          # Reusable UI components
+│   ├── common/          # Button, ThemeToggle, etc.
 │   ├── layout/          # Header, Footer
-│   ├── sections/        # Page sections (Hero, Services, etc.)
-│   └── seo/             # SEO components
-├── content/             # Markdown content collections
-│   ├── services/
-│   ├── team/
-│   └── testimonials/
-├── layouts/             # Page layouts
-├── lib/                 # Utilities
-├── pages/               # Route pages
-├── styles/              # Global CSS
-├── content.config.ts    # Collection schemas
-└── site.config.ts       # Site configuration
+│   ├── sections/        # Hero, Services, CTA, etc.
+│   └── seo/             # LocalBusinessSchema
+└── content/
+    ├── services/
+    ├── team/
+    └── testimonials/
 ```
 
 ## Customization Guide
@@ -130,14 +143,29 @@ Testimonial content...
 
 ### 4. Add Images
 
-1. Download images using [image-studio](https://github.com/hoyere/unsplash-image-fetcher)
-2. Place them in `src/assets/images/photos/`
-3. Reference in components using the image utilities:
+Use the included **image-studio** CLI tool (in `tools/image-studio/`):
+
+```bash
+# Setup
+cd tools/image-studio
+npm install
+cp .env.example .env  # Add your Unsplash API key
+
+# Fetch stock photos
+node dist/cli.js fetch landscaping -o ../../src/assets/images/photos
+
+# Or generate with AI (requires OpenAI key)
+node dist/cli.js generate "modern office interior"
+```
+
+Then reference in components:
 
 ```typescript
 import { getImage } from '@lib/images';
 const heroImage = getImage('photos/hero.jpg');
 ```
+
+See `tools/image-studio/README.md` for full documentation.
 
 ### 5. Customize Components
 
@@ -192,6 +220,36 @@ This template is optimized for high Lighthouse scores:
 - CSS is minimal and scoped
 - JavaScript is minimal (view transitions only)
 - Fonts use system stack (no external fonts)
+
+## Documentation
+
+Comprehensive documentation is included in the `docs/` folder:
+
+### Workflow Guides
+| Document | Purpose |
+|----------|---------|
+| [TEMPLATE_CUSTOMIZATION.md](./docs/TEMPLATE_CUSTOMIZATION.md) | Step-by-step client setup |
+| [IMAGE_WORKFLOW.md](./docs/IMAGE_WORKFLOW.md) | Two-phase image workflow |
+| [COMMON_EDITS.md](./docs/COMMON_EDITS.md) | Quick reference for frequent changes |
+| [THEME_APPLICATION_GUIDE.md](./docs/THEME_APPLICATION_GUIDE.md) | Theming guide with OKLCH colors |
+
+### Quality & Standards
+| Document | Purpose |
+|----------|---------|
+| [AUDIT_V2_TEMPLATE_QUICK.md](./docs/AUDIT_V2_TEMPLATE_QUICK.md) | Pre-ship audit checklist |
+| [CODE_STYLE_GUIDE.md](./docs/CODE_STYLE_GUIDE.md) | Code conventions |
+| [POST_DEV_CLEANUP.md](./docs/POST_DEV_CLEANUP.md) | Cleanup checklist |
+| [ACCESSIBILITY_CHECKLIST.md](./docs/ACCESSIBILITY_CHECKLIST.md) | A11y requirements |
+
+### Audit System (v2)
+| Document | Purpose |
+|----------|---------|
+| [AUDIT_v2_INDEX.md](./docs/AUDIT_v2_INDEX.md) | Audit system overview |
+| [AUDIT_v2_1_CODE.md](./docs/AUDIT_v2_1_CODE.md) | Code quality standards |
+| [AUDIT_v2_2_STRUCTURE.md](./docs/AUDIT_v2_2_STRUCTURE.md) | Directory structure |
+| [AUDIT_v2_3_CONTENT.md](./docs/AUDIT_v2_3_CONTENT.md) | Content quality |
+| [AUDIT_v2_4_THEME_PREP.md](./docs/AUDIT_v2_4_THEME_PREP.md) | Theme preparation |
+| [AUDIT_v2_5_THEME_APPLY.md](./docs/AUDIT_v2_5_THEME_APPLY.md) | Theme application |
 
 ## License
 

@@ -1,0 +1,59 @@
+{
+  "name": "image-studio",
+  "version": "2.0.0",
+  "description": "Unified image tool: fetch from Unsplash, generate with AI, manage assets",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "image-studio": "dist/cli.js",
+    "fetch-unsplash": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:astro": "cd astro-integration && npm run build",
+    "build:all": "npm run build && npm run build:astro",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist astro-integration/dist",
+    "prebuild": "npm run clean",
+    "fetch": "node dist/cli.js fetch",
+    "generate": "node dist/cli.js generate",
+    "server": "node dist/cli.js server"
+  },
+  "keywords": [
+    "unsplash",
+    "openai",
+    "dall-e",
+    "images",
+    "astro",
+    "image-generation",
+    "ai",
+    "typescript",
+    "cli"
+  ],
+  "author": "hoyere",
+  "license": "MIT",
+  "files": [
+    "dist/**/*",
+    "config/**/*",
+    "astro-integration/dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoyere/image-studio.git"
+  },
+  "homepage": "https://github.com/hoyere/image-studio#readme",
+  "bugs": {
+    "url": "https://github.com/hoyere/image-studio/issues"
+  }
+}

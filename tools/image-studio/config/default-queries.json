@@ -1,0 +1,64 @@
+{
+  "common": {
+    "hero": "professional business office modern",
+    "about": "team collaboration meeting", 
+    "contact": "customer service desk",
+    "404": "lost direction confused"
+  },
+  "attorney": {
+    "hero": "law office attorneys meeting",
+    "services": [
+      "legal documents courtroom",
+      "business law contracts", 
+      "family law consultation"
+    ]
+  },
+  "automobile": {
+    "hero": "auto repair shop mechanics",
+    "services": [
+      "car engine repair",
+      "tire replacement service",
+      "auto diagnostics computer"
+    ]
+  },
+  "carpenter": {
+    "hero": "carpenter woodworking workshop",
+    "services": [
+      "custom furniture crafting",
+      "home renovation construction",
+      "wood cabinet installation"
+    ]
+  },
+  "handyman": {
+    "hero": "handyman tools repair",
+    "services": [
+      "home maintenance repair",
+      "plumbing fixture installation",
+      "electrical outlet repair"
+    ]
+  },
+  "landscaping": {
+    "hero": "landscaping garden design",
+    "services": [
+      "lawn care maintenance",
+      "garden design flowers", 
+      "tree trimming service"
+    ]
+  },
+  "roofer": {
+    "hero": "roofing contractor workers",
+    "services": [
+      "roof installation shingles",
+      "roof repair maintenance",
+      "gutter installation service"
+    ]
+  },
+  "welding": {
+    "hero": "welding fabrication workshop",
+    "services": [
+      "metal fabrication welding",
+      "structural steel welding",
+      "custom metalwork art"
+    ]
+  }
+}

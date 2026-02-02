@@ -1,0 +1,38 @@
+{
+  "name": "@image-studio/astro",
+  "version": "1.0.0",
+  "description": "Astro Dev Toolbar integration for Image Studio",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "peerDependencies": {
+    "astro": "^4.0.0 || ^5.0.0"
+  },
+  "devDependencies": {
+    "astro": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "astro",
+    "astro-integration",
+    "dev-toolbar",
+    "image-studio",
+    "unsplash",
+    "openai",
+    "dall-e"
+  ],
+  "license": "MIT"
+}
