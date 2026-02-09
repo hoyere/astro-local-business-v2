@@ -32,17 +32,19 @@ src/
 │       ├── placeholders/ # Default placeholder SVG
 │       └── ATTRIBUTION.md
 ├── components/
+│   ├── common/          # Reusable UI (Button, Container)
 │   ├── core/            # ThemeProvider, etc.
 │   ├── forms/           # Form components
 │   ├── layout/          # Header, Footer
 │   ├── sections/        # Page sections
-│   └── ui/              # Reusable UI (Image, Button)
+│   └── seo/             # Schema, meta components
 ├── content/             # Content collections
-├── data/                # Site config (site.ts)
 ├── layouts/             # Page layouts
 ├── pages/               # Routes
 ├── styles/              # CSS (global.css, themes.css)
-└── utils/               # Utilities
+├── utils/               # Utilities
+├── content.config.ts    # Collection schemas (Astro 5.x)
+└── site.config.ts       # Centralized site configuration
 ```
 
 | Check | Status | Notes |
@@ -50,7 +52,7 @@ src/
 | `src/assets/images/` structure correct | | |
 | `src/components/` organized by type | | |
 | `src/content/` has collections | | |
-| `src/data/` has site config | | |
+| `src/site.config.ts` exists | | Centralized site config |
 | `src/styles/` has global + themes | | |
 | No orphan files in src/ root | | |
 
@@ -222,42 +224,43 @@ grep -r "preload.*font\|preconnect" src/layouts/Base.astro
 | CTA container has `flex-shrink-0` | | Prevents CTA shrinking |
 | Font preload configured | | Critical fonts |
 | Font preconnect configured | | Google Fonts etc. |
+| Header uses `position: fixed` with CSS variable height | | |
+| Main content has `padding-top: var(--header-height)` | | |
 | Dynamic `--header-height` used | | For mobile menu positioning |
 | Height updated on resize | | `window.addEventListener('resize')` |
 | Height updated on font load | | `document.fonts?.ready` |
+| Scroll behavior doesn't cause layout shift | | |
 
 ---
 
-## 4. Image System
+## 4. Image System (Astro 5.x Native)
 
-### 4.1 Required Components
+### 4.1 Required Pattern
 
-```bash
-ls src/components/ui/Image.astro
-cat src/utils/imageResolver.ts | head -20
+Images use Astro's native `<Image />` component with static imports. No custom wrapper needed.
+
+```astro
+---
+import { Image } from 'astro:assets';
+import heroPhoto from '@assets/images/photos/hero.jpg';
+---
+<Image src={heroPhoto} alt="Hero banner" />
 ```
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| `Image.astro` component exists | | In `src/components/ui/` |
-| `imageResolver.ts` utility exists | | In `src/utils/` |
-| Image uses `resolveImage()` function | | |
-| Default placeholder configured | | `placeholders/default.svg` |
+| Uses `import { Image } from 'astro:assets'` | | Native Astro component |
+| Images imported statically | | `import img from '@assets/...'` |
+| No custom `Image.astro` wrapper | | Legacy - remove |
+| No `imageResolver.ts` utility | | Legacy - remove |
+| Default placeholder SVG exists | | `placeholders/default.svg` |
 
-### 4.2 Image Component Props
+### 4.2 No Legacy Image Props
 
-```typescript
-// Required clean Props interface
-interface Props {
-  src?: string;           // Path: ~/assets/images/...
-  alt?: string;           // Descriptive alt text
-  width?: number;         // Optional dimensions
-  height?: number;
-  className?: string;
-  loading?: 'lazy' | 'eager';
-  asBackground?: boolean; // For background images
-  overlay?: boolean;      // Adds overlay gradient
-}
+```bash
+# All should return ZERO results
+grep -rE "generatedKey|backgroundKey|fallbackQuery" src/ --include="*.astro" --include="*.ts" --include="*.json"
+grep -r "resolveImage\|findImage" src/ --include="*.astro" --include="*.ts"
 ```
 
 | Check | Status | Notes |
@@ -265,26 +268,30 @@ interface Props {
 | No `generatedKey` prop | | Legacy - remove |
 | No `backgroundKey` prop | | Legacy - remove |
 | No `fallbackQuery` prop | | Legacy - remove |
-| No `context` prop | | Legacy - remove |
-| No `query` prop | | Legacy - remove |
+| No `context` prop (image) | | Legacy - remove |
+| No `query` prop (image) | | Legacy - remove |
+| No `resolveImage()` calls | | Use static imports |
 
 ### 4.3 Image Path Format
 
-All image paths must use the `~/assets/images/` prefix:
+All images must be in `src/assets/images/` and imported statically:
 
-```typescript
-// ✅ Correct paths
-src="~/assets/images/photos/hero.jpg"
-src="~/assets/images/icons/service-repair.svg"
-src="~/assets/images/logos/logo.svg"
+```astro
+---
+// ✅ Correct - static imports
+import { Image } from 'astro:assets';
+import hero from '@assets/images/photos/hero.jpg';
+import logo from '@assets/images/logos/logo.svg';
+---
+<Image src={hero} alt="Hero" />
 
-// ❌ Incorrect paths (legacy)
-src="/images/unsplash/photo.jpg"     // External/legacy
-src="../assets/images/photo.jpg"     // Relative
-generatedKey="hero"                  // Legacy prop
+<!-- ❌ Incorrect (legacy patterns) -->
+<!-- src="/images/unsplash/photo.jpg"  — External/legacy -->
+<!-- src="~/assets/images/photo.jpg"   — Runtime string path -->
+<!-- generatedKey="hero"               — Legacy prop -->
 ```
 
-### 4.4 No Unsplash References
+### 4.4 No Unsplash / External References
 
 ```bash
 # All should return ZERO results
@@ -298,6 +305,7 @@ grep -ri "UnsplashImage" src/
 | No `unsplash` in code (except ATTRIBUTION) | | |
 | No Unsplash URLs | | |
 | No UnsplashImage imports | | |
+| No runtime image fetching | | |
 
 ---
 
@@ -307,7 +315,7 @@ grep -ri "UnsplashImage" src/
 
 ```bash
 ls src/content/
-cat src/content/config.ts
+cat src/content.config.ts
 ```
 
 | Collection | Schema | Clean |
@@ -322,14 +330,16 @@ cat src/content/config.ts
 ### 5.2 Schema Cleanliness
 
 ```bash
-grep -A10 "image:" src/content/config.ts
+grep -A10 "image\|loader" src/content.config.ts
 ```
 
 | Check | Status | Notes |
 |-------|--------|-------|
+| Config at `src/content.config.ts` | | Not `src/content/config.ts` |
+| Uses `glob` loader (Astro 5.x) | | |
+| Images validated with `image()` schema function | | |
 | No `generatedKey` in schemas | | |
 | No `query` in image schemas | | |
-| Image uses simple `src` string | | |
 | No deprecated fields | | |
 
 ---
@@ -375,12 +385,12 @@ ls src/pages/
 ### 7.1 Site Configuration
 
 ```bash
-cat src/data/site.ts | head -50
+cat src/site.config.ts | head -50
 ```
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| `src/data/site.ts` exists | | |
+| `src/site.config.ts` exists | | |
 | Business info centralized | | |
 | Navigation defined | | |
 | Contact info in one place | | |
@@ -396,9 +406,11 @@ ls src/config/features.json 2>/dev/null
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| No `src/config/site.ts` | | Use `src/data/site.ts` |
+| No `src/data/site.ts` | | Legacy — use `src/site.config.ts` |
+| No `src/config/site.ts` | | Legacy — use `src/site.config.ts` |
 | No `src/config/theme.ts` | | Use `themes.css` |
 | No `src/config/features.json` | | |
+| No `src/content/config.ts` | | Legacy — use `src/content.config.ts` |
 | Single source of truth | | |
 
 ---
@@ -441,15 +453,15 @@ grep -r "fonts.googleapis\|fonts.gstatic" src/
 
 | Section | Checks | Passed | Failed |
 |---------|--------|--------|--------|
-| 1. Directory Structure | 15 | | |
-| 2. Dead Code | 12 | | |
-| 3. Components (incl. Header Stability) | 19 | | |
-| 4. Image System | 14 | | |
-| 5. Content Collections | 6 | | |
-| 6. Page Architecture | 8 | | |
-| 7. Configuration | 5 | | |
-| 8. External Dependencies | 6 | | |
-| **TOTAL** | **85** | | |
+| 1. Directory Structure | 19 | | |
+| 2. Dead Code | 14 | | |
+| 3. Components (incl. Header Stability) | 27 | | |
+| 4. Image System | 15 | | |
+| 5. Content Collections | 12 | | |
+| 6. Page Architecture | 12 | | |
+| 7. Configuration | 10 | | |
+| 8. External Dependencies | 7 | | |
+| **TOTAL** | **116** | | |
 
 ### Result
 
@@ -470,296 +482,9 @@ grep -r "fonts.googleapis\|fonts.gstatic" src/
 
 ## Cleanup Procedures
 
-### Procedure A: Remove Legacy Image System
-
-**Step 1: Delete legacy files**
-```bash
-# Remove legacy utilities
-rm -f src/utils/unsplash.ts
-rm -f src/utils/sections.ts
-
-# Remove legacy components
-rm -f src/components/ui/UnsplashImage.astro
-
-# Remove manifest files
-find src -name "manifest.*" -delete
-
-# Remove image index files
-find src -name "index.ts" -path "*/images/*" -delete
-
-# Remove generated directory
-rm -rf src/assets/images/generated/
-
-# Remove public images
-rm -rf public/images/
-```
-
-**Step 2: Create new structure**
-```bash
-mkdir -p src/assets/images/{icons,logos,photos,placeholders}
-```
-
-**Step 3: Create default placeholder**
-```bash
-cat > src/assets/images/placeholders/default.svg << 'EOF'
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <rect fill="#e5e7eb" width="400" height="300"/>
-  <text x="200" y="150" text-anchor="middle" fill="#9ca3af" font-size="16">Image Placeholder</text>
-</svg>
-EOF
-```
-
-### Procedure B: Create Image Component
-
-**Step 1: Create imageResolver.ts**
-```typescript
-// src/utils/imageResolver.ts
-import type { ImageMetadata } from 'astro';
-
-const imageModules = import.meta.glob<{ default: ImageMetadata }>(
-  '../assets/images/**/*.{jpeg,jpg,png,webp,svg}',
-  { eager: false }
-);
-
-const normalizeKey = (value: string): string | null => {
-  if (value.startsWith('~/assets/images/')) {
-    return value.replace('~/assets/images/', '../assets/images/');
-  }
-  return null;
-};
-
-export async function findImage(imagePath?: string | ImageMetadata | null) {
-  if (!imagePath || typeof imagePath !== 'string') return imagePath;
-
-  const key = normalizeKey(imagePath);
-  if (!key) return imagePath;
-
-  const loader = imageModules[key];
-  if (typeof loader === 'function') {
-    const mod = await loader();
-    return mod?.default;
-  }
-  return null;
-}
-
-export async function resolveImage(
-  candidate?: string,
-  fallback = '~/assets/images/placeholders/default.svg'
-) {
-  const primary = await findImage(candidate);
-  if (primary) {
-    return typeof primary === 'string'
-      ? { src: primary }
-      : { src: primary.src, width: primary.width, height: primary.height };
-  }
-
-  const fb = await findImage(fallback);
-  return fb ? { src: typeof fb === 'string' ? fb : fb.src } : { src: fallback };
-}
-```
-
-**Step 2: Create Image.astro component**
-```astro
----
-// src/components/ui/Image.astro
-import { resolveImage } from '../../utils/imageResolver';
-
-interface Props {
-  src?: string;
-  alt?: string;
-  width?: number;
-  height?: number;
-  className?: string;
-  loading?: 'lazy' | 'eager';
-  asBackground?: boolean;
-  overlay?: boolean;
-}
-
-const { src, alt = 'Image', width = 1920, height = 1080, className = '', loading = 'lazy', asBackground = false, overlay = false } = Astro.props;
-
-const resolved = await resolveImage(src);
----
-
-{asBackground ? (
-  <div class={`image-bg ${className}`} style={`background-image: url(${resolved.src});`} role="img" aria-label={alt}>
-    {overlay && <div class="overlay"></div>}
-    <slot />
-  </div>
-) : (
-  <img src={resolved.src} alt={alt} width={resolved.width ?? width} height={resolved.height ?? height} loading={loading} class={className} />
-)}
-```
-
-### Procedure C: Migrate Content Collection Images
-
-**Step 1: Find all image references**
-```bash
-grep -rE "generatedKey|backgroundKey|query|/images/unsplash" src/content/ --include="*.json"
-```
-
-**Step 2: Update content files**
-
-Before:
-```json
-{
-  "image": {
-    "generatedKey": "hero",
-    "alt": "Hero image"
-  }
-}
-```
-
-After:
-```json
-{
-  "image": {
-    "src": "~/assets/images/photos/hero.jpg",
-    "alt": "Hero image"
-  }
-}
-```
-
-**Step 3: Update content schema**
-```typescript
-// src/content/config.ts
-const imageSchema = z.object({
-  src: z.string(),           // ~/assets/images/...
-  alt: z.string().optional(),
-});
-```
-
-### Procedure D: Update Component Image Usage
-
-**Step 1: Find components using old patterns**
-```bash
-grep -rE "UnsplashImage|generatedKey|backgroundKey" src/components/ --include="*.astro"
-```
-
-**Step 2: Replace with new Image component**
-
-Before:
-```astro
-<UnsplashImage query="restaurant" alt="Restaurant" />
-```
-
-After:
-```astro
-import Image from '../ui/Image.astro';
-<Image src="~/assets/images/photos/restaurant.jpg" alt="Restaurant" />
-```
-
-### Procedure E: Verify Migration Complete
-
-Run these checks (all should return zero results):
-
-```bash
-# No legacy imports
-grep -ri "UnsplashImage" src/ --include="*.astro"
-grep -ri "from.*unsplash" src/ --include="*.astro" --include="*.ts"
-
-# No legacy props
-grep -ri "generatedKey\|backgroundKey\|fallbackQuery" src/
-
-# No legacy paths
-grep -ri "/images/unsplash\|images.unsplash.com" src/
-
-# No legacy files
-ls src/utils/unsplash.ts 2>/dev/null
-ls src/components/ui/UnsplashImage.astro 2>/dev/null
-ls public/images/ 2>/dev/null
-find src -name "manifest.*"
-```
-
-### Procedure F: Fix Header Font Flash / Layout Shift
-
-**Problem:** Font loading changes text width, causing header elements to reflow and buttons to wrap.
-
-**Step 1: Add Font Preload in `Base.astro`**
-
-```html
-<head>
-  <!-- Preconnect to font origins -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-  <!-- Preload critical heading font -->
-  <link
-    rel="preload"
-    href="https://fonts.gstatic.com/s/alfaslabone/v19/6NUQ8FmMKwSEKjnm5-4v-4Jh6dVretWvYmE.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-</head>
-```
-
-**Step 2: Add `whitespace-nowrap` in `Header.astro`**
-
-```astro
-<!-- Business name - prevent wrap -->
-<span class="text-xl font-heading font-bold text-text-primary hidden lg:block whitespace-nowrap">
-  {business.name}
-</span>
-
-<!-- CTA button - prevent wrap -->
-<a href={ctaHref} class="hidden lg:inline-flex items-center btn btn-primary whitespace-nowrap">
-  {ctaLabel}
-</a>
-
-<!-- Nav links - prevent wrap -->
-<a href={item.href} class="text-text-secondary hover:text-primary whitespace-nowrap">
-  {item.label}
-</a>
-```
-
-**Step 3: Add `flex-shrink-0` to containers**
-
-```astro
-<!-- Logo container -->
-<a href="/" class="flex items-center space-x-2 group flex-shrink-0">
-
-<!-- CTA container -->
-<div class="flex items-center space-x-4 flex-shrink-0">
-```
-
-### Procedure G: Fix Mobile Menu Positioning
-
-**Problem:** Hardcoded `top-[73px]` doesn't match actual header height.
-
-**Step 1: Use CSS variable for mobile menu**
-
-```astro
-<!-- Mobile menu uses dynamic height -->
-<div
-  id="mobile-menu"
-  class="hidden lg:hidden fixed left-0 right-0 bg-surface shadow-lg z-40"
-  style="top: var(--header-height, 73px)"
->
-```
-
-**Step 2: Add height calculation script**
-
-```html
-<script>
-  function updateHeaderHeight() {
-    const header = document.querySelector('header');
-    if (header) {
-      const height = header.offsetHeight;
-      document.documentElement.style.setProperty('--header-height', `${height}px`);
-    }
-  }
-
-  // Update on load
-  updateHeaderHeight();
-
-  // Update on resize
-  window.addEventListener('resize', updateHeaderHeight);
-
-  // Update when fonts finish loading
-  document.fonts?.ready.then(updateHeaderHeight);
-</script>
-```
+> **All remediation procedures have been extracted to [`REMEDIATION_PLAYBOOK.md`](./REMEDIATION_PLAYBOOK.md).**
+> Procedures A-G cover: legacy image removal, Astro 5.x image setup, content collection migration, component updates, migration verification, header font flash fixes, and mobile menu positioning.
 
 ---
 
-*Structure Audit v2.2 | Phase 1, Step 2*
+*Structure & Architecture Audit v2.2 | Phase 1, Step 2*

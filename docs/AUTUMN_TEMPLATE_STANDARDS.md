@@ -261,4 +261,5 @@
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.1 | 2026-02-08 | Version aligned with audit system v2.2 |
 | 1.0 | 2024-12-23 | Extracted from pre-rebranding theme (commit cb682fe) |

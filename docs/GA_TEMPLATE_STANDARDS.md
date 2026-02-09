@@ -53,6 +53,8 @@
 |-------|-----|-----|
 | **Footer Accent** | `58 214 158` | `#3ad69e` |
 | **Footer Text** | `245 251 248` | `#f5fbf8` |
+| **Footer Text Secondary** | `200 220 212` | `#c8dcd4` |
+| **Footer Text Muted** | `150 175 165` | `#96afa5` |
 | **Footer Surface** | `25 42 36` | `#192a24` |
 | **Footer Border** | `45 65 55` | `#2d4137` |
 
@@ -130,6 +132,14 @@ Dark mode uses higher opacity (0.2 - 0.5).
   --color-border: 220 235 228;
   --color-on-primary: 255 255 255;
   --color-on-accent: 15 28 24;
+
+  /* Footer (always dark) */
+  --color-footer-accent: 58 214 158;
+  --color-footer-text: 245 251 248;
+  --color-footer-text-secondary: 200 220 212;
+  --color-footer-text-muted: 150 175 165;
+  --color-footer-surface: 25 42 36;
+  --color-footer-border: 45 65 55;
 }
 
 /* GA Core - Dark */
@@ -158,4 +168,5 @@ Dark mode uses higher opacity (0.2 - 0.5).
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.1 | 2026-02-08 | Added footer text secondary/muted tokens, CSS reference for footer |
 | 1.0 | 2024-12-23 | Initial GA theme documentation |

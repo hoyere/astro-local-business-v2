@@ -72,10 +72,15 @@ cat package.json | grep -E "astro|tailwindcss|typescript"
 
 | Package | Required | Present | Version |
 |---------|----------|---------|---------|
-| astro | Yes | | |
-| @astrojs/tailwind | Yes | | |
-| tailwindcss | Yes | | |
+| astro | Yes (^5.0.0) | | |
+| @tailwindcss/vite | Yes (^4.0.0) | | |
+| tailwindcss | Yes (^4.0.0) | | |
 | typescript | Yes | | |
+| @astrojs/sitemap | Yes (^3.0.0) | | |
+
+| Check | Status | Notes |
+|-------|--------|-------|
+| No `@astrojs/tailwind` present (deprecated) | | Replaced by `@tailwindcss/vite` |
 
 ### 3.3 No Unnecessary Dependencies
 
@@ -156,22 +161,23 @@ grep -r "from '\.\./\.\./\.\./\.\." src/  # Deep relative imports
 ### 6.1 Required Config Files
 
 ```bash
-ls -la astro.config.mjs tailwind.config.mjs tsconfig.json
+ls -la astro.config.mjs tsconfig.json
 ```
 
 | File | Present | Valid |
 |------|---------|-------|
 | `astro.config.mjs` | | |
-| `tailwind.config.mjs` | | |
 | `tsconfig.json` | | |
 | `package.json` | | |
+
+> **Note:** `tailwind.config.mjs` is not required with Tailwind v4. Theme is defined in CSS `@theme` block.
 
 ### 6.2 Config Validation
 
 | Check | Status | Notes |
 |-------|--------|-------|
 | Astro config has required integrations | | |
-| Tailwind config has content paths | | |
+| Theme defined in CSS `@theme` block | | Not in tailwind.config |
 | TypeScript strict mode enabled | | |
 | Package.json has correct scripts | | |
 
@@ -197,12 +203,13 @@ grep -r "client:" src/components/ --include="*.astro" | head -10
 
 ```bash
 ls src/content/
-cat src/content/config.ts | head -50
+cat src/content.config.ts | head -50
 ```
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| Content config exists | | |
+| Content config at `src/content.config.ts` | | Not `src/content/config.ts` |
+| Uses `glob` loader (Astro 5.x) | | |
 | Schemas properly defined | | |
 | Collections follow naming convention | | |
 
@@ -218,12 +225,12 @@ cat src/content/config.ts | head -50
 |---------|--------|--------|--------|
 | 1. TypeScript | 4 | | |
 | 2. Build | 4 | | |
-| 3. Dependencies | 7 | | |
-| 4. Security | 6 | | |
+| 3. Dependencies | 12 | | |
+| 4. Security | 7 | | |
 | 5. Code Quality | 6 | | |
-| 6. Configuration | 6 | | |
-| 7. Astro-Specific | 6 | | |
-| **TOTAL** | **39** | | |
+| 6. Configuration | 7 | | |
+| 7. Astro-Specific | 8 | | |
+| **TOTAL** | **48** | | |
 
 ### Result
 
@@ -272,4 +279,4 @@ import { thing } from '~/utils/helpers';
 
 ---
 
-*Code Quality Audit v2.1 | Phase 1, Step 1*
+*Code Quality Audit v2.2 | Phase 1, Step 1*

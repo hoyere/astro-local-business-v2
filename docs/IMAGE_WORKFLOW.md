@@ -302,8 +302,11 @@ image-studio fetch "landscaping" --output src/assets/images/photos
 ```
 
 ```astro
-<!-- Use local file -->
-<Image src={import('@assets/images/photos/landscaping.jpg')} />
+---
+import { Image } from 'astro:assets';
+import landscaping from '@assets/images/photos/landscaping.jpg';
+---
+<Image src={landscaping} alt="Professional landscaping" />
 ```
 
 ---

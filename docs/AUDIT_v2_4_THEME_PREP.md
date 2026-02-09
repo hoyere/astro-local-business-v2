@@ -18,30 +18,32 @@
 ### 1.1 Theme File Structure
 
 ```bash
-ls src/styles/themes.css
-grep -c "data-theme=" src/styles/themes.css
+ls src/styles/global.css
+grep -c "@theme" src/styles/global.css
+grep -c "data-theme" src/styles/global.css
 ```
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| `themes.css` exists | | |
-| Multiple themes defined | | Count: ___ |
-| Light/dark mode pairs | | |
-| Imported in global.css | | |
+| `global.css` exists with `@theme` block | | |
+| Colors use `oklch()` format | | Not space-separated RGB |
+| Light/dark mode pairs defined | | |
+| `@import "tailwindcss"` present | | |
 
 ### 1.2 Variable Naming Convention
 
-**Required pattern:** `--color-{name}`
+**Required pattern:** `--color-{name}` with `oklch()` values
 
 ```bash
-# Check variable names
-grep -E "^  --color-" src/styles/themes.css | head -20
-grep -E "^  --[a-z]+-" src/styles/themes.css | grep -v "color-" | head -10
+# Check variable names in @theme block
+grep -E "^\s+--color-" src/styles/global.css | head -20
+grep -E "^\s+--[a-z]+-" src/styles/global.css | grep -v "color-" | head -10
 ```
 
 | Check | Status | Notes |
 |-------|--------|-------|
 | Variables use `--color-` prefix | | |
+| Values use `oklch()` format | | Not space-separated RGB |
 | No unprefixed color variables | | |
 | Footer tokens use `--color-footer-` | | |
 
@@ -54,7 +56,12 @@ Each theme must define:
 | `--color-primary` | | Main brand color |
 | `--color-primary-dark` | | Darker variant |
 | `--color-primary-light` | | Lighter variant |
-| `--color-accent` | | Secondary/accent color |
+| `--color-accent` | | Accent color |
+| `--color-accent-dark` | | Accent darker variant |
+| `--color-accent-light` | | Accent lighter variant |
+| `--color-secondary` | | *(Optional)* For 3-color themes |
+| `--color-secondary-dark` | | *(Optional)* Secondary darker |
+| `--color-secondary-light` | | *(Optional)* Secondary lighter |
 | `--color-background` | | Page background |
 | `--color-surface` | | Card backgrounds |
 | `--color-surface-alt` | | Alternate surface |
@@ -80,36 +87,25 @@ grep "color-footer" src/styles/themes.css
 
 ---
 
-## 2. Tailwind Configuration
+## 2. Tailwind v4 Integration
 
-### 2.1 CSS Variable Helper
+### 2.1 CSS-Native Theme Definition
+
+With Tailwind v4, colors are defined directly in CSS using `@theme` blocks. No `tailwind.config.mjs` or `cssVar()` helper needed.
 
 ```bash
-cat tailwind.config.mjs | grep -A5 "cssVar"
+# Verify no legacy tailwind config
+ls tailwind.config.mjs 2>/dev/null  # Should NOT exist
+grep "@theme" src/styles/global.css  # Should exist
 ```
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| `cssVar()` helper defined | | |
-| Uses `--color-` prefix | | |
-| Supports opacity | | |
-
-**Required pattern:**
-```javascript
-const cssVar = (name) => `rgb(var(--color-${name}) / <alpha-value>)`;
-```
-
-### 2.2 Color Configuration
-
-```bash
-cat tailwind.config.mjs | grep -A30 "colors:"
-```
-
-| Check | Status | Notes |
-|-------|--------|-------|
-| All colors use `cssVar()` | | |
-| No hardcoded hex values | | |
-| Footer colors defined | | |
+| No `tailwind.config.mjs` file | | Not needed with Tailwind v4 |
+| No `cssVar()` helper function | | Colors defined in CSS `@theme` |
+| Colors defined in `@theme` block | | Using `oklch()` values |
+| No hardcoded hex values in config | | |
+| Footer colors defined in `@theme` | | |
 
 ---
 
@@ -185,9 +181,9 @@ class="text-text-muted"
 
 **CSS custom properties:**
 ```css
-background: rgb(var(--color-primary));
-color: rgb(var(--color-text-primary));
-border-color: rgb(var(--color-border));
+background: var(--color-primary);
+color: var(--color-text-primary);
+border-color: var(--color-border);
 ```
 
 ### 4.2 Component Audit
@@ -288,39 +284,21 @@ grep -E "\.overlay-(light|medium|heavy)" src/styles/*.css
 
 ---
 
-## 7. Header Stability
+## 7. Dark Mode
 
-> **Note:** Header stability is a structural concern. See `AUDIT_v2_2_STRUCTURE.md` Section 3.4 for detailed checks and Procedures F & G for fixes.
-
-Quick verification:
+### 7.1 Dark Mode Selector
 
 ```bash
-# Verify header stability patterns exist
-grep -rE "whitespace-nowrap|flex-shrink-0" src/components/layout/Header.astro | wc -l
-# Should be 4+ matches
-```
-
-| Check | Status | Notes |
-|-------|--------|-------|
-| Header passed v2_2 Section 3.4 | | See Structure Audit |
-
----
-
-## 8. Dark Mode
-
-### 8.1 Dark Mode Selector
-
-```bash
-grep "data-theme.*dark\|\.dark" src/styles/themes.css | head -5
+grep "data-theme.*dark\|\[data-theme" src/styles/global.css | head -5
 ```
 
 | Check | Status | Notes |
 |-------|--------|-------|
 | Dark theme defined | | |
-| `.dark` class supported | | |
+| Uses `[data-theme="dark"]` selector | | Not `.dark` class |
 | System preference detected | | |
 
-### 8.2 Dark Mode Variables
+### 7.2 Dark Mode Variables
 
 | Variable | Light Value | Dark Value |
 |----------|-------------|------------|
@@ -339,15 +317,14 @@ grep "data-theme.*dark\|\.dark" src/styles/themes.css | head -5
 
 | Section | Checks | Passed | Failed |
 |---------|--------|--------|--------|
-| 1. CSS Variable Architecture | 18 | | |
-| 2. Tailwind Configuration | 5 | | |
-| 3. No Hardcoded Colors | 8 | | |
+| 1. CSS Variable Architecture | 30 | | |
+| 2. Tailwind v4 Integration | 5 | | |
+| 3. No Hardcoded Colors | 11 | | |
 | 4. Component Color Usage | 6 | | |
 | 5. Heading Text Colors | 12 | | |
-| 6. Shadow & Overlay | 10 | | |
-| 7. Header Stability | 1 | | See v2_2 Section 3.4 |
-| 8. Dark Mode | 5 | | |
-| **TOTAL** | **65** | | |
+| 6. Shadow & Overlay | 11 | | |
+| 7. Dark Mode | 7 | | |
+| **TOTAL** | **82** | | |
 
 ### Result
 
@@ -368,22 +345,6 @@ grep "data-theme.*dark\|\.dark" src/styles/themes.css | head -5
 
 ## Tactical Greps & Discovery Commands
 
-### Finding Hardcoded Colors
-
-```bash
-# Find hardcoded Tailwind neutral/gray classes (MUST be zero)
-grep -rE "neutral-[0-9]|gray-[0-9]|slate-[0-9]|stone-[0-9]|zinc-[0-9]" src/components/ src/pages/ --include="*.astro"
-
-# Find hardcoded hex colors in components
-grep -rE "#[0-9A-Fa-f]{6}" src/components/ --include="*.astro" | grep -v "var(--"
-
-# Find hardcoded RGB/RGBA values
-grep -rE "rgba?\\([0-9]" src/components/ --include="*.astro" | grep -v "var(--"
-
-# Find old variable patterns (should be zero)
-grep -rE "tw-color-" src/ --include="*.astro" --include="*.css"
-```
-
 ### Finding Dark Section Heading Issues
 
 The global CSS rule `h1-h6 { @apply text-text-primary; }` overrides inherited `text-white` on dark backgrounds.
@@ -397,19 +358,6 @@ grep -rE "from-primary|bg-primary-dark|bg-gradient" src/pages/*.astro
 
 # Count text-white usage (should be high in CTA sections)
 grep -c "text-white" src/pages/*.astro
-```
-
-### Finding Header/Layout Stability Issues
-
-```bash
-# Check for whitespace-nowrap on text elements that shouldn't wrap
-grep -rE "whitespace-nowrap" src/components/layout/Header.astro
-
-# Check for flex-shrink-0 on elements that shouldn't shrink
-grep -rE "flex-shrink-0" src/components/layout/Header.astro
-
-# Check for dynamic header height
-grep -rE "header-height" src/components/layout/Header.astro
 ```
 
 ### Finding Unsplash/External Dependencies
@@ -439,82 +387,37 @@ grep -rE "from-.*to-" src/components/layout/Footer.astro
 
 ## Most Impactful Fixes (From Real Cleanup)
 
-### Fix 1: Global Heading Override
+### Fix 1: CSS Variable Naming Mismatch
 
-**Problem:** Global CSS sets all headings to `text-text-primary`, overriding inherited `text-white` on dark sections.
-
-**Location:** `src/styles/global.css`
-```css
-h1, h2, h3, h4, h5, h6 {
-  @apply font-heading leading-tight font-bold text-text-primary;  /* This overrides inherited colors! */
-}
-```
-
-**Solution:** Add explicit `text-white` to ALL headings in dark/gradient sections:
-```astro
-<!-- Every h1-h6 in a dark section needs explicit text-white -->
-<section class="bg-gradient-to-br from-primary to-primary-dark text-white">
-  <h2 class="text-3xl font-heading font-bold text-white mb-4">Title</h2>
-  <p>This inherits text-white from parent (paragraphs work fine)</p>
-</section>
-```
-
-**Files typically requiring this fix:**
-- `menu.astro` - CTA sections
-- `shop.astro` - CTA sections
-- `about.astro` - CTA sections
-- `contact.astro` - CTA sections
-- `services.astro` - CTA sections
-- `faq.astro` - CTA sections
-- `gallery.astro` - CTA sections
-- `terms.astro` - Hero sections
-- `privacy.astro` - Hero sections
-
-### Fix 2 & 3: Header Stability
-
-> **Moved to Structure Audit** - See `AUDIT_v2_2_STRUCTURE.md`:
-> - Section 3.4: Header Stability Checks
-> - Procedure F: Fix Header Font Flash / Layout Shift
-> - Procedure G: Fix Mobile Menu Positioning
-
-### Fix 4: CSS Variable Naming Mismatch
-
-**Problem:** Tailwind's `cssVar()` helper adds `--color-` prefix automatically.
+**Problem:** Variables must use the `--color-` prefix consistently.
 
 **Wrong:**
 ```css
-/* themes.css */
---tw-primary: 2 162 106;  /* Wrong prefix */
---footer-accent: 58 214 158;  /* Missing color- prefix */
+--tw-primary: oklch(0.55 0.2 165);      /* Wrong prefix */
+--footer-accent: oklch(0.7 0.2 165);    /* Missing color- prefix */
 ```
 
 **Correct:**
 ```css
-/* themes.css - ALL variables need --color- prefix */
---color-primary: 2 162 106;
---color-footer-accent: 58 214 158;
-
-/* Usage in CSS */
-background: rgb(var(--color-primary));
-color: rgb(var(--color-footer-accent));
+@theme {
+  --color-primary: oklch(0.55 0.2 165);
+  --color-footer-accent: oklch(0.7 0.2 165);
+}
 ```
 
-### Fix 5: Footer Token Separation
+### Fix 2: Footer Token Separation
 
 **Problem:** Footer needs distinct tokens for dark background that work in both light and dark mode.
 
-**Solution:** Define footer-specific tokens:
+**Solution:** Define footer-specific tokens in the `@theme` block (footer is always dark, so these don't change between modes):
 ```css
-:root,
-:root[data-theme="ga-light"],
-:root[data-theme="ga-dark"] {
-  /* Footer is always dark, so these don't change between modes */
-  --color-footer-accent: 58 214 158;      /* Lighter for dark bg */
-  --color-footer-text: 245 251 248;
-  --color-footer-text-secondary: 200 220 212;
-  --color-footer-text-muted: 150 175 165;
-  --color-footer-border: 45 65 55;
-  --color-footer-surface: 25 42 36;
+@theme {
+  --color-footer-accent: oklch(0.7 0.2 165);
+  --color-footer-text: oklch(0.97 0.005 165);
+  --color-footer-text-secondary: oklch(0.85 0.02 165);
+  --color-footer-text-muted: oklch(0.7 0.02 165);
+  --color-footer-border: oklch(0.3 0.03 165);
+  --color-footer-surface: oklch(0.2 0.03 165);
 }
 ```
 
@@ -552,4 +455,4 @@ color: rgb(var(--color-footer-accent));
 
 ---
 
-*Theme Prep Audit v2.4 | Phase 1, Step 4*
+*Theme Prep Audit v2.2 | Phase 1, Step 4*

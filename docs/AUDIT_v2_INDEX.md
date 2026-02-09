@@ -44,6 +44,12 @@
 |------|----------|-------|
 | 5 | `AUDIT_v2_5_THEME_APPLY.md` | Apply specific theme from `*_TEMPLATE_STANDARDS.md` |
 
+### Phase 3: Repo & Deploy
+
+| Step | Document | Focus |
+|------|----------|-------|
+| 6 | `AUDIT_v2_6_DEPLOY.md` | GitHub repo setup, Netlify provisioning, DNS, deploy hooks |
+
 ---
 
 ## Document Overview
@@ -52,16 +58,22 @@
 
 | Document | Checks | Purpose |
 |----------|--------|---------|
-| `AUDIT_v2_1_CODE.md` | Code quality | TypeScript compiles, no security issues, deps clean |
-| `AUDIT_v2_2_STRUCTURE.md` | Architecture | File structure, **image migration**, component organization, no dead code |
-| `AUDIT_v2_3_CONTENT.md` | Content | No Lorem ipsum, SEO complete, accessibility |
-| `AUDIT_v2_4_THEME_PREP.md` | Theme-ready | All colors use CSS vars, no hardcoded values |
+| `AUDIT_v2_1_CODE.md` | 48 | TypeScript compiles, no security issues, deps clean |
+| `AUDIT_v2_2_STRUCTURE.md` | 116 | File structure, **image system (Astro 5.x native)**, components, dead code |
+| `AUDIT_v2_3_CONTENT.md` | 87 | No Lorem ipsum, SEO complete, accessibility |
+| `AUDIT_v2_4_THEME_PREP.md` | 82 | All colors use CSS vars (`@theme` + `oklch()`), no hardcoded values |
 
 ### Phase 2 Documents
 
 | Document | Purpose |
 |----------|---------|
 | `AUDIT_v2_5_THEME_APPLY.md` | Apply a theme from standards doc, create branch |
+
+### Phase 3 Documents
+
+| Document | Checks | Purpose |
+|----------|--------|---------|
+| `AUDIT_v2_6_DEPLOY.md` | 34 | GitHub repo, Netlify site, DNS, deploy configuration |
 
 ### Standards Documents (Theme Definitions)
 
@@ -70,6 +82,13 @@
 | `GA_TEMPLATE_STANDARDS.md` | Emerald + Gold (#02a26a, #ffdd6a) |
 | `AUTUMN_TEMPLATE_STANDARDS.md` | Forest + Burnt Orange (#183321, #a02d00) |
 | `[NEW]_TEMPLATE_STANDARDS.md` | Create your own! |
+
+### Reference Documents
+
+| Document | Purpose |
+|----------|---------|
+| `GA_UNIVERSE_VOICE_GUIDE.md` | Content tone, humor style, naming conventions, copy formulas |
+| `REMEDIATION_PLAYBOOK.md` | Step-by-step fix procedures (image migration, header stability, etc.) |
 
 ---
 
@@ -93,6 +112,9 @@ git checkout -b theme/ga-core
 # 5. Commit themed version
 git add .
 git commit -m "Apply GA Core theme"
+
+# 6. Run Phase 3 deploy audit
+# Follow AUDIT_v2_6_DEPLOY.md
 ```
 
 ### Creating a New Theme
@@ -105,33 +127,30 @@ git commit -m "Apply GA Core theme"
 
 ## Quick Reference
 
-### CSS Variable Pattern (Theme-Ready)
+### CSS Variable Pattern (Tailwind v4 + oklch)
 
 ```css
-/* themes.css - Define variables */
-:root[data-theme="theme-light"] {
-  --color-primary: R G B;
-  --color-accent: R G B;
+/* src/styles/global.css */
+@import "tailwindcss";
+
+@theme {
+  --color-primary: oklch(0.55 0.2 165);
+  --color-accent: oklch(0.88 0.15 85);
   /* ... */
 }
 
-/* Components - Use variables */
-.element {
-  background: rgb(var(--color-primary));
-  color: rgb(var(--color-text-primary));
+/* Dark mode */
+[data-theme="dark"] {
+  --color-primary: oklch(0.7 0.2 165);
+  /* ... */
 }
 ```
 
-### Tailwind Integration
-
-```javascript
-// tailwind.config.mjs
-const cssVar = (name) => `rgb(var(--color-${name}) / <alpha-value>)`;
-
-colors: {
-  primary: cssVar('primary'),
-  accent: cssVar('accent'),
-  // ...
+```css
+/* Components - Use variables via Tailwind classes or CSS */
+.element {
+  background: var(--color-primary);
+  color: var(--color-text-primary);
 }
 ```
 
@@ -139,7 +158,7 @@ colors: {
 
 | In Audit Docs | In Standards Docs |
 |---------------|-------------------|
-| File structure | Color values (hex, RGB) |
+| File structure | Color values (hex, oklch) |
 | Component patterns | Font families |
 | Content guidelines | Logo specifications |
 | CSS variable naming | Brand identity |
@@ -188,27 +207,18 @@ theme/[new-theme]
 - [ ] Theme Applied (v2_5) - Theme: _______________
 - [ ] Branch Created: _______________
 
+**Phase 3: Repo & Deploy**
+- [ ] Deploy Audit (v2_6) - PASS
+
 ---
 
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.1 | 2026-01-30 | Added [AUDIT_v2_ADDENDUM_2026.md](./AUDIT_v2_ADDENDUM_2026.md) - Astro 5.x, Tailwind v4, new image workflow |
+| 2.2 | 2026-02-08 | Merged addendum into main docs, added Phase 3 (deploy), extracted voice guide and remediation playbook, recounted all checks, updated to Tailwind v4 / Astro 5.x / oklch() throughout |
 | 2.0 | 2024-12-23 | New modular system separating base cleanup from theming |
 
 ---
 
-## Important Update (January 2026)
-
-See **[AUDIT_v2_ADDENDUM_2026.md](./AUDIT_v2_ADDENDUM_2026.md)** for critical updates:
-
-- Image system overhaul (no runtime fetching)
-- Tailwind v4 via `@tailwindcss/vite`
-- Content collections in `src/content.config.ts`
-- Header stability patterns
-- New reference template: [astro-local-business-v2](https://github.com/hoyere/astro-local-business-v2)
-
----
-
-*Template Audit System v2.1*
+*Template Audit System v2.2*

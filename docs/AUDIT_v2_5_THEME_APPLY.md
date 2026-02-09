@@ -36,63 +36,62 @@ Open your chosen `*_TEMPLATE_STANDARDS.md` and copy the color values into `src/s
 **Example from GA_TEMPLATE_STANDARDS.md:**
 
 ```css
-/* GA Core - Light (Default) */
-:root,
-:root[data-theme="ga-light"] {
+/* src/styles/global.css */
+@import "tailwindcss";
+
+@theme {
   /* Primary Colors - from Standards doc */
-  --color-primary: 2 162 106;          /* #02a26a */
-  --color-primary-dark: 12 126 90;     /* #0c7e5a */
-  --color-primary-light: 58 214 158;   /* #3ad69e */
+  --color-primary: oklch(0.55 0.2 165);          /* #02a26a */
+  --color-primary-dark: oklch(0.45 0.15 165);    /* #0c7e5a */
+  --color-primary-light: oklch(0.7 0.2 165);     /* #3ad69e */
 
   /* Accent Colors - from Standards doc */
-  --color-accent: 255 221 106;         /* #ffdd6a */
-  --color-accent-dark: 230 190 70;
-  --color-accent-light: 255 235 160;
+  --color-accent: oklch(0.88 0.15 85);           /* #ffdd6a */
+  --color-accent-dark: oklch(0.8 0.14 85);
+  --color-accent-light: oklch(0.93 0.1 85);
 
   /* Surfaces */
-  --color-background: 255 255 255;
-  --color-surface: 255 255 255;
-  --color-surface-alt: 245 251 248;
+  --color-background: oklch(1 0 0);
+  --color-surface: oklch(1 0 0);
+  --color-surface-alt: oklch(0.97 0.01 165);
 
   /* Text */
-  --color-text-primary: 15 28 24;
-  --color-text-secondary: 55 75 68;
-  --color-text-muted: 100 120 110;
+  --color-text-primary: oklch(0.15 0.03 165);
+  --color-text-secondary: oklch(0.35 0.03 165);
+  --color-text-muted: oklch(0.5 0.02 165);
 
   /* Borders */
-  --color-border: 220 235 228;
+  --color-border: oklch(0.9 0.02 165);
 
   /* On-color text */
-  --color-on-primary: 255 255 255;
-  --color-on-accent: 15 28 24;
+  --color-on-primary: oklch(1 0 0);
+  --color-on-accent: oklch(0.15 0.03 165);
 }
 ```
 
 ### 2.2 Update Dark Mode
 
 ```css
-/* GA Core - Dark */
-:root[data-theme="ga-dark"],
-:root.dark[data-theme="ga-light"],
-:root.dark:not([data-theme]) {
-  --color-primary: 58 214 158;
-  --color-primary-dark: 31 168 116;
-  --color-primary-light: 100 230 180;
+/* Dark mode */
+[data-theme="dark"] {
+  --color-primary: oklch(0.7 0.2 165);
+  --color-primary-dark: oklch(0.55 0.18 165);
+  --color-primary-light: oklch(0.8 0.18 165);
 
-  --color-accent: 248 209 95;
+  --color-accent: oklch(0.82 0.13 85);
 
-  --color-background: 16 28 25;
-  --color-surface: 25 42 36;
-  --color-surface-alt: 35 55 48;
+  --color-background: oklch(0.15 0.02 165);
+  --color-surface: oklch(0.2 0.03 165);
+  --color-surface-alt: oklch(0.25 0.03 165);
 
-  --color-text-primary: 245 251 248;
-  --color-text-secondary: 200 220 212;
-  --color-text-muted: 150 175 165;
+  --color-text-primary: oklch(0.97 0.005 165);
+  --color-text-secondary: oklch(0.85 0.02 165);
+  --color-text-muted: oklch(0.7 0.02 165);
 
-  --color-border: 45 65 55;
+  --color-border: oklch(0.3 0.03 165);
 
-  --color-on-primary: 16 28 25;
-  --color-on-accent: 16 28 25;
+  --color-on-primary: oklch(0.15 0.02 165);
+  --color-on-accent: oklch(0.15 0.02 165);
 }
 ```
 
@@ -120,7 +119,6 @@ If using branded placeholder SVGs, update gradients to match theme:
 
 ```bash
 ls src/assets/images/icons/*.svg
-ls src/assets/images/library/*.svg
 ```
 
 **Update gradient stops:**
@@ -161,7 +159,7 @@ Replace `public/og-image.jpg` with themed social share image.
 
 ### 5.1 Business Name (if theme-specific)
 
-Edit `src/data/site.ts`:
+Edit `src/site.config.ts`:
 
 ```typescript
 export default {
@@ -295,7 +293,7 @@ git push origin v1.0-ga-core
 | `src/assets/images/logos/` | Logo files |
 | `public/favicon.*` | Favicon |
 | `public/og-image.jpg` | Social image |
-| `src/data/site.ts` | Business name (if applicable) |
+| `src/site.config.ts` | Business name (if applicable) |
 | `src/layouts/Base.astro` | Default theme |
 
 ### Verification
@@ -332,6 +330,55 @@ To create a new theme:
 
 ---
 
+## 9. OKLCH Conversion Reference
+
+### Format
+```
+oklch(L C H)
+  L = Lightness (0-1, where 0=black, 1=white)
+  C = Chroma (0-0.4, color intensity)
+  H = Hue (0-360, color wheel angle)
+```
+
+**Converter:** https://oklch.com/
+
+### Common Conversions
+
+| Hex | OKLCH | Notes |
+|-----|-------|-------|
+| `#02a26a` (emerald) | `oklch(0.58 0.15 160)` | GA Primary |
+| `#ffdd6a` (gold) | `oklch(0.90 0.13 90)` | GA Accent |
+| `#0f1c18` (green-black) | `oklch(0.15 0.02 160)` | GA Text |
+| `#1e40af` (blue) | `oklch(0.45 0.2 260)` | |
+| `#dc2626` (red) | `oklch(0.55 0.22 25)` | |
+
+**Tip:** Keep the same chroma (C) and hue (H), adjust lightness (L):
+- Light variant: L + 0.10
+- Dark variant: L - 0.10
+
+### Industry Color Quick Reference
+
+| Brand Type | Primary Hue | Example |
+|------------|-------------|---------|
+| Law/Finance | Blue (250-270) | `oklch(0.45 0.2 260)` |
+| Health/Nature | Green (140-160) | `oklch(0.55 0.18 150)` |
+| Food/Restaurant | Red/Orange (20-40) | `oklch(0.55 0.2 30)` |
+| Tech/Modern | Purple (280-300) | `oklch(0.5 0.2 290)` |
+| Construction | Orange (50-70) | `oklch(0.6 0.18 60)` |
+
+---
+
+## 10. Troubleshooting
+
+| Problem | Fix |
+|---------|-----|
+| Colors look wrong | Check OKLCH conversion at oklch.com; verify no hardcoded colors remain; check dark mode overrides |
+| Footer text hard to read | Increase `--color-footer-text` lightness; decrease `--color-footer-bg` lightness; verify 4.5:1 contrast |
+| Dark mode flashes white | Ensure theme script is in `<head>` before CSS; check `is:inline` on theme script |
+| Fonts not loading | Verify Google Fonts URL; check `font-display: swap`; check network tab for 404s |
+
+---
+
 ## Quick Reference: Color Token Mapping
 
 | Token | Usage |
@@ -353,4 +400,4 @@ To create a new theme:
 
 ---
 
-*Theme Application Guide v2.5 | Phase 2*
+*Theme Application Guide v2.2 | Phase 2*
