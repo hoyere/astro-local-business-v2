@@ -97,17 +97,16 @@ Open your chosen `*_TEMPLATE_STANDARDS.md` and copy the color values into `src/s
 
 ### 2.3 Update Footer Tokens
 
+Footer tokens are defined inside the `@theme` block (always dark, shared across light/dark modes):
+
 ```css
-:root,
-:root[data-theme="ga-light"],
-:root[data-theme="ga-dark"] {
-  --color-footer-accent: 58 214 158;
-  --color-footer-accent-dark: 2 162 106;
-  --color-footer-text: 245 251 248;
-  --color-footer-text-secondary: 200 220 212;
-  --color-footer-text-muted: 150 175 165;
-  --color-footer-border: 45 65 55;
-  --color-footer-surface: 25 42 36;
+@theme {
+  /* Footer (always dark) */
+  --color-footer-bg: oklch(0.18 0.03 160);
+  --color-footer-text: oklch(0.97 0.01 160);
+  --color-footer-text-muted: oklch(0.70 0.03 160);
+  --color-footer-border: oklch(0.28 0.03 160);
+  --color-footer-accent: oklch(0.75 0.17 160);
 }
 ```
 
@@ -176,7 +175,7 @@ export default {
 Edit `src/layouts/Base.astro`:
 
 ```html
-<html lang="en" data-theme="ga-light">
+<html lang="en">
 ```
 
 ---
