@@ -65,25 +65,32 @@ Each theme must define:
 | `--color-background` | | Page background |
 | `--color-surface` | | Card backgrounds |
 | `--color-surface-alt` | | Alternate surface |
-| `--color-text-primary` | | Main text color |
+| `--color-text` | | Main text color |
 | `--color-text-secondary` | | Secondary text |
 | `--color-text-muted` | | Muted text |
+| `--color-text-inverse` | | Inverse text (on dark/light) |
 | `--color-border` | | Border color |
+| `--color-surface-elevated` | | Elevated surface |
+| `--color-focus` | | Focus ring color |
+| `--color-disabled` | | Disabled state |
 | `--color-on-primary` | | Text on primary bg |
 | `--color-on-accent` | | Text on accent bg |
 
 ### 1.4 Footer Tokens
 
 ```bash
-grep "color-footer" src/styles/themes.css
+grep "color-footer" src/styles/global.css
 ```
 
 | Variable | Defined |
 |----------|---------|
-| `--color-footer-accent` | |
+| `--color-footer-bg` | |
 | `--color-footer-text` | |
-| `--color-footer-surface` | |
+| `--color-footer-text-secondary` | |
+| `--color-footer-text-muted` | |
 | `--color-footer-border` | |
+| `--color-footer-accent` | |
+| `--color-footer-surface` | |
 
 ---
 
@@ -174,7 +181,7 @@ grep -rE "--tw-color-" src/ --include="*.astro" --include="*.css"
 **Tailwind classes:**
 ```html
 class="bg-primary text-white"
-class="bg-surface text-text-primary"
+class="bg-surface text-text"
 class="border-border"
 class="text-text-muted"
 ```
@@ -182,7 +189,7 @@ class="text-text-muted"
 **CSS custom properties:**
 ```css
 background: var(--color-primary);
-color: var(--color-text-primary);
+color: var(--color-text);
 border-color: var(--color-border);
 ```
 
@@ -209,7 +216,7 @@ Check each major component uses theme tokens:
 grep -A2 "h1, h2, h3" src/styles/global.css
 ```
 
-**Known issue:** Global CSS sets headings to `text-text-primary` which overrides inherited `text-white`.
+**Known issue:** Global CSS sets headings to `text-text` which overrides inherited `text-white`.
 
 ### 5.2 Dark Section Headings
 
@@ -247,27 +254,31 @@ grep -B5 "<h[1-3]" src/pages/*.astro | grep -A1 "from-primary\|bg-primary\|overl
 ### 6.1 Shadow Variables
 
 ```bash
-grep "shadow-" src/styles/themes.css | head -10
+grep "shadow-" src/styles/global.css | head -10
 ```
 
 | Variable | Defined |
 |----------|---------|
-| `--shadow-color` | |
-| `--shadow-opacity-sm` | |
-| `--shadow-opacity-md` | |
-| `--shadow-opacity-lg` | |
+| `--shadow-sm` | |
+| `--shadow-md` | |
+| `--shadow-lg` | |
+| `--shadow-xl` | |
 
 ### 6.2 Overlay Variables
 
 ```bash
-grep "overlay-" src/styles/themes.css | head -10
+grep "overlay-" src/styles/global.css | head -10
 ```
 
 | Variable | Defined |
 |----------|---------|
-| `--overlay-light` | |
-| `--overlay-medium` | |
-| `--overlay-heavy` | |
+| `--overlay-dark-light` | |
+| `--overlay-dark-medium` | |
+| `--overlay-dark-heavy` | |
+| `--overlay-white-light` | |
+| `--overlay-white-medium` | |
+| `--overlay-white-heavy` | |
+| `--overlay-white-text` | |
 
 ### 6.3 Overlay Utility Classes
 
@@ -304,7 +315,7 @@ grep "data-theme.*dark\|\[data-theme" src/styles/global.css | head -5
 |----------|-------------|------------|
 | `--color-background` | | Inverted |
 | `--color-surface` | | Inverted |
-| `--color-text-primary` | | Inverted |
+| `--color-text` | | Inverted |
 | `--shadow-opacity-*` | | Higher |
 
 ---
@@ -347,7 +358,7 @@ grep "data-theme.*dark\|\[data-theme" src/styles/global.css | head -5
 
 ### Finding Dark Section Heading Issues
 
-The global CSS rule `h1-h6 { @apply text-text-primary; }` overrides inherited `text-white` on dark backgrounds.
+The global CSS rule `h1-h6 { @apply text-text; }` overrides inherited `text-white` on dark backgrounds.
 
 ```bash
 # Find headings in dark/gradient sections that might be missing text-white
@@ -434,7 +445,7 @@ grep -rE "from-.*to-" src/components/layout/Footer.astro
 | `bg-neutral-200` | `bg-surface-alt` |
 | `bg-neutral-100` | `bg-surface-alt` |
 | `bg-neutral-50` | `bg-background` |
-| `text-neutral-900` | `text-text-primary` |
+| `text-neutral-900` | `text-text` |
 | `text-neutral-700` | `text-text-secondary` |
 | `text-neutral-500` | `text-text-muted` |
 | `border-neutral-200` | `border-border` |

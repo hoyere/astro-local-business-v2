@@ -26,23 +26,22 @@ ls -la src/
 src/
 ├── assets/
 │   └── images/
-│       ├── icons/        # SVG placeholder icons
-│       ├── logos/        # Logo files (logo.svg, logo-light.svg)
+│       ├── brand/        # Logo and brand assets (logo.svg, logo-dark.svg)
 │       ├── photos/       # JPG/PNG photos
-│       ├── placeholders/ # Default placeholder SVG
+│       │   ├── team/     # Team member photos
+│       │   ├── gallery/  # Gallery images
+│       │   └── ...       # hero, services, etc.
 │       └── ATTRIBUTION.md
 ├── components/
 │   ├── common/          # Reusable UI (Button, Container)
-│   ├── core/            # ThemeProvider, etc.
-│   ├── forms/           # Form components
 │   ├── layout/          # Header, Footer
 │   ├── sections/        # Page sections
 │   └── seo/             # Schema, meta components
 ├── content/             # Content collections
 ├── layouts/             # Page layouts
+├── lib/                 # Utility functions (images.ts, utils.ts)
 ├── pages/               # Routes
-├── styles/              # CSS (global.css, themes.css)
-├── utils/               # Utilities
+├── styles/              # CSS (global.css)
 ├── content.config.ts    # Collection schemas (Astro 5.x)
 └── site.config.ts       # Centralized site configuration
 ```
@@ -53,7 +52,7 @@ src/
 | `src/components/` organized by type | | |
 | `src/content/` has collections | | |
 | `src/site.config.ts` exists | | Centralized site config |
-| `src/styles/` has global + themes | | |
+| `src/styles/` has global.css | | |
 | No orphan files in src/ root | | |
 
 ### 1.2 Image Directory
@@ -65,10 +64,9 @@ du -sh src/assets/images/
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| `icons/` directory exists | | SVG placeholders |
-| `logos/` directory exists | | logo.svg, logo-light.svg |
+| `brand/` directory exists | | logo.svg, logo-dark.svg |
 | `photos/` directory exists | | Actual photos |
-| `placeholders/` directory exists | | default.svg fallback |
+| `photos/team/` subdirectory exists | | Team member photos |
 | No `generated/` directory | | Legacy - delete |
 | No `library/` directory | | Legacy - migrate to icons/ |
 | No `manifest.*` files | | Legacy - delete |
@@ -104,10 +102,10 @@ find src -name "manifest.*"
 find src -name "index.ts" -path "*/images/*"
 
 # Check for legacy components
-ls src/components/ui/UnsplashImage.astro 2>/dev/null
+ls src/components/common/UnsplashImage.astro 2>/dev/null
 
 # Find unused utilities
-ls src/utils/
+ls src/lib/
 ```
 
 | Check | Status | Notes |
@@ -162,11 +160,10 @@ ls src/components/*/
 
 | Directory | Purpose | Clean |
 |-----------|---------|-------|
-| `core/` | ThemeProvider, critical components | |
-| `forms/` | Form components | |
+| `common/` | Reusable UI (Button, Container) | |
 | `layout/` | Header, Footer | |
 | `sections/` | Page sections (Hero, CTA, etc.) | |
-| `ui/` | Reusable UI (Image, Button) | |
+| `seo/` | Schema, meta components | |
 
 ### 3.2 Component Props
 
@@ -194,7 +191,7 @@ interface Props {
 
 ```bash
 ls src/layouts/
-cat src/layouts/Base.astro | head -30
+cat src/layouts/BaseLayout.astro | head -30
 ```
 
 | Check | Status | Notes |
@@ -212,7 +209,7 @@ Header must not reflow on font load or window resize.
 # Check for stability patterns
 grep -rE "whitespace-nowrap|flex-shrink-0" src/components/layout/Header.astro
 grep -rE "header-height" src/components/layout/Header.astro
-grep -r "preload.*font\|preconnect" src/layouts/Base.astro
+grep -r "preload.*font\|preconnect" src/layouts/BaseLayout.astro
 ```
 
 | Check | Status | Notes |
@@ -253,7 +250,7 @@ import heroPhoto from '@assets/images/photos/hero.jpg';
 | Images imported statically | | `import img from '@assets/...'` |
 | No custom `Image.astro` wrapper | | Legacy - remove |
 | No `imageResolver.ts` utility | | Legacy - remove |
-| Default placeholder SVG exists | | `placeholders/default.svg` |
+| No legacy image components | | Use `astro:assets` |
 
 ### 4.2 No Legacy Image Props
 
@@ -281,7 +278,7 @@ All images must be in `src/assets/images/` and imported statically:
 // ✅ Correct - static imports
 import { Image } from 'astro:assets';
 import hero from '@assets/images/photos/hero.jpg';
-import logo from '@assets/images/logos/logo.svg';
+import logo from '@assets/images/brand/logo.svg';
 ---
 <Image src={hero} alt="Hero" />
 
@@ -320,12 +317,13 @@ cat src/content.config.ts
 
 | Collection | Schema | Clean |
 |------------|--------|-------|
-| staff/ | | |
-| events/ | | |
-| menu/ | | |
-| gallery/ | | |
+| services/ | | |
+| team/ | | |
+| testimonials/ | | |
+| blog/ | | |
 | products/ | | |
-| ctas/ | | |
+| pricing/ | | |
+| case-studies/ | | |
 
 ### 5.2 Schema Cleanliness
 
@@ -408,7 +406,7 @@ ls src/config/features.json 2>/dev/null
 |-------|--------|-------|
 | No `src/data/site.ts` | | Legacy — use `src/site.config.ts` |
 | No `src/config/site.ts` | | Legacy — use `src/site.config.ts` |
-| No `src/config/theme.ts` | | Use `themes.css` |
+| No `src/config/theme.ts` | | Use `global.css` |
 | No `src/config/features.json` | | |
 | No `src/content/config.ts` | | Legacy — use `src/content.config.ts` |
 | Single source of truth | | |
@@ -439,7 +437,7 @@ grep -r "fonts.googleapis\|fonts.gstatic" src/
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| Fonts preloaded in Base.astro | | |
+| Fonts preloaded in BaseLayout.astro | | |
 | Font preconnect configured | | |
 | No blocking font loads | | |
 

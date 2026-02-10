@@ -216,4 +216,4 @@ Run Lighthouse on `npm run preview`:
 
 ---
 
-*Repo & Deploy Audit v1.0 | Phase 3*
+*Repo & Deploy Audit v2.2 | Phase 3*

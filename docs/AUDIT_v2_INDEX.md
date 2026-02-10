@@ -150,7 +150,7 @@ git commit -m "Apply GA Core theme"
 /* Components - Use variables via Tailwind classes or CSS */
 .element {
   background: var(--color-primary);
-  color: var(--color-text-primary);
+  color: var(--color-text);
 }
 ```
 

@@ -120,7 +120,7 @@ ls src/content/blog/ 2>/dev/null
 ### 3.1 Base Layout Meta
 
 ```bash
-cat src/layouts/Base.astro | grep -A2 "<title\|<meta"
+cat src/layouts/BaseLayout.astro | grep -A2 "<title\|<meta"
 ```
 
 | Check | Status | Notes |
@@ -346,11 +346,11 @@ ls src/pages/privacy.astro src/pages/terms.astro
 All business info should be centralized in `src/site.config.ts`:
 
 ```typescript
-export default {
+export const siteConfig = {
   business: {
     name: "Business Name",           // ← MUST CUSTOMIZE
     tagline: "Your tagline here",    // ← MUST CUSTOMIZE
-    logo: "~/assets/images/logos/logo.svg",
+    logo: "~/assets/images/brand/logo.svg",
     contact: {
       phone: {
         main: "(XXX) XXX-XXXX",      // ← MUST CUSTOMIZE

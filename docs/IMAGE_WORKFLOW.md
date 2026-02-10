@@ -52,22 +52,19 @@ import heroImage from '@assets/images/photos/hero.jpg';
 
 ```
 src/assets/images/
-├── photos/           # Stock photos and project images
-│   ├── hero.jpg
-│   ├── about.jpg
-│   ├── service-1.jpg
-│   └── gallery/
-│       ├── project-1.jpg
-│       └── project-2.jpg
 ├── brand/            # Logo and brand assets
 │   ├── logo.svg
 │   ├── logo-dark.svg
 │   └── favicon.svg
-├── icons/            # SVG icons
-│   └── *.svg
-└── team/             # Team member photos
-    ├── person-1.jpg
-    └── person-2.jpg
+├── photos/           # Stock photos and project images
+│   ├── hero/         # Hero images
+│   ├── services/     # Service images
+│   ├── gallery/      # Gallery images
+│   ├── team/         # Team member photos
+│   ├── blog/         # Blog images
+│   ├── products/     # Product images
+│   └── general/      # Misc photos
+└── ATTRIBUTION.md
 
 public/
 └── placeholder.svg   # Fallback for missing images

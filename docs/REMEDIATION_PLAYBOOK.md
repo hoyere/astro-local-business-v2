@@ -9,11 +9,11 @@
 **Step 1: Delete legacy files**
 ```bash
 # Remove legacy utilities
-rm -f src/utils/unsplash.ts
-rm -f src/utils/sections.ts
+rm -f src/lib/unsplash.ts
+rm -f src/lib/sections.ts
 
 # Remove legacy components
-rm -f src/components/ui/UnsplashImage.astro
+rm -f src/components/common/UnsplashImage.astro
 
 # Remove manifest files
 find src -name "manifest.*" -delete
@@ -30,12 +30,12 @@ rm -rf public/images/
 
 **Step 2: Create new structure**
 ```bash
-mkdir -p src/assets/images/{icons,logos,photos,placeholders}
+mkdir -p src/assets/images/{brand,photos}
 ```
 
-**Step 3: Create default placeholder**
+**Step 3: Create default placeholder (optional)**
 ```bash
-cat > src/assets/images/placeholders/default.svg << 'EOF'
+cat > public/placeholder.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
   <rect fill="#e5e7eb" width="400" height="300"/>
   <text x="200" y="150" text-anchor="middle" fill="#9ca3af" font-size="16">Image Placeholder</text>
@@ -56,7 +56,7 @@ Use Astro's native `<Image />` component with static imports. No custom `Image.a
 // In any .astro component
 import { Image } from 'astro:assets';
 import heroPhoto from '@assets/images/photos/hero.jpg';
-import logoSvg from '@assets/images/logos/logo.svg';
+import logoSvg from '@assets/images/brand/logo.svg';
 ---
 
 <!-- Standard image -->
@@ -203,14 +203,14 @@ grep -ri "generatedKey\|backgroundKey\|fallbackQuery" src/
 grep -ri "/images/unsplash\|images.unsplash.com" src/
 
 # No legacy files
-ls src/utils/unsplash.ts 2>/dev/null
-ls src/components/ui/UnsplashImage.astro 2>/dev/null
+ls src/lib/unsplash.ts 2>/dev/null
+ls src/components/common/UnsplashImage.astro 2>/dev/null
 ls public/images/ 2>/dev/null
 find src -name "manifest.*"
 
 # No custom image resolver (replaced by astro:assets)
-ls src/utils/imageResolver.ts 2>/dev/null
-ls src/components/ui/Image.astro 2>/dev/null
+ls src/lib/imageResolver.ts 2>/dev/null
+ls src/components/common/Image.astro 2>/dev/null
 ```
 
 ---
@@ -219,7 +219,7 @@ ls src/components/ui/Image.astro 2>/dev/null
 
 **Problem:** Font loading changes text width, causing header elements to reflow and buttons to wrap.
 
-**Step 1: Add Font Preload in `Base.astro`**
+**Step 1: Add Font Preload in `BaseLayout.astro`**
 
 ```html
 <head>
@@ -242,7 +242,7 @@ ls src/components/ui/Image.astro 2>/dev/null
 
 ```astro
 <!-- Business name - prevent wrap -->
-<span class="text-xl font-heading font-bold text-text-primary hidden lg:block whitespace-nowrap">
+<span class="text-xl font-heading font-bold text-text hidden lg:block whitespace-nowrap">
   {business.name}
 </span>
 

@@ -51,11 +51,13 @@
 
 | Token | Hex | oklch |
 |-------|-----|-------|
-| **Footer Accent** | `#3ad69e` | `oklch(0.75 0.17 160)` |
+| **Footer BG** | `#192a24` | `oklch(0.18 0.03 160)` |
 | **Footer Text** | `#f5fbf8` | `oklch(0.97 0.01 160)` |
+| **Footer Text Secondary** | `#c8dcd4` | `oklch(0.80 0.02 160)` |
 | **Footer Text Muted** | `#96afa5` | `oklch(0.70 0.03 160)` |
-| **Footer Surface** | `#192a24` | `oklch(0.18 0.03 160)` |
 | **Footer Border** | `#2d4137` | `oklch(0.28 0.03 160)` |
+| **Footer Accent** | `#3ad69e` | `oklch(0.75 0.17 160)` |
+| **Footer Surface** | `#1f332c` | `oklch(0.22 0.03 160)` |
 
 ---
 
@@ -142,9 +144,11 @@ Dark mode uses higher opacity (0.3 - 0.45).
   /* Footer (always dark) */
   --color-footer-bg: oklch(0.18 0.03 160);
   --color-footer-text: oklch(0.97 0.01 160);
+  --color-footer-text-secondary: oklch(0.80 0.02 160);
   --color-footer-text-muted: oklch(0.70 0.03 160);
   --color-footer-border: oklch(0.28 0.03 160);
   --color-footer-accent: oklch(0.75 0.17 160);
+  --color-footer-surface: oklch(0.22 0.03 160);
 }
 
 /* GA Core - Dark */
@@ -171,9 +175,11 @@ Dark mode uses higher opacity (0.3 - 0.45).
   /* Footer - darker in dark mode */
   --color-footer-bg: oklch(0.10 0.02 160);
   --color-footer-text: oklch(0.97 0.01 160);
+  --color-footer-text-secondary: oklch(0.80 0.02 160);
   --color-footer-text-muted: oklch(0.65 0.03 160);
   --color-footer-border: oklch(0.20 0.02 160);
   --color-footer-accent: oklch(0.75 0.17 160);
+  --color-footer-surface: oklch(0.15 0.02 160);
 }
 ```
 

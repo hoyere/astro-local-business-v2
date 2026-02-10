@@ -27,11 +27,11 @@ git checkout -b theme/ga-core  # or theme/autumn, etc.
 
 ---
 
-## 2. Update themes.css
+## 2. Update global.css
 
 ### 2.1 Copy Color Values from Standards Doc
 
-Open your chosen `*_TEMPLATE_STANDARDS.md` and copy the color values into `src/styles/themes.css`.
+Open your chosen `*_TEMPLATE_STANDARDS.md` and copy the color values into `src/styles/global.css`.
 
 **Example from GA_TEMPLATE_STANDARDS.md:**
 
@@ -56,9 +56,10 @@ Open your chosen `*_TEMPLATE_STANDARDS.md` and copy the color values into `src/s
   --color-surface-alt: oklch(0.97 0.01 165);
 
   /* Text */
-  --color-text-primary: oklch(0.15 0.03 165);
+  --color-text: oklch(0.15 0.03 165);
   --color-text-secondary: oklch(0.35 0.03 165);
   --color-text-muted: oklch(0.5 0.02 165);
+  --color-text-inverse: oklch(0.98 0 0);
 
   /* Borders */
   --color-border: oklch(0.9 0.02 165);
@@ -84,9 +85,10 @@ Open your chosen `*_TEMPLATE_STANDARDS.md` and copy the color values into `src/s
   --color-surface: oklch(0.2 0.03 165);
   --color-surface-alt: oklch(0.25 0.03 165);
 
-  --color-text-primary: oklch(0.97 0.005 165);
+  --color-text: oklch(0.97 0.005 165);
   --color-text-secondary: oklch(0.85 0.02 165);
   --color-text-muted: oklch(0.7 0.02 165);
+  --color-text-inverse: oklch(0.15 0.02 165);
 
   --color-border: oklch(0.3 0.03 165);
 
@@ -104,9 +106,11 @@ Footer tokens are defined inside the `@theme` block (always dark, shared across 
   /* Footer (always dark) */
   --color-footer-bg: oklch(0.18 0.03 160);
   --color-footer-text: oklch(0.97 0.01 160);
+  --color-footer-text-secondary: oklch(0.80 0.02 160);
   --color-footer-text-muted: oklch(0.70 0.03 160);
   --color-footer-border: oklch(0.28 0.03 160);
   --color-footer-accent: oklch(0.75 0.17 160);
+  --color-footer-surface: oklch(0.22 0.03 160);
 }
 ```
 
@@ -137,7 +141,7 @@ ls src/assets/images/icons/*.svg
 
 ### 4.1 Replace Logo SVGs
 
-Place theme-specific logos in `src/assets/images/logos/`:
+Place theme-specific logos in `src/assets/images/brand/`:
 
 | File | Purpose |
 |------|---------|
@@ -161,7 +165,7 @@ Replace `public/og-image.jpg` with themed social share image.
 Edit `src/site.config.ts`:
 
 ```typescript
-export default {
+export const siteConfig = {
   business: {
     name: "GrowthAutomations Brewing Co.",  // Theme-specific name
     tagline: "Systematic Craft Brewing Since 2019",
@@ -172,7 +176,7 @@ export default {
 
 ### 5.2 Default Theme
 
-Edit `src/layouts/Base.astro`:
+Edit `src/layouts/BaseLayout.astro`:
 
 ```html
 <html lang="en">
@@ -205,7 +209,7 @@ npm run dev
 |---------|----------------|--------|
 | Primary buttons | Theme primary | |
 | Accent badges | Theme accent | |
-| Body text | Theme text-primary | |
+| Body text | Theme text | |
 | Muted text | Theme text-muted | |
 | Card backgrounds | Theme surface | |
 | Page background | Theme background | |
@@ -243,7 +247,7 @@ npm run build
 git add .
 git commit -m "Apply [THEME_NAME] theme
 
-- Updated themes.css with [THEME_NAME] colors
+- Updated global.css with [THEME_NAME] colors
 - Updated logo and favicon
 - References [THEME_NAME]_TEMPLATE_STANDARDS.md"
 ```
@@ -265,7 +269,7 @@ See `[THEME_NAME]_TEMPLATE_STANDARDS.md` for color reference.
 
 ### Customizing Colors
 
-Edit `src/styles/themes.css` to modify colors.
+Edit `src/styles/global.css` to modify colors.
 ```
 
 ### 8.2 Tag Release (Optional)
@@ -288,12 +292,12 @@ git push origin v1.0-ga-core
 
 | File | Change |
 |------|--------|
-| `src/styles/themes.css` | Color values |
-| `src/assets/images/logos/` | Logo files |
+| `src/styles/global.css` | Color values |
+| `src/assets/images/brand/` | Logo files |
 | `public/favicon.*` | Favicon |
 | `public/og-image.jpg` | Social image |
 | `src/site.config.ts` | Business name (if applicable) |
-| `src/layouts/Base.astro` | Default theme |
+| `src/layouts/BaseLayout.astro` | Default theme |
 
 ### Verification
 
@@ -389,7 +393,7 @@ oklch(L C H)
 | `--color-background` | Page background |
 | `--color-surface` | Cards, elevated elements |
 | `--color-surface-alt` | Alternate surfaces |
-| `--color-text-primary` | Main text |
+| `--color-text` | Main text |
 | `--color-text-secondary` | Secondary text |
 | `--color-text-muted` | Muted/placeholder text |
 | `--color-border` | Borders, dividers |

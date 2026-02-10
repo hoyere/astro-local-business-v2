@@ -217,7 +217,7 @@ Use semantic naming:
 
 ```css
 /* Good */
---color-text-primary
+--color-text
 --color-surface-elevated
 --space-section-padding
 
@@ -425,7 +425,10 @@ Use path aliases for cleaner imports:
   "paths": {
     "@components/*": ["src/components/*"],
     "@layouts/*": ["src/layouts/*"],
-    "@lib/*": ["src/lib/*"]
+    "@assets/*": ["src/assets/*"],
+    "@lib/*": ["src/lib/*"],
+    "@content/*": ["src/content/*"],
+    "@/*": ["src/*"]
   }
 }
 ```
