@@ -1,0 +1,55 @@
+{
+  "name": "site-audit",
+  "version": "1.0.0",
+  "description": "Automated site audit toolkit: Lighthouse, a11y, SEO, links, content, screenshots",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "site-audit": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "audit": "node dist/cli.js all",
+    "audit:lighthouse": "node dist/cli.js lighthouse",
+    "audit:a11y": "node dist/cli.js a11y",
+    "audit:seo": "node dist/cli.js seo",
+    "audit:links": "node dist/cli.js links",
+    "audit:content": "node dist/cli.js content",
+    "audit:code": "node dist/cli.js code-quality",
+    "audit:screenshots": "node dist/cli.js screenshots"
+  },
+  "keywords": [
+    "audit",
+    "lighthouse",
+    "accessibility",
+    "seo",
+    "astro",
+    "playwright",
+    "axe-core",
+    "cli"
+  ],
+  "author": "hoyere",
+  "license": "MIT",
+  "files": [
+    "dist/**/*",
+    "config/**/*",
+    "README.md"
+  ],
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "chrome-launcher": "^1.1.0",
+    "lighthouse": "^12.0.0",
+    "playwright": "^1.48.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

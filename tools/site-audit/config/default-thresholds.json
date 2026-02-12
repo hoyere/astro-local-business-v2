@@ -1,0 +1,76 @@
+{
+  "lighthouse": {
+    "scores": {
+      "performance": 90,
+      "accessibility": 90,
+      "best-practices": 90,
+      "seo": 90
+    },
+    "cwv": {
+      "lcp": 2500,
+      "cls": 0.1,
+      "inp": 200
+    },
+    "pages": ["/", "/about", "/services", "/contact"]
+  },
+  "codeQuality": {
+    "forbiddenPatterns": [
+      { "pattern": "console\\.log", "severity": "warn", "description": "console.log statement" },
+      { "pattern": "debugger", "severity": "fail", "description": "debugger statement" },
+      { "pattern": "API_KEY|SECRET_KEY|PRIVATE_KEY", "severity": "fail", "description": "Hardcoded secret" },
+      { "pattern": "set:html", "severity": "warn", "description": "set:html usage (XSS risk)" },
+      { "pattern": "eval\\(", "severity": "fail", "description": "eval() usage" },
+      { "pattern": "TODO|FIXME|HACK", "severity": "warn", "description": "TODO/FIXME/HACK comment" }
+    ],
+    "fileExtensions": ["ts", "tsx", "astro", "js", "jsx"],
+    "excludeDirs": ["node_modules", "dist", ".astro", "tools"]
+  },
+  "content": {
+    "placeholderPatterns": [
+      "lorem ipsum",
+      "dolor sit amet",
+      "555-\\d{3}-\\d{4}",
+      "example\\.com",
+      "test@",
+      "your-(company|business|name|city|phone|email|address)",
+      "XXX",
+      "\\[insert",
+      "placeholder",
+      "coming soon"
+    ],
+    "maxImageSizeKb": 500,
+    "requiredAltText": true,
+    "imageExtensions": ["jpg", "jpeg", "png", "webp", "avif", "svg", "gif"]
+  },
+  "links": {
+    "timeoutMs": 10000,
+    "checkExternal": true,
+    "ignorePatterns": ["mailto:", "tel:", "javascript:", "#"],
+    "acceptableStatusCodes": [200, 201, 301, 302, 307, 308]
+  },
+  "seo": {
+    "requiredMeta": ["description"],
+    "requiredOg": ["og:title", "og:description", "og:image"],
+    "requiredFiles": ["sitemap-index.xml", "robots.txt"],
+    "requiredSchema": ["LocalBusiness"],
+    "maxTitleLength": 60,
+    "maxDescriptionLength": 160,
+    "minDescriptionLength": 50
+  },
+  "screenshots": {
+    "viewports": [
+      { "name": "desktop", "width": 1280, "height": 720 },
+      { "name": "tablet", "width": 768, "height": 1024 },
+      { "name": "mobile", "width": 375, "height": 812 }
+    ],
+    "browsers": ["chromium", "firefox", "webkit"],
+    "outputDir": "audit-results/screenshots",
+    "fullPage": true,
+    "pages": ["/", "/about", "/services", "/contact"]
+  },
+  "a11y": {
+    "standard": "wcag2aa",
+    "pages": ["/", "/about", "/services", "/contact"],
+    "impactThreshold": "serious"
+  }
+}
