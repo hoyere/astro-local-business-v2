@@ -6,58 +6,58 @@
 
 @theme {
   /* ----------------------------------------
-     GA Brand Colors - Primary (Teal Green)
-     Source: Preprocessed from HTML slice design tokens
+     GA Brand Colors - Primary (Emerald Green)
+     Source: Growth_Automations_Brand_Guidelines_v1_1.md
      ---------------------------------------- */
-  --color-primary: oklch(0.63 0.14 160);
-  --color-primary-light: oklch(0.78 0.15 164);
-  --color-primary-dark: oklch(0.53 0.11 164);
+  --color-primary: oklch(0.58 0.15 160);
+  --color-primary-light: oklch(0.75 0.17 160);
+  --color-primary-dark: oklch(0.48 0.12 160);
 
   --color-secondary: oklch(0.50 0.05 160);
 
   /* ----------------------------------------
      GA Brand Colors - Accent (Golden Yellow)
      ---------------------------------------- */
-  --color-accent: oklch(0.90 0.14 93);
+  --color-accent: oklch(0.90 0.13 90);
   --color-accent-light: oklch(0.94 0.10 95);
-  --color-accent-dark: oklch(0.82 0.14 90);
+  --color-accent-dark: oklch(0.80 0.14 85);
 
   /* ----------------------------------------
      Colors - Text (Green-Black Tones)
      ---------------------------------------- */
-  --color-text: oklch(0.21 0.02 173);
-  --color-text-secondary: oklch(0.39 0.03 171);
-  --color-text-muted: oklch(0.55 0.03 164);
-  --color-text-inverse: oklch(1.00 0 0);
+  --color-text: oklch(0.15 0.02 160);
+  --color-text-secondary: oklch(0.35 0.03 160);
+  --color-text-muted: oklch(0.50 0.03 160);
+  --color-text-inverse: oklch(0.98 0 0);
 
   /* Text on colored backgrounds */
-  --color-on-primary: oklch(1.00 0 0);
-  --color-on-accent: oklch(0.21 0.02 173);
+  --color-on-primary: oklch(1 0 0);
+  --color-on-accent: oklch(0.15 0.02 160);
 
   /* ----------------------------------------
      Colors - Surfaces (Green Tint)
      ---------------------------------------- */
-  --color-background: oklch(1.00 0 0);
-  --color-surface: oklch(1.00 0 0);
-  --color-surface-alt: oklch(0.98 0.01 165);
-  --color-surface-elevated: oklch(1.00 0 0);
-  --color-border: oklch(0.93 0.02 166);
+  --color-background: oklch(1 0 0);
+  --color-surface: oklch(1 0 0);
+  --color-surface-alt: oklch(0.98 0.01 160);
+  --color-surface-elevated: oklch(1 0 0);
+  --color-border: oklch(0.92 0.02 160);
 
   /* ----------------------------------------
      Colors - Focus
      ---------------------------------------- */
-  --color-focus: oklch(0.63 0.14 160);
+  --color-focus: oklch(0.58 0.15 160);
 
   /* ----------------------------------------
      Semantic/Status Colors
      ---------------------------------------- */
-  --color-success: oklch(0.60 0.13 162);
+  --color-success: oklch(0.55 0.15 145);
   --color-success-light: oklch(0.92 0.05 145);
-  --color-error: oklch(0.58 0.22 27);
+  --color-error: oklch(0.55 0.20 25);
   --color-error-light: oklch(0.95 0.05 25);
-  --color-warning: oklch(0.67 0.16 58);
+  --color-warning: oklch(0.75 0.15 70);
   --color-warning-light: oklch(0.94 0.06 70);
-  --color-info: oklch(0.59 0.14 242);
+  --color-info: oklch(0.55 0.15 230);
   --color-info-light: oklch(0.92 0.05 230);
 
   /* ----------------------------------------
@@ -65,8 +65,8 @@
      ---------------------------------------- */
   --color-disabled: oklch(0.92 0.01 160);
   --color-disabled-text: oklch(0.60 0.02 160);
-  --color-selection: oklch(0.63 0.14 160 / 0.2);
-  --color-placeholder: oklch(0.55 0.03 164);
+  --color-selection: oklch(0.58 0.15 160 / 0.2);
+  --color-placeholder: oklch(0.50 0.03 160);
 
   /* ----------------------------------------
      Colors - Footer (Dark Green Theme)
@@ -75,7 +75,7 @@
   --color-footer-text: oklch(0.97 0.01 160);
   --color-footer-text-muted: oklch(0.70 0.03 160);
   --color-footer-border: oklch(0.28 0.03 160);
-  --color-footer-accent: oklch(0.78 0.15 164);
+  --color-footer-accent: oklch(0.75 0.17 160);
 
   /* ----------------------------------------
      Overlays (Green-tinted darks)
@@ -190,10 +190,10 @@
 
 /* Dark mode overrides - GA Brand */
 [data-theme="dark"] {
-  /* Primary - brighter teal for dark mode */
-  --color-primary: oklch(0.75 0.15 164);
-  --color-primary-light: oklch(0.82 0.13 164);
-  --color-primary-dark: oklch(0.63 0.14 160);
+  /* Primary - brighter emerald for dark mode */
+  --color-primary: oklch(0.75 0.17 160);
+  --color-primary-light: oklch(0.82 0.15 160);
+  --color-primary-dark: oklch(0.60 0.14 160);
 
   /* Accent - slightly muted gold for dark mode */
   --color-accent: oklch(0.87 0.13 85);

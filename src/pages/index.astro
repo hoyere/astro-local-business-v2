@@ -10,10 +10,10 @@ import { siteConfig } from '../site.config';
 
 <BaseLayout>
   <Hero
-    title="Crystal-Clear Water, Precision-Engineered Maintenance"
-    subtitle="GrowthAutomations Pool Systems"
-    description="We bring documented processes and data-driven precision to pool care. Every visit follows a 27-point protocol — no variance, no guesswork, no green water."
-    primaryCta={{ text: "Schedule Service", href: "/contact" }}
+    title={`Welcome to ${siteConfig.name}`}
+    subtitle="Professional Services"
+    description={siteConfig.description}
+    primaryCta={{ text: "Get Started", href: "/contact" }}
     secondaryCta={{ text: "Our Services", href: "/services" }}
     variant="centered"
   />
@@ -25,9 +25,9 @@ import { siteConfig } from '../site.config';
   <Testimonials />
 
   <CTA
-    title="Ready for Systematic Pool Care?"
-    description="Get a free assessment of your pool's current condition. We'll benchmark your equipment and recommend the right maintenance plan."
-    primaryCta={{ text: "Get a Free Assessment", href: "/contact" }}
+    title="Ready to Get Started?"
+    description="Contact us today for a free consultation and see how we can help."
+    primaryCta={{ text: "Contact Us", href: "/contact" }}
     secondaryCta={{ text: "Call Now", href: `tel:${siteConfig.contact.phone.replace(/[^\d+]/g, '')}` }}
   />
 </BaseLayout>

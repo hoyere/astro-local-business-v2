@@ -7,37 +7,37 @@
 
 export const siteConfig = {
   // Basic Info
-  name: "GrowthAutomations Pool Systems",
-  tagline: "Crystal-clear water, precision-engineered maintenance",
-  description: "Professional pool cleaning and maintenance services with systematic precision. We bring data-driven processes to every backyard oasis.",
-  url: "https://ga-pool-systems.growthautomations.app",
+  name: "Business Name",
+  tagline: "Your tagline here",
+  description: "A professional local business providing quality services to our community.",
+  url: "https://example.com",
 
   // Contact Information
   contact: {
-    phone: "(512) 270-7665",
-    email: "pools@growthautomations.app",
+    phone: "(555) 123-4567",
+    email: "info@example.com",
     address: {
-      street: "4200 Aqua Systems Drive",
-      city: "Austin",
-      state: "TX",
-      zip: "78745",
+      street: "123 Main Street",
+      city: "Anytown",
+      state: "ST",
+      zip: "12345",
     },
   },
 
   // Social Media
   social: {
-    facebook: "https://facebook.com/gapoolsystems",
-    instagram: "https://instagram.com/gapoolsystems",
-    bluesky: "https://bsky.app/profile/gapoolsystems.bsky.social",
-    linkedin: "https://linkedin.com/company/growthautomations",
+    facebook: "https://facebook.com/example",
+    instagram: "https://instagram.com/example",
+    bluesky: "https://bsky.app/profile/example.bsky.social",
+    linkedin: "",
     youtube: "",
   },
 
   // Business Hours
   hours: [
-    { days: "Monday - Friday", hours: "7:00 AM - 6:00 PM" },
-    { days: "Saturday", hours: "8:00 AM - 4:00 PM" },
-    { days: "Sunday", hours: "Emergency Only" },
+    { days: "Monday - Friday", hours: "8:00 AM - 6:00 PM" },
+    { days: "Saturday", hours: "9:00 AM - 4:00 PM" },
+    { days: "Sunday", hours: "Closed" },
   ],
 
   // Navigation Links
@@ -51,9 +51,9 @@ export const siteConfig = {
   // Footer Links
   footerLinks: {
     services: [
-      { label: "Routine Maintenance", href: "/services/routine-maintenance" },
-      { label: "Water Chemistry", href: "/services/water-chemistry" },
-      { label: "Equipment Diagnostics", href: "/services/equipment-diagnostics" },
+      { label: "Service One", href: "/services/service-one" },
+      { label: "Service Two", href: "/services/service-two" },
+      { label: "Service Three", href: "/services/service-three" },
     ],
     company: [
       { label: "About Us", href: "/about" },
