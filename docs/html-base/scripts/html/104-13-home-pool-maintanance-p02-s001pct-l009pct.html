@@ -1,0 +1,149 @@
+<html>
+<head>
+  <title>Poolax - Making Waves in Pool Excellence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #f5fbf8;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom shape for hero diagonal */
+    @media (min-width: 1024px) {
+      .hero-diagonal {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 40% 100%);
+      }
+      .hero-image-diagonal {
+        clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 100%);
+      }
+    }
+    @media (max-width: 1023px) {
+      .hero-diagonal,
+      .hero-image-diagonal {
+        clip-path: none !important;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text font-sans">
+
+  <!-- Header / Navbar -->
+  <header class="w-full bg-[#1693f7] relative z-20">
+    <div class="container mx-auto px-4 max-w-7xl flex items-center justify-between py-0 min-h-[90px]">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <div class="relative z-10">
+          <div class="flex items-center">
+            <span class="relative">
+              <span class="text-[2.5rem] font-bold text-text flex items-center">
+                <span class="relative">
+                  <span class="text-[#0f1c18]">P</span>
+                  <span class="absolute left-2 top-2">
+                    <svg width="38" height="18" viewBox="0 0 38 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block align-middle" style="margin-left:-2px;">
+                      <ellipse cx="9" cy="9" rx="9" ry="9" fill="#1693f7"/>
+                      <ellipse cx="29" cy="9" rx="9" ry="9" fill="#1693f7"/>
+                    </svg>
+                  </span>
+                </span>
+                <span class="ml-2 text-[#0f1c18]">oolax</span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <nav class="hidden lg:flex items-center space-x-8 ml-8">
+        <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">HOME <i class="fas fa-plus text-xs" data-icon="plus"></i></a>
+        <a href="#" class="text-on-primary text-base font-medium hover:underline">ABOUT US</a>
+        <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">SERVICES <i class="fas fa-plus text-xs" data-icon="plus"></i></a>
+        <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">PAGES <i class="fas fa-plus text-xs" data-icon="plus"></i></a>
+        <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">BLOGS <i class="fas fa-plus text-xs" data-icon="plus"></i></a>
+        <a href="#" class="text-on-primary text-base font-medium hover:underline">CONTACT US</a>
+      </nav>
+      <!-- Icons -->
+      <div class="flex items-center space-x-4 ml-4">
+        <button class="w-10 h-10 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+          <i class="fas fa-search text-on-primary text-lg" data-icon="search"></i>
+        </button>
+        <button class="w-10 h-10 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 lg:hidden" aria-label="Open menu">
+          <i class="fas fa-bars text-on-primary text-lg" data-icon="bars"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Blue curve left corner -->
+    <div class="absolute top-0 left-0 w-[320px] h-[120px] bg-[#1693f7] rounded-br-[80px] z-0" style="clip-path: ellipse(60% 100% at 0% 0%);"></div>
+    <!-- White overlay for logo background -->
+    <div class="absolute top-0 left-0 w-[320px] h-[120px] bg-white rounded-br-[80px] z-10" style="clip-path: ellipse(60% 100% at 0% 0%);"></div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section relative bg-background pt-0 pb-0 min-h-[650px] flex items-stretch overflow-hidden">
+    <div class="container mx-auto px-4 max-w-7xl flex flex-col lg:flex-row items-stretch relative z-10">
+      <!-- Left: Text Content -->
+      <div class="w-full lg:w-1/2 flex flex-col justify-center py-20 lg:py-32 pr-0 lg:pr-12">
+        <span class="text-[1.15rem] font-semibold tracking-wide text-primary-light uppercase mb-2 flex items-center gap-2">
+          POOL DECK RESURFACING
+          <span class="block w-12 h-1 bg-primary-light rounded ml-2"></span>
+        </span>
+        <h1 class="text-[2.8rem] md:text-[3.2rem] lg:text-[3.5rem] font-extrabold text-text leading-tight mb-4">
+          Making Waves in<br>Pool Excellence
+        </h1>
+        <p class="text-lg text-text-muted mb-8 max-w-xl">
+          Regular pool cleaning is recommended at least once a week to maintain water clarity and hygiene.
+        </p>
+        <div class="flex flex-row items-center gap-6 mt-2">
+          <a href="#" class="bg-[#1693f7] hover:bg-[#0c7e5a] text-on-primary text-lg font-semibold px-8 py-3 rounded-lg shadow transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            DISCOVER MORE
+          </a>
+          <a href="#" class="bg-transparent border-2 border-[#1693f7] text-[#1693f7] hover:bg-[#1693f7] hover:text-on-primary text-lg font-semibold px-8 py-3 rounded-lg transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            CONTACT US
+          </a>
+        </div>
+      </div>
+      <!-- Right: Hero Image with Diagonal -->
+      <div class="hidden lg:block w-full lg:w-1/2 relative">
+        <div class="absolute inset-0 hero-diagonal bg-[#1693f7] opacity-100 z-0"></div>
+        <div class="absolute inset-0 hero-image-diagonal z-10">
+          <img src="https://placehold.co/800x1000" alt="Smiling pool cleaner using a pool net by a luxury pool with wooden lounge chairs and villa background" class="w-full h-full object-cover object-center"/>
+        </div>
+      </div>
+    </div>
+    <!-- On mobile, show image below text -->
+    <div class="block lg:hidden w-full mt-8 px-4">
+      <img src="https://placehold.co/800x600" alt="Smiling pool cleaner using a pool net by a luxury pool with wooden lounge chairs and villa background" class="w-full rounded-lg object-cover object-center"/>
+    </div>
+    <!-- Decorative blue diagonal overlay (top right) -->
+    <div class="hidden lg:block absolute top-0 right-0 w-[60vw] h-full z-0 pointer-events-none" style="clip-path: polygon(60% 0, 100% 0, 100% 100%, 0 100%); background: linear-gradient(120deg, #1693f7 80%, #ffffff00 100%);"></div>
+    <!-- Decorative teal diagonal overlay (bottom left) -->
+    <div class="hidden lg:block absolute bottom-0 left-0 w-[40vw] h-[120px] z-0 pointer-events-none" style="clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%); background: linear-gradient(90deg, #3ad69e 60%, #ffffff00 100%);"></div>
+  </section>
+
+</body>
+</html>

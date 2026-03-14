@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+      .vertical-divider {
+        background: repeating-linear-gradient(
+          to bottom,
+          #eaf2fa 0px,
+          #eaf2fa 40px,
+          #f7fafc 40px,
+          #f7fafc 80px
+        );
+        opacity: 0.7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <section class="columns-section py-0 bg-background min-h-screen flex items-start">
+      <div class="container mx-auto px-0 max-w-full flex flex-row h-[250px]">
+        <!-- Column 1 -->
+        <div class="flex-1 relative bg-surface"></div>
+        <!-- Divider 1 -->
+        <div class="w-[32px] h-full vertical-divider"></div>
+        <!-- Column 2 -->
+        <div class="flex-1 relative bg-surface"></div>
+        <!-- Divider 2 -->
+        <div class="w-[32px] h-full vertical-divider"></div>
+        <!-- Column 3 -->
+        <div class="flex-1 relative bg-surface"></div>
+      </div>
+    </section>
+  </body>
+</html>

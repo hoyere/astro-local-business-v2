@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <section class="team-hero-section py-16 md:py-24 bg-background relative overflow-hidden">
+      <div class="container mx-auto px-4 max-w-4xl flex flex-col items-center relative z-10">
+        <div class="w-full flex flex-col items-center">
+          <div class="flex items-center mb-3">
+            <span class="block h-0.5 w-16 bg-primary-light mr-4"></span>
+            <span class="text-primary text-lg font-medium">Team Members</span>
+            <span class="block h-0.5 w-16 bg-primary-light ml-4"></span>
+          </div>
+          <h1 class="text-4xl md:text-5xl font-extrabold text-text text-center mt-2">Our Professional Expert</h1>
+        </div>
+      </div>
+      <img src="https://placehold.co/180x180?text=Illustration" alt="Cartoon illustration of a person holding a net, positioned at the bottom left" class="absolute left-0 bottom-0 w-48 md:w-56 lg:w-64 select-none pointer-events-none" style="min-width:180px;min-height:180px;">
+    </section>
+  </body>
+</html>

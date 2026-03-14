@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+      .pool-bg {
+        background-color: #f5fbf8;
+        background-image: url('data:image/svg+xml;utf8,<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.15"><path d="M100 100 Q 120 80 140 100 T 180 100 T 220 100 T 260 100 T 300 100 T 340 100 T 380 100 T 420 100 T 460 100 T 500 100 T 540 100 T 580 100 T 620 100 T 660 100 T 700 100 T 740 100" stroke="%2302a26a" stroke-width="8" fill="none"/><ellipse cx="200" cy="60" rx="60" ry="30" fill="%2302a26a"/><ellipse cx="600" cy="140" rx="80" ry="40" fill="%2302a26a"/><ellipse cx="400" cy="100" rx="100" ry="50" fill="%2302a26a"/></g></svg>');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <section class="services-section pool-bg py-16 md:py-20">
+      <div class="container mx-auto px-4 max-w-4xl text-center">
+        <div class="flex items-center justify-center mb-4">
+          <span class="hidden sm:inline-block h-0.5 w-16 bg-primary mr-4 align-middle"></span>
+          <span class="text-base md:text-lg font-medium text-[#2196f3]">Our Best Services</span>
+          <span class="hidden sm:inline-block h-0.5 w-16 bg-primary ml-4 align-middle"></span>
+        </div>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-text mt-2">Our Best Pool Services For You!</h2>
+      </div>
+    </section>
+  </body>
+</html>

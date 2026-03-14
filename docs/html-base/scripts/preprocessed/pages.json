@@ -1,0 +1,2870 @@
+{
+  "01-home-pool-maintaining-services": [
+    {
+      "position": 1,
+      "file": "001-01-home-pool-maintaining-services-p01-s000pct-l001pct.html",
+      "component": "pattern-001",
+      "index": 1
+    },
+    {
+      "position": 2,
+      "file": "002-01-home-pool-maintaining-services-p02-s001pct-l001pct.html",
+      "component": "pattern-002",
+      "index": 2
+    },
+    {
+      "position": 3,
+      "file": "003-01-home-pool-maintaining-services-p03-s001pct-l010pct.html",
+      "component": "pattern-003",
+      "index": 3
+    },
+    {
+      "position": 4,
+      "file": "004-01-home-pool-maintaining-services-p04-s011pct-l002pct.html",
+      "component": "pattern-004",
+      "index": 4
+    },
+    {
+      "position": 5,
+      "file": "005-01-home-pool-maintaining-services-p05-s013pct-l017pct.html",
+      "component": "pattern-005",
+      "index": 5
+    },
+    {
+      "position": 6,
+      "file": "006-01-home-pool-maintaining-services-p06-s030pct-l002pct.html",
+      "component": "pattern-006",
+      "index": 6
+    },
+    {
+      "position": 7,
+      "file": "007-01-home-pool-maintaining-services-p07-s032pct-l003pct.html",
+      "component": "pattern-007",
+      "index": 7
+    },
+    {
+      "position": 8,
+      "file": "008-01-home-pool-maintaining-services-p08-s035pct-l002pct.html",
+      "component": "pattern-008",
+      "index": 8
+    },
+    {
+      "position": 9,
+      "file": "009-01-home-pool-maintaining-services-p09-s037pct-l016pct.html",
+      "component": "pattern-009",
+      "index": 9
+    },
+    {
+      "position": 10,
+      "file": "010-01-home-pool-maintaining-services-p10-s053pct-l008pct.html",
+      "component": "pattern-010",
+      "index": 10
+    },
+    {
+      "position": 11,
+      "file": "011-01-home-pool-maintaining-services-p11-s061pct-l012pct.html",
+      "component": "pattern-011",
+      "index": 11
+    },
+    {
+      "position": 12,
+      "file": "012-01-home-pool-maintaining-services-p12-s073pct-l003pct.html",
+      "component": "pattern-012",
+      "index": 12
+    },
+    {
+      "position": 13,
+      "file": "013-01-home-pool-maintaining-services-p13-s076pct-l011pct.html",
+      "component": "pattern-013",
+      "index": 13
+    },
+    {
+      "position": 14,
+      "file": "014-01-home-pool-maintaining-services-p14-s087pct-l002pct.html",
+      "component": "pattern-014",
+      "index": 14
+    },
+    {
+      "position": 15,
+      "file": "015-01-home-pool-maintaining-services-p15-s089pct-l001pct.html",
+      "component": "pattern-015",
+      "index": 15
+    },
+    {
+      "position": 16,
+      "file": "016-01-home-pool-maintaining-services-p16-s090pct-l001pct.html",
+      "component": "pattern-016",
+      "index": 16
+    },
+    {
+      "position": 17,
+      "file": "017-01-home-pool-maintaining-services-p17-s091pct-l002pct.html",
+      "component": "pattern-017",
+      "index": 17
+    },
+    {
+      "position": 18,
+      "file": "018-01-home-pool-maintaining-services-p18-s093pct-l001pct.html",
+      "component": "pattern-018",
+      "index": 18
+    },
+    {
+      "position": 19,
+      "file": "019-01-home-pool-maintaining-services-p19-s094pct-l006pct.html",
+      "component": "pattern-019",
+      "index": 19
+    }
+  ],
+  "02-home-water-analysis": [
+    {
+      "position": 1,
+      "file": "020-02-home-water-analysis-p01-s000pct-l001pct.html",
+      "component": "pattern-020",
+      "index": 20
+    },
+    {
+      "position": 2,
+      "file": "021-02-home-water-analysis-p02-s001pct-l009pct.html",
+      "component": "pattern-021",
+      "index": 21
+    },
+    {
+      "position": 3,
+      "file": "022-02-home-water-analysis-p03-s010pct-l006pct.html",
+      "component": "pattern-022",
+      "index": 22
+    },
+    {
+      "position": 4,
+      "file": "023-02-home-water-analysis-p04-s016pct-l007pct.html",
+      "component": "pattern-023",
+      "index": 23
+    },
+    {
+      "position": 5,
+      "file": "024-02-home-water-analysis-p05-s023pct-l001pct.html",
+      "component": "pattern-024",
+      "index": 24
+    },
+    {
+      "position": 6,
+      "file": "025-02-home-water-analysis-p06-s023pct-l002pct.html",
+      "component": "pattern-025",
+      "index": 25
+    },
+    {
+      "position": 7,
+      "file": "026-02-home-water-analysis-p07-s026pct-l005pct.html",
+      "component": "pattern-026",
+      "index": 26
+    },
+    {
+      "position": 8,
+      "file": "027-02-home-water-analysis-p08-s031pct-l004pct.html",
+      "component": "pattern-027",
+      "index": 27
+    },
+    {
+      "position": 9,
+      "file": "028-02-home-water-analysis-p09-s035pct-l002pct.html",
+      "component": "pattern-028",
+      "index": 28
+    },
+    {
+      "position": 10,
+      "file": "029-02-home-water-analysis-p10-s037pct-l063pct.html",
+      "component": "pattern-029",
+      "index": 29
+    }
+  ],
+  "02-jan-2024": [
+    {
+      "position": 1,
+      "file": "030-02-jan-2024-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 30
+    },
+    {
+      "position": 1,
+      "file": "031-02-jan-2024-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 31
+    },
+    {
+      "position": 2,
+      "file": "032-02-jan-2024-p02-s001pct-l013pct.html",
+      "component": "pattern-031",
+      "index": 32
+    },
+    {
+      "position": 2,
+      "file": "033-02-jan-2024-p02-s001pct-l014pct.html",
+      "component": "pattern-032",
+      "index": 33
+    },
+    {
+      "position": 3,
+      "file": "034-02-jan-2024-p03-s014pct-l084pct.html",
+      "component": "pattern-033",
+      "index": 34
+    },
+    {
+      "position": 3,
+      "file": "035-02-jan-2024-p03-s015pct-l084pct.html",
+      "component": "pattern-034",
+      "index": 35
+    },
+    {
+      "position": 4,
+      "file": "036-02-jan-2024-p04-s098pct-l002pct.html",
+      "component": "pattern-035",
+      "index": 36
+    },
+    {
+      "position": 4,
+      "file": "037-02-jan-2024-p04-s099pct-l001pct.html",
+      "component": "pattern-036",
+      "index": 37
+    }
+  ],
+  "04-home-pool-cleaning-service": [
+    {
+      "position": 1,
+      "file": "038-04-home-pool-cleaning-service-p01-s000pct-l001pct.html",
+      "component": "pattern-037",
+      "index": 38
+    },
+    {
+      "position": 2,
+      "file": "039-04-home-pool-cleaning-service-p02-s001pct-l001pct.html",
+      "component": "pattern-038",
+      "index": 39
+    },
+    {
+      "position": 3,
+      "file": "040-04-home-pool-cleaning-service-p03-s002pct-l028pct.html",
+      "component": "pattern-039",
+      "index": 40
+    },
+    {
+      "position": 4,
+      "file": "041-04-home-pool-cleaning-service-p04-s030pct-l003pct.html",
+      "component": "pattern-040",
+      "index": 41
+    },
+    {
+      "position": 5,
+      "file": "042-04-home-pool-cleaning-service-p05-s033pct-l002pct.html",
+      "component": "pattern-041",
+      "index": 42
+    },
+    {
+      "position": 6,
+      "file": "043-04-home-pool-cleaning-service-p06-s035pct-l002pct.html",
+      "component": "pattern-042",
+      "index": 43
+    },
+    {
+      "position": 7,
+      "file": "044-04-home-pool-cleaning-service-p07-s037pct-l011pct.html",
+      "component": "pattern-043",
+      "index": 44
+    },
+    {
+      "position": 8,
+      "file": "045-04-home-pool-cleaning-service-p08-s048pct-l047pct.html",
+      "component": "pattern-044",
+      "index": 45
+    },
+    {
+      "position": 9,
+      "file": "046-04-home-pool-cleaning-service-p09-s095pct-l003pct.html",
+      "component": "pattern-045",
+      "index": 46
+    },
+    {
+      "position": 10,
+      "file": "047-04-home-pool-cleaning-service-p10-s098pct-l002pct.html",
+      "component": "pattern-046",
+      "index": 47
+    }
+  ],
+  "05-home-pool-inspection": [
+    {
+      "position": 1,
+      "file": "048-05-home-pool-inspection-p01-s000pct-l001pct.html",
+      "component": "pattern-047",
+      "index": 48
+    },
+    {
+      "position": 2,
+      "file": "049-05-home-pool-inspection-p02-s001pct-l001pct.html",
+      "component": "pattern-048",
+      "index": 49
+    },
+    {
+      "position": 3,
+      "file": "050-05-home-pool-inspection-p03-s002pct-l008pct.html",
+      "component": "pattern-049",
+      "index": 50
+    },
+    {
+      "position": 4,
+      "file": "051-05-home-pool-inspection-p04-s011pct-l024pct.html",
+      "component": "pattern-050",
+      "index": 51
+    },
+    {
+      "position": 5,
+      "file": "052-05-home-pool-inspection-p05-s035pct-l007pct.html",
+      "component": "pattern-051",
+      "index": 52
+    },
+    {
+      "position": 6,
+      "file": "053-05-home-pool-inspection-p06-s042pct-l018pct.html",
+      "component": "pattern-052",
+      "index": 53
+    },
+    {
+      "position": 7,
+      "file": "054-05-home-pool-inspection-p07-s060pct-l003pct.html",
+      "component": "pattern-053",
+      "index": 54
+    },
+    {
+      "position": 8,
+      "file": "055-05-home-pool-inspection-p08-s063pct-l037pct.html",
+      "component": "pattern-054",
+      "index": 55
+    }
+  ],
+  "08-home-pool-education-and-training": [
+    {
+      "position": 1,
+      "file": "056-08-home-pool-education-and-training-p01-s000pct-l001pct.html",
+      "component": "pattern-055",
+      "index": 56
+    },
+    {
+      "position": 2,
+      "file": "057-08-home-pool-education-and-training-p02-s001pct-l010pct.html",
+      "component": "pattern-056",
+      "index": 57
+    },
+    {
+      "position": 3,
+      "file": "058-08-home-pool-education-and-training-p03-s011pct-l002pct.html",
+      "component": "pattern-057",
+      "index": 58
+    },
+    {
+      "position": 4,
+      "file": "059-08-home-pool-education-and-training-p04-s013pct-l001pct.html",
+      "component": "pattern-058",
+      "index": 59
+    },
+    {
+      "position": 5,
+      "file": "060-08-home-pool-education-and-training-p05-s014pct-l021pct.html",
+      "component": "pattern-059",
+      "index": 60
+    },
+    {
+      "position": 6,
+      "file": "061-08-home-pool-education-and-training-p06-s035pct-l003pct.html",
+      "component": "pattern-060",
+      "index": 61
+    },
+    {
+      "position": 7,
+      "file": "062-08-home-pool-education-and-training-p07-s038pct-l002pct.html",
+      "component": "pattern-061",
+      "index": 62
+    },
+    {
+      "position": 8,
+      "file": "063-08-home-pool-education-and-training-p08-s040pct-l011pct.html",
+      "component": "pattern-062",
+      "index": 63
+    },
+    {
+      "position": 9,
+      "file": "064-08-home-pool-education-and-training-p09-s051pct-l010pct.html",
+      "component": "pattern-063",
+      "index": 64
+    },
+    {
+      "position": 10,
+      "file": "065-08-home-pool-education-and-training-p10-s061pct-l019pct.html",
+      "component": "pattern-064",
+      "index": 65
+    },
+    {
+      "position": 11,
+      "file": "066-08-home-pool-education-and-training-p11-s080pct-l002pct.html",
+      "component": "pattern-065",
+      "index": 66
+    },
+    {
+      "position": 12,
+      "file": "067-08-home-pool-education-and-training-p12-s082pct-l011pct.html",
+      "component": "pattern-066",
+      "index": 67
+    },
+    {
+      "position": 13,
+      "file": "068-08-home-pool-education-and-training-p13-s093pct-l003pct.html",
+      "component": "pattern-067",
+      "index": 68
+    },
+    {
+      "position": 14,
+      "file": "069-08-home-pool-education-and-training-p14-s096pct-l004pct.html",
+      "component": "pattern-068",
+      "index": 69
+    }
+  ],
+  "10-home-indoor-swimming-pool": [
+    {
+      "position": 1,
+      "file": "070-10-home-indoor-swimming-pool-p01-s000pct-l001pct.html",
+      "component": "pattern-069",
+      "index": 70
+    },
+    {
+      "position": 2,
+      "file": "071-10-home-indoor-swimming-pool-p02-s001pct-l001pct.html",
+      "component": "pattern-070",
+      "index": 71
+    },
+    {
+      "position": 3,
+      "file": "072-10-home-indoor-swimming-pool-p03-s002pct-l017pct.html",
+      "component": "pattern-071",
+      "index": 72
+    },
+    {
+      "position": 4,
+      "file": "073-10-home-indoor-swimming-pool-p04-s019pct-l014pct.html",
+      "component": "pattern-072",
+      "index": 73
+    },
+    {
+      "position": 5,
+      "file": "074-10-home-indoor-swimming-pool-p05-s033pct-l008pct.html",
+      "component": "pattern-073",
+      "index": 74
+    },
+    {
+      "position": 6,
+      "file": "075-10-home-indoor-swimming-pool-p06-s041pct-l003pct.html",
+      "component": "pattern-074",
+      "index": 75
+    },
+    {
+      "position": 7,
+      "file": "076-10-home-indoor-swimming-pool-p07-s044pct-l001pct.html",
+      "component": "pattern-075",
+      "index": 76
+    },
+    {
+      "position": 8,
+      "file": "077-10-home-indoor-swimming-pool-p08-s045pct-l003pct.html",
+      "component": "pattern-076",
+      "index": 77
+    },
+    {
+      "position": 9,
+      "file": "078-10-home-indoor-swimming-pool-p09-s048pct-l026pct.html",
+      "component": "pattern-077",
+      "index": 78
+    },
+    {
+      "position": 10,
+      "file": "079-10-home-indoor-swimming-pool-p10-s074pct-l003pct.html",
+      "component": "pattern-078",
+      "index": 79
+    },
+    {
+      "position": 11,
+      "file": "080-10-home-indoor-swimming-pool-p11-s077pct-l001pct.html",
+      "component": "pattern-079",
+      "index": 80
+    },
+    {
+      "position": 12,
+      "file": "081-10-home-indoor-swimming-pool-p12-s078pct-l001pct.html",
+      "component": "pattern-080",
+      "index": 81
+    },
+    {
+      "position": 13,
+      "file": "082-10-home-indoor-swimming-pool-p13-s078pct-l001pct.html",
+      "component": "pattern-081",
+      "index": 82
+    },
+    {
+      "position": 14,
+      "file": "083-10-home-indoor-swimming-pool-p14-s078pct-l001pct.html",
+      "component": "pattern-082",
+      "index": 83
+    },
+    {
+      "position": 15,
+      "file": "084-10-home-indoor-swimming-pool-p15-s079pct-l001pct.html",
+      "component": "pattern-083",
+      "index": 84
+    },
+    {
+      "position": 16,
+      "file": "085-10-home-indoor-swimming-pool-p16-s079pct-l001pct.html",
+      "component": "pattern-084",
+      "index": 85
+    },
+    {
+      "position": 17,
+      "file": "086-10-home-indoor-swimming-pool-p17-s079pct-l006pct.html",
+      "component": "pattern-085",
+      "index": 86
+    },
+    {
+      "position": 18,
+      "file": "087-10-home-indoor-swimming-pool-p18-s085pct-l003pct.html",
+      "component": "pattern-086",
+      "index": 87
+    },
+    {
+      "position": 19,
+      "file": "088-10-home-indoor-swimming-pool-p19-s088pct-l001pct.html",
+      "component": "pattern-087",
+      "index": 88
+    },
+    {
+      "position": 20,
+      "file": "089-10-home-indoor-swimming-pool-p20-s089pct-l001pct.html",
+      "component": "pattern-088",
+      "index": 89
+    },
+    {
+      "position": 21,
+      "file": "090-10-home-indoor-swimming-pool-p21-s090pct-l010pct.html",
+      "component": "pattern-089",
+      "index": 90
+    }
+  ],
+  "12-home-pool-safety-cleaning": [
+    {
+      "position": 1,
+      "file": "091-12-home-pool-safety-cleaning-p01-s000pct-l001pct.html",
+      "component": "pattern-090",
+      "index": 91
+    },
+    {
+      "position": 2,
+      "file": "092-12-home-pool-safety-cleaning-p02-s001pct-l009pct.html",
+      "component": "pattern-091",
+      "index": 92
+    },
+    {
+      "position": 3,
+      "file": "093-12-home-pool-safety-cleaning-p03-s010pct-l001pct.html",
+      "component": "pattern-092",
+      "index": 93
+    },
+    {
+      "position": 4,
+      "file": "094-12-home-pool-safety-cleaning-p04-s011pct-l001pct.html",
+      "component": "pattern-093",
+      "index": 94
+    },
+    {
+      "position": 5,
+      "file": "095-12-home-pool-safety-cleaning-p05-s012pct-l002pct.html",
+      "component": "pattern-094",
+      "index": 95
+    },
+    {
+      "position": 6,
+      "file": "096-12-home-pool-safety-cleaning-p06-s014pct-l037pct.html",
+      "component": "pattern-095",
+      "index": 96
+    },
+    {
+      "position": 7,
+      "file": "097-12-home-pool-safety-cleaning-p07-s051pct-l013pct.html",
+      "component": "pattern-096",
+      "index": 97
+    },
+    {
+      "position": 8,
+      "file": "098-12-home-pool-safety-cleaning-p08-s064pct-l021pct.html",
+      "component": "pattern-097",
+      "index": 98
+    },
+    {
+      "position": 9,
+      "file": "099-12-home-pool-safety-cleaning-p09-s085pct-l002pct.html",
+      "component": "pattern-098",
+      "index": 99
+    },
+    {
+      "position": 10,
+      "file": "100-12-home-pool-safety-cleaning-p10-s087pct-l004pct.html",
+      "component": "pattern-099",
+      "index": 100
+    },
+    {
+      "position": 11,
+      "file": "101-12-home-pool-safety-cleaning-p11-s092pct-l002pct.html",
+      "component": "pattern-100",
+      "index": 101
+    },
+    {
+      "position": 12,
+      "file": "102-12-home-pool-safety-cleaning-p12-s094pct-l006pct.html",
+      "component": "pattern-101",
+      "index": 102
+    }
+  ],
+  "13-home-pool-maintanance": [
+    {
+      "position": 1,
+      "file": "103-13-home-pool-maintanance-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 103
+    },
+    {
+      "position": 2,
+      "file": "104-13-home-pool-maintanance-p02-s001pct-l009pct.html",
+      "component": "pattern-103",
+      "index": 104
+    },
+    {
+      "position": 3,
+      "file": "105-13-home-pool-maintanance-p03-s010pct-l003pct.html",
+      "component": "pattern-104",
+      "index": 105
+    },
+    {
+      "position": 4,
+      "file": "106-13-home-pool-maintanance-p04-s013pct-l002pct.html",
+      "component": "pattern-105",
+      "index": 106
+    },
+    {
+      "position": 5,
+      "file": "107-13-home-pool-maintanance-p05-s015pct-l007pct.html",
+      "component": "pattern-106",
+      "index": 107
+    },
+    {
+      "position": 6,
+      "file": "108-13-home-pool-maintanance-p06-s022pct-l001pct.html",
+      "component": "pattern-107",
+      "index": 108
+    },
+    {
+      "position": 7,
+      "file": "109-13-home-pool-maintanance-p07-s023pct-l002pct.html",
+      "component": "pattern-108",
+      "index": 109
+    },
+    {
+      "position": 8,
+      "file": "110-13-home-pool-maintanance-p08-s025pct-l003pct.html",
+      "component": "pattern-109",
+      "index": 110
+    },
+    {
+      "position": 9,
+      "file": "111-13-home-pool-maintanance-p09-s028pct-l002pct.html",
+      "component": "pattern-110",
+      "index": 111
+    },
+    {
+      "position": 10,
+      "file": "112-13-home-pool-maintanance-p10-s030pct-l001pct.html",
+      "component": "pattern-111",
+      "index": 112
+    },
+    {
+      "position": 11,
+      "file": "113-13-home-pool-maintanance-p11-s031pct-l004pct.html",
+      "component": "pattern-112",
+      "index": 113
+    },
+    {
+      "position": 12,
+      "file": "114-13-home-pool-maintanance-p12-s035pct-l001pct.html",
+      "component": "pattern-113",
+      "index": 114
+    },
+    {
+      "position": 13,
+      "file": "115-13-home-pool-maintanance-p13-s036pct-l012pct.html",
+      "component": "pattern-114",
+      "index": 115
+    },
+    {
+      "position": 14,
+      "file": "116-13-home-pool-maintanance-p14-s048pct-l006pct.html",
+      "component": "pattern-115",
+      "index": 116
+    },
+    {
+      "position": 15,
+      "file": "117-13-home-pool-maintanance-p15-s054pct-l010pct.html",
+      "component": "pattern-116",
+      "index": 117
+    },
+    {
+      "position": 16,
+      "file": "118-13-home-pool-maintanance-p16-s064pct-l002pct.html",
+      "component": "pattern-117",
+      "index": 118
+    },
+    {
+      "position": 17,
+      "file": "119-13-home-pool-maintanance-p17-s066pct-l008pct.html",
+      "component": "pattern-118",
+      "index": 119
+    },
+    {
+      "position": 18,
+      "file": "120-13-home-pool-maintanance-p18-s074pct-l008pct.html",
+      "component": "pattern-119",
+      "index": 120
+    },
+    {
+      "position": 19,
+      "file": "121-13-home-pool-maintanance-p19-s082pct-l009pct.html",
+      "component": "pattern-120",
+      "index": 121
+    },
+    {
+      "position": 20,
+      "file": "122-13-home-pool-maintanance-p20-s092pct-l001pct.html",
+      "component": "pattern-121",
+      "index": 122
+    },
+    {
+      "position": 21,
+      "file": "123-13-home-pool-maintanance-p21-s093pct-l007pct.html",
+      "component": "pattern-122",
+      "index": 123
+    }
+  ],
+  "about-us": [
+    {
+      "position": 1,
+      "file": "124-about-us-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 124
+    },
+    {
+      "position": 2,
+      "file": "125-about-us-p02-s001pct-l010pct.html",
+      "component": "pattern-123",
+      "index": 125
+    },
+    {
+      "position": 3,
+      "file": "126-about-us-p03-s011pct-l039pct.html",
+      "component": "pattern-124",
+      "index": 126
+    },
+    {
+      "position": 4,
+      "file": "127-about-us-p04-s050pct-l006pct.html",
+      "component": "pattern-125",
+      "index": 127
+    },
+    {
+      "position": 5,
+      "file": "128-about-us-p05-s056pct-l043pct.html",
+      "component": "pattern-126",
+      "index": 128
+    },
+    {
+      "position": 6,
+      "file": "129-about-us-p06-s099pct-l001pct.html",
+      "component": "pattern-127",
+      "index": 129
+    }
+  ],
+  "blog-details": [
+    {
+      "position": 1,
+      "file": "130-blog-details-p01-s000pct-l001pct.html",
+      "component": "pattern-128",
+      "index": 130
+    },
+    {
+      "position": 2,
+      "file": "131-blog-details-p02-s001pct-l013pct.html",
+      "component": "pattern-129",
+      "index": 131
+    },
+    {
+      "position": 3,
+      "file": "132-blog-details-p03-s014pct-l084pct.html",
+      "component": "pattern-130",
+      "index": 132
+    },
+    {
+      "position": 4,
+      "file": "133-blog-details-p04-s098pct-l002pct.html",
+      "component": "pattern-131",
+      "index": 133
+    }
+  ],
+  "blog": [
+    {
+      "position": 1,
+      "file": "134-blog-p01-s000pct-l001pct.html",
+      "component": "pattern-132",
+      "index": 134
+    },
+    {
+      "position": 2,
+      "file": "135-blog-p02-s001pct-l011pct.html",
+      "component": "pattern-133",
+      "index": 135
+    },
+    {
+      "position": 3,
+      "file": "136-blog-p03-s012pct-l088pct.html",
+      "component": "pattern-134",
+      "index": 136
+    },
+    {
+      "position": 4,
+      "file": "137-blog-p04-s100pct-l001pct.html",
+      "component": "pattern-042",
+      "index": 137
+    }
+  ],
+  "blog-s-1-4-70x70": [
+    {
+      "position": 1,
+      "file": "138-blog-s-1-4-70x70-p01-s000pct-l001pct.html",
+      "component": "pattern-132",
+      "index": 138
+    },
+    {
+      "position": 2,
+      "file": "139-blog-s-1-4-70x70-p02-s001pct-l013pct.html",
+      "component": "pattern-135",
+      "index": 139
+    },
+    {
+      "position": 3,
+      "file": "140-blog-s-1-4-70x70-p03-s014pct-l084pct.html",
+      "component": "pattern-136",
+      "index": 140
+    },
+    {
+      "position": 4,
+      "file": "141-blog-s-1-4-70x70-p04-s098pct-l002pct.html",
+      "component": "pattern-137",
+      "index": 141
+    }
+  ],
+  "blog-s-1-5-70x70": [
+    {
+      "position": 1,
+      "file": "142-blog-s-1-5-70x70-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 142
+    },
+    {
+      "position": 2,
+      "file": "143-blog-s-1-5-70x70-p02-s001pct-l014pct.html",
+      "component": "pattern-138",
+      "index": 143
+    },
+    {
+      "position": 3,
+      "file": "144-blog-s-1-5-70x70-p03-s015pct-l084pct.html",
+      "component": "pattern-139",
+      "index": 144
+    },
+    {
+      "position": 4,
+      "file": "145-blog-s-1-5-70x70-p04-s099pct-l001pct.html",
+      "component": "pattern-140",
+      "index": 145
+    }
+  ],
+  "by-poolax": [
+    {
+      "position": 1,
+      "file": "146-by-poolax-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 146
+    },
+    {
+      "position": 2,
+      "file": "147-by-poolax-p02-s001pct-l011pct.html",
+      "component": "pattern-141",
+      "index": 147
+    },
+    {
+      "position": 3,
+      "file": "148-by-poolax-p03-s012pct-l088pct.html",
+      "component": "pattern-142",
+      "index": 148
+    },
+    {
+      "position": 4,
+      "file": "149-by-poolax-p04-s100pct-l001pct.html",
+      "component": "pattern-143",
+      "index": 149
+    }
+  ],
+  "class-details": [
+    {
+      "position": 1,
+      "file": "150-class-details-p01-s000pct-l002pct.html",
+      "component": "pattern-128",
+      "index": 150
+    },
+    {
+      "position": 2,
+      "file": "151-class-details-p02-s002pct-l017pct.html",
+      "component": "pattern-144",
+      "index": 151
+    },
+    {
+      "position": 3,
+      "file": "152-class-details-p03-s019pct-l079pct.html",
+      "component": "pattern-145",
+      "index": 152
+    },
+    {
+      "position": 4,
+      "file": "153-class-details-p04-s098pct-l002pct.html",
+      "component": "pattern-146",
+      "index": 153
+    }
+  ],
+  "cleaner": [
+    {
+      "position": 1,
+      "file": "154-cleaner-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 154
+    },
+    {
+      "position": 2,
+      "file": "155-cleaner-p02-s001pct-l015pct.html",
+      "component": "pattern-147",
+      "index": 155
+    },
+    {
+      "position": 3,
+      "file": "156-cleaner-p03-s016pct-l082pct.html",
+      "component": "pattern-148",
+      "index": 156
+    },
+    {
+      "position": 4,
+      "file": "157-cleaner-p04-s098pct-l002pct.html",
+      "component": "pattern-149",
+      "index": 157
+    }
+  ],
+  "commercial-pool": [
+    {
+      "position": 1,
+      "file": "158-commercial-pool-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 158
+    },
+    {
+      "position": 2,
+      "file": "159-commercial-pool-p02-s001pct-l013pct.html",
+      "component": "pattern-150",
+      "index": 159
+    },
+    {
+      "position": 3,
+      "file": "160-commercial-pool-p03-s014pct-l084pct.html",
+      "component": "pattern-151",
+      "index": 160
+    },
+    {
+      "position": 4,
+      "file": "161-commercial-pool-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 161
+    }
+  ],
+  "contact-us": [
+    {
+      "position": 1,
+      "file": "162-contact-us-p01-s000pct-l002pct.html",
+      "component": "pattern-102",
+      "index": 162
+    },
+    {
+      "position": 2,
+      "file": "163-contact-us-p02-s002pct-l019pct.html",
+      "component": "pattern-152",
+      "index": 163
+    },
+    {
+      "position": 3,
+      "file": "164-contact-us-p03-s021pct-l076pct.html",
+      "component": "pattern-153",
+      "index": 164
+    },
+    {
+      "position": 4,
+      "file": "165-contact-us-p04-s097pct-l003pct.html",
+      "component": "pattern-127",
+      "index": 165
+    }
+  ],
+  "discover-more": [
+    {
+      "position": 1,
+      "file": "166-discover-more-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 166
+    },
+    {
+      "position": 2,
+      "file": "167-discover-more-p02-s001pct-l013pct.html",
+      "component": "pattern-154",
+      "index": 167
+    },
+    {
+      "position": 3,
+      "file": "168-discover-more-p03-s014pct-l033pct.html",
+      "component": "pattern-155",
+      "index": 168
+    },
+    {
+      "position": 4,
+      "file": "169-discover-more-p04-s047pct-l009pct.html",
+      "component": "pattern-156",
+      "index": 169
+    },
+    {
+      "position": 5,
+      "file": "170-discover-more-p05-s057pct-l041pct.html",
+      "component": "pattern-157",
+      "index": 170
+    },
+    {
+      "position": 6,
+      "file": "171-discover-more-p06-s098pct-l002pct.html",
+      "component": "pattern-158",
+      "index": 171
+    }
+  ],
+  "drain-clean": [
+    {
+      "position": 1,
+      "file": "172-drain-clean-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 172
+    },
+    {
+      "position": 2,
+      "file": "173-drain-clean-p02-s001pct-l015pct.html",
+      "component": "pattern-159",
+      "index": 173
+    },
+    {
+      "position": 3,
+      "file": "174-drain-clean-p03-s016pct-l082pct.html",
+      "component": "pattern-160",
+      "index": 174
+    },
+    {
+      "position": 4,
+      "file": "175-drain-clean-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 175
+    }
+  ],
+  "equipment-install": [
+    {
+      "position": 1,
+      "file": "176-equipment-install-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 176
+    },
+    {
+      "position": 1,
+      "file": "177-equipment-install-p01-s000pct-l002pct.html",
+      "component": "pattern-128",
+      "index": 177
+    },
+    {
+      "position": 2,
+      "file": "178-equipment-install-p02-s001pct-l013pct.html",
+      "component": "pattern-161",
+      "index": 178
+    },
+    {
+      "position": 2,
+      "file": "179-equipment-install-p02-s002pct-l015pct.html",
+      "component": "pattern-162",
+      "index": 179
+    },
+    {
+      "position": 3,
+      "file": "180-equipment-install-p03-s014pct-l084pct.html",
+      "component": "pattern-163",
+      "index": 180
+    },
+    {
+      "position": 3,
+      "file": "181-equipment-install-p03-s017pct-l081pct.html",
+      "component": "pattern-164",
+      "index": 181
+    },
+    {
+      "position": 4,
+      "file": "182-equipment-install-p04-s098pct-l002pct.html",
+      "component": "pattern-165",
+      "index": 182
+    },
+    {
+      "position": 4,
+      "file": "183-equipment-install-p04-s098pct-l002pct.html",
+      "component": "pattern-165",
+      "index": 183
+    }
+  ],
+  "equipment-s": [
+    {
+      "position": 1,
+      "file": "184-equipment-s-p01-s000pct-l002pct.html",
+      "component": "pattern-132",
+      "index": 184
+    },
+    {
+      "position": 2,
+      "file": "185-equipment-s-p02-s002pct-l015pct.html",
+      "component": "pattern-166",
+      "index": 185
+    },
+    {
+      "position": 3,
+      "file": "186-equipment-s-p03-s017pct-l081pct.html",
+      "component": "pattern-167",
+      "index": 186
+    },
+    {
+      "position": 4,
+      "file": "187-equipment-s-p04-s098pct-l002pct.html",
+      "component": "pattern-168",
+      "index": 187
+    }
+  ],
+  "faq": [
+    {
+      "position": 1,
+      "file": "188-faq-p01-s000pct-l002pct.html",
+      "component": "pattern-102",
+      "index": 188
+    },
+    {
+      "position": 2,
+      "file": "189-faq-p02-s002pct-l017pct.html",
+      "component": "pattern-169",
+      "index": 189
+    },
+    {
+      "position": 3,
+      "file": "190-faq-p03-s019pct-l078pct.html",
+      "component": "pattern-170",
+      "index": 190
+    },
+    {
+      "position": 4,
+      "file": "191-faq-p04-s098pct-l002pct.html",
+      "component": "pattern-171",
+      "index": 191
+    }
+  ],
+  "gallery": [
+    {
+      "position": 1,
+      "file": "192-gallery-p01-s000pct-l001pct.html",
+      "component": "pattern-172",
+      "index": 192
+    },
+    {
+      "position": 2,
+      "file": "193-gallery-p02-s001pct-l010pct.html",
+      "component": "pattern-173",
+      "index": 193
+    },
+    {
+      "position": 3,
+      "file": "194-gallery-p03-s011pct-l002pct.html",
+      "component": "pattern-143",
+      "index": 194
+    },
+    {
+      "position": 4,
+      "file": "195-gallery-p04-s013pct-l035pct.html",
+      "component": "pattern-174",
+      "index": 195
+    },
+    {
+      "position": 5,
+      "file": "196-gallery-p05-s048pct-l001pct.html",
+      "component": "pattern-175",
+      "index": 196
+    },
+    {
+      "position": 6,
+      "file": "197-gallery-p06-s049pct-l001pct.html",
+      "component": "pattern-176",
+      "index": 197
+    },
+    {
+      "position": 7,
+      "file": "198-gallery-p07-s050pct-l020pct.html",
+      "component": "pattern-177",
+      "index": 198
+    },
+    {
+      "position": 8,
+      "file": "199-gallery-p08-s070pct-l029pct.html",
+      "component": "pattern-178",
+      "index": 199
+    },
+    {
+      "position": 9,
+      "file": "200-gallery-p09-s099pct-l001pct.html",
+      "component": "pattern-179",
+      "index": 200
+    }
+  ],
+  "how-to-revamp-your-pool-area-for": [
+    {
+      "position": 1,
+      "file": "201-how-to-revamp-your-pool-area-for-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 201
+    },
+    {
+      "position": 2,
+      "file": "202-how-to-revamp-your-pool-area-for-p02-s001pct-l013pct.html",
+      "component": "pattern-180",
+      "index": 202
+    },
+    {
+      "position": 3,
+      "file": "203-how-to-revamp-your-pool-area-for-p03-s014pct-l084pct.html",
+      "component": "pattern-181",
+      "index": 203
+    },
+    {
+      "position": 4,
+      "file": "204-how-to-revamp-your-pool-area-for-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 204
+    }
+  ],
+  "january-2-2024": [
+    {
+      "position": 1,
+      "file": "205-january-2-2024-p01-s000pct-l002pct.html",
+      "component": "pattern-132",
+      "index": 205
+    },
+    {
+      "position": 2,
+      "file": "206-january-2-2024-p02-s002pct-l017pct.html",
+      "component": "pattern-182",
+      "index": 206
+    },
+    {
+      "position": 3,
+      "file": "207-january-2-2024-p03-s019pct-l079pct.html",
+      "component": "pattern-183",
+      "index": 207
+    },
+    {
+      "position": 4,
+      "file": "208-january-2-2024-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 208
+    }
+  ],
+  "logo": [
+    {
+      "position": 1,
+      "file": "209-logo-p01-s000pct-l001pct.html",
+      "component": "pattern-184",
+      "index": 209
+    },
+    {
+      "position": 2,
+      "file": "210-logo-p02-s001pct-l001pct.html",
+      "component": "pattern-185",
+      "index": 210
+    },
+    {
+      "position": 3,
+      "file": "211-logo-p03-s001pct-l010pct.html",
+      "component": "pattern-186",
+      "index": 211
+    },
+    {
+      "position": 4,
+      "file": "212-logo-p04-s011pct-l002pct.html",
+      "component": "pattern-187",
+      "index": 212
+    },
+    {
+      "position": 5,
+      "file": "213-logo-p05-s013pct-l013pct.html",
+      "component": "pattern-188",
+      "index": 213
+    },
+    {
+      "position": 6,
+      "file": "214-logo-p06-s026pct-l001pct.html",
+      "component": "pattern-189",
+      "index": 214
+    },
+    {
+      "position": 7,
+      "file": "215-logo-p07-s027pct-l003pct.html",
+      "component": "pattern-190",
+      "index": 215
+    },
+    {
+      "position": 8,
+      "file": "216-logo-p08-s030pct-l002pct.html",
+      "component": "pattern-006",
+      "index": 216
+    },
+    {
+      "position": 9,
+      "file": "217-logo-p09-s032pct-l003pct.html",
+      "component": "pattern-191",
+      "index": 217
+    },
+    {
+      "position": 10,
+      "file": "218-logo-p10-s035pct-l002pct.html",
+      "component": "pattern-192",
+      "index": 218
+    },
+    {
+      "position": 11,
+      "file": "219-logo-p11-s037pct-l016pct.html",
+      "component": "pattern-193",
+      "index": 219
+    },
+    {
+      "position": 12,
+      "file": "220-logo-p12-s053pct-l008pct.html",
+      "component": "pattern-010",
+      "index": 220
+    },
+    {
+      "position": 13,
+      "file": "221-logo-p13-s061pct-l012pct.html",
+      "component": "pattern-194",
+      "index": 221
+    },
+    {
+      "position": 14,
+      "file": "222-logo-p14-s073pct-l003pct.html",
+      "component": "pattern-195",
+      "index": 222
+    },
+    {
+      "position": 15,
+      "file": "223-logo-p15-s076pct-l011pct.html",
+      "component": "pattern-196",
+      "index": 223
+    },
+    {
+      "position": 16,
+      "file": "224-logo-p16-s087pct-l002pct.html",
+      "component": "pattern-197",
+      "index": 224
+    },
+    {
+      "position": 17,
+      "file": "225-logo-p17-s089pct-l001pct.html",
+      "component": "pattern-198",
+      "index": 225
+    },
+    {
+      "position": 18,
+      "file": "226-logo-p18-s090pct-l001pct.html",
+      "component": "pattern-199",
+      "index": 226
+    },
+    {
+      "position": 19,
+      "file": "227-logo-p19-s090pct-l001pct.html",
+      "component": "pattern-200",
+      "index": 227
+    },
+    {
+      "position": 20,
+      "file": "228-logo-p20-s090pct-l001pct.html",
+      "component": "pattern-201",
+      "index": 228
+    },
+    {
+      "position": 21,
+      "file": "229-logo-p21-s090pct-l001pct.html",
+      "component": "pattern-202",
+      "index": 229
+    },
+    {
+      "position": 22,
+      "file": "230-logo-p22-s090pct-l001pct.html",
+      "component": "pattern-203",
+      "index": 230
+    },
+    {
+      "position": 23,
+      "file": "231-logo-p23-s091pct-l002pct.html",
+      "component": "pattern-204",
+      "index": 231
+    },
+    {
+      "position": 24,
+      "file": "232-logo-p24-s093pct-l001pct.html",
+      "component": "pattern-205",
+      "index": 232
+    },
+    {
+      "position": 25,
+      "file": "233-logo-p25-s094pct-l006pct.html",
+      "component": "pattern-206",
+      "index": 233
+    }
+  ],
+  "logo3": [
+    {
+      "position": 1,
+      "file": "234-logo3-p01-s000pct-l001pct.html",
+      "component": "pattern-207",
+      "index": 234
+    },
+    {
+      "position": 2,
+      "file": "235-logo3-p02-s001pct-l001pct.html",
+      "component": "pattern-185",
+      "index": 235
+    },
+    {
+      "position": 3,
+      "file": "236-logo3-p03-s001pct-l010pct.html",
+      "component": "pattern-208",
+      "index": 236
+    },
+    {
+      "position": 4,
+      "file": "237-logo3-p04-s011pct-l002pct.html",
+      "component": "pattern-209",
+      "index": 237
+    },
+    {
+      "position": 5,
+      "file": "238-logo3-p05-s013pct-l019pct.html",
+      "component": "pattern-210",
+      "index": 238
+    },
+    {
+      "position": 6,
+      "file": "239-logo3-p06-s032pct-l003pct.html",
+      "component": "pattern-211",
+      "index": 239
+    },
+    {
+      "position": 7,
+      "file": "240-logo3-p07-s035pct-l002pct.html",
+      "component": "pattern-192",
+      "index": 240
+    },
+    {
+      "position": 8,
+      "file": "241-logo3-p08-s037pct-l016pct.html",
+      "component": "pattern-212",
+      "index": 241
+    },
+    {
+      "position": 9,
+      "file": "242-logo3-p09-s053pct-l008pct.html",
+      "component": "pattern-213",
+      "index": 242
+    },
+    {
+      "position": 10,
+      "file": "243-logo3-p10-s061pct-l012pct.html",
+      "component": "pattern-214",
+      "index": 243
+    },
+    {
+      "position": 11,
+      "file": "244-logo3-p11-s073pct-l003pct.html",
+      "component": "pattern-215",
+      "index": 244
+    },
+    {
+      "position": 12,
+      "file": "245-logo3-p12-s076pct-l011pct.html",
+      "component": "pattern-216",
+      "index": 245
+    },
+    {
+      "position": 13,
+      "file": "246-logo3-p13-s087pct-l002pct.html",
+      "component": "pattern-217",
+      "index": 246
+    },
+    {
+      "position": 14,
+      "file": "247-logo3-p14-s089pct-l004pct.html",
+      "component": "pattern-218",
+      "index": 247
+    },
+    {
+      "position": 15,
+      "file": "248-logo3-p15-s093pct-l001pct.html",
+      "component": "pattern-219",
+      "index": 248
+    },
+    {
+      "position": 16,
+      "file": "249-logo3-p16-s094pct-l006pct.html",
+      "component": "pattern-220",
+      "index": 249
+    }
+  ],
+  "maintenance": [
+    {
+      "position": 1,
+      "file": "250-maintenance-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 250
+    },
+    {
+      "position": 2,
+      "file": "251-maintenance-p02-s001pct-l014pct.html",
+      "component": "pattern-221",
+      "index": 251
+    },
+    {
+      "position": 3,
+      "file": "252-maintenance-p03-s015pct-l083pct.html",
+      "component": "pattern-222",
+      "index": 252
+    },
+    {
+      "position": 4,
+      "file": "253-maintenance-p04-s098pct-l002pct.html",
+      "component": "pattern-223",
+      "index": 253
+    }
+  ],
+  "multipage": [
+    {
+      "position": 1,
+      "file": "254-multipage-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 254
+    },
+    {
+      "position": 2,
+      "file": "255-multipage-p02-s001pct-l009pct.html",
+      "component": "pattern-224",
+      "index": 255
+    },
+    {
+      "position": 3,
+      "file": "256-multipage-p03-s010pct-l003pct.html",
+      "component": "pattern-225",
+      "index": 256
+    },
+    {
+      "position": 4,
+      "file": "257-multipage-p04-s013pct-l002pct.html",
+      "component": "pattern-226",
+      "index": 257
+    },
+    {
+      "position": 5,
+      "file": "258-multipage-p05-s015pct-l007pct.html",
+      "component": "pattern-227",
+      "index": 258
+    },
+    {
+      "position": 6,
+      "file": "259-multipage-p06-s022pct-l001pct.html",
+      "component": "pattern-228",
+      "index": 259
+    },
+    {
+      "position": 7,
+      "file": "260-multipage-p07-s023pct-l002pct.html",
+      "component": "pattern-229",
+      "index": 260
+    },
+    {
+      "position": 8,
+      "file": "261-multipage-p08-s025pct-l003pct.html",
+      "component": "pattern-230",
+      "index": 261
+    },
+    {
+      "position": 9,
+      "file": "262-multipage-p09-s028pct-l003pct.html",
+      "component": "pattern-231",
+      "index": 262
+    },
+    {
+      "position": 10,
+      "file": "263-multipage-p10-s031pct-l004pct.html",
+      "component": "pattern-232",
+      "index": 263
+    },
+    {
+      "position": 11,
+      "file": "264-multipage-p11-s035pct-l001pct.html",
+      "component": "pattern-113",
+      "index": 264
+    },
+    {
+      "position": 12,
+      "file": "265-multipage-p12-s036pct-l012pct.html",
+      "component": "pattern-233",
+      "index": 265
+    },
+    {
+      "position": 13,
+      "file": "266-multipage-p13-s048pct-l006pct.html",
+      "component": "pattern-234",
+      "index": 266
+    },
+    {
+      "position": 14,
+      "file": "267-multipage-p14-s054pct-l010pct.html",
+      "component": "pattern-235",
+      "index": 267
+    },
+    {
+      "position": 15,
+      "file": "268-multipage-p15-s064pct-l002pct.html",
+      "component": "pattern-117",
+      "index": 268
+    },
+    {
+      "position": 16,
+      "file": "269-multipage-p16-s066pct-l008pct.html",
+      "component": "pattern-236",
+      "index": 269
+    },
+    {
+      "position": 17,
+      "file": "270-multipage-p17-s074pct-l008pct.html",
+      "component": "pattern-237",
+      "index": 270
+    },
+    {
+      "position": 18,
+      "file": "271-multipage-p18-s082pct-l003pct.html",
+      "component": "pattern-238",
+      "index": 271
+    },
+    {
+      "position": 19,
+      "file": "272-multipage-p19-s085pct-l005pct.html",
+      "component": "pattern-239",
+      "index": 272
+    },
+    {
+      "position": 20,
+      "file": "273-multipage-p20-s090pct-l001pct.html",
+      "component": "pattern-143",
+      "index": 273
+    },
+    {
+      "position": 21,
+      "file": "274-multipage-p21-s092pct-l001pct.html",
+      "component": "pattern-240",
+      "index": 274
+    },
+    {
+      "position": 22,
+      "file": "275-multipage-p22-s093pct-l007pct.html",
+      "component": "pattern-241",
+      "index": 275
+    }
+  ],
+  "november-5-2023": [
+    {
+      "position": 1,
+      "file": "276-november-5-2023-p01-s000pct-l002pct.html",
+      "component": "pattern-102",
+      "index": 276
+    },
+    {
+      "position": 2,
+      "file": "277-november-5-2023-p02-s002pct-l017pct.html",
+      "component": "pattern-242",
+      "index": 277
+    },
+    {
+      "position": 3,
+      "file": "278-november-5-2023-p03-s019pct-l079pct.html",
+      "component": "pattern-243",
+      "index": 278
+    },
+    {
+      "position": 4,
+      "file": "279-november-5-2023-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 279
+    }
+  ],
+  "october-2-2023": [
+    {
+      "position": 1,
+      "file": "280-october-2-2023-p01-s000pct-l002pct.html",
+      "component": "pattern-030",
+      "index": 280
+    },
+    {
+      "position": 2,
+      "file": "281-october-2-2023-p02-s002pct-l017pct.html",
+      "component": "pattern-244",
+      "index": 281
+    },
+    {
+      "position": 3,
+      "file": "282-october-2-2023-p03-s019pct-l079pct.html",
+      "component": "pattern-245",
+      "index": 282
+    },
+    {
+      "position": 4,
+      "file": "283-october-2-2023-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 283
+    }
+  ],
+  "onepage": [
+    {
+      "position": 1,
+      "file": "284-onepage-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 284
+    },
+    {
+      "position": 1,
+      "file": "285-onepage-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 285
+    },
+    {
+      "position": 1,
+      "file": "286-onepage-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 286
+    },
+    {
+      "position": 2,
+      "file": "287-onepage-p02-s001pct-l008pct.html",
+      "component": "pattern-246",
+      "index": 287
+    },
+    {
+      "position": 2,
+      "file": "288-onepage-p02-s001pct-l008pct.html",
+      "component": "pattern-246",
+      "index": 288
+    },
+    {
+      "position": 2,
+      "file": "289-onepage-p02-s001pct-l009pct.html",
+      "component": "pattern-247",
+      "index": 289
+    },
+    {
+      "position": 3,
+      "file": "290-onepage-p03-s009pct-l003pct.html",
+      "component": "pattern-104",
+      "index": 290
+    },
+    {
+      "position": 3,
+      "file": "291-onepage-p03-s009pct-l003pct.html",
+      "component": "pattern-104",
+      "index": 291
+    },
+    {
+      "position": 3,
+      "file": "292-onepage-p03-s010pct-l001pct.html",
+      "component": "pattern-248",
+      "index": 292
+    },
+    {
+      "position": 4,
+      "file": "293-onepage-p04-s011pct-l001pct.html",
+      "component": "pattern-249",
+      "index": 293
+    },
+    {
+      "position": 4,
+      "file": "294-onepage-p04-s012pct-l002pct.html",
+      "component": "pattern-250",
+      "index": 294
+    },
+    {
+      "position": 4,
+      "file": "295-onepage-p04-s012pct-l002pct.html",
+      "component": "pattern-250",
+      "index": 295
+    },
+    {
+      "position": 5,
+      "file": "296-onepage-p05-s012pct-l002pct.html",
+      "component": "pattern-251",
+      "index": 296
+    },
+    {
+      "position": 5,
+      "file": "297-onepage-p05-s014pct-l006pct.html",
+      "component": "pattern-252",
+      "index": 297
+    },
+    {
+      "position": 5,
+      "file": "298-onepage-p05-s014pct-l006pct.html",
+      "component": "pattern-252",
+      "index": 298
+    },
+    {
+      "position": 6,
+      "file": "299-onepage-p06-s014pct-l037pct.html",
+      "component": "pattern-253",
+      "index": 299
+    },
+    {
+      "position": 6,
+      "file": "300-onepage-p06-s020pct-l001pct.html",
+      "component": "pattern-254",
+      "index": 300
+    },
+    {
+      "position": 6,
+      "file": "301-onepage-p06-s020pct-l001pct.html",
+      "component": "pattern-254",
+      "index": 301
+    },
+    {
+      "position": 7,
+      "file": "302-onepage-p07-s021pct-l002pct.html",
+      "component": "pattern-255",
+      "index": 302
+    },
+    {
+      "position": 7,
+      "file": "303-onepage-p07-s021pct-l002pct.html",
+      "component": "pattern-255",
+      "index": 303
+    },
+    {
+      "position": 7,
+      "file": "304-onepage-p07-s051pct-l013pct.html",
+      "component": "pattern-256",
+      "index": 304
+    },
+    {
+      "position": 8,
+      "file": "305-onepage-p08-s023pct-l002pct.html",
+      "component": "pattern-257",
+      "index": 305
+    },
+    {
+      "position": 8,
+      "file": "306-onepage-p08-s023pct-l002pct.html",
+      "component": "pattern-257",
+      "index": 306
+    },
+    {
+      "position": 8,
+      "file": "307-onepage-p08-s064pct-l021pct.html",
+      "component": "pattern-258",
+      "index": 307
+    },
+    {
+      "position": 9,
+      "file": "308-onepage-p09-s025pct-l003pct.html",
+      "component": "pattern-259",
+      "index": 308
+    },
+    {
+      "position": 9,
+      "file": "309-onepage-p09-s025pct-l003pct.html",
+      "component": "pattern-259",
+      "index": 309
+    },
+    {
+      "position": 9,
+      "file": "310-onepage-p09-s085pct-l002pct.html",
+      "component": "pattern-260",
+      "index": 310
+    },
+    {
+      "position": 10,
+      "file": "311-onepage-p10-s028pct-l001pct.html",
+      "component": "pattern-261",
+      "index": 311
+    },
+    {
+      "position": 10,
+      "file": "312-onepage-p10-s028pct-l001pct.html",
+      "component": "pattern-261",
+      "index": 312
+    },
+    {
+      "position": 10,
+      "file": "313-onepage-p10-s087pct-l004pct.html",
+      "component": "pattern-099",
+      "index": 313
+    },
+    {
+      "position": 11,
+      "file": "314-onepage-p11-s028pct-l001pct.html",
+      "component": "pattern-262",
+      "index": 314
+    },
+    {
+      "position": 11,
+      "file": "315-onepage-p11-s028pct-l001pct.html",
+      "component": "pattern-262",
+      "index": 315
+    },
+    {
+      "position": 11,
+      "file": "316-onepage-p11-s092pct-l002pct.html",
+      "component": "pattern-263",
+      "index": 316
+    },
+    {
+      "position": 12,
+      "file": "317-onepage-p12-s029pct-l001pct.html",
+      "component": "pattern-264",
+      "index": 317
+    },
+    {
+      "position": 12,
+      "file": "318-onepage-p12-s029pct-l001pct.html",
+      "component": "pattern-264",
+      "index": 318
+    },
+    {
+      "position": 12,
+      "file": "319-onepage-p12-s094pct-l006pct.html",
+      "component": "pattern-265",
+      "index": 319
+    },
+    {
+      "position": 13,
+      "file": "320-onepage-p13-s030pct-l001pct.html",
+      "component": "pattern-266",
+      "index": 320
+    },
+    {
+      "position": 13,
+      "file": "321-onepage-p13-s030pct-l001pct.html",
+      "component": "pattern-266",
+      "index": 321
+    },
+    {
+      "position": 14,
+      "file": "322-onepage-p14-s030pct-l001pct.html",
+      "component": "pattern-267",
+      "index": 322
+    },
+    {
+      "position": 14,
+      "file": "323-onepage-p14-s030pct-l001pct.html",
+      "component": "pattern-267",
+      "index": 323
+    },
+    {
+      "position": 15,
+      "file": "324-onepage-p15-s031pct-l002pct.html",
+      "component": "pattern-113",
+      "index": 324
+    },
+    {
+      "position": 15,
+      "file": "325-onepage-p15-s031pct-l002pct.html",
+      "component": "pattern-113",
+      "index": 325
+    },
+    {
+      "position": 16,
+      "file": "326-onepage-p16-s033pct-l010pct.html",
+      "component": "pattern-268",
+      "index": 326
+    },
+    {
+      "position": 16,
+      "file": "327-onepage-p16-s033pct-l010pct.html",
+      "component": "pattern-268",
+      "index": 327
+    },
+    {
+      "position": 17,
+      "file": "328-onepage-p17-s043pct-l006pct.html",
+      "component": "pattern-269",
+      "index": 328
+    },
+    {
+      "position": 17,
+      "file": "329-onepage-p17-s043pct-l006pct.html",
+      "component": "pattern-269",
+      "index": 329
+    },
+    {
+      "position": 18,
+      "file": "330-onepage-p18-s049pct-l009pct.html",
+      "component": "pattern-270",
+      "index": 330
+    },
+    {
+      "position": 18,
+      "file": "331-onepage-p18-s049pct-l009pct.html",
+      "component": "pattern-270",
+      "index": 331
+    },
+    {
+      "position": 19,
+      "file": "332-onepage-p19-s058pct-l002pct.html",
+      "component": "pattern-271",
+      "index": 332
+    },
+    {
+      "position": 19,
+      "file": "333-onepage-p19-s058pct-l002pct.html",
+      "component": "pattern-271",
+      "index": 333
+    },
+    {
+      "position": 20,
+      "file": "334-onepage-p20-s060pct-l006pct.html",
+      "component": "pattern-272",
+      "index": 334
+    },
+    {
+      "position": 20,
+      "file": "335-onepage-p20-s060pct-l006pct.html",
+      "component": "pattern-272",
+      "index": 335
+    },
+    {
+      "position": 21,
+      "file": "336-onepage-p21-s067pct-l007pct.html",
+      "component": "pattern-273",
+      "index": 336
+    },
+    {
+      "position": 21,
+      "file": "337-onepage-p21-s067pct-l007pct.html",
+      "component": "pattern-273",
+      "index": 337
+    },
+    {
+      "position": 22,
+      "file": "338-onepage-p22-s074pct-l001pct.html",
+      "component": "pattern-274",
+      "index": 338
+    },
+    {
+      "position": 22,
+      "file": "339-onepage-p22-s074pct-l001pct.html",
+      "component": "pattern-274",
+      "index": 339
+    },
+    {
+      "position": 23,
+      "file": "340-onepage-p23-s075pct-l003pct.html",
+      "component": "pattern-275",
+      "index": 340
+    },
+    {
+      "position": 23,
+      "file": "341-onepage-p23-s075pct-l003pct.html",
+      "component": "pattern-275",
+      "index": 341
+    },
+    {
+      "position": 24,
+      "file": "342-onepage-p24-s078pct-l001pct.html",
+      "component": "pattern-276",
+      "index": 342
+    },
+    {
+      "position": 24,
+      "file": "343-onepage-p24-s078pct-l001pct.html",
+      "component": "pattern-276",
+      "index": 343
+    },
+    {
+      "position": 25,
+      "file": "344-onepage-p25-s079pct-l001pct.html",
+      "component": "pattern-277",
+      "index": 344
+    },
+    {
+      "position": 25,
+      "file": "345-onepage-p25-s079pct-l001pct.html",
+      "component": "pattern-277",
+      "index": 345
+    },
+    {
+      "position": 26,
+      "file": "346-onepage-p26-s079pct-l001pct.html",
+      "component": "pattern-278",
+      "index": 346
+    },
+    {
+      "position": 26,
+      "file": "347-onepage-p26-s079pct-l001pct.html",
+      "component": "pattern-278",
+      "index": 347
+    },
+    {
+      "position": 27,
+      "file": "348-onepage-p27-s079pct-l001pct.html",
+      "component": "pattern-279",
+      "index": 348
+    },
+    {
+      "position": 27,
+      "file": "349-onepage-p27-s079pct-l001pct.html",
+      "component": "pattern-279",
+      "index": 349
+    },
+    {
+      "position": 28,
+      "file": "350-onepage-p28-s079pct-l001pct.html",
+      "component": "pattern-280",
+      "index": 350
+    },
+    {
+      "position": 28,
+      "file": "351-onepage-p28-s079pct-l001pct.html",
+      "component": "pattern-280",
+      "index": 351
+    },
+    {
+      "position": 29,
+      "file": "352-onepage-p29-s080pct-l001pct.html",
+      "component": "pattern-281",
+      "index": 352
+    },
+    {
+      "position": 29,
+      "file": "353-onepage-p29-s080pct-l001pct.html",
+      "component": "pattern-281",
+      "index": 353
+    },
+    {
+      "position": 30,
+      "file": "354-onepage-p30-s081pct-l011pct.html",
+      "component": "pattern-282",
+      "index": 354
+    },
+    {
+      "position": 30,
+      "file": "355-onepage-p30-s081pct-l011pct.html",
+      "component": "pattern-282",
+      "index": 355
+    },
+    {
+      "position": 31,
+      "file": "356-onepage-p31-s092pct-l002pct.html",
+      "component": "pattern-283",
+      "index": 356
+    },
+    {
+      "position": 32,
+      "file": "357-onepage-p32-s094pct-l006pct.html",
+      "component": "pattern-284",
+      "index": 357
+    }
+  ],
+  "pool-inspections": [
+    {
+      "position": 1,
+      "file": "358-pool-inspections-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 358
+    },
+    {
+      "position": 1,
+      "file": "359-pool-inspections-p01-s000pct-l002pct.html",
+      "component": "pattern-102",
+      "index": 359
+    },
+    {
+      "position": 2,
+      "file": "360-pool-inspections-p02-s001pct-l013pct.html",
+      "component": "pattern-285",
+      "index": 360
+    },
+    {
+      "position": 2,
+      "file": "361-pool-inspections-p02-s002pct-l016pct.html",
+      "component": "pattern-286",
+      "index": 361
+    },
+    {
+      "position": 3,
+      "file": "362-pool-inspections-p03-s014pct-l084pct.html",
+      "component": "pattern-287",
+      "index": 362
+    },
+    {
+      "position": 3,
+      "file": "363-pool-inspections-p03-s018pct-l080pct.html",
+      "component": "pattern-288",
+      "index": 363
+    },
+    {
+      "position": 4,
+      "file": "364-pool-inspections-p04-s098pct-l002pct.html",
+      "component": "pattern-289",
+      "index": 364
+    },
+    {
+      "position": 4,
+      "file": "365-pool-inspections-p04-s098pct-l002pct.html",
+      "component": "pattern-289",
+      "index": 365
+    }
+  ],
+  "pool-maintenance": [
+    {
+      "position": 1,
+      "file": "366-pool-maintenance-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 366
+    },
+    {
+      "position": 2,
+      "file": "367-pool-maintenance-p02-s001pct-l014pct.html",
+      "component": "pattern-290",
+      "index": 367
+    },
+    {
+      "position": 3,
+      "file": "368-pool-maintenance-p03-s015pct-l083pct.html",
+      "component": "pattern-291",
+      "index": 368
+    },
+    {
+      "position": 4,
+      "file": "369-pool-maintenance-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 369
+    }
+  ],
+  "pool-services": [
+    {
+      "position": 1,
+      "file": "370-pool-services-p01-s000pct-l002pct.html",
+      "component": "pattern-292",
+      "index": 370
+    },
+    {
+      "position": 2,
+      "file": "371-pool-services-p02-s002pct-l016pct.html",
+      "component": "pattern-293",
+      "index": 371
+    },
+    {
+      "position": 3,
+      "file": "372-pool-services-p03-s018pct-l080pct.html",
+      "component": "pattern-294",
+      "index": 372
+    },
+    {
+      "position": 4,
+      "file": "373-pool-services-p04-s098pct-l002pct.html",
+      "component": "pattern-171",
+      "index": 373
+    }
+  ],
+  "pool-water-cleaning": [
+    {
+      "position": 1,
+      "file": "374-pool-water-cleaning-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 374
+    },
+    {
+      "position": 2,
+      "file": "375-pool-water-cleaning-p02-s001pct-l013pct.html",
+      "component": "pattern-295",
+      "index": 375
+    },
+    {
+      "position": 3,
+      "file": "376-pool-water-cleaning-p03-s014pct-l084pct.html",
+      "component": "pattern-296",
+      "index": 376
+    },
+    {
+      "position": 4,
+      "file": "377-pool-water-cleaning-p04-s098pct-l002pct.html",
+      "component": "pattern-297",
+      "index": 377
+    }
+  ],
+  "poolax-cart": [
+    {
+      "position": 1,
+      "file": "378-poolax-cart-p01-s000pct-l003pct.html",
+      "component": "pattern-102",
+      "index": 378
+    },
+    {
+      "position": 2,
+      "file": "379-poolax-cart-p02-s003pct-l027pct.html",
+      "component": "pattern-298",
+      "index": 379
+    },
+    {
+      "position": 3,
+      "file": "380-poolax-cart-p03-s030pct-l066pct.html",
+      "component": "pattern-299",
+      "index": 380
+    },
+    {
+      "position": 4,
+      "file": "381-poolax-cart-p04-s096pct-l004pct.html",
+      "component": "pattern-127",
+      "index": 381
+    }
+  ],
+  "poolax-my-account": [
+    {
+      "position": 1,
+      "file": "382-poolax-my-account-p01-s000pct-l003pct.html",
+      "component": "pattern-102",
+      "index": 382
+    },
+    {
+      "position": 2,
+      "file": "383-poolax-my-account-p02-s003pct-l025pct.html",
+      "component": "pattern-300",
+      "index": 383
+    },
+    {
+      "position": 3,
+      "file": "384-poolax-my-account-p03-s028pct-l068pct.html",
+      "component": "pattern-301",
+      "index": 384
+    },
+    {
+      "position": 4,
+      "file": "385-poolax-my-account-p04-s096pct-l004pct.html",
+      "component": "pattern-127",
+      "index": 385
+    }
+  ],
+  "poolax-shop": [
+    {
+      "position": 1,
+      "file": "386-poolax-shop-p01-s000pct-l002pct.html",
+      "component": "pattern-030",
+      "index": 386
+    },
+    {
+      "position": 2,
+      "file": "387-poolax-shop-p02-s002pct-l017pct.html",
+      "component": "pattern-302",
+      "index": 387
+    },
+    {
+      "position": 3,
+      "file": "388-poolax-shop-p03-s019pct-l078pct.html",
+      "component": "pattern-303",
+      "index": 388
+    },
+    {
+      "position": 4,
+      "file": "389-poolax-shop-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 389
+    }
+  ],
+  "price-package": [
+    {
+      "position": 1,
+      "file": "390-price-package-p01-s000pct-l002pct.html",
+      "component": "pattern-102",
+      "index": 390
+    },
+    {
+      "position": 2,
+      "file": "391-price-package-p02-s002pct-l015pct.html",
+      "component": "pattern-304",
+      "index": 391
+    },
+    {
+      "position": 3,
+      "file": "392-price-package-p03-s017pct-l029pct.html",
+      "component": "pattern-305",
+      "index": 392
+    },
+    {
+      "position": 4,
+      "file": "393-price-package-p04-s046pct-l011pct.html",
+      "component": "pattern-306",
+      "index": 393
+    },
+    {
+      "position": 5,
+      "file": "394-price-package-p05-s057pct-l041pct.html",
+      "component": "pattern-307",
+      "index": 394
+    },
+    {
+      "position": 6,
+      "file": "395-price-package-p06-s098pct-l002pct.html",
+      "component": "pattern-223",
+      "index": 395
+    }
+  ],
+  "quick-link": [
+    {
+      "position": 1,
+      "file": "396-quick-link-p01-s000pct-l001pct.html",
+      "component": "pattern-308",
+      "index": 396
+    },
+    {
+      "position": 1,
+      "file": "397-quick-link-p01-s000pct-l010pct.html",
+      "component": "pattern-309",
+      "index": 397
+    },
+    {
+      "position": 2,
+      "file": "398-quick-link-p02-s001pct-l030pct.html",
+      "component": "pattern-310",
+      "index": 398
+    },
+    {
+      "position": 2,
+      "file": "399-quick-link-p02-s011pct-l005pct.html",
+      "component": "pattern-311",
+      "index": 399
+    },
+    {
+      "position": 3,
+      "file": "400-quick-link-p03-s016pct-l008pct.html",
+      "component": "pattern-312",
+      "index": 400
+    },
+    {
+      "position": 3,
+      "file": "401-quick-link-p03-s031pct-l050pct.html",
+      "component": "pattern-313",
+      "index": 401
+    },
+    {
+      "position": 4,
+      "file": "402-quick-link-p04-s024pct-l005pct.html",
+      "component": "pattern-314",
+      "index": 402
+    },
+    {
+      "position": 4,
+      "file": "403-quick-link-p04-s081pct-l019pct.html",
+      "component": "pattern-315",
+      "index": 403
+    },
+    {
+      "position": 5,
+      "file": "404-quick-link-p05-s029pct-l060pct.html",
+      "component": "pattern-316",
+      "index": 404
+    },
+    {
+      "position": 6,
+      "file": "405-quick-link-p06-s089pct-l001pct.html",
+      "component": "pattern-143",
+      "index": 405
+    },
+    {
+      "position": 7,
+      "file": "406-quick-link-p07-s089pct-l001pct.html",
+      "component": "pattern-317",
+      "index": 406
+    },
+    {
+      "position": 8,
+      "file": "407-quick-link-p08-s091pct-l001pct.html",
+      "component": "pattern-318",
+      "index": 407
+    },
+    {
+      "position": 9,
+      "file": "408-quick-link-p09-s092pct-l008pct.html",
+      "component": "pattern-319",
+      "index": 408
+    }
+  ],
+  "register-now": [
+    {
+      "position": 1,
+      "file": "409-register-now-p01-s000pct-l002pct.html",
+      "component": "pattern-102",
+      "index": 409
+    },
+    {
+      "position": 2,
+      "file": "410-register-now-p02-s002pct-l019pct.html",
+      "component": "pattern-320",
+      "index": 410
+    },
+    {
+      "position": 3,
+      "file": "411-register-now-p03-s021pct-l076pct.html",
+      "component": "pattern-321",
+      "index": 411
+    },
+    {
+      "position": 4,
+      "file": "412-register-now-p04-s097pct-l003pct.html",
+      "component": "pattern-322",
+      "index": 412
+    }
+  ],
+  "schedule-services": [
+    {
+      "position": 1,
+      "file": "413-schedule-services-p01-s000pct-l002pct.html",
+      "component": "pattern-102",
+      "index": 413
+    },
+    {
+      "position": 2,
+      "file": "414-schedule-services-p02-s002pct-l019pct.html",
+      "component": "pattern-323",
+      "index": 414
+    },
+    {
+      "position": 3,
+      "file": "415-schedule-services-p03-s021pct-l076pct.html",
+      "component": "pattern-324",
+      "index": 415
+    },
+    {
+      "position": 4,
+      "file": "416-schedule-services-p04-s097pct-l003pct.html",
+      "component": "pattern-127",
+      "index": 416
+    }
+  ],
+  "science-of-the-pool-chemistry-keeping-your": [
+    {
+      "position": 1,
+      "file": "417-science-of-the-pool-chemistry-keeping-your-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 417
+    },
+    {
+      "position": 2,
+      "file": "418-science-of-the-pool-chemistry-keeping-your-p02-s001pct-l014pct.html",
+      "component": "pattern-325",
+      "index": 418
+    },
+    {
+      "position": 3,
+      "file": "419-science-of-the-pool-chemistry-keeping-your-p03-s015pct-l084pct.html",
+      "component": "pattern-326",
+      "index": 419
+    },
+    {
+      "position": 4,
+      "file": "420-science-of-the-pool-chemistry-keeping-your-p04-s099pct-l001pct.html",
+      "component": "pattern-327",
+      "index": 420
+    }
+  ],
+  "services": [
+    {
+      "position": 1,
+      "file": "421-services-p01-s000pct-l001pct.html",
+      "component": "pattern-128",
+      "index": 421
+    },
+    {
+      "position": 2,
+      "file": "422-services-p02-s001pct-l013pct.html",
+      "component": "pattern-328",
+      "index": 422
+    },
+    {
+      "position": 3,
+      "file": "423-services-p03-s014pct-l033pct.html",
+      "component": "pattern-329",
+      "index": 423
+    },
+    {
+      "position": 4,
+      "file": "424-services-p04-s047pct-l009pct.html",
+      "component": "pattern-330",
+      "index": 424
+    },
+    {
+      "position": 5,
+      "file": "425-services-p05-s057pct-l041pct.html",
+      "component": "pattern-331",
+      "index": 425
+    },
+    {
+      "position": 6,
+      "file": "426-services-p06-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 426
+    }
+  ],
+  "shop-details": [
+    {
+      "position": 1,
+      "file": "427-shop-details-p01-s000pct-l001pct.html",
+      "component": "pattern-132",
+      "index": 427
+    },
+    {
+      "position": 2,
+      "file": "428-shop-details-p02-s001pct-l015pct.html",
+      "component": "pattern-332",
+      "index": 428
+    },
+    {
+      "position": 3,
+      "file": "429-shop-details-p03-s016pct-l082pct.html",
+      "component": "pattern-333",
+      "index": 429
+    },
+    {
+      "position": 4,
+      "file": "430-shop-details-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 430
+    }
+  ],
+  "swimming-class": [
+    {
+      "position": 1,
+      "file": "431-swimming-class-p01-s000pct-l001pct.html",
+      "component": "pattern-102",
+      "index": 431
+    },
+    {
+      "position": 2,
+      "file": "432-swimming-class-p02-s001pct-l013pct.html",
+      "component": "pattern-334",
+      "index": 432
+    },
+    {
+      "position": 3,
+      "file": "433-swimming-class-p03-s014pct-l034pct.html",
+      "component": "pattern-335",
+      "index": 433
+    },
+    {
+      "position": 4,
+      "file": "434-swimming-class-p04-s048pct-l009pct.html",
+      "component": "pattern-336",
+      "index": 434
+    },
+    {
+      "position": 5,
+      "file": "435-swimming-class-p05-s057pct-l041pct.html",
+      "component": "pattern-337",
+      "index": 435
+    },
+    {
+      "position": 6,
+      "file": "436-swimming-class-p06-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 436
+    }
+  ],
+  "team-details": [
+    {
+      "position": 1,
+      "file": "437-team-details-p01-s000pct-l002pct.html",
+      "component": "pattern-030",
+      "index": 437
+    },
+    {
+      "position": 2,
+      "file": "438-team-details-p02-s002pct-l016pct.html",
+      "component": "pattern-338",
+      "index": 438
+    },
+    {
+      "position": 3,
+      "file": "439-team-details-p03-s018pct-l080pct.html",
+      "component": "pattern-339",
+      "index": 439
+    },
+    {
+      "position": 4,
+      "file": "440-team-details-p04-s098pct-l002pct.html",
+      "component": "pattern-127",
+      "index": 440
+    }
+  ],
+  "team": [
+    {
+      "position": 1,
+      "file": "441-team-p01-s000pct-l002pct.html",
+      "component": "pattern-102",
+      "index": 441
+    },
+    {
+      "position": 2,
+      "file": "442-team-p02-s002pct-l015pct.html",
+      "component": "pattern-340",
+      "index": 442
+    },
+    {
+      "position": 3,
+      "file": "443-team-p03-s017pct-l081pct.html",
+      "component": "pattern-341",
+      "index": 443
+    },
+    {
+      "position": 4,
+      "file": "444-team-p04-s098pct-l002pct.html",
+      "component": "pattern-168",
+      "index": 444
+    }
+  ],
+  "testimonials": [
+    {
+      "position": 1,
+      "file": "445-testimonials-p01-s000pct-l001pct.html",
+      "component": "pattern-342",
+      "index": 445
+    },
+    {
+      "position": 2,
+      "file": "446-testimonials-p02-s001pct-l014pct.html",
+      "component": "pattern-343",
+      "index": 446
+    },
+    {
+      "position": 3,
+      "file": "447-testimonials-p03-s015pct-l083pct.html",
+      "component": "pattern-344",
+      "index": 447
+    },
+    {
+      "position": 4,
+      "file": "448-testimonials-p04-s098pct-l002pct.html",
+      "component": "pattern-149",
+      "index": 448
+    }
+  ],
+  "water-analysis": [
+    {
+      "position": 1,
+      "file": "449-water-analysis-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 449
+    },
+    {
+      "position": 1,
+      "file": "450-water-analysis-p01-s000pct-l001pct.html",
+      "component": "pattern-030",
+      "index": 450
+    },
+    {
+      "position": 2,
+      "file": "451-water-analysis-p02-s001pct-l013pct.html",
+      "component": "pattern-345",
+      "index": 451
+    },
+    {
+      "position": 2,
+      "file": "452-water-analysis-p02-s001pct-l015pct.html",
+      "component": "pattern-346",
+      "index": 452
+    },
+    {
+      "position": 3,
+      "file": "453-water-analysis-p03-s014pct-l084pct.html",
+      "component": "pattern-347",
+      "index": 453
+    },
+    {
+      "position": 3,
+      "file": "454-water-analysis-p03-s016pct-l082pct.html",
+      "component": "pattern-348",
+      "index": 454
+    },
+    {
+      "position": 4,
+      "file": "455-water-analysis-p04-s098pct-l002pct.html",
+      "component": "pattern-223",
+      "index": 455
+    },
+    {
+      "position": 4,
+      "file": "456-water-analysis-p04-s098pct-l002pct.html",
+      "component": "pattern-223",
+      "index": 456
+    }
+  ],
+  "wishlist": [
+    {
+      "position": 1,
+      "file": "457-wishlist-p01-s000pct-l003pct.html",
+      "component": "pattern-349",
+      "index": 457
+    },
+    {
+      "position": 2,
+      "file": "458-wishlist-p02-s003pct-l033pct.html",
+      "component": "pattern-350",
+      "index": 458
+    },
+    {
+      "position": 3,
+      "file": "459-wishlist-p03-s037pct-l058pct.html",
+      "component": "pattern-351",
+      "index": 459
+    },
+    {
+      "position": 4,
+      "file": "460-wishlist-p04-s095pct-l005pct.html",
+      "component": "pattern-352",
+      "index": 460
+    }
+  ]
+}

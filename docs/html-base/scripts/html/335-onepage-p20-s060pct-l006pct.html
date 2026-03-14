@@ -1,0 +1,103 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Our Clients Feedback Section</title>
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    .bg-dotmap {
+      background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+      background-repeat: repeat;
+      opacity: 0.18;
+      pointer-events: none;
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background">
+
+  <section class="testimonials-section">
+    <div class="flex flex-col md:flex-row h-[600px]">
+      <!-- Left Image -->
+      <div class="w-full md:w-1/2 h-[300px] md:h-auto relative">
+        <img src="https://placehold.co/800x600" alt="Pool maintenance worker kneeling by a pool with toolboxes and tools on a deck, green grass in foreground" class="w-full h-full object-cover object-left" />
+      </div>
+      <!-- Right Content -->
+      <div class="w-full md:w-1/2 bg-[#0a1d3a] relative flex items-center">
+        <!-- Dot Map BG -->
+        <div class="bg-dotmap"></div>
+        <div class="relative z-10 w-full">
+          <div class="px-6 md:px-16 py-12 md:py-0 flex flex-col justify-center h-full">
+            <header>
+              <div class="flex items-center mb-2">
+                <span class="text-primary text-lg font-medium mr-3">Testimonials</span>
+                <span class="flex-1 h-0.5 bg-primary-light rounded"></span>
+              </div>
+              <h2 class="text-on-primary text-4xl md:text-5xl font-extrabold mb-8 leading-tight">Our Clients Feedback</h2>
+            </header>
+            <blockquote class="mb-10">
+              <p class="text-on-primary text-lg md:text-xl font-medium leading-relaxed opacity-70 mb-8 max-w-2xl">
+                “We meticulously test and balance the water chemistry during each service visit. This involves adjusting pH, alkalinity, and chlorine levels to maintain a safe and comfortable swimming environment.”
+              </p>
+              <div class="flex items-center gap-4">
+                <img src="https://placehold.co/64x64" alt="Portrait of Alex Michel, UI/UX Designer" class="w-14 h-14 rounded-md object-cover" />
+                <div>
+                  <div class="flex items-center gap-3">
+                    <span class="text-on-primary font-bold text-lg">Alex Michel</span>
+                    <span class="flex items-center ml-2">
+                      <i class="fas fa-star text-accent text-base mr-1" data-icon="star"></i>
+                      <i class="fas fa-star text-accent text-base mr-1" data-icon="star"></i>
+                      <i class="fas fa-star text-accent text-base mr-1" data-icon="star"></i>
+                      <i class="fas fa-star text-accent text-base mr-1" data-icon="star"></i>
+                      <i class="fas fa-star text-accent text-base" data-icon="star"></i>
+                    </span>
+                  </div>
+                  <span class="text-on-primary text-opacity-70 text-sm">Ui/Ux Designer</span>
+                </div>
+              </div>
+            </blockquote>
+            <!-- Pagination Dots -->
+            <div class="flex items-center gap-3 mt-6">
+              <button class="w-4 h-4 rounded-full bg-on-primary bg-opacity-80 border-2 border-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Current testimonial"></button>
+              <button class="w-4 h-4 rounded-full bg-on-primary bg-opacity-30 border-2 border-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Next testimonial"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

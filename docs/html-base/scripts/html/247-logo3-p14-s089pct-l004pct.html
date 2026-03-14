@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-surface-alt">
+    <section class="blog-list-section py-16 bg-surface-alt">
+      <div class="container mx-auto px-4 max-w-7xl">
+        <div data-collection="blog-cards" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <article data-item="blog-1" class="bg-surface rounded-2xl shadow-lg p-8 flex flex-col justify-between min-h-[300px] transition-shadow duration-200 hover:shadow-xl">
+            <header class="flex items-center space-x-2 mb-6 text-text-muted text-sm">
+              <i class="fas fa-user" data-icon="user"></i>
+              <span>By Poolax</span>
+              <span class="mx-1">|</span>
+              <i class="fas fa-calendar-alt" data-icon="calendar"></i>
+              <span>January 2, 2024</span>
+            </header>
+            <h3 class="text-2xl font-semibold text-text mb-8 leading-snug">
+              Science of the Pool Chemistry<br>
+              Keeping Your Water
+            </h3>
+            <button class="mt-auto w-44 py-3 border border-border rounded-lg text-text-secondary font-medium transition-colors duration-150 hover:bg-primary hover:text-on-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              READ MORE
+            </button>
+          </article>
+          <!-- Card 2 -->
+          <article data-item="blog-2" class="bg-surface rounded-2xl shadow-lg p-8 flex flex-col justify-between min-h-[300px] transition-shadow duration-200 hover:shadow-xl">
+            <header class="flex items-center space-x-2 mb-6 text-text-muted text-sm">
+              <i class="fas fa-user" data-icon="user"></i>
+              <span>By Poolax</span>
+              <span class="mx-1">|</span>
+              <i class="fas fa-calendar-alt" data-icon="calendar"></i>
+              <span>January 2, 2024</span>
+            </header>
+            <h3 class="text-2xl font-semibold text-text mb-8 leading-snug">
+              How to Revamp Your Pool<br>
+              Area for a Stylish Makeover
+            </h3>
+            <button class="mt-auto w-44 py-3 border border-border rounded-lg text-text-secondary font-medium transition-colors duration-150 hover:bg-primary hover:text-on-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              READ MORE
+            </button>
+          </article>
+          <!-- Card 3 -->
+          <article data-item="blog-3" class="bg-surface rounded-2xl shadow-lg p-8 flex flex-col justify-between min-h-[300px] transition-shadow duration-200 hover:shadow-xl">
+            <header class="flex items-center space-x-2 mb-6 text-text-muted text-sm">
+              <i class="fas fa-user" data-icon="user"></i>
+              <span>By Poolax</span>
+              <span class="mx-1">|</span>
+              <i class="fas fa-calendar-alt" data-icon="calendar"></i>
+              <span>November 5, 2023</span>
+            </header>
+            <h3 class="text-2xl font-semibold text-text mb-8 leading-snug">
+              How To Winterize Your Home<br>
+              Swimming Pool
+            </h3>
+            <button class="mt-auto w-44 py-3 border border-border rounded-lg text-text-secondary font-medium transition-colors duration-150 hover:bg-primary hover:text-on-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              READ MORE
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

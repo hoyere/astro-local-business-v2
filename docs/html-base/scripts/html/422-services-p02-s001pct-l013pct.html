@@ -1,0 +1,176 @@
+<html>
+<head>
+  <title>Poolax - Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom styles for logo */
+    .logo-poolax {
+      font-family: 'Poppins', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      letter-spacing: -0.03em;
+      color: #181f2b;
+      display: flex;
+      align-items: center;
+    }
+    .logo-poolax .pool-o {
+      position: relative;
+      display: inline-block;
+      margin: 0 0.05em;
+    }
+    .logo-poolax .pool-o svg {
+      position: absolute;
+      top: -0.7em;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1.2em;
+      height: 0.7em;
+      z-index: 2;
+    }
+    .logo-poolax .pool-o .o {
+      color: #02a26a;
+      text-shadow: 0 2px 0 #3ad69e;
+      font-size: 1.1em;
+      position: relative;
+      z-index: 1;
+    }
+    .logo-poolax .pool-o .o2 {
+      color: #02a26a;
+      text-shadow: 0 2px 0 #3ad69e;
+      font-size: 1.1em;
+      position: relative;
+      z-index: 1;
+      margin-left: -0.15em;
+    }
+    /* Bubble effect for hero */
+    .bubble {
+      position: absolute;
+      border-radius: 9999px;
+      background: rgba(255,255,255,0.45);
+      box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
+      pointer-events: none;
+      border: 1px solid rgba(255,255,255,0.7);
+      backdrop-filter: blur(1px);
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-background text-text">
+  <!-- Header/Navbar -->
+  <header class="w-full bg-[#1796fa]">
+    <div class="container mx-auto max-w-7xl flex items-center justify-between px-4 py-0 h-[90px] relative">
+      <!-- Logo -->
+      <div class="flex items-center z-10">
+        <div class="bg-background rounded-bl-[80px] rounded-br-[60px] rounded-tl-none rounded-tr-[60px] px-8 py-4 -ml-4 flex items-center shadow-none" style="min-width:260px; min-height:100px;">
+          <span class="logo-poolax">
+            P
+            <span class="pool-o">
+              <span class="o">o</span>
+              <svg viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="10" cy="10" rx="8" ry="8" fill="#02a26a"/>
+                <ellipse cx="30" cy="10" rx="8" ry="8" fill="#02a26a"/>
+                <rect x="7" y="2" width="3" height="8" rx="1.5" fill="#181f2b"/>
+                <rect x="27" y="2" width="3" height="8" rx="1.5" fill="#181f2b"/>
+              </svg>
+              <span class="o2">o</span>
+            </span>
+            lax
+          </span>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <nav class="flex-1 flex items-center justify-center">
+        <ul class="flex space-x-8 text-white font-medium text-sm tracking-wide">
+          <li>
+            <a href="#" class="hover:underline flex items-center gap-1">
+              HOME <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline flex items-center gap-1">
+              SERVICES <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline flex items-center gap-1">
+              PAGES <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline flex items-center gap-1">
+              BLOGS <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Icons -->
+      <div class="flex items-center space-x-4">
+        <button class="w-11 h-11 rounded-full bg-white flex items-center justify-center text-[#1796fa] text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+          <i class="fas fa-search" data-icon="search"></i>
+        </button>
+        <button class="w-11 h-11 rounded-full bg-white flex items-center justify-center text-[#1796fa] text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Menu">
+          <i class="fas fa-bars" data-icon="bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section relative min-h-[320px] md:min-h-[340px] flex items-center bg-[#1a4e7a] overflow-hidden" style="background: linear-gradient(120deg, #1a4e7a 60%, #1796fa 100%);">
+    <!-- Background image overlay -->
+    <img src="https://placehold.co/1200x400/1a4e7a/ffffff?text=Pool+background+with+pool+net+and+bubbles" alt="Swimming pool background with pool net and bubbles" class="absolute inset-0 w-full h-full object-cover opacity-60 pointer-events-none" style="z-index:1;">
+    <!-- Bubbles (absolute positioned) -->
+    <span class="bubble" style="width:54px;height:54px;left:13%;top:62%;"></span>
+    <span class="bubble" style="width:32px;height:32px;left:29%;top:80%;"></span>
+    <span class="bubble" style="width:44px;height:44px;left:87%;top:65%;"></span>
+    <span class="bubble" style="width:28px;height:28px;left:93%;top:54%;"></span>
+    <span class="bubble" style="width:22px;height:22px;left:70%;top:78%;"></span>
+    <span class="bubble" style="width:18px;height:18px;left:60%;top:90%;"></span>
+    <div class="container mx-auto max-w-6xl relative z-10 px-4 py-20 md:py-28">
+      <h1 class="text-white text-4xl md:text-5xl font-bold mb-6">Services</h1>
+      <nav class="flex items-center space-x-2 text-white text-lg font-medium" aria-label="Breadcrumb">
+        <span class="opacity-90 text-base">Home</span>
+        <i class="fas fa-arrow-right text-base opacity-80" data-icon="arrow-right"></i>
+        <span class="opacity-90 text-base">Services</span>
+      </nav>
+    </div>
+  </section>
+</body>
+</html>

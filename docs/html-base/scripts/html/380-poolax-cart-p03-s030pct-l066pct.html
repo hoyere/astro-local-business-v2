@@ -1,0 +1,162 @@
+<html>
+<head>
+  <title>Your cart is currently empty - Poolax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text min-h-screen flex flex-col justify-between">
+
+  <!-- Empty Cart Section -->
+  <section class="empty-cart-section flex-1 flex flex-col items-center justify-center pt-16 pb-24 bg-background">
+    <div class="container mx-auto px-4 max-w-xl flex flex-col items-center">
+      <img src="https://placehold.co/120x100?text=Basket" alt="Empty shopping basket illustration" class="mb-8 mt-8" style="width:120px; height:100px;">
+      <h1 class="text-2xl md:text-3xl font-bold text-text text-center mb-6">Your cart is currently empty.</h1>
+      <button class="mt-2 px-8 py-3 rounded-md bg-[#2196f3] text-white font-medium focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors hover:bg-[#1769aa]">
+        RETURN TO SHOP
+      </button>
+    </div>
+  </section>
+
+  <!-- Contact Bar -->
+  <section class="contact-bar-section bg-surface shadow-lg">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="flex flex-col md:flex-row">
+        <!-- Logo -->
+        <div class="flex items-center justify-center md:justify-start bg-surface w-full md:w-1/3 py-6 px-6">
+          <img src="https://placehold.co/140x40?text=Poolax+Logo" alt="Poolax company logo" class="h-10 w-auto">
+        </div>
+        <!-- Call Us -->
+        <div class="flex items-center justify-center bg-[#2196f3] w-full md:w-1/3 py-6 px-6">
+          <div class="flex items-center space-x-4">
+            <i class="fas fa-phone-alt text-3xl text-white" data-icon="phone"></i>
+            <div>
+              <div class="text-white text-sm">Call Us For Pool Services</div>
+              <div class="text-white text-lg font-bold mt-1">+(468) 254 76243</div>
+            </div>
+          </div>
+        </div>
+        <!-- Email Us -->
+        <div class="flex items-center justify-center bg-[#181e26] w-full md:w-1/3 py-6 px-6">
+          <div class="flex items-center space-x-4">
+            <i class="fas fa-comment-alt text-3xl text-[#2196f3]" data-icon="comment"></i>
+            <div>
+              <div class="text-white text-sm">Email Us For Any Info.</div>
+              <div class="text-white text-lg font-bold mt-1">info@poolax.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section bg-[#181e26] pt-16 pb-12">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <!-- About Company -->
+        <div>
+          <h2 class="text-white text-lg font-semibold mb-4">About Company</h2>
+          <p class="text-[#bfc9d1] text-sm mb-6">
+            We provide specialized winterization services to safeguard your pool during the off-season, and when spring arrives, we handle the thorough opening process.
+          </p>
+          <div class="flex space-x-3">
+            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-[#232a36] text-white hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Facebook">
+              <i class="fab fa-facebook-f" data-icon="facebook"></i>
+            </a>
+            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-[#232a36] text-white hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Twitter">
+              <i class="fab fa-twitter" data-icon="twitter"></i>
+            </a>
+            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-[#232a36] text-white hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in" data-icon="linkedin"></i>
+            </a>
+            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-[#232a36] text-white hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="YouTube">
+              <i class="fab fa-youtube" data-icon="youtube"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Quick Link -->
+        <div>
+          <h2 class="text-white text-lg font-semibold mb-4">Quick Link</h2>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-[#bfc9d1] hover:text-primary transition-colors">About Us</a></li>
+            <li><a href="#" class="text-[#bfc9d1] hover:text-primary transition-colors">Gallery</a></li>
+            <li><a href="#" class="text-[#bfc9d1] hover:text-primary transition-colors">Testimonials</a></li>
+            <li><a href="#" class="text-[#bfc9d1] hover:text-primary transition-colors">Blog</a></li>
+            <li><a href="#" class="text-[#bfc9d1] hover:text-primary transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- Recent Post -->
+        <div>
+          <h2 class="text-white text-lg font-semibold mb-4">Recent Post</h2>
+          <div data-collection="recent-posts" class="space-y-5">
+            <article data-item="recent-post-1" class="flex items-start space-x-3">
+              <img src="https://placehold.co/60x45" alt="Pool area revamp thumbnail" class="rounded-md w-14 h-10 object-cover flex-shrink-0">
+              <div>
+                <a href="#" class="block text-white font-medium leading-tight hover:text-primary transition-colors text-sm mb-1">How to Revamp Your Pool Area</a>
+                <div class="flex items-center text-[#bfc9d1] text-xs space-x-2">
+                  <i class="far fa-calendar-alt" data-icon="calendar"></i>
+                  <span>02 Jan 2024</span>
+                </div>
+              </div>
+            </article>
+            <article data-item="recent-post-2" class="flex items-start space-x-3">
+              <img src="https://placehold.co/60x45" alt="Pool chemistry keeping thumbnail" class="rounded-md w-14 h-10 object-cover flex-shrink-0">
+              <div>
+                <a href="#" class="block text-white font-medium leading-tight hover:text-primary transition-colors text-sm mb-1">Science of the Pool Chemistry Keeping</a>
+                <div class="flex items-center text-[#bfc9d1] text-xs space-x-2">
+                  <i class="far fa-calendar-alt" data-icon="calendar"></i>
+                  <span>02 Jan 2024</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- Working Hours -->
+        <div>
+          <h2 class="text-white text-lg font-semibold mb-4">Working Hours</h2>
+          <ul class="text-[#bfc9d1] text-sm space-y-1">
+            <li class="flex justify-between"><span>Monday to Wed</span><span>9am - 8pm</span></li>
+            <li class="flex justify-between"><span>Thursday</span><span>9am – 7pm</span></li>
+            <li class="flex justify-between"><span>Friday</span><span>8am – 6pm</span></li>
+            <li class="flex justify-between"><span>Saturday</span><span>10am – 4pm</span></li>
+            <li class="flex justify-between"><span>Sunday</span><span>Closed</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

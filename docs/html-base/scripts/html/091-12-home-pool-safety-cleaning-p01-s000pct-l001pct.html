@@ -1,0 +1,90 @@
+<html>
+<head>
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom angle shape for left blue section */
+    .angle-left {
+      clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text">
+  <section class="topbar-section">
+    <div class="w-full bg-background">
+      <div class="flex items-stretch justify-between w-full">
+        <!-- Left: Welcome message with blue background and angle -->
+        <div class="angle-left bg-[#0d99fa] flex items-center px-8 min-w-[420px] h-12">
+          <span class="text-white text-base font-normal">Welcome to Our Pool Cleaning &amp; Services Company</span>
+        </div>
+        <!-- Right: Info and social -->
+        <div class="flex-1 flex items-center justify-end h-12">
+          <div class="container max-w-7xl flex items-center justify-end h-full px-4">
+            <!-- Email -->
+            <div class="flex items-center space-x-2 mr-8">
+              <i class="far fa-comments text-[#0f1c18] text-base" data-icon="comments"></i>
+              <span class="text-[#0f1c18] text-base font-normal">info@poolax.com</span>
+            </div>
+            <!-- Language -->
+            <div class="flex items-center mr-8">
+              <span class="text-[#0f1c18] text-base font-normal">Language</span>
+              <i class="fas fa-chevron-down text-xs ml-1 text-[#0f1c18]" data-icon="chevron-down"></i>
+            </div>
+            <!-- Divider -->
+            <div class="border-l border-[#e5e5e5] h-6 mx-4"></div>
+            <!-- Social -->
+            <div class="flex items-center space-x-2">
+              <span class="text-[#0f1c18] text-base font-normal">Follow Us On:</span>
+              <a href="#" class="ml-2 text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Facebook">
+                <i class="fab fa-facebook-f" data-icon="facebook"></i>
+              </a>
+              <a href="#" class="text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Twitter">
+                <i class="fab fa-twitter" data-icon="twitter"></i>
+              </a>
+              <a href="#" class="text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Instagram">
+                <i class="fab fa-instagram" data-icon="instagram"></i>
+              </a>
+              <a href="#" class="text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in" data-icon="linkedin"></i>
+              </a>
+              <a href="#" class="text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Behance">
+                <i class="fab fa-behance" data-icon="behance"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

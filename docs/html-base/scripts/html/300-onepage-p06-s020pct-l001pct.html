@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <section class="review-bar-section py-0 bg-background">
+      <div class="w-full flex items-center justify-between" style="height:70px;">
+        <!-- Left SVG/curve and image -->
+        <div class="relative flex-shrink-0" style="width: 480px; height: 100%;">
+          <!-- Curved SVG background -->
+          <svg class="absolute top-0 left-0" width="480" height="70" viewBox="0 0 480 70" fill="none" xmlns="http://www.w3.org/2000/svg" style="z-index:1;">
+            <path d="M0,0 Q60,70 240,70 Q420,70 480,0 L480,70 L0,70 Z" fill="#f5fbf8"/>
+            <path d="M0,0 Q60,70 240,70 Q420,70 480,0" stroke="#0f1c18" stroke-width="4" fill="none"/>
+            <path d="M420,0 Q440,40 480,0" stroke="#0090ff" stroke-width="32" fill="none" opacity="0.7"/>
+          </svg>
+          <!-- Pool robot image -->
+          <img src="https://placehold.co/180x60" alt="Robotic pool cleaner on a pool surface with greenery in the background" class="absolute left-12 top-2 rounded-lg shadow-lg" style="width:180px; height:60px; object-fit:cover; z-index:2;">
+        </div>
+        <!-- Center avatars and review count -->
+        <div class="flex items-center flex-1 justify-center min-w-0">
+          <!-- Avatars -->
+          <div class="flex -space-x-4">
+            <img src="https://placehold.co/48x48" alt="Reviewer avatar 1" class="w-12 h-12 rounded-full border-2 border-background shadow" style="z-index:3;">
+            <img src="https://placehold.co/48x48" alt="Reviewer avatar 2" class="w-12 h-12 rounded-full border-2 border-background shadow" style="z-index:2;">
+            <img src="https://placehold.co/48x48" alt="Reviewer avatar 3" class="w-12 h-12 rounded-full border-2 border-background shadow" style="z-index:1;">
+            <img src="https://placehold.co/48x48" alt="Reviewer avatar 4" class="w-12 h-12 rounded-full border-2 border-background shadow" style="z-index:0;">
+          </div>
+          <!-- Review count and label -->
+          <div class="ml-6 flex flex-col justify-center">
+            <span class="text-2xl font-semibold text-text leading-tight">1500+</span>
+            <span class="text-base text-primary underline leading-tight" style="margin-top:-2px;">Active Reviews</span>
+          </div>
+        </div>
+        <!-- Signature and right illustration -->
+        <div class="flex items-center pr-8" style="height:100%;">
+          <!-- Signature -->
+          <span class="block text-text font-signature text-2xl" style="font-family: 'Dancing Script', cursive;">Huey Kree</span>
+          <!-- Right illustration (beach chair) -->
+          <div class="ml-8 relative" style="width: 90px; height: 70px;">
+            <svg width="90" height="70" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="20" y="10" width="60" height="40" rx="8" fill="#e6f7fa"/>
+              <rect x="20" y="10" width="60" height="8" fill="#b3e0f7"/>
+              <rect x="20" y="18" width="60" height="8" fill="#7fd3f7"/>
+              <rect x="20" y="26" width="60" height="8" fill="#3bbcf7"/>
+              <rect x="20" y="34" width="60" height="8" fill="#0090ff"/>
+              <rect x="20" y="42" width="60" height="8" fill="#0f1c18"/>
+              <rect x="20" y="50" width="60" height="4" fill="#fff"/>
+              <rect x="20" y="54" width="60" height="4" fill="#e6be46"/>
+              <rect x="20" y="58" width="60" height="4" fill="#ffdd6a"/>
+              <rect x="20" y="62" width="60" height="4" fill="#fff"/>
+              <rect x="20" y="66" width="60" height="4" fill="#e6be46"/>
+              <rect x="20" y="70" width="60" height="4" fill="#ffdd6a"/>
+              <rect x="20" y="74" width="60" height="4" fill="#fff"/>
+              <rect x="20" y="78" width="60" height="4" fill="#e6be46"/>
+              <rect x="20" y="82" width="60" height="4" fill="#ffdd6a"/>
+              <!-- Chair legs -->
+              <rect x="18" y="10" width="6" height="60" rx="3" fill="#e6be46" transform="rotate(20 18 10)"/>
+              <rect x="82" y="10" width="6" height="60" rx="3" fill="#e6be46" transform="rotate(-20 82 10)"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <style>
+      /* Custom font for signature */
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+      .font-signature {
+        font-family: 'Dancing Script', cursive;
+      }
+    </style>
+  </body>
+</html>

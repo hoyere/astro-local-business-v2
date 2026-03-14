@@ -1,0 +1,127 @@
+<html>
+<head>
+  <title>Pool Services Grid</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Subtle background pattern for cards */
+    .pattern-bg {
+      background-image: url('data:image/svg+xml;utf8,<svg width="320" height="160" viewBox="0 0 320 160" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 160C53.3333 106.667 160 53.3333 320 0" stroke="%23dcebe4" stroke-width="2" fill="none" opacity="0.18"/><path d="M0 120C80 80 160 40 320 0" stroke="%23dcebe4" stroke-width="1" fill="none" opacity="0.12"/></svg>');
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 70% 60%;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background min-h-screen">
+  <section class="services-section py-16 md:py-24 bg-background">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div data-collection="services" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Pool Cleaning -->
+        <article data-item="service-1" class="bg-surface pattern-bg rounded-2xl shadow-lg p-6 flex items-start gap-5 md:gap-6 transition hover:shadow-xl">
+          <img src="https://placehold.co/160x120" alt="Person cleaning a pool with a vacuum and yellow equipment" class="w-32 h-24 rounded-xl object-cover flex-shrink-0">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+              <i class="fas fa-broom text-2xl text-primary" data-icon="broom"></i>
+              <h3 class="text-xl font-semibold text-text">Pool Cleaning</h3>
+            </div>
+            <p class="text-text-muted text-sm mb-5">Comprehensive pool inspections ensuring safety and functionality for your peace of mind</p>
+            <button class="px-5 py-2 border border-border rounded-lg text-sm font-medium text-text-secondary bg-transparent hover:bg-primary hover:text-on-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition">READ MORE</button>
+          </div>
+        </article>
+        <!-- Water Analysis -->
+        <article data-item="service-2" class="bg-surface pattern-bg rounded-2xl shadow-lg p-6 flex items-start gap-5 md:gap-6 transition hover:shadow-xl">
+          <img src="https://placehold.co/160x120" alt="Hand placing a blue water analysis device in a pool" class="w-32 h-24 rounded-xl object-cover flex-shrink-0">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+              <i class="fas fa-search text-2xl text-primary" data-icon="search"></i>
+              <h3 class="text-xl font-semibold text-text">Water Analysis</h3>
+            </div>
+            <p class="text-text-muted text-sm mb-5">customized pool lighting solutions, creating a for evening relaxation and entertainment.</p>
+            <button class="px-5 py-2 border border-border rounded-lg text-sm font-medium text-text-secondary bg-transparent hover:bg-primary hover:text-on-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition">READ MORE</button>
+          </div>
+        </article>
+        <!-- Equipment Install -->
+        <article data-item="service-3" class="bg-surface pattern-bg rounded-2xl shadow-lg p-6 flex items-start gap-5 md:gap-6 transition hover:shadow-xl">
+          <img src="https://placehold.co/160x120" alt="Technician in red cap installing pool equipment" class="w-32 h-24 rounded-xl object-cover flex-shrink-0">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+              <i class="fas fa-cogs text-2xl text-primary" data-icon="cogs"></i>
+              <h3 class="text-xl font-semibold text-text">Equipment Install</h3>
+            </div>
+            <p class="text-text-muted text-sm mb-5">Efficient drain and clean services to keep your systems running smoothly and hygienically</p>
+            <button class="px-5 py-2 border border-border rounded-lg text-sm font-medium text-text-secondary bg-transparent hover:bg-primary hover:text-on-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition">READ MORE</button>
+          </div>
+        </article>
+        <!-- Tile & Surface Cleaning -->
+        <article data-item="service-4" class="bg-surface pattern-bg rounded-2xl shadow-lg p-6 flex items-start gap-5 md:gap-6 transition hover:shadow-xl">
+          <img src="https://placehold.co/160x120" alt="Person cleaning pool tiles at the edge of a pool" class="w-32 h-24 rounded-xl object-cover flex-shrink-0">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+              <i class="fas fa-spray-can text-2xl text-primary" data-icon="spray-can"></i>
+              <h3 class="text-xl font-semibold text-text">Tile &amp; Surface Cleaning</h3>
+            </div>
+            <p class="text-text-muted text-sm mb-5">Reliable pool maintenance services for crystal-clear water and hassle-free enjoyment</p>
+            <button class="px-5 py-2 border border-border rounded-lg text-sm font-medium text-text-secondary bg-transparent hover:bg-primary hover:text-on-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition">READ MORE</button>
+          </div>
+        </article>
+        <!-- Pool Inspections -->
+        <article data-item="service-5" class="bg-surface pattern-bg rounded-2xl shadow-lg p-6 flex items-start gap-5 md:gap-6 transition hover:shadow-xl">
+          <img src="https://placehold.co/160x120" alt="Pool vacuum in blue water during inspection" class="w-32 h-24 rounded-xl object-cover flex-shrink-0">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+              <i class="fas fa-search-plus text-2xl text-primary" data-icon="search-plus"></i>
+              <h3 class="text-xl font-semibold text-text">Pool Inspections</h3>
+            </div>
+            <p class="text-text-muted text-sm mb-5">Comprehensive pool inspections ensuring safety and functionality for your peace of mind</p>
+            <button class="px-5 py-2 border border-border rounded-lg text-sm font-medium text-text-secondary bg-transparent hover:bg-primary hover:text-on-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition">READ MORE</button>
+          </div>
+        </article>
+        <!-- Pool Lighting -->
+        <article data-item="service-6" class="bg-surface pattern-bg rounded-2xl shadow-lg p-6 flex items-start gap-5 md:gap-6 transition hover:shadow-xl">
+          <img src="https://placehold.co/160x120" alt="Modern pool at night with blue lighting" class="w-32 h-24 rounded-xl object-cover flex-shrink-0">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+              <i class="fas fa-lightbulb text-2xl text-primary" data-icon="lightbulb"></i>
+              <h3 class="text-xl font-semibold text-text">Pool Lighting</h3>
+            </div>
+            <p class="text-text-muted text-sm mb-5">customized pool lighting solutions, creating a for evening relaxation and entertainment.</p>
+            <button class="px-5 py-2 border border-border rounded-lg text-sm font-medium text-text-secondary bg-transparent hover:bg-primary hover:text-on-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition">READ MORE</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

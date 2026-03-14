@@ -1,0 +1,191 @@
+<html>
+<head>
+  <title>Commercial Pool - Poolax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom styles for logo shape */
+    .logo-bg {
+      border-bottom-right-radius: 64px;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 64px;
+      border-top-left-radius: 0;
+      background: #fff;
+      height: 120px;
+      width: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      position: relative;
+      z-index: 10;
+      box-shadow: 0 2px 8px 0 rgba(0,0,0,0.01);
+    }
+    @media (max-width: 768px) {
+      .logo-bg {
+        height: 80px;
+        width: 200px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+      }
+    }
+    /* Custom styles for hero overlay */
+    .hero-bg {
+      background: linear-gradient(120deg, rgba(0, 82, 172, 0.85) 0%, rgba(0, 82, 172, 0.7) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    /* Bubble styles */
+    .bubble {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.35);
+      box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+      border: 1.5px solid rgba(255,255,255,0.5);
+      pointer-events: none;
+      animation: float 8s infinite ease-in-out;
+    }
+    .bubble1 { width: 48px; height: 48px; left: 12%; top: 60%; animation-delay: 0s;}
+    .bubble2 { width: 32px; height: 32px; left: 80%; top: 40%; animation-delay: 2s;}
+    .bubble3 { width: 24px; height: 24px; left: 70%; top: 70%; animation-delay: 1s;}
+    .bubble4 { width: 16px; height: 16px; left: 30%; top: 80%; animation-delay: 3s;}
+    .bubble5 { width: 40px; height: 40px; left: 85%; top: 55%; animation-delay: 4s;}
+    .bubble6 { width: 20px; height: 20px; left: 60%; top: 85%; animation-delay: 5s;}
+    @keyframes float {
+      0% { transform: translateY(0) scale(1);}
+      50% { transform: translateY(-30px) scale(1.1);}
+      100% { transform: translateY(0) scale(1);}
+    }
+    /* Hide scroll on body */
+    body { overflow-x: hidden; }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text font-sans">
+
+  <!-- Header/Navbar -->
+  <header class="w-full bg-[#1792f5]">
+    <div class="flex items-center justify-between max-w-7xl mx-auto px-4 py-0 relative h-[120px] md:h-[100px]">
+      <!-- Logo -->
+      <div class="logo-bg pl-8 pr-10 md:pl-4 md:pr-6">
+        <a href="#" class="flex items-center space-x-2">
+          <!-- Custom Poolax logo recreation -->
+          <span class="text-[44px] font-bold text-[#0f1c18] leading-none tracking-tight relative" style="font-family: 'Montserrat', Arial, sans-serif;">
+            <span class="relative">
+              P
+              <!-- Pool icon for 'oo' -->
+              <span class="inline-block align-middle relative -mx-1">
+                <span class="relative">
+                  <span class="inline-block relative">
+                    <span class="text-[#1792f5] font-bold text-[44px] tracking-tight" style="letter-spacing:-0.1em;">oo</span>
+                    <!-- Pool water effect -->
+                    <span class="absolute left-0 top-3 w-full h-2 bg-[#3ad6ff] rounded-b-full opacity-80"></span>
+                    <!-- Pool ladders -->
+                    <span class="absolute left-1 top-0 w-2 h-4 border-l-2 border-[#0f1c18] rounded-t-sm" style="height:14px;"></span>
+                    <span class="absolute left-6 top-0 w-2 h-4 border-l-2 border-[#0f1c18] rounded-t-sm" style="height:14px;"></span>
+                  </span>
+                </span>
+              </span>
+              lax
+            </span>
+          </span>
+        </a>
+      </div>
+      <!-- Navigation -->
+      <nav class="flex-1 flex items-center justify-center">
+        <ul class="flex items-center space-x-8 text-[15px] font-medium text-white">
+          <li>
+            <a href="#" class="hover:text-accent transition-colors flex items-center gap-1">
+              HOME <i class="fas fa-plus text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-accent transition-colors">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-accent transition-colors flex items-center gap-1">
+              SERVICES <i class="fas fa-plus text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-accent transition-colors flex items-center gap-1">
+              PAGES <i class="fas fa-plus text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-accent transition-colors flex items-center gap-1">
+              BLOGS <i class="fas fa-plus text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-accent transition-colors">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Icons -->
+      <div class="flex items-center space-x-4 ml-4">
+        <button class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#1792f5] text-xl shadow focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+          <i class="fas fa-search" data-icon="search"></i>
+        </button>
+        <button class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#1792f5] text-xl shadow focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Menu">
+          <i class="fas fa-bars" data-icon="bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section hero-bg relative min-h-[340px] md:min-h-[320px] flex items-center" style="background-image: url('https://placehold.co/1200x600/1a3c5a/ffffff?text=Pool+background'); background-size: cover; background-position: center;">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-[#1a3c5a]/80"></div>
+    <!-- Bubbles -->
+    <span class="bubble bubble1"></span>
+    <span class="bubble bubble2"></span>
+    <span class="bubble bubble3"></span>
+    <span class="bubble bubble4"></span>
+    <span class="bubble bubble5"></span>
+    <span class="bubble bubble6"></span>
+    <!-- Content -->
+    <div class="container mx-auto px-4 max-w-6xl relative z-10">
+      <div class="pt-16 pb-16 md:pt-12 md:pb-12">
+        <h1 class="text-white text-5xl md:text-4xl font-bold mb-6">Commercial Pool</h1>
+        <nav class="flex items-center space-x-2 text-white text-lg font-normal">
+          <a href="#" class="text-white/80 hover:text-accent transition-colors">Home</a>
+          <span class="mx-1 text-white/60"><i class="fas fa-arrow-right text-base" data-icon="arrow-right"></i></span>
+          <span class="text-white/90">Commercial Pool</span>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

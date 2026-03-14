@@ -1,0 +1,141 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Poolax - Crystal Clear Pools Crystal Clear Joy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text font-sans">
+
+  <!-- Header / Navigation -->
+  <header class="w-full bg-[#061a36]">
+    <div class="flex items-center justify-between max-w-6xl mx-auto px-4 py-0 h-[90px] relative">
+      <!-- Logo and left shape -->
+      <div class="flex items-center h-full relative z-10">
+        <div class="relative h-[90px] flex items-center">
+          <div class="absolute left-0 top-0 h-full w-[260px] bg-[#061a36] z-10" style="clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);"></div>
+          <a href="#" class="flex items-center pl-6 z-20">
+            <!-- Logo SVG -->
+            <span class="text-white text-4xl font-bold relative" style="letter-spacing:-2px;">
+              <span class="relative">
+                P
+                <!-- Pool icon (simple SVG) -->
+                <svg class="absolute left-3 top-1" width="32" height="24" viewBox="0 0 32 24" fill="none" aria-hidden="true" focusable="false">
+                  <ellipse cx="16" cy="12" rx="14" ry="8" fill="#3ad69e" opacity="0.7"/>
+                  <ellipse cx="16" cy="12" rx="10" ry="5" fill="#02a26a" opacity="0.8"/>
+                  <ellipse cx="16" cy="12" rx="6" ry="2.5" fill="#fff" opacity="0.7"/>
+                </svg>
+              </span>
+              <span class="ml-2">oolax</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <nav class="hidden md:flex items-center space-x-8 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+        <a href="#" class="text-text font-semibold text-base hover:text-primary transition">HOME <span class="ml-1 text-lg font-bold align-middle">+</span></a>
+        <a href="#" class="text-text font-semibold text-base hover:text-primary transition">ABOUT US</a>
+        <a href="#" class="text-text font-semibold text-base hover:text-primary transition">SERVICES</a>
+        <a href="#" class="text-text font-semibold text-base hover:text-primary transition">TEAM</a>
+        <a href="#" class="text-text font-semibold text-base hover:text-primary transition">NEWS</a>
+        <a href="#" class="text-text font-semibold text-base hover:text-primary transition">CONTACT US</a>
+      </nav>
+      <!-- Phone -->
+      <div class="flex items-center space-x-3 z-20">
+        <div class="flex items-center space-x-2">
+          <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[#0c7e5a]">
+            <i class="fas fa-phone-alt text-white text-lg" data-icon="phone"></i>
+          </span>
+          <div class="flex flex-col">
+            <span class="text-text-muted text-xs">Phone Number:</span>
+            <span class="text-white text-base font-semibold">(+468) 254 76243</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- White nav background shape -->
+    <div class="absolute left-[200px] top-0 w-[calc(100%-200px)] h-[90px] bg-white z-0" style="clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);"></div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section relative min-h-[600px] flex items-center justify-center bg-background overflow-hidden">
+    <!-- Background image with overlay -->
+    <div class="absolute inset-0 z-0">
+      <img src="https://placehold.co/1600x900" alt="A hand holding a pool test kit above clear blue pool water" class="w-full h-full object-cover object-center" />
+      <div class="absolute inset-0 bg-[#061a36]/70"></div>
+      <!-- Diagonal overlay shapes -->
+      <div class="absolute inset-0 pointer-events-none">
+        <svg width="100%" height="100%" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+          <polygon points="0,0 900,0 600,900 0,900" fill="#0c7e5a" fill-opacity="0.13"/>
+          <polygon points="1600,0 1600,900 1000,900 1300,0" fill="#02a26a" fill-opacity="0.09"/>
+        </svg>
+      </div>
+      <!-- Bubbles -->
+      <div class="absolute left-10 bottom-10 w-32 h-32 pointer-events-none">
+        <svg width="128" height="128" viewBox="0 0 128 128" fill="none">
+          <circle cx="32" cy="32" r="24" fill="#fff" fill-opacity="0.18"/>
+          <circle cx="90" cy="90" r="18" fill="#fff" fill-opacity="0.13"/>
+        </svg>
+      </div>
+      <div class="absolute right-24 top-1/2 w-24 h-24 pointer-events-none">
+        <svg width="96" height="96" viewBox="0 0 96 96" fill="none">
+          <circle cx="48" cy="48" r="20" fill="#fff" fill-opacity="0.13"/>
+        </svg>
+      </div>
+      <div class="absolute right-40 bottom-24 w-20 h-20 pointer-events-none">
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+          <circle cx="40" cy="40" r="16" fill="#fff" fill-opacity="0.10"/>
+        </svg>
+      </div>
+    </div>
+    <!-- Hero Content -->
+    <div class="relative z-10 w-full">
+      <div class="container mx-auto px-4 max-w-3xl text-center">
+        <p class="text-primary text-lg font-semibold mb-2 tracking-wide" style="letter-spacing:0.04em;">YOUR POOL, OUR PASSION</p>
+        <h1 class="text-white text-5xl md:text-6xl font-extrabold leading-tight mb-4">
+          Crystal Clear <span class="text-transparent" style="color:transparent;-webkit-text-stroke:2px #b3c6d9;">Pools</span> Crystal Clear Joy
+        </h1>
+        <p class="text-white text-base md:text-lg font-normal mb-8 mt-2">
+          Regular maintenance is recommended at least once a week to ensure water quality, cleanliness,<br class="hidden md:block"> and equipment functionality
+        </p>
+        <a href="#" class="inline-block px-8 py-3 rounded-lg bg-primary text-on-primary font-semibold text-lg shadow-md hover:bg-primary-dark transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+          DISCOVER MORE
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

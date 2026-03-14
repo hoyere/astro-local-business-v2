@@ -1,0 +1,77 @@
+  <!-- Header -->
+  <header class="w-full pt-8 px-8 flex items-center justify-between">
+    <div class="flex items-center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn logo" class="h-8 w-auto">
+    </div>
+    <nav class="hidden lg:flex items-center gap-12 mx-auto">
+      <div class="flex flex-col items-center text-text-muted text-xs">
+        <i class="fas fa-star text-xl mb-1" data-icon="star"></i>
+        <span>Top Content</span>
+      </div>
+      <div class="flex flex-col items-center text-text-muted text-xs">
+        <i class="fas fa-user-friends text-xl mb-1" data-icon="user-friends"></i>
+        <span>People</span>
+      </div>
+      <div class="flex flex-col items-center text-text-muted text-xs">
+        <i class="fas fa-laptop-code text-xl mb-1" data-icon="laptop-code"></i>
+        <span>Learning</span>
+      </div>
+      <div class="flex flex-col items-center text-text-muted text-xs">
+        <i class="fas fa-briefcase text-xl mb-1" data-icon="briefcase"></i>
+        <span>Jobs</span>
+      </div>
+      <div class="flex flex-col items-center text-text-muted text-xs">
+        <i class="fas fa-gamepad text-xl mb-1" data-icon="gamepad"></i>
+        <span>Games</span>
+      </div>
+    </nav>
+    <div class="flex items-center gap-4">
+      <a href="#" class="border border-[#0a66c2] text-[#0a66c2] font-semibold rounded-full px-6 py-2 text-base hover:bg-[#eaf1fb] focus:outline-none focus:ring-2 focus:ring-[#0a66c2] focus:ring-offset-2 transition">Sign in</a>
+      <a href="#" class="bg-[#0a66c2] text-white font-semibold rounded-full px-6 py-2 text-base hover:bg-[#004182] focus:outline-none focus:ring-2 focus:ring-[#0a66c2] focus:ring-offset-2 transition">Join now</a>
+    </div>
+  </header>
+  <!-- Main Section -->
+  <main class="hero-section flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-4 py-12 md:py-20">
+    <!-- Left: Text and Form -->
+    <div class="w-full lg:w-1/2 flex flex-col items-start">
+      <h1 class="text-[2.75rem] md:text-5xl font-light text-text mb-10 leading-tight" style="font-family: 'Segoe UI', Arial, sans-serif;">
+        Explore jobs and grow<br>your network
+      </h1>
+      <!-- Google Button -->
+      <button class="w-full max-w-md flex items-center justify-center gap-3 bg-[#0a66c2] text-white font-semibold rounded-full py-3 mb-4 text-lg shadow-sm hover:bg-[#004182] focus:outline-none focus:ring-2 focus:ring-[#0a66c2] focus:ring-offset-2 transition">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png" alt="Google logo" class="h-6 w-6 bg-white rounded-full p-1">
+        Continue with Google
+      </button>
+      <!-- Email Button -->
+      <button class="w-full max-w-md border border-border text-text font-semibold rounded-full py-3 mb-4 text-lg hover:bg-surface-alt focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition">
+        Sign in with email
+      </button>
+      <p class="text-xs text-text-muted max-w-md mb-2">
+        By clicking Continue to join or sign in, you agree to LinkedIn’s
+        <a href="#" class="text-[#0a66c2] font-semibold underline hover:underline">User Agreement</a>,
+        <a href="#" class="text-[#0a66c2] font-semibold underline hover:underline">Privacy Policy</a>, and
+        <a href="#" class="text-[#0a66c2] font-semibold underline hover:underline">Cookie Policy</a>.
+      </p>
+      <p class="text-base text-text mt-4 max-w-md">
+        New to LinkedIn?
+        <a href="#" class="text-[#0a66c2] font-semibold hover:underline">Join now</a>
+      </p>
+    </div>
+    <!-- Right: Image Grid -->
+    <div class="w-full lg:w-1/2 flex justify-center mt-12 lg:mt-0">
+      <div class="grid grid-cols-3 grid-rows-2 gap-6" style="min-width: 420px;">
+        <!-- Top Left: Blue Square -->
+        <div class="rounded-xl bg-[#0a66c2] w-32 h-32"></div>
+        <!-- Top Middle: Person 1 -->
+        <img src="https://placehold.co/128x128?text=Medical+Professional" alt="Medical professional smiling in scrubs" class="rounded-xl w-32 h-32 object-cover">
+        <!-- Top Right: Light Blue Square -->
+        <div class="rounded-xl bg-[#eaf1fb] w-32 h-32"></div>
+        <!-- Bottom Left: Person 2 -->
+        <img src="https://placehold.co/128x128?text=Barista" alt="Barista standing behind a counter with a cup of coffee" class="rounded-xl w-32 h-32 object-cover">
+        <!-- Bottom Middle: Blue Square (darker) -->
+        <div class="rounded-xl bg-[#004182] w-32 h-32"></div>
+        <!-- Bottom Right: Person 3 -->
+        <img src="https://placehold.co/128x128?text=Young+Professional" alt="Young professional with headphones sitting at a desk" class="rounded-xl w-32 h-32 object-cover">
+      </div>
+    </div>
+  </main>

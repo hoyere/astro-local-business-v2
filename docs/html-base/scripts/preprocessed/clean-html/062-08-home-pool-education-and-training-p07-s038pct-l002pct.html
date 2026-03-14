@@ -1,0 +1,42 @@
+    <section class="hero-section">
+      <div class="w-full h-[120px] flex items-stretch">
+        <!-- Left: Blue background with icon and text -->
+        <div class="flex-1 flex items-center px-12 bg-[#2196f3] relative overflow-hidden">
+          <!-- Decorative background lines (SVG) -->
+          <svg class="absolute inset-0 w-full h-full object-cover opacity-30" viewBox="0 0 600 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="swim-bg" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#2196f3" />
+                <stop offset="1" stop-color="#2196f3" stop-opacity="0.7" />
+              </linearGradient>
+            </defs>
+            <rect width="600" height="120" fill="url(#swim-bg)" />
+            <g opacity="0.3">
+              <path d="M0 60 Q150 0 300 60 T600 60" stroke="#fff" stroke-width="2" fill="none"/>
+              <path d="M0 90 Q150 30 300 90 T600 90" stroke="#fff" stroke-width="1" fill="none"/>
+              <path d="M0 30 Q150 -30 300 30 T600 30" stroke="#fff" stroke-width="1" fill="none"/>
+            </g>
+          </svg>
+          <!-- Icon -->
+          <div class="relative z-10 flex-shrink-0 mr-6">
+            <img src="https://placehold.co/72x72?text=✉️" alt="Envelope with phone icon, representing contact" class="w-18 h-18 rounded-none shadow-none bg-transparent" style="width:72px;height:72px;">
+            <span class="absolute bottom-0 right-0 translate-x-1/4 translate-y-1/4 bg-[#ff5252] rounded-full w-9 h-9 flex items-center justify-center border-4 border-[#2196f3]">
+              <i class="fa fa-phone text-white text-xl" data-icon="phone"></i>
+            </span>
+          </div>
+          <!-- Text -->
+          <div class="relative z-10">
+            <h2 class="text-3xl font-bold text-white leading-tight mb-1">Get Swimming Tutor</h2>
+            <p class="text-white text-opacity-80 text-base font-medium">Met consectetur adipiscing sed eiustempore dolore</p>
+          </div>
+        </div>
+        <!-- Right: Background image with overlay and button -->
+        <div class="flex-1 flex items-center justify-center relative overflow-hidden min-w-[380px]">
+          <img src="https://placehold.co/800x600?text=Swimming+child+underwater+with+goggles" alt="Child swimming underwater with goggles" class="absolute inset-0 w-full h-full object-cover object-center" />
+          <div class="absolute inset-0 bg-[#0f1c18] opacity-70"></div>
+          <button class="relative z-10 bg-surface text-text font-semibold text-lg px-12 py-6 rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition hover:bg-primary hover:text-on-primary">
+            JOIN OUR CLASS
+          </button>
+        </div>
+      </div>
+    </section>

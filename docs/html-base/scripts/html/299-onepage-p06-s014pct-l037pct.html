@@ -1,0 +1,253 @@
+<html>
+<head>
+  <title>Pool Services Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text font-sans">
+
+  <!-- Hero / Services Section -->
+  <section class="hero-section py-16 md:py-24 bg-background">
+    <div class="container mx-auto px-4 max-w-6xl flex flex-col md:flex-row md:items-start gap-12">
+      <!-- Left: Text -->
+      <div class="flex-1">
+        <span class="block text-base text-primary font-medium mb-2">Our Best Services</span>
+        <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-4">Our Best Pool Services For You!</h1>
+        <p class="text-text-secondary mb-4 max-w-lg">Our Dive Safe Lifeguard Services provide trained professionals to ensure a safe swimming environment, and we also offer recommendations for man additional safety features.</p>
+        <p class="text-text-muted mb-6 max-w-lg">Brand team building results after premium web-readiness value web enabled e-business engage web enabled strategic...</p>
+        <div class="flex items-center gap-4 mb-8">
+          <img src="https://placehold.co/48x48" alt="Portrait of Marvin McKinney" class="w-12 h-12 rounded-full object-cover border-2 border-primary">
+          <div>
+            <span class="block font-semibold text-text">Marvin McKinney</span>
+            <span class="block text-sm text-text-muted">Founder</span>
+          </div>
+          <img src="https://placehold.co/80x32?text=Signature" alt="Signature of Marvin McKinney" class="h-8 ml-4">
+        </div>
+        <button class="bg-primary text-on-primary px-7 py-3 rounded-lg font-semibold shadow-md hover:bg-primary-dark transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+          DISCOVER MORE
+        </button>
+      </div>
+      <!-- Right: Services Grid -->
+      <div class="flex-1 grid grid-cols-2 gap-6">
+        <div class="bg-surface rounded-xl shadow-md p-6 flex flex-col items-start" data-item="service-1">
+          <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-4">
+            <i class="fas fa-pencil-ruler text-primary text-2xl" data-icon="pencil-ruler"></i>
+          </div>
+          <h3 class="font-semibold text-lg mb-2">Custom Pool Design</h3>
+          <p class="text-text-muted text-sm">It's recommended to have our your pool professionally cleaned at least</p>
+        </div>
+        <div class="bg-surface rounded-xl shadow-md p-6 flex flex-col items-start" data-item="service-2">
+          <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-4">
+            <i class="fas fa-broom text-primary text-2xl" data-icon="broom"></i>
+          </div>
+          <h3 class="font-semibold text-lg mb-2">Pool Cleaning</h3>
+          <p class="text-text-muted text-sm">Pool cleaning involves skimming debris, vacuuming, scrubbing walls, cleaning</p>
+        </div>
+        <div class="bg-surface rounded-xl shadow-md p-6 flex flex-col items-start" data-item="service-3">
+          <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-4">
+            <i class="fas fa-water text-primary text-2xl" data-icon="water"></i>
+          </div>
+          <h3 class="font-semibold text-lg mb-2">Pool Maintenance</h3>
+          <p class="text-text-muted text-sm">Proper water chemistry is we crucial for preventing algae growth, maintaining</p>
+        </div>
+        <div class="bg-surface rounded-xl shadow-md p-6 flex flex-col items-start" data-item="service-4">
+          <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-4">
+            <i class="fas fa-tools text-primary text-2xl" data-icon="tools"></i>
+          </div>
+          <h3 class="font-semibold text-lg mb-2">Equipment Upgrade</h3>
+          <p class="text-text-muted text-sm">Proper water chemistry is we crucial for preventing algae growth, maintaining</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Stats Section -->
+  <section class="about-section py-16 md:py-24 bg-surface-alt relative overflow-hidden">
+    <div class="absolute inset-0 pointer-events-none opacity-20" aria-hidden="true">
+      <img src="https://placehold.co/1200x800/def/def?text=Pool+Pattern" alt="" class="w-full h-full object-cover">
+    </div>
+    <div class="container mx-auto px-4 max-w-6xl relative z-10 flex flex-col md:flex-row items-center gap-12">
+      <!-- Left: Image -->
+      <div class="flex-1 relative">
+        <img src="https://placehold.co/520x340" alt="Man testing pool water with kit" class="rounded-2xl shadow-lg w-full object-cover">
+        <div class="absolute left-6 bottom-6 bg-surface rounded-xl shadow-lg p-6 w-64 border border-border">
+          <div class="flex items-center mb-2">
+            <i class="fas fa-tools text-primary text-xl mr-2" data-icon="tools"></i>
+            <span class="font-semibold text-text">Pool Pulse Repairs</span>
+          </div>
+          <p class="text-text-muted text-sm mb-2">our Pool Pulse Repairs service covers aspects of pool equipment,</p>
+          <a href="#" class="text-primary font-semibold text-sm hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">READ MORE</a>
+        </div>
+      </div>
+      <!-- Right: Text & Stats -->
+      <div class="flex-1">
+        <span class="block text-base text-primary font-medium mb-2">About Us</span>
+        <h2 class="text-2xl md:text-3xl font-bold leading-tight mb-4">Swim in Serenity with Swim Serenity Solutions</h2>
+        <p class="text-text-secondary mb-6 max-w-lg">Regular pool cleaning is recommended at least once a week to maintain water man quality and prevent algae growth. Another versatile sans-serif font, Roboto is highly readable and comes in various weights, making it suitable.</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
+          <div>
+            <span class="block text-3xl font-bold text-text">2k<span class="text-primary">+</span></span>
+            <span class="block text-text-muted text-sm mt-1">Projects Complete</span>
+          </div>
+          <div>
+            <span class="block text-3xl font-bold text-text">164<span class="text-primary">+</span></span>
+            <span class="block text-text-muted text-sm mt-1">Expert Team Members</span>
+          </div>
+          <div>
+            <span class="block text-3xl font-bold text-text">3k<span class="text-primary">+</span></span>
+            <span class="block text-text-muted text-sm mt-1">Customers Satisfied</span>
+          </div>
+          <div>
+            <span class="block text-3xl font-bold text-text">60<span class="text-primary">+</span></span>
+            <span class="block text-text-muted text-sm mt-1">Best Winning Awards</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section py-16 md:py-24 bg-background">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="text-center mb-12">
+        <span class="block text-base text-primary font-medium mb-2">Team Members</span>
+        <h2 class="text-2xl md:text-3xl font-bold leading-tight">Our Professional Expert</h2>
+      </div>
+      <div data-collection="team-members" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <!-- Team Member 1 -->
+        <article data-item="team-1" class="bg-surface rounded-2xl shadow-md p-6 flex flex-col items-center">
+          <img src="https://placehold.co/160x160" alt="Daniel Thomas, Pool Technician" class="w-32 h-32 rounded-xl object-cover mb-4">
+          <h3 class="font-semibold text-lg mb-1">Daniel Thomas</h3>
+          <span class="text-primary text-sm mb-3">Pool Technicia</span>
+          <div class="flex gap-3 text-text-muted text-lg mt-2">
+            <a href="#" aria-label="Facebook" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-facebook-f" data-icon="facebook"></i></a>
+            <a href="#" aria-label="Twitter" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-twitter" data-icon="twitter"></i></a>
+            <a href="#" aria-label="LinkedIn" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-linkedin-in" data-icon="linkedin"></i></a>
+            <a href="#" aria-label="Behance" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-behance" data-icon="behance"></i></a>
+          </div>
+        </article>
+        <!-- Team Member 2 -->
+        <article data-item="team-2" class="bg-surface rounded-2xl shadow-md p-6 flex flex-col items-center">
+          <img src="https://placehold.co/160x160" alt="Emanuel Maclin, Pool Technician" class="w-32 h-32 rounded-xl object-cover mb-4">
+          <h3 class="font-semibold text-lg mb-1">Emanuel Maclin</h3>
+          <span class="text-primary text-sm mb-3">Pool Technicia</span>
+          <div class="flex gap-3 text-text-muted text-lg mt-2">
+            <a href="#" aria-label="Facebook" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-facebook-f" data-icon="facebook"></i></a>
+            <a href="#" aria-label="Twitter" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-twitter" data-icon="twitter"></i></a>
+            <a href="#" aria-label="LinkedIn" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-linkedin-in" data-icon="linkedin"></i></a>
+            <a href="#" aria-label="Behance" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-behance" data-icon="behance"></i></a>
+          </div>
+        </article>
+        <!-- Team Member 3 -->
+        <article data-item="team-3" class="bg-surface rounded-2xl shadow-md p-6 flex flex-col items-center">
+          <img src="https://placehold.co/160x160" alt="Jonson Anderson, Pool Technician" class="w-32 h-32 rounded-xl object-cover mb-4">
+          <h3 class="font-semibold text-lg mb-1">Jonson Anderson</h3>
+          <span class="text-primary text-sm mb-3">Pool Technicia</span>
+          <div class="flex gap-3 text-text-muted text-lg mt-2">
+            <a href="#" aria-label="Facebook" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-facebook-f" data-icon="facebook"></i></a>
+            <a href="#" aria-label="Twitter" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-twitter" data-icon="twitter"></i></a>
+            <a href="#" aria-label="LinkedIn" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-linkedin-in" data-icon="linkedin"></i></a>
+            <a href="#" aria-label="Behance" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-behance" data-icon="behance"></i></a>
+          </div>
+        </article>
+        <!-- Team Member 4 -->
+        <article data-item="team-4" class="bg-surface rounded-2xl shadow-md p-6 flex flex-col items-center">
+          <img src="https://placehold.co/160x160" alt="Charlie William, Pool Technician" class="w-32 h-32 rounded-xl object-cover mb-4">
+          <h3 class="font-semibold text-lg mb-1">Charlie William</h3>
+          <span class="text-primary text-sm mb-3">Pool Technicia</span>
+          <div class="flex gap-3 text-text-muted text-lg mt-2">
+            <a href="#" aria-label="Facebook" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-facebook-f" data-icon="facebook"></i></a>
+            <a href="#" aria-label="Twitter" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-twitter" data-icon="twitter"></i></a>
+            <a href="#" aria-label="LinkedIn" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-linkedin-in" data-icon="linkedin"></i></a>
+            <a href="#" aria-label="Behance" class="hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"><i class="fab fa-behance" data-icon="behance"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-section py-16 md:py-24 bg-background">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="text-center mb-12">
+        <span class="block text-base text-primary font-medium mb-2">Why Choose U</span>
+        <h2 class="text-2xl md:text-3xl font-bold leading-tight">Pioneering the Future of Pool Maintenance</h2>
+      </div>
+      <div class="flex flex-col md:flex-row items-center justify-center gap-12">
+        <!-- Left Features -->
+        <div class="flex flex-col gap-8">
+          <div class="bg-surface rounded-xl shadow-md p-6 w-64 flex flex-col items-center" data-item="why-1">
+            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-4">
+              <i class="fas fa-water text-primary text-2xl" data-icon="water"></i>
+            </div>
+            <h3 class="font-semibold text-base mb-1">Initial Consultation</h3>
+            <span class="text-text-muted text-sm">Initial Consultation</span>
+          </div>
+          <div class="bg-surface rounded-xl shadow-md p-6 w-64 flex flex-col items-center" data-item="why-2">
+            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-4">
+              <i class="fas fa-tree text-primary text-2xl" data-icon="tree"></i>
+            </div>
+            <h3 class="font-semibold text-base mb-1">Poolside Landscaping</h3>
+            <span class="text-text-muted text-sm">Poolside Landscaping</span>
+          </div>
+        </div>
+        <!-- Center Image -->
+        <div class="flex-shrink-0">
+          <img src="https://placehold.co/320x400" alt="Smiling woman in cleaning uniform holding pool maintenance supplies and making OK gesture" class="rounded-full border-8 border-surface shadow-lg w-80 h-96 object-cover">
+        </div>
+        <!-- Right Features -->
+        <div class="flex flex-col gap-8">
+          <div class="bg-surface rounded-xl shadow-md p-6 w-64 flex flex-col items-center" data-item="why-3">
+            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-4">
+              <i class="fas fa-swimmer text-primary text-2xl" data-icon="swimmer"></i>
+            </div>
+            <h3 class="font-semibold text-base mb-1">Pool side Oasis</h3>
+            <span class="text-text-muted text-sm">Pool side Oasis</span>
+          </div>
+          <div class="bg-surface rounded-xl shadow-md p-6 w-64 flex flex-col items-center" data-item="why-4">
+            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-4">
+              <i class="fas fa-search text-primary text-2xl" data-icon="search"></i>
+            </div>
+            <h3 class="font-semibold text-base mb-1">Detection & Repair</h3>
+            <span class="text-text-muted text-sm">Detection & Repair</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+<html>
+<head>
+  <title>Swimming Classes Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text font-sans">
+
+  <!-- Hero Section -->
+  <section class="hero-section py-16 md:py-24 bg-background">
+    <div class="container mx-auto px-4 max-w-6xl flex flex-col md:flex-row items-center gap-12">
+      <!-- Images and Experience Badge -->
+      <div class="relative flex-1 flex flex-col items-center md:items-start">
+        <div class="relative w-[340px] h-[320px] flex flex-col items-center">
+          <!-- Top Image -->
+          <img src="https://placehold.co/260x120" alt="Children swimming in a pool with an instructor" class="rounded-2xl shadow-lg absolute top-0 left-20 w-[220px] h-[120px] object-cover z-20">
+          <!-- Left Image -->
+          <img src="https://placehold.co/200x200" alt="Swimmer diving into a pool" class="rounded-2xl shadow-lg absolute top-16 left-0 w-[180px] h-[180px] object-cover z-10">
+          <!-- Bottom Image -->
+          <img src="https://placehold.co/180x100" alt="Children learning to swim at the poolside" class="rounded-2xl shadow-lg absolute bottom-0 left-24 w-[160px] h-[90px] object-cover z-20">
+          <!-- Experience Badge -->
+          <div class="absolute left-28 top-24 z-30 flex items-center justify-center w-32 h-32 rounded-full bg-primary text-on-primary border-8 border-white shadow-xl">
+            <div class="flex flex-col items-center justify-center">
+              <span class="text-3xl font-bold leading-none">25</span>
+              <span class="text-xs font-semibold mt-1 uppercase tracking-wide">Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Content -->
+      <div class="flex-1">
+        <div class="flex items-center mb-2">
+          <i class="fas fa-caret-right text-primary mr-2 text-lg" data-icon="caret-right"></i>
+          <span class="text-primary font-semibold text-sm tracking-wide">About Us Our Class</span>
+          <span class="ml-2 w-16 h-0.5 bg-primary rounded"></span>
+        </div>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-4 text-text">
+          Splash into Success with Our Swimming Classes
+        </h1>
+        <p class="text-text-muted mb-6 max-w-xl">
+          Opening in spring and closing in fall are ideal. However, it depends on local climate conditions; a professional service can guide you based on your location regular chlorination, proper water cleaning.
+        </p>
+        <div class="grid grid-cols-2 gap-x-8 gap-y-2 mb-8">
+          <div class="flex items-center space-x-2">
+            <input type="checkbox" checked disabled class="accent-primary w-4 h-4 rounded border-border">
+            <span class="text-text font-medium text-sm">Experience Trainer</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <input type="checkbox" checked disabled class="accent-primary w-4 h-4 rounded border-border">
+            <span class="text-text font-medium text-sm">Recommends Our School</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <input type="checkbox" checked disabled class="accent-primary w-4 h-4 rounded border-border">
+            <span class="text-text font-medium text-sm">Competitions Won</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <input type="checkbox" checked disabled class="accent-primary w-4 h-4 rounded border-border">
+            <span class="text-text font-medium text-sm">Successful History</span>
+          </div>
+        </div>
+        <button class="bg-primary text-on-primary px-7 py-3 rounded-lg font-semibold shadow-md hover:bg-primary-dark transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+          MORE ABOUT US
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Classes Section -->
+  <section class="classes-section py-16 md:py-24 bg-surface-alt">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="flex flex-col items-center mb-12">
+        <div class="flex items-center mb-2">
+          <i class="fas fa-caret-right text-primary mr-2 text-lg" data-icon="caret-right"></i>
+          <span class="text-primary font-semibold text-sm tracking-wide">Our Classes</span>
+          <span class="ml-2 w-16 h-0.5 bg-primary rounded"></span>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-text text-center">
+          Join Our Swimming Classes
+        </h2>
+      </div>
+      <div data-collection="classes" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <article data-item="class-1" class="bg-surface rounded-2xl shadow-lg p-8 flex flex-col min-h-[340px]">
+          <div class="mb-4">
+            <span class="text-primary font-bold text-xl">$220.99</span>
+            <span class="text-text-muted text-base font-medium">/ Person</span>
+          </div>
+          <p class="text-text-muted mb-8 flex-1">
+            Sharks are a diverse group of cartilaginous fish that have inhabited the Earth's oceans
+          </p>
+          <div class="flex items-center justify-between mt-auto pt-4 border-t border-border text-sm text-text-muted">
+            <div class="flex items-center space-x-1">
+              <i class="fas fa-book-open text-primary text-base" data-icon="book-open"></i>
+              <span>Lesson 8</span>
+            </div>
+            <div class="flex items-center space-x-1">
+              <i class="fas fa-user-friends text-primary text-base" data-icon="user-friends"></i>
+              <span>Enrolled 60+</span>
+            </div>
+            <div class="flex items-center space-x-1">
+              <i class="fas fa-child text-primary text-base" data-icon="child"></i>
+              <span>Children</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article data-item="class-2" class="bg-surface rounded-2xl shadow-lg p-8 flex flex-col min-h-[340px]">
+          <div class="mb-4">
+            <span class="text-primary font-bold text-xl">$230.99</span>
+            <span class="text-text-muted text-base font-medium">/ Person</span>
+          </div>
+          <p class="text-text-muted mb-8 flex-1">
+            A professional swimmer is an athlete who has achieved a high level of skill proficiency.
+          </p>
+          <div class="flex items-center justify-between mt-auto pt-4 border-t border-border text-sm text-text-muted">
+            <div class="flex items-center space-x-1">
+              <i class="fas fa-book-open text-primary text-base" data-icon="book-open"></i>
+              <span>Lesson 8</span>
+            </div>
+            <div class="flex items-center space-x-1">
+              <i class="fas fa-user-friends text-primary text-base" data-icon="user-friends"></i>
+              <span>Enrolled 60+</span>
+            </div>
+            <div class="flex items-center space-x-1">
+              <i class="fas fa-child text-primary text-base" data-icon="child"></i>
+              <span>Children</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 3 -->
+        <article data-item="class-3" class="bg-surface rounded-2xl shadow-lg p-8 flex flex-col min-h-[340px]">
+          <div class="mb-4">
+            <span class="text-primary font-bold text-xl">$250.99</span>
+            <span class="text-text-muted text-base font-medium">/ Person</span>
+          </div>
+          <p class="text-text-muted mb-8 flex-1">
+            Water safety is a top priority in our classes. We teach essential water safety skills.
+          </p>
+          <div class="flex items-center justify-between mt-auto pt-4 border-t border-border text-sm text-text-muted">
+            <div class="flex items-center space-x-1">
+              <i class="fas fa-book-open text-primary text-base" data-icon="book-open"></i>
+              <span>Lesson 8</span>
+            </div>
+            <div class="flex items-center space-x-1">
+              <i class="fas fa-user-friends text-primary text-base" data-icon="user-friends"></i>
+              <span>Enrolled 60+</span>
+            </div>
+            <div class="flex items-center space-x-1">
+              <i class="fas fa-child text-primary text-base" data-icon="child"></i>
+              <span>Children</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

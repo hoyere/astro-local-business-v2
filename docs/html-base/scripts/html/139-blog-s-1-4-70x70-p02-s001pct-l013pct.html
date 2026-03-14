@@ -1,0 +1,167 @@
+<html>
+<head>
+  <title>How to Revamp Your Pool Area for a Stylish Makeover</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom for logo shape */
+    .logo-bg {
+      border-bottom-right-radius: 4rem;
+    }
+    /* Custom for hero overlay */
+    .hero-overlay {
+      background: linear-gradient(120deg, rgba(0, 82, 204, 0.85) 0%, rgba(0, 82, 204, 0.7) 100%);
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+    /* Custom for bubbles */
+    .bubble {
+      position: absolute;
+      border-radius: 9999px;
+      background: rgba(255,255,255,0.25);
+      z-index: 2;
+      pointer-events: none;
+      mix-blend-mode: lighten;
+    }
+    .bubble-1 { width: 60px; height: 60px; left: 12%; top: 60%; }
+    .bubble-2 { width: 32px; height: 32px; left: 30%; top: 80%; }
+    .bubble-3 { width: 40px; height: 40px; left: 70%; top: 40%; }
+    .bubble-4 { width: 24px; height: 24px; left: 80%; top: 70%; }
+    .bubble-5 { width: 20px; height: 20px; left: 60%; top: 80%; }
+    .bubble-6 { width: 48px; height: 48px; left: 85%; top: 60%; }
+    /* Responsive logo shape */
+    @media (max-width: 768px) {
+      .logo-bg {
+        border-bottom-right-radius: 2rem;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text">
+
+  <!-- Header/Navbar -->
+  <header class="relative z-20">
+    <nav class="flex items-center justify-between px-4 md:px-12 py-4 bg-[#1793f7]">
+      <!-- Logo -->
+      <div class="logo-bg bg-background flex items-center px-8 py-4" style="border-bottom-right-radius:4rem;">
+        <span class="text-[2.5rem] font-bold text-[#1a2340] flex items-center select-none">
+          P
+          <!-- Pool icon (custom) -->
+          <span class="relative mx-1" style="top:2px;">
+            <svg width="38" height="28" viewBox="0 0 38 28" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block align-middle" aria-hidden="true">
+              <ellipse cx="9" cy="14" rx="8" ry="8" fill="#1793f7"/>
+              <ellipse cx="29" cy="14" rx="8" ry="8" fill="#1793f7"/>
+              <ellipse cx="9" cy="14" rx="5" ry="5" fill="#fff"/>
+              <ellipse cx="29" cy="14" rx="5" ry="5" fill="#fff"/>
+              <ellipse cx="9" cy="14" rx="2.5" ry="2.5" fill="#1793f7"/>
+              <ellipse cx="29" cy="14" rx="2.5" ry="2.5" fill="#1793f7"/>
+            </svg>
+          </span>
+          olax
+        </span>
+      </div>
+      <!-- Nav Links -->
+      <ul class="hidden md:flex items-center space-x-8 ml-8">
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+            HOME <i class="fas fa-plus text-xs" data-icon="plus"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline">ABOUT US</a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+            SERVICES <i class="fas fa-plus text-xs" data-icon="plus"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+            PAGES <i class="fas fa-plus text-xs" data-icon="plus"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+            BLOGS <i class="fas fa-plus text-xs" data-icon="plus"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline">CONTACT US</a>
+        </li>
+      </ul>
+      <!-- Icons -->
+      <div class="flex items-center space-x-4 ml-4">
+        <button class="w-10 h-10 flex items-center justify-center rounded-full bg-background text-[#1793f7] hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+          <i class="fas fa-search text-lg" data-icon="search"></i>
+        </button>
+        <button class="w-10 h-10 flex items-center justify-center rounded-full bg-background text-[#1793f7] hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 md:hidden" aria-label="Open menu">
+          <i class="fas fa-bars text-lg" data-icon="bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section relative min-h-[420px] md:min-h-[480px] flex items-center bg-[#1793f7] overflow-hidden">
+    <!-- Background image (pool) -->
+    <img src="https://placehold.co/1600x800/1793f7/ffffff?text=Pool+Background" alt="A swimming pool background with water and pool equipment" class="absolute inset-0 w-full h-full object-cover object-center z-0" />
+    <!-- Overlay -->
+    <div class="hero-overlay"></div>
+    <!-- Bubbles -->
+    <div class="bubble bubble-1"></div>
+    <div class="bubble bubble-2"></div>
+    <div class="bubble bubble-3"></div>
+    <div class="bubble bubble-4"></div>
+    <div class="bubble bubble-5"></div>
+    <div class="bubble bubble-6"></div>
+    <!-- Content -->
+    <div class="container mx-auto px-4 max-w-6xl relative z-10">
+      <div class="pt-16 md:pt-24 pb-12 md:pb-20">
+        <h1 class="text-4xl md:text-6xl font-bold text-on-primary leading-tight mb-6">
+          How to Revamp Your Pool Area for a<br class="hidden md:block"> Stylish Makeover
+        </h1>
+        <!-- Breadcrumbs -->
+        <nav class="flex items-center text-on-primary text-base font-normal space-x-2" aria-label="Breadcrumb">
+          <a href="#" class="hover:underline">Home</a>
+          <span class="mx-1 text-on-primary"><i class="fas fa-arrow-right text-xs" data-icon="arrow-right"></i></span>
+          <a href="#" class="hover:underline">Equipment Install</a>
+          <span class="mx-1 text-on-primary"><i class="fas fa-arrow-right text-xs" data-icon="arrow-right"></i></span>
+          <span class="text-on-primary">How to Revamp Your Pool Area for a Stylish Makeover</span>
+        </nav>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

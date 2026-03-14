@@ -1,0 +1,122 @@
+<html>
+  <head>
+    <title>Blue Haven Pool Maintenance Hero Section</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 left-0 w-full z-30">
+      <div class="w-full bg-[#2196f3]">
+        <div class="container mx-auto px-4 max-w-6xl flex items-center justify-between h-12">
+          <ul class="flex items-center space-x-6 text-white text-sm font-medium h-12">
+            <li>
+              <a href="#" class="flex items-center h-12 px-4 hover:bg-[#1e88e5] transition rounded-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                HOME <i class="fas fa-chevron-down ml-1 text-xs" data-icon="chevron-down"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center h-12 px-4 hover:bg-[#1e88e5] transition rounded-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                ABOUT US
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center h-12 px-4 hover:bg-[#1e88e5] transition rounded-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                SERVICES <i class="fas fa-chevron-down ml-1 text-xs" data-icon="chevron-down"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center h-12 px-4 hover:bg-[#1e88e5] transition rounded-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                PAGES <i class="fas fa-chevron-down ml-1 text-xs" data-icon="chevron-down"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center h-12 px-4 hover:bg-[#1e88e5] transition rounded-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                BLOGS <i class="fas fa-chevron-down ml-1 text-xs" data-icon="chevron-down"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center h-12 px-4 hover:bg-[#1e88e5] transition rounded-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                CONTACT US
+              </a>
+            </li>
+          </ul>
+          <div class="flex items-center space-x-4">
+            <button class="text-white text-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+              <i class="fas fa-search" data-icon="search"></i>
+            </button>
+            <button class="text-white text-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Menu">
+              <i class="fas fa-bars" data-icon="bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section relative min-h-[600px] flex items-center bg-background pt-12">
+      <!-- Background Image -->
+      <div class="absolute inset-0 w-full h-full z-0">
+        <img src="https://placehold.co/1600x900" alt="Person cleaning a swimming pool with pool cleaning equipment, close-up on hands and machine, pool water in background" class="w-full h-full object-cover object-center" />
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/50"></div>
+        <!-- Diagonal overlay -->
+        <div class="absolute inset-0" style="background: linear-gradient(120deg, rgba(2,162,106,0.35) 40%, rgba(33,150,243,0.25) 100%);"></div>
+      </div>
+      <!-- Content -->
+      <div class="container mx-auto px-4 max-w-6xl relative z-10">
+        <div class="max-w-2xl pt-16 pb-24">
+          <h1 class="text-[3rem] md:text-[3.5rem] font-extrabold leading-tight text-white mb-6" style="text-shadow: 0 2px 16px rgba(0,0,0,0.18);">
+            Blue Haven Pool<br>Maintenance
+          </h1>
+          <p class="text-lg text-white font-normal mb-0">
+            Swimming Pool Cleaning” as the main name for your business, you can<br>
+            consider adding a descriptive context
+          </p>
+        </div>
+      </div>
+      <!-- Slider Arrows -->
+      <div class="absolute right-12 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4 z-20">
+        <button class="w-12 h-12 rounded-full bg-white/30 flex items-center justify-center text-white text-2xl shadow-lg hover:bg-white/50 transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Next Slide">
+          <i class="fas fa-arrow-right" data-icon="arrow-right"></i>
+        </button>
+        <button class="w-12 h-12 rounded-full bg-white/30 flex items-center justify-center text-white text-2xl shadow-lg hover:bg-white/50 transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Previous Slide">
+          <i class="fas fa-arrow-left" data-icon="arrow-left"></i>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>

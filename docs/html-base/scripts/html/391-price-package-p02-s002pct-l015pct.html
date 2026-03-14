@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>Poolax - Price</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background text-text">
+    <!-- Header/Navbar -->
+    <header class="relative z-20">
+      <nav class="w-full bg-[#2196f3]">
+        <div class="container mx-auto px-4 max-w-7xl flex items-center justify-between h-24">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <div class="relative">
+              <div class="absolute left-0 top-0 w-[290px] h-[110px] bg-background rounded-br-[60px] -ml-8 -mt-8 z-0"></div>
+              <a href="#" class="relative z-10 flex items-center pl-2">
+                <span class="text-[44px] font-bold text-[#0f1c18] leading-none flex items-center">
+                  <span class="relative mr-1">
+                    <span class="inline-block relative">
+                      <span class="text-[#0f1c18]">P</span>
+                      <!-- Pool icon effect -->
+                      <span class="absolute left-1 top-2">
+                        <svg width="32" height="18" viewBox="0 0 32 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block align-middle" style="margin-left:-2px;">
+                          <ellipse cx="7" cy="9" rx="7" ry="9" fill="#2196f3" fill-opacity="0.7"/>
+                          <ellipse cx="25" cy="9" rx="7" ry="9" fill="#2196f3" fill-opacity="0.7"/>
+                          <circle cx="7" cy="5" r="2" fill="#0f1c18"/>
+                          <circle cx="25" cy="5" r="2" fill="#0f1c18"/>
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span class="text-[#0f1c18]">oolax</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- Nav Links -->
+          <ul class="hidden lg:flex items-center space-x-8 text-[15px] font-medium">
+            <li>
+              <a href="#" class="text-white hover:text-accent transition flex items-center">
+                HOME <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white hover:text-accent transition">ABOUT US</a>
+            </li>
+            <li>
+              <a href="#" class="text-white hover:text-accent transition flex items-center">
+                SERVICES <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white hover:text-accent transition flex items-center">
+                PAGES <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white hover:text-accent transition flex items-center">
+                BLOGS <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white hover:text-accent transition">CONTACT US</a>
+            </li>
+          </ul>
+          <!-- Icons -->
+          <div class="flex items-center space-x-4">
+            <button class="w-12 h-12 flex items-center justify-center rounded-full bg-white text-[#0f1c18] hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+              <i class="fas fa-search text-xl" data-icon="search"></i>
+            </button>
+            <button class="w-12 h-12 flex items-center justify-center rounded-full bg-white text-[#0f1c18] hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Menu">
+              <i class="fas fa-bars text-xl" data-icon="bars"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section relative bg-[#1565c0] min-h-[340px] flex items-end pb-16" style="background: linear-gradient(120deg, #1565c0 60%, #2196f3 100%);">
+      <!-- Pool background image with bubbles (placeholder) -->
+      <img src="https://placehold.co/1600x600/1565c0/ffffff?text=Pool+background+with+bubbles" alt="Blue pool water with floating bubbles and pool edge" class="absolute inset-0 w-full h-full object-cover opacity-70 pointer-events-none select-none" style="z-index:1;">
+      <div class="container mx-auto px-4 max-w-7xl relative z-10">
+        <div class="pt-24">
+          <h1 class="text-5xl font-bold text-white mb-6">Price</h1>
+          <nav class="flex items-center space-x-2 text-white text-lg font-medium" aria-label="Breadcrumb">
+            <a href="#" class="text-white hover:text-accent transition">Home</a>
+            <span class="mx-1 text-white"><i class="fas fa-arrow-right text-base" data-icon="arrow-right"></i></span>
+            <span class="text-white opacity-80">Price</span>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <section class="hero-section relative overflow-hidden bg-background py-0" style="height: 120px;">
+      <div class="container mx-auto px-4 max-w-6xl flex items-start h-full relative z-10">
+        <!-- Left curved image (partial) -->
+        <div class="absolute left-0 top-0 h-full" style="width: 38%;">
+          <img src="https://placehold.co/600x120" alt="Curved pool with robotic cleaner and blue accent shapes" class="h-full w-full object-cover rounded-bl-[100px] rounded-br-[200px] rounded-tl-none rounded-tr-none" style="clip-path: ellipse(80% 100% at 40% 50%);">
+          <!-- Decorative blue shape overlay -->
+          <div class="absolute left-0 top-0 w-full h-full pointer-events-none">
+            <svg width="100%" height="100%" viewBox="0 0 600 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute inset-0">
+              <path d="M0,0 Q100,60 0,120 Q200,120 600,0 Z" fill="#0094FF" fill-opacity="0.15"/>
+              <path d="M0,0 Q100,60 0,120" stroke="#00112A" stroke-width="4" fill="none"/>
+            </svg>
+          </div>
+        </div>
+        <!-- Center avatars and text -->
+        <div class="flex-1 flex flex-col items-center justify-center relative z-10" style="margin-left: 36%;">
+          <div class="flex items-center space-x-[-16px] mb-2">
+            <img src="https://placehold.co/48x48" alt="Reviewer 1 avatar" class="w-12 h-12 rounded-full border-4 border-background shadow -ml-0">
+            <img src="https://placehold.co/48x48" alt="Reviewer 2 avatar" class="w-12 h-12 rounded-full border-4 border-background shadow">
+            <img src="https://placehold.co/48x48" alt="Reviewer 3 avatar" class="w-12 h-12 rounded-full border-4 border-background shadow">
+            <img src="https://placehold.co/48x48" alt="Reviewer 4 avatar" class="w-12 h-12 rounded-full border-4 border-background shadow">
+          </div>
+          <div class="flex flex-col items-start">
+            <span class="text-[28px] font-semibold text-text leading-none">1500+</span>
+            <a href="#" class="text-primary text-base underline hover:text-primary-dark focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">Active Reviews</a>
+          </div>
+        </div>
+        <!-- Signature and right illustration -->
+        <div class="absolute right-0 top-0 flex flex-col items-end h-full pr-4 z-10" style="width: 32%;">
+          <img src="https://placehold.co/120x40?text=Signature" alt="Handwritten signature" class="h-10 w-auto mb-2 mt-2">
+          <img src="https://placehold.co/80x120" alt="Deck chair illustration with blue stripes" class="h-28 w-auto mt-2">
+        </div>
+      </div>
+      <!-- Decorative right blue bar (matches screenshot) -->
+      <div class="absolute right-0 top-0 h-full w-24 flex items-end z-0">
+        <div class="w-full h-3/4 bg-[#0094FF] rounded-bl-3xl opacity-80"></div>
+      </div>
+    </section>
+  </body>
+</html>

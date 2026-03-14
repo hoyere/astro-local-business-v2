@@ -1,0 +1,74 @@
+<html>
+<head>
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background">
+  <section class="services-section py-0 bg-background">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div data-collection="services" class="grid grid-cols-4 gap-8">
+        <!-- Card 1 -->
+        <article data-item="service-1" class="bg-surface rounded-2xl shadow-sm flex flex-col items-center pt-6 pb-2 px-2">
+          <div class="w-16 h-16 rounded-full bg-surface-alt flex items-center justify-center mb-2">
+            <i class="fas fa-tools text-2xl text-primary" data-icon="tools" aria-hidden="true"></i>
+          </div>
+          <h3 class="text-lg font-bold text-text text-center leading-tight mt-2 mb-0.5" style="letter-spacing:-0.01em;">ing &amp; Maintenance</h3>
+        </article>
+        <!-- Card 2 -->
+        <article data-item="service-2" class="bg-surface rounded-2xl shadow-sm flex flex-col items-center pt-6 pb-2 px-2">
+          <div class="w-16 h-16 rounded-full bg-surface-alt flex items-center justify-center mb-2">
+            <i class="fas fa-search text-2xl text-primary" data-icon="search" aria-hidden="true"></i>
+          </div>
+          <h3 class="text-lg font-bold text-text text-center leading-tight mt-2 mb-0.5" style="letter-spacing:-0.01em;">Pool Safety Inspections</h3>
+        </article>
+        <!-- Card 3 -->
+        <article data-item="service-3" class="bg-surface rounded-2xl shadow-sm flex flex-col items-center pt-6 pb-2 px-2">
+          <div class="w-16 h-16 rounded-full bg-surface-alt flex items-center justify-center mb-2">
+            <i class="fas fa-paint-roller text-2xl text-primary" data-icon="paint-roller" aria-hidden="true"></i>
+          </div>
+          <h3 class="text-lg font-bold text-text text-center leading-tight mt-2 mb-0.5" style="letter-spacing:-0.01em;">Tile &amp; Surface Cleaning</h3>
+        </article>
+        <!-- Card 4 -->
+        <article data-item="service-4" class="bg-surface rounded-2xl shadow-sm flex flex-col items-center pt-6 pb-2 px-2">
+          <div class="w-16 h-16 rounded-full bg-surface-alt flex items-center justify-center mb-2">
+            <i class="fas fa-water text-2xl text-primary" data-icon="water" aria-hidden="true"></i>
+          </div>
+          <h3 class="text-lg font-bold text-text text-center leading-tight mt-2 mb-0.5" style="letter-spacing:-0.01em;">Pool Cleanin</h3>
+        </article>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

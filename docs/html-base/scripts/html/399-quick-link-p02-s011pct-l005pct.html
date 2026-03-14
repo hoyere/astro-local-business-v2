@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-[#08539a] min-h-screen">
+    <section class="explore-content-section py-24 bg-[#08539a]">
+      <div class="container mx-auto px-4 max-w-7xl flex flex-col md:flex-row items-start">
+        <!-- Left: Heading and description -->
+        <div class="md:w-1/2 mb-12 md:mb-0">
+          <h1 class="text-4xl md:text-5xl font-light text-white mb-8 leading-tight">
+            Explore top LinkedIn<br>content
+          </h1>
+          <p class="text-xl text-white font-normal leading-relaxed">
+            Discover relevant posts and expert<br>
+            insights — curated by topic and in one<br>
+            place.
+          </p>
+        </div>
+        <!-- Right: Topic tags -->
+        <div class="md:w-1/2 flex flex-col items-start">
+          <div data-collection="topics" class="flex flex-wrap gap-x-6 gap-y-5">
+            <button data-item="career" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Career
+            </button>
+            <button data-item="productivity" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Productivity
+            </button>
+            <button data-item="finance" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Finance
+            </button>
+          </div>
+          <div class="flex flex-wrap gap-x-6 gap-y-5 mt-5">
+            <button data-item="soft-skills" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Soft Skills &amp; Emotional Intelligence
+            </button>
+            <button data-item="project-management" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Project Management
+            </button>
+          </div>
+          <div class="flex flex-wrap gap-x-6 gap-y-5 mt-5">
+            <button data-item="education" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Education
+            </button>
+            <button data-item="technology" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Technology
+            </button>
+            <button data-item="leadership" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Leadership
+            </button>
+            <button data-item="ecommerce" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Ecommerce
+            </button>
+          </div>
+          <div class="flex flex-wrap gap-x-6 gap-y-5 mt-5">
+            <button data-item="show-all" class="px-7 py-2 rounded-full border border-white text-white text-lg font-semibold bg-transparent transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              Show all
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

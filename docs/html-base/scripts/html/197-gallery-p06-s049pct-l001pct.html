@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--color-background);
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body>
+    <section class="image-row-section bg-background">
+      <div class="flex w-full">
+        <div class="w-1/2">
+          <img src="https://placehold.co/800x600?text=Left+image" alt="A person in a swimsuit standing by a lush green garden and a rustic wooden house" class="w-full h-[60px] object-cover object-left" />
+        </div>
+        <div class="w-1/2">
+          <img src="https://placehold.co/800x600?text=Right+image" alt="A clear blue swimming pool with water ripples" class="w-full h-[60px] object-cover object-right" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+<head>
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background">
+  <section class="hero-section py-0 bg-background">
+    <div class="container mx-auto px-4 max-w-6xl flex items-start pt-8 pb-24">
+      <!-- Left image -->
+      <div class="w-1/2 pr-8">
+        <img src="https://placehold.co/800x600" alt="Person cleaning a swimming pool with a pool vacuum, close-up of hand and pool tiles" class="rounded-bl-3xl rounded-tl-3xl rounded-tr-none rounded-br-none w-full h-64 object-cover" />
+      </div>
+      <!-- Right content -->
+      <div class="w-1/2 flex flex-col justify-center">
+        <div class="flex flex-col items-start">
+          <p class="text-text-secondary text-lg mb-6 max-w-xl">
+            regular chlorination, proper water cleaning.”
+          </p>
+          <div class="flex items-center space-x-8 mt-2">
+            <button class="bg-primary hover:bg-primary-dark text-on-primary font-semibold px-8 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition" type="button">
+              MORE ABOUT US
+            </button>
+            <div class="flex items-center space-x-4">
+              <span class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary text-on-primary text-2xl" aria-label="Call us">
+                <i class="fas fa-phone" data-icon="phone"></i>
+              </span>
+              <div>
+                <span class="block text-text-muted text-base">Have any Question? Give us a</span>
+                <span class="block text-text font-bold text-xl mt-1">+163 9654 8745</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

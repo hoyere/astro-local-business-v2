@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Our Clients Feedback Section</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+      /* Custom background for the right side */
+      .bg-map {
+        background-color: #06163a;
+        background-image: url('https://www.transparenttextures.com/patterns/dots.png'), url("data:image/svg+xml,%3Csvg width='800' height='600' viewBox='0 0 800 600' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.08' d='M0 0H800V600H0z' fill='%23fff'/%3E%3C/svg%3E");
+        background-size: cover, cover;
+        background-repeat: no-repeat, repeat;
+        background-position: center, center;
+      }
+      @media (max-width: 1023px) {
+        .split-section {
+          flex-direction: column;
+        }
+        .split-left,
+        .split-right {
+          width: 100% !important;
+          min-height: 300px;
+        }
+        .split-left {
+          min-height: 220px;
+        }
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <section class="testimonials-section py-0">
+      <div class="flex split-section min-h-[500px] lg:min-h-[600px]">
+        <!-- Left: Image -->
+        <div class="split-left w-1/2 min-h-[500px] lg:min-h-[600px] hidden md:block">
+          <img src="https://placehold.co/800x600?text=Technician+working+by+pool+with+toolboxes+and+drill" alt="Technician working by a pool with toolboxes and a drill on a deck, green grass in foreground" class="w-full h-full object-cover object-left" />
+        </div>
+        <!-- Right: Content -->
+        <div class="split-right w-full md:w-1/2 flex items-center justify-center bg-map relative min-h-[500px] lg:min-h-[600px] px-6 py-16">
+          <div class="container max-w-2xl mx-auto flex flex-col items-start justify-center">
+            <span class="text-primary-light text-lg font-medium mb-2" style="color: var(--color-primary-light);">
+              Testimonials
+              <span class="inline-block align-middle ml-3 w-16 h-1 bg-primary-light rounded" style="background-color: var(--color-primary-light); vertical-align: middle;"></span>
+            </span>
+            <h2 class="text-on-primary text-4xl md:text-5xl font-bold mb-12" style="color: var(--color-on-primary);">
+              Our Clients Feedback
+            </h2>
+            <!-- Carousel Dots -->
+            <div class="flex items-center space-x-4 mt-8">
+              <button aria-label="Go to slide 1" class="w-6 h-6 rounded-full border-2 border-primary flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" style="border-color: var(--color-primary);">
+                <span class="block w-3 h-3 rounded-full bg-primary" style="background-color: var(--color-primary);"></span>
+              </button>
+              <button aria-label="Go to slide 2" class="w-4 h-4 rounded-full bg-[#e5e7eb] flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"></button>
+              <button aria-label="Go to slide 3" class="w-4 h-4 rounded-full bg-[#e5e7eb] flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

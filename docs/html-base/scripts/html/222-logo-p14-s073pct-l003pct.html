@@ -1,0 +1,84 @@
+<html>
+<head>
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom background for hero */
+    .custom-hero-bg {
+      background: #0593f7;
+      position: relative;
+      overflow: hidden;
+    }
+    .custom-hero-bg::after {
+      content: "";
+      position: absolute;
+      top: -80px;
+      right: -120px;
+      width: 900px;
+      height: 400px;
+      background: none;
+      pointer-events: none;
+      z-index: 0;
+      /* SVG wave pattern as background */
+      background-image: url('data:image/svg+xml;utf8,<svg width="900" height="400" viewBox="0 0 900 400" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 400C150 200 750 200 900 400" stroke="white" stroke-opacity="0.08" stroke-width="4"/><path d="M0 350C150 150 750 150 900 350" stroke="white" stroke-opacity="0.08" stroke-width="4"/><path d="M0 300C150 100 750 100 900 300" stroke="white" stroke-opacity="0.08" stroke-width="4"/><path d="M0 250C150 50 750 50 900 250" stroke="white" stroke-opacity="0.08" stroke-width="4"/></svg>');
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 1;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text">
+  <section class="hero-section custom-hero-bg py-24 md:py-32">
+    <div class="container mx-auto px-4 max-w-7xl relative z-10">
+      <div class="flex flex-col md:flex-row md:items-center">
+        <!-- Left: Title -->
+        <div class="w-full md:w-1/2 mb-12 md:mb-0">
+          <div class="flex items-center mb-6">
+            <i class="fas fa-caret-right text-accent mr-2 text-lg" data-icon="caret-right"></i>
+            <span class="text-on-primary text-lg font-semibold" style="color: var(--color-on-primary);">Contact Us</span>
+          </div>
+          <h1 class="text-4xl md:text-5xl font-bold text-on-primary leading-tight" style="color: var(--color-on-primary);">
+            Feel Free to Contact Us
+          </h1>
+        </div>
+        <!-- Right: Description -->
+        <div class="w-full md:w-1/2 md:pl-16">
+          <p class="text-on-primary text-lg md:text-xl leading-relaxed" style="color: var(--color-on-primary);">
+            We can contact provides exceptional pool maintenance pool cleaning and pool equipment repair for the Area! We are master Contact provides exceptional pool maintenance pool cleaning and pool equipment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <title>Day: October 2, 2023</title>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background text-text">
+    <!-- Header/Navbar -->
+    <header class="w-full bg-primary-light">
+      <nav class="container mx-auto px-4 max-w-7xl flex items-center justify-between h-24 relative z-20">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <div class="bg-background rounded-bl-[80px] rounded-br-[80px] rounded-tl-none rounded-tr-[80px] shadow-none px-8 py-2 flex items-center h-24 -ml-4">
+            <span class="text-[2.5rem] font-bold text-text flex items-center select-none" style="font-family: 'Montserrat', sans-serif;">
+              <span class="relative mr-1">
+                <span class="inline-block relative">
+                  <span class="text-primary">P</span>
+                  <!-- Pool icon for 'oo' -->
+                  <span class="inline-block align-middle relative -top-1">
+                    <svg width="38" height="32" viewBox="0 0 38 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block" style="vertical-align:middle;">
+                      <ellipse cx="9" cy="16" rx="8" ry="8" fill="#02a26a"/>
+                      <ellipse cx="29" cy="16" rx="8" ry="8" fill="#02a26a"/>
+                      <ellipse cx="9" cy="16" rx="6" ry="6" fill="#fff"/>
+                      <ellipse cx="29" cy="16" rx="6" ry="6" fill="#fff"/>
+                      <ellipse cx="9" cy="16" rx="3" ry="3" fill="#3ad69e"/>
+                      <ellipse cx="29" cy="16" rx="3" ry="3" fill="#3ad69e"/>
+                      <!-- Pool ladder -->
+                      <rect x="13" y="6" width="2" height="12" rx="1" fill="#0f1c18"/>
+                      <rect x="23" y="6" width="2" height="12" rx="1" fill="#0f1c18"/>
+                      <rect x="13" y="8" width="12" height="2" rx="1" fill="#0f1c18"/>
+                      <rect x="13" y="12" width="12" height="2" rx="1" fill="#0f1c18"/>
+                    </svg>
+                  </span>
+                  <span class="sr-only">oo</span>
+                </span>
+                <span class="text-primary">lax</span>
+              </span>
+            </span>
+          </div>
+        </div>
+        <!-- Navigation Links -->
+        <ul class="hidden lg:flex items-center space-x-8 ml-8">
+          <li>
+            <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+              HOME <i class="fas fa-plus text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-on-primary text-base font-medium hover:underline">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+              SERVICES <i class="fas fa-plus text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+              PAGES <i class="fas fa-plus text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+              BLOGS <i class="fas fa-plus text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-on-primary text-base font-medium hover:underline">CONTACT US</a>
+          </li>
+        </ul>
+        <!-- Right Icons -->
+        <div class="flex items-center space-x-4 ml-4">
+          <button class="w-11 h-11 rounded-full bg-background flex items-center justify-center text-primary text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+            <i class="fas fa-search" data-icon="search"></i>
+          </button>
+          <button class="w-11 h-11 rounded-full bg-background flex items-center justify-center text-primary text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Menu">
+            <i class="fas fa-bars" data-icon="bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section relative bg-surface-alt py-16 md:py-24" style="background: linear-gradient(120deg, #1e5e9e 0%, #1e5e9e 60%, #2a7bbd 100%); min-height: 340px;">
+      <!-- Background image with bubbles and pool -->
+      <div class="absolute inset-0 w-full h-full z-0">
+        <img src="https://placehold.co/1600x500/1e5e9e/ffffff?text=Pool+background+with+bubbles" alt="Pool water with bubbles and pool edge" class="w-full h-full object-cover opacity-60" />
+      </div>
+      <div class="container mx-auto px-4 max-w-6xl relative z-10 pt-16 pb-12">
+        <h1 class="text-4xl md:text-5xl font-bold text-on-primary mb-6">Day: October 2, 2023</h1>
+        <nav class="flex items-center text-on-primary text-lg font-medium space-x-2" aria-label="Breadcrumb">
+          <ol class="flex items-center space-x-2">
+            <li>
+              <a href="#" class="hover:underline text-on-primary text-base">Home</a>
+            </li>
+            <li>
+              <span class="mx-2 text-on-primary text-base"><i class="fas fa-angle-right text-on-primary text-xs" data-icon="angle-right"></i></span>
+            </li>
+            <li>
+              <a href="#" class="hover:underline text-on-primary text-base">2023</a>
+            </li>
+            <li>
+              <span class="mx-2 text-on-primary text-base"><i class="fas fa-angle-right text-on-primary text-xs" data-icon="angle-right"></i></span>
+            </li>
+            <li>
+              <a href="#" class="hover:underline text-on-primary text-base">October</a>
+            </li>
+            <li>
+              <span class="mx-2 text-on-primary text-base"><i class="fas fa-angle-right text-on-primary text-xs" data-icon="angle-right"></i></span>
+            </li>
+            <li>
+              <span class="text-on-primary text-base">02</span>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+  </body>
+</html>

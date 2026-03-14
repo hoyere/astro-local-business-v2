@@ -1,0 +1,93 @@
+<html>
+<head>
+  <title>Sunshine, Happiness, and Blue Haven Pools</title>
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text">
+  <section class="hero-section py-16 md:py-24 bg-background">
+    <div class="container mx-auto px-4 max-w-6xl flex flex-col md:flex-row items-center gap-10 md:gap-16">
+      <!-- Left: Image with abstract blue shape background -->
+      <div class="relative w-full md:w-1/2 flex justify-center">
+        <!-- Abstract blue shape (SVG) -->
+        <svg class="absolute -top-8 -left-8 w-[120%] h-[120%] z-0" viewBox="0 0 500 500" fill="none" aria-hidden="true">
+          <path d="M120,60 Q200,10 320,60 Q480,120 420,260 Q380,400 200,420 Q60,400 40,260 Q10,120 120,60 Z" fill="#1e90ff" fill-opacity="0.18"/>
+          <path d="M140,100 Q220,40 340,100 Q460,160 400,260 Q360,360 200,380 Q80,360 60,260 Q30,160 140,100 Z" fill="#1e90ff" fill-opacity="0.32"/>
+          <path d="M120,60 Q200,10 320,60 Q480,120 420,260 Q380,400 200,420 Q60,400 40,260 Q10,120 120,60 Z" stroke="#1e90ff" stroke-width="4" fill="none"/>
+        </svg>
+        <!-- Worker image in a circle -->
+        <img src="https://placehold.co/400x400" alt="Pool maintenance worker in red cap and overalls holding a pool filter outdoors, with trees in the background" class="relative z-10 rounded-full w-80 h-80 object-cover border-4 border-surface shadow-xl">
+      </div>
+      <!-- Right: Content -->
+      <div class="w-full md:w-1/2 flex flex-col items-start">
+        <div class="mb-2">
+          <span class="text-primary font-semibold text-lg" style="display:inline-block;">
+            About Us
+            <span class="align-middle ml-2 inline-block w-16 h-0.5 bg-primary" style="vertical-align:middle;"></span>
+          </span>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-text mb-6">
+          Sunshine, Happiness, and<br>
+          Blue Haven Pools
+        </h1>
+        <p class="text-text-muted text-lg mb-8 max-w-xl">
+          Our Leak Detect Pro service utilizes advanced technology to identify and fix leaks, and we also offer tips on regular pool maintenance to prevent future leaks. Our Poolside Paradise Design service covers
+        </p>
+        <!-- Features List -->
+        <div class="w-full">
+          <div class="bg-surface border border-border rounded-lg px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8" data-collection="features">
+            <div class="flex items-center" data-item="feature-1">
+              <i class="fas fa-circle text-primary text-xs mr-3" data-icon="circle"></i>
+              <span class="font-semibold text-xl text-text">Pool Cleaning Bliss</span>
+            </div>
+            <div class="flex items-center" data-item="feature-2">
+              <i class="fas fa-circle text-primary text-xs mr-3" data-icon="circle"></i>
+              <span class="font-semibold text-xl text-text">Tile and Grout Revival</span>
+            </div>
+            <div class="flex items-center" data-item="feature-3">
+              <i class="fas fa-circle text-primary text-xs mr-3" data-icon="circle"></i>
+              <span class="font-semibold text-xl text-text">Custom Pool Design</span>
+            </div>
+            <div class="flex items-center" data-item="feature-4">
+              <i class="fas fa-circle text-primary text-xs mr-3" data-icon="circle"></i>
+              <span class="font-semibold text-xl text-text">LED Lighting Brilliance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

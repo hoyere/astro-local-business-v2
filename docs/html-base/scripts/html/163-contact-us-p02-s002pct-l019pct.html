@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <title>Contact - Poolax</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+      /* Custom logo shape */
+      .logo-bg {
+        border-bottom-right-radius: 64px;
+      }
+      @media (max-width: 1023px) {
+        .desktop-nav {
+          display: none !important;
+        }
+      }
+      @media (min-width: 1024px) {
+        .mobile-nav {
+          display: none !important;
+        }
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background text-text">
+    <!-- Header/Navbar -->
+    <header class="w-full bg-[#1796f7]">
+      <div class="container mx-auto px-4 max-w-7xl flex items-center justify-between h-24 relative">
+        <!-- Logo -->
+        <div class="logo-bg bg-background h-28 -ml-4 pl-8 pr-12 flex items-center z-10" style="border-bottom-right-radius:64px;">
+          <a href="#" class="flex items-center space-x-2">
+            <!-- Custom Poolax Logo -->
+            <span class="relative text-4xl font-bold text-[#0f1c18] leading-none select-none" style="font-family: 'Montserrat', Arial, sans-serif;">
+              <span class="inline-block relative">
+                <span class="text-[#1796f7]">P</span>
+                <!-- Pool icon for 'oo' -->
+                <span class="inline-block align-middle relative -mx-1">
+                  <span class="relative">
+                    <span class="inline-block w-5 h-5 rounded-full bg-[#1796f7] border-2 border-[#0f1c18] align-middle"></span>
+                    <span class="inline-block w-5 h-5 rounded-full bg-[#1796f7] border-2 border-[#0f1c18] align-middle -ml-2"></span>
+                    <!-- Pool ladders -->
+                    <span class="absolute left-1 top-0.5 w-1 h-4 border-l-2 border-[#0f1c18]"></span>
+                    <span class="absolute left-4 top-0.5 w-1 h-4 border-l-2 border-[#0f1c18]"></span>
+                    <span class="absolute left-1.5 top-1 w-2 h-1 border-t-2 border-[#0f1c18] rounded-t"></span>
+                    <span class="absolute left-4.5 top-1 w-2 h-1 border-t-2 border-[#0f1c18] rounded-t"></span>
+                  </span>
+                </span>
+                <span class="text-[#1796f7]">lax</span>
+              </span>
+            </span>
+          </a>
+        </div>
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav flex-1 flex items-center justify-center">
+          <ul class="flex space-x-8 text-base font-medium text-on-primary">
+            <li>
+              <a href="#" class="flex items-center gap-1 hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                HOME <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">ABOUT US</a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center gap-1 hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                SERVICES <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center gap-1 hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                PAGES <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center gap-1 hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                BLOGS <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">CONTACT US</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Right icons -->
+        <div class="flex items-center space-x-4 ml-4">
+          <button aria-label="Search" class="w-10 h-10 flex items-center justify-center rounded-full bg-background text-[#1796f7] hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            <i class="fas fa-search text-lg" data-icon="search"></i>
+          </button>
+          <button aria-label="Menu" class="w-10 h-10 flex items-center justify-center rounded-full bg-background text-[#1796f7] hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            <i class="fas fa-bars text-lg" data-icon="bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section relative bg-[#1a5d8f] min-h-[320px] flex items-center" style="background: linear-gradient(120deg, #1a5d8f 60%, #1796f7 100%);">
+      <!-- Background image with bubbles and pool -->
+      <img src="https://placehold.co/1600x600/1a5d8f/ffffff?text=Pool+background+with+bubbles+and+pool+edge" alt="Blue pool water background with bubbles and pool edge" class="absolute inset-0 w-full h-full object-cover opacity-70 pointer-events-none select-none" />
+      <!-- Overlay for blue tint -->
+      <div class="absolute inset-0 bg-[#1a5d8f]/80"></div>
+      <div class="container mx-auto px-4 max-w-6xl relative z-10 py-20">
+        <h1 class="text-5xl md:text-6xl font-bold text-white mb-8">Contact</h1>
+        <nav class="flex items-center space-x-2 text-lg text-white/80" aria-label="Breadcrumb">
+          <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">Home</a>
+          <span><i class="fas fa-arrow-right text-white/60 text-sm mx-1" data-icon="arrow-right"></i></span>
+          <span class="text-white/90">Contact</span>
+        </nav>
+      </div>
+    </section>
+  </body>
+</html>

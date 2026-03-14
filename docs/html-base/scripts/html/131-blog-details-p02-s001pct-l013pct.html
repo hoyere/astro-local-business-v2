@@ -1,0 +1,164 @@
+<html>
+<head>
+  <title>How to Prepare Your Pool for Winter Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom styles for logo shape */
+    .logo-bg {
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 80px;
+    }
+    /* Custom styles for hero overlay */
+    .hero-bg {
+      background: linear-gradient(120deg, #1a4e7a 60%, #1a4e7a90 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-bg::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url('https://placehold.co/1200x600/1a4e7a/ffffff?text=Pool+Background') center/cover no-repeat;
+      opacity: 0.35;
+      z-index: 0;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+    /* Bubble styles */
+    .bubble {
+      position: absolute;
+      border-radius: 9999px;
+      background: rgba(255,255,255,0.25);
+      box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
+      pointer-events: none;
+    }
+    .bubble1 { width: 60px; height: 60px; left: 12%; top: 60%; }
+    .bubble2 { width: 36px; height: 36px; left: 28%; top: 75%; }
+    .bubble3 { width: 28px; height: 28px; left: 60%; top: 80%; }
+    .bubble4 { width: 44px; height: 44px; left: 80%; top: 40%; }
+    .bubble5 { width: 22px; height: 22px; left: 70%; top: 60%; }
+    .bubble6 { width: 18px; height: 18px; left: 50%; top: 90%; }
+    @media (max-width: 768px) {
+      .logo-bg { border-top-right-radius: 40px; border-bottom-right-radius: 40px; }
+      .bubble1, .bubble2, .bubble3, .bubble4, .bubble5, .bubble6 { display: none; }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text font-sans">
+
+  <!-- Header/Navbar -->
+  <header class="w-full bg-primary-light">
+    <nav class="flex items-center justify-between px-0 md:px-8 py-0 bg-primary-light relative z-10">
+      <!-- Logo -->
+      <div class="logo-bg bg-background flex items-center px-8 py-6 md:py-8 shadow-none" style="min-width:320px;">
+        <span class="text-4xl font-bold text-text flex items-center select-none" style="font-family: 'Montserrat', sans-serif;">
+          <span class="relative mr-1">
+            P
+            <span class="absolute left-2 top-1 text-primary" style="font-size:0.7em;">
+              <i class="fas fa-swimmer" data-icon="swimmer"></i>
+            </span>
+          </span>
+          <span>oolax</span>
+        </span>
+      </div>
+      <!-- Nav Links -->
+      <ul class="hidden md:flex items-center space-x-8 ml-8">
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+            HOME <i class="fas fa-plus text-xs" data-icon="plus"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline">ABOUT US</a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+            SERVICES <i class="fas fa-plus text-xs" data-icon="plus"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+            PAGES <i class="fas fa-plus text-xs" data-icon="plus"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline flex items-center gap-1">
+            BLOGS <i class="fas fa-plus text-xs" data-icon="plus"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-on-primary text-base font-medium hover:underline">CONTACT US</a>
+        </li>
+      </ul>
+      <!-- Icons -->
+      <div class="flex items-center space-x-4 pr-6 md:pr-0">
+        <button class="w-10 h-10 flex items-center justify-center rounded-full bg-background text-primary text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+          <i class="fas fa-search" data-icon="search"></i>
+        </button>
+        <button class="w-10 h-10 flex items-center justify-center rounded-full bg-background text-primary text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 md:hidden" aria-label="Open menu">
+          <i class="fas fa-bars" data-icon="bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section hero-bg py-24 md:py-36 text-on-primary relative overflow-hidden">
+    <!-- Decorative bubbles -->
+    <span class="bubble bubble1"></span>
+    <span class="bubble bubble2"></span>
+    <span class="bubble bubble3"></span>
+    <span class="bubble bubble4"></span>
+    <span class="bubble bubble5"></span>
+    <span class="bubble bubble6"></span>
+    <div class="container mx-auto px-4 max-w-6xl hero-content">
+      <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-8 text-on-primary">
+        How to Prepare Your Pool for Winter Guide
+      </h1>
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center text-base text-on-primary/80 space-x-2" aria-label="Breadcrumb">
+        <a href="#" class="hover:underline text-on-primary/80">Home</a>
+        <span class="mx-1 text-on-primary/60"><i class="fas fa-chevron-right text-xs" data-icon="chevron-right"></i></span>
+        <a href="#" class="hover:underline text-on-primary/80">Pool Cleaning</a>
+        <span class="mx-1 text-on-primary/60"><i class="fas fa-chevron-right text-xs" data-icon="chevron-right"></i></span>
+        <span class="text-on-primary/80">How to Prepare Your Pool for Winter Guide</span>
+      </nav>
+    </div>
+  </section>
+
+</body>
+</html>

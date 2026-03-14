@@ -1,0 +1,174 @@
+<html>
+<head>
+  <title>How to Revamp Your Pool Area for a Stylish Makeover</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom logo font and style */
+    .logo-text {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      letter-spacing: -0.03em;
+      color: #181f39;
+      display: flex;
+      align-items: center;
+    }
+    .logo-pool {
+      color: #181f39;
+      position: relative;
+      margin-right: 0.1em;
+    }
+    .logo-pool .pool-o {
+      display: inline-block;
+      position: relative;
+      width: 0.9em;
+      height: 0.9em;
+      margin: 0 0.02em;
+      background: none;
+    }
+    .logo-pool .pool-o:before,
+    .logo-pool .pool-o:after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      background: #02a26a;
+      opacity: 0.8;
+    }
+    .logo-pool .pool-o:before {
+      width: 0.9em;
+      height: 0.9em;
+      left: 0;
+      top: 0;
+    }
+    .logo-pool .pool-o:after {
+      width: 0.5em;
+      height: 0.5em;
+      left: 0.2em;
+      top: 0.2em;
+      background: #3ad69e;
+      opacity: 0.7;
+    }
+    .logo-pool .pool-wave {
+      position: absolute;
+      left: 0.1em;
+      top: 0.45em;
+      width: 0.7em;
+      height: 0.3em;
+      background: none;
+      border-bottom: 0.12em solid #0c7e5a;
+      border-radius: 50%;
+      z-index: 2;
+    }
+    .logo-pool .pool-wave.right {
+      left: 0.45em;
+    }
+    @media (max-width: 640px) {
+      .logo-text {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text">
+  <!-- Header/Navbar -->
+  <header class="w-full bg-primary-light relative z-20">
+    <div class="container mx-auto px-4 max-w-7xl flex items-center justify-between h-24">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <div class="bg-background rounded-bl-[80px] rounded-br-[80px] rounded-tl-none rounded-tr-[80px] shadow-none px-8 py-2 flex items-center" style="height:96px;">
+          <span class="logo-text">
+            <span class="logo-pool">
+              P
+              <span class="pool-o">
+                <span class="pool-wave"></span>
+                <span class="pool-wave right"></span>
+              </span>
+              <span class="pool-o">
+                <span class="pool-wave"></span>
+                <span class="pool-wave right"></span>
+              </span>
+            </span>
+            <span>olax</span>
+          </span>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <nav class="hidden lg:flex items-center space-x-8 ml-8">
+        <a href="#" class="text-on-primary font-medium hover:underline flex items-center gap-1">HOME <i class="fas fa-plus text-xs" data-icon="plus"></i></a>
+        <a href="#" class="text-on-primary font-medium hover:underline">ABOUT US</a>
+        <a href="#" class="text-on-primary font-medium hover:underline flex items-center gap-1">SERVICES <i class="fas fa-plus text-xs" data-icon="plus"></i></a>
+        <a href="#" class="text-on-primary font-medium hover:underline flex items-center gap-1">PAGES <i class="fas fa-plus text-xs" data-icon="plus"></i></a>
+        <a href="#" class="text-on-primary font-medium hover:underline flex items-center gap-1">BLOGS <i class="fas fa-plus text-xs" data-icon="plus"></i></a>
+        <a href="#" class="text-on-primary font-medium hover:underline">CONTACT US</a>
+      </nav>
+      <!-- Icons -->
+      <div class="flex items-center space-x-4 ml-4">
+        <button class="w-10 h-10 rounded-full bg-background flex items-center justify-center text-primary text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+          <i class="fas fa-search" data-icon="search"></i>
+        </button>
+        <button class="w-10 h-10 rounded-full bg-background flex items-center justify-center text-primary text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 lg:hidden" aria-label="Open menu">
+          <i class="fas fa-bars" data-icon="bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section relative bg-surface-alt py-24 md:py-32 overflow-hidden">
+    <!-- Background image with overlay -->
+    <div class="absolute inset-0 z-0">
+      <img src="https://placehold.co/1600x800/1e4e7e/ffffff?text=Pool+background+with+bubbles+and+pool+edge" alt="Pool background with bubbles and pool edge" class="w-full h-full object-cover object-center">
+      <div class="absolute inset-0 bg-primary-dark opacity-70"></div>
+      <!-- Bubbles (decorative) -->
+      <span class="absolute left-24 top-32 w-14 h-14 rounded-full bg-white bg-opacity-30 blur-sm"></span>
+      <span class="absolute left-1/3 top-2/3 w-10 h-10 rounded-full bg-white bg-opacity-30 blur-sm"></span>
+      <span class="absolute right-1/4 top-1/2 w-8 h-8 rounded-full bg-white bg-opacity-30 blur-sm"></span>
+      <span class="absolute right-32 bottom-24 w-16 h-16 rounded-full bg-white bg-opacity-30 blur-sm"></span>
+      <span class="absolute left-1/2 bottom-16 w-6 h-6 rounded-full bg-white bg-opacity-30 blur-sm"></span>
+    </div>
+    <div class="container mx-auto px-4 max-w-6xl relative z-10">
+      <h1 class="text-4xl md:text-6xl font-bold text-on-primary leading-tight mb-8">How to Revamp Your Pool Area for a Stylish Makeover</h1>
+      <!-- Breadcrumbs -->
+      <nav class="flex items-center text-on-primary text-lg font-medium space-x-2" aria-label="Breadcrumb">
+        <span>Home</span>
+        <i class="fas fa-arrow-right text-on-primary text-base mx-2" data-icon="arrow-right"></i>
+        <span>Equipment Install</span>
+        <i class="fas fa-arrow-right text-on-primary text-base mx-2" data-icon="arrow-right"></i>
+        <span class="text-on-primary font-normal">How to Revamp Your Pool Area for a Stylish Makeover</span>
+      </nav>
+    </div>
+  </section>
+</body>
+</html>

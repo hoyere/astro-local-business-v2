@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+      .pattern-bg {
+        background-color: #f5fbf8;
+        background-image: url('data:image/svg+xml;utf8,<svg width="1280" height="120" viewBox="0 0 1280 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 80C40 60 80 0 160 0C240 0 240 120 320 120C400 120 400 0 480 0C560 0 560 120 640 120C720 120 720 0 800 0C880 0 880 120 960 120C1040 120 1040 0 1120 0C1200 0 1240 60 1280 80V120H0V80Z" fill="%23eaf3f7" fill-opacity="0.7"/><path d="M0 40C40 60 80 120 160 120C240 120 240 0 320 0C400 0 400 120 480 120C560 120 560 0 640 0C720 0 720 120 800 120C880 120 880 0 960 0C1040 0 1040 120 1120 120C1200 120 1240 60 1280 40V0H0V40Z" fill="%23eaf3f7" fill-opacity="0.7"/></svg>');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <title>Pattern Background Section</title>
+  </head>
+  <body class="bg-background">
+    <section class="pattern-bg h-[120px] w-full"></section>
+  </body>
+</html>

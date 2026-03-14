@@ -1,0 +1,122 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Container from '@components/common/Container.astro';
+import { siteConfig } from '../site.config';
+---
+
+<BaseLayout
+  title={`Terms of Service | ${siteConfig.name}`}
+  description="Terms and conditions for using our pool maintenance services."
+  includeSchema={false}
+>
+  <section class="section">
+    <Container>
+      <article class="prose">
+        <h1>Terms of Service</h1>
+        <p class="last-updated">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+
+        <h2>Agreement to Terms</h2>
+        <p>
+          By engaging {siteConfig.name} for pool maintenance, repair, or related services,
+          you agree to be bound by these Terms of Service. If you do not agree to these
+          terms, please do not use our services.
+        </p>
+
+        <h2>Services</h2>
+        <p>
+          {siteConfig.name} provides residential and commercial pool maintenance, water
+          chemistry management, equipment diagnostics, and related services as described
+          on our website and in individual service agreements.
+        </p>
+
+        <h2>Service Scheduling</h2>
+        <p>
+          Scheduled maintenance visits occur on the day and time agreed upon in your
+          service plan. We will make reasonable efforts to notify you in advance of
+          any schedule changes due to weather or other circumstances beyond our control.
+        </p>
+
+        <h2>Payment Terms</h2>
+        <p>
+          Payment for recurring maintenance services is due on the first of each month.
+          One-time service calls are invoiced upon completion. A late fee may apply to
+          balances unpaid after 30 days.
+        </p>
+
+        <h2>Property Access</h2>
+        <p>
+          You agree to provide our technicians with reasonable access to your pool and
+          equipment areas. Gates should be unlocked or access codes provided prior to
+          scheduled visits. Pets must be secured during service visits.
+        </p>
+
+        <h2>Limitation of Liability</h2>
+        <p>
+          {siteConfig.name} is not liable for damage resulting from pre-existing equipment
+          conditions, acts of nature, or failure to follow recommended maintenance schedules.
+          Our liability is limited to the cost of the services provided.
+        </p>
+
+        <h2>Cancellation</h2>
+        <p>
+          Either party may cancel a recurring service agreement with 30 days written notice.
+          No refunds are issued for partial months of service already rendered.
+        </p>
+
+        <h2>Contact Us</h2>
+        <p>
+          If you have questions about these Terms of Service, please contact us at:
+        </p>
+        <address>
+          <strong>{siteConfig.name}</strong><br />
+          {siteConfig.contact.address.street}<br />
+          {siteConfig.contact.address.city}, {siteConfig.contact.address.state} {siteConfig.contact.address.zip}<br />
+          Email: <a href={`mailto:${siteConfig.contact.email}`}>{siteConfig.contact.email}</a><br />
+          Phone: <a href={`tel:${siteConfig.contact.phone.replace(/[^\d+]/g, '')}`}>{siteConfig.contact.phone}</a>
+        </address>
+      </article>
+    </Container>
+  </section>
+</BaseLayout>
+
+<style>
+  .prose {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .prose h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .last-updated {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+  }
+
+  .prose h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .prose p {
+    color: var(--color-text-muted);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+
+  .prose address {
+    font-style: normal;
+    background-color: var(--color-surface);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-border);
+    line-height: 1.8;
+  }
+
+  .prose address a {
+    color: var(--color-primary);
+  }
+</style>

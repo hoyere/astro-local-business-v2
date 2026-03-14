@@ -1,0 +1,172 @@
+<html>
+<head>
+  <title>Poolax Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom styles for logo */
+    .poolax-logo {
+      font-family: 'Montserrat', 'Arial', sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      letter-spacing: -1px;
+      color: #0f1c18;
+      display: flex;
+      align-items: center;
+    }
+    .poolax-logo .poolax-swim {
+      position: relative;
+      margin-right: 0.1em;
+    }
+    .poolax-logo .poolax-swim svg {
+      position: absolute;
+      left: 0.1em;
+      top: -0.7em;
+      width: 1.2em;
+      height: 1em;
+      z-index: 2;
+    }
+    /* Bubble effect for hero */
+    .bubble {
+      position: absolute;
+      border-radius: 9999px;
+      background: rgba(255,255,255,0.5);
+      box-shadow: 0 2px 8px 0 rgba(255,255,255,0.2);
+      pointer-events: none;
+      animation: bubble-float 8s infinite ease-in-out;
+    }
+    .bubble1 { width: 60px; height: 60px; left: 38%; top: 48%; animation-delay: 0s;}
+    .bubble2 { width: 80px; height: 80px; left: 80%; top: 38%; animation-delay: 2s;}
+    .bubble3 { width: 50px; height: 50px; left: 90%; top: 70%; animation-delay: 4s;}
+    @keyframes bubble-float {
+      0%,100% { transform: translateY(0) scale(1);}
+      50% { transform: translateY(-30px) scale(1.1);}
+    }
+    /* Hide scroll on body for clean screenshot */
+    body { overflow-x: hidden; }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-background text-text">
+  <!-- HEADER/NAVIGATION -->
+  <header class="w-full bg-[#1796f7]">
+    <div class="container mx-auto px-4 max-w-7xl flex items-center justify-between py-0 relative">
+      <!-- Logo -->
+      <div class="flex items-center z-10">
+        <div class="bg-background rounded-bl-[80px] rounded-br-[80px] rounded-tl-none rounded-tr-[80px] shadow-none px-8 py-4 -ml-8 mt-0 flex items-center" style="min-width:270px; min-height:110px;">
+          <span class="poolax-logo">
+            <span class="poolax-swim relative">
+              P
+              <svg viewBox="0 0 60 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="15" cy="15" rx="12" ry="8" fill="#1796f7" opacity="0.7"/>
+                <ellipse cx="45" cy="15" rx="12" ry="8" fill="#1796f7" opacity="0.7"/>
+                <circle cx="15" cy="10" r="3" fill="#0f1c18"/>
+                <circle cx="45" cy="10" r="3" fill="#0f1c18"/>
+                <rect x="12" y="7" width="6" height="2" rx="1" fill="#1796f7"/>
+                <rect x="42" y="7" width="6" height="2" rx="1" fill="#1796f7"/>
+              </svg>
+            </span>
+            oolax
+          </span>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <nav class="flex-1 flex items-center justify-center">
+        <ul class="flex space-x-8 text-on-primary font-medium text-base">
+          <li>
+            <a href="#" class="flex items-center hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              HOME <i class="fas fa-plus ml-1 text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              ABOUT US
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              SERVICES <i class="fas fa-plus ml-1 text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              PAGES <i class="fas fa-plus ml-1 text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              BLOGS <i class="fas fa-plus ml-1 text-xs" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              CONTACT US
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Icons -->
+      <div class="flex items-center space-x-4">
+        <button aria-label="Search" class="w-12 h-12 rounded-full bg-background flex items-center justify-center text-[#1796f7] text-xl shadow-none focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+          <i class="fas fa-search" data-icon="search"></i>
+        </button>
+        <button aria-label="Menu" class="w-12 h-12 rounded-full bg-background flex items-center justify-center text-[#1796f7] text-xl shadow-none focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+          <i class="fas fa-bars" data-icon="bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section relative bg-[#1796f7] min-h-[340px] flex items-end pb-16 md:pb-24 overflow-hidden">
+    <div class="absolute inset-0 w-full h-full z-0">
+      <!-- Background image with overlay -->
+      <img src="https://placehold.co/1600x600/1796f7/ffffff?text=Pool+Background" alt="Pool cleaning net underwater with blue water and bubbles" class="w-full h-full object-cover object-center opacity-60">
+      <!-- Diagonal overlay -->
+      <div class="absolute inset-0 bg-gradient-to-tr from-[#1796f7]/90 via-[#0f1c18]/60 to-[#1796f7]/60" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);"></div>
+      <!-- Bubbles -->
+      <div class="bubble bubble1"></div>
+      <div class="bubble bubble2"></div>
+      <div class="bubble bubble3"></div>
+    </div>
+    <div class="container mx-auto px-4 max-w-6xl relative z-10">
+      <h1 class="text-5xl md:text-6xl font-bold text-on-primary mb-8 drop-shadow-lg">Poolax Cart</h1>
+      <nav class="flex items-center space-x-2 text-on-primary text-lg font-medium">
+        <span>Home</span>
+        <i class="fas fa-arrow-right text-base mx-1" data-icon="arrow-right"></i>
+        <span class="text-on-primary opacity-80">Poolax Cart</span>
+      </nav>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background text-text">
+    <!-- Team Members Section -->
+    <section class="team-section py-20 bg-background">
+      <div class="container mx-auto px-4 max-w-6xl flex flex-col items-center">
+        <div class="flex flex-col items-center">
+          <span class="flex items-center gap-2 text-base font-medium text-primary mb-2">
+            <span class="text-primary text-lg" aria-hidden="true">▾</span>
+            <span>Team Members</span>
+            <span class="text-primary text-lg" aria-hidden="true">▾</span>
+          </span>
+          <h2 class="text-4xl md:text-5xl font-bold text-text text-center mb-24">Our Professional Expert</h2>
+        </div>
+        <div class="w-full flex justify-between max-w-4xl mx-auto">
+          <div class="flex-1 flex flex-col items-center">
+            <span class="text-sm text-primary font-medium mb-2 invisible">.</span>
+            <span class="text-base text-primary font-normal">Swimming Trainer</span>
+          </div>
+          <div class="flex-1 flex flex-col items-center">
+            <span class="text-sm text-primary font-medium mb-2 invisible">.</span>
+            <span class="text-base text-primary font-normal">Swimming Trainer</span>
+          </div>
+          <div class="flex-1 flex flex-col items-center">
+            <span class="text-sm text-primary font-medium mb-2 invisible">.</span>
+            <span class="text-base text-primary font-normal">Swimming Trainer</span>
+          </div>
+          <div class="flex-1 flex flex-col items-center">
+            <span class="text-sm text-primary font-medium mb-2 invisible">.</span>
+            <span class="text-base text-primary font-normal">Swimming Trainer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials-section py-20 bg-surface-alt relative">
+      <div class="container mx-auto px-4 max-w-6xl flex justify-center">
+        <div class="relative w-full max-w-4xl">
+          <!-- Blue border accent (left) -->
+          <div class="absolute -left-8 -top-8 w-[calc(100%-5rem)] h-[calc(100%-5rem)] border-4 border-blue-400 rounded-3xl z-0 pointer-events-none"></div>
+          <div class="relative bg-surface rounded-3xl shadow-lg flex flex-row items-center px-12 py-10 z-10">
+            <div class="flex-1 flex flex-col justify-center">
+              <blockquote class="mb-8">
+                <p class="text-2xl md:text-3xl font-bold text-text leading-snug mb-6">
+                  “We track each swimmer's progress throughout the session, providing regular assessments. We offer a variety of classes tailored to different.”
+                </p>
+              </blockquote>
+              <div class="flex items-center gap-4 mb-6">
+                <span class="inline-block w-6 h-6 bg-blue-400 rounded-sm"></span>
+                <div>
+                  <span class="block font-bold text-text">Sherri Cronin</span>
+                  <span class="block text-sm text-text-muted">Dynamic Program Designer</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-4">
+                <button class="w-9 h-9 flex items-center justify-center rounded-full border border-blue-400 text-blue-400 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Previous testimonial">
+                  <i class="fas fa-chevron-left" data-icon="chevron-left"></i>
+                </button>
+                <button class="w-9 h-9 flex items-center justify-center rounded-full border border-blue-400 text-blue-400 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Next testimonial">
+                  <i class="fas fa-chevron-right" data-icon="chevron-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="flex-1 flex justify-center items-center">
+              <div class="relative ml-8">
+                <img src="https://placehold.co/240x240" alt="Portrait of Sherri Cronin, Dynamic Program Designer" class="w-48 h-48 object-cover rounded-2xl"/>
+                <div class="absolute inset-0 pointer-events-none">
+                  <svg width="100%" height="100%" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute top-0 left-0 w-full h-full">
+                    <rect x="6" y="6" width="180" height="180" rx="24" stroke="#2196F3" stroke-width="8"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

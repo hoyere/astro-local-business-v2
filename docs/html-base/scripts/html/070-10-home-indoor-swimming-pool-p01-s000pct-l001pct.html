@@ -1,0 +1,80 @@
+<html>
+<head>
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom shape for left blue section */
+    .clip-left-diagonal {
+      clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background">
+
+  <section class="topbar-section">
+    <div class="w-full flex items-stretch h-12">
+      <!-- Left: Welcome message with blue diagonal shape -->
+      <div class="clip-left-diagonal bg-[#0096fa] flex items-center px-8 min-w-[480px]">
+        <span class="text-white text-base font-normal tracking-tight">
+          Welcome to Our Poolax Pool Cleaning &amp; Services Company
+        </span>
+      </div>
+      <!-- Right: Language, divider, social icons -->
+      <div class="flex-1 flex items-center justify-end bg-[#f2f6fa] px-8">
+        <div class="flex items-center space-x-4">
+          <span class="text-[#0f1c18] text-base font-normal">Language</span>
+          <span class="text-[#0f1c18] text-xs ml-1">&#9660;</span>
+          <span class="h-5 border-l border-[#dcebe4] mx-4"></span>
+          <span class="text-[#0f1c18] text-base font-normal">Follow Us On:</span>
+          <a href="#" class="ml-2 text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Facebook">
+            <i class="fab fa-facebook-f" data-icon="facebook"></i>
+          </a>
+          <a href="#" class="ml-2 text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Twitter">
+            <i class="fab fa-twitter" data-icon="twitter"></i>
+          </a>
+          <a href="#" class="ml-2 text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Instagram">
+            <i class="fab fa-instagram" data-icon="instagram"></i>
+          </a>
+          <a href="#" class="ml-2 text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in" data-icon="linkedin"></i>
+          </a>
+          <a href="#" class="ml-2 text-[#0f1c18] hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Behance">
+            <i class="fab fa-behance" data-icon="behance"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

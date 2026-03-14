@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+      .callout-bg {
+        background: linear-gradient(120deg, #179cff 60%, transparent 60%);
+        position: relative;
+      }
+      .callout-pattern {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        opacity: 0.12;
+        background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.2' d='M20 0L20 40' stroke='white' stroke-width='2'/%3E%3Cpath opacity='0.2' d='M0 20L40 20' stroke='white' stroke-width='2'/%3E%3C/svg%3E");
+        background-size: 40px 40px;
+      }
+      @media (max-width: 900px) {
+        .callout-bg {
+          background: linear-gradient(120deg, #179cff 100%, transparent 0%);
+        }
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <section class="callout-section py-0 bg-transparent">
+      <div class="container mx-auto px-0 max-w-full">
+        <div class="relative rounded-[32px] overflow-hidden min-h-[220px] flex items-stretch callout-bg">
+          <!-- Pattern overlay -->
+          <div class="callout-pattern"></div>
+          <!-- Left: Text -->
+          <div class="flex-1 flex flex-col justify-center pl-12 pr-8 py-12 z-10">
+            <h2 class="text-3xl font-semibold text-on-primary mb-4">Do You need help with Cleaning?</h2>
+            <p class="text-lg text-on-primary font-medium">
+              Call Us <span class="font-bold">+(088) 456 888 (24/7)</span>
+            </p>
+          </div>
+          <!-- Center: Icon -->
+          <div class="flex items-center z-10">
+            <span class="flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mx-2">
+              <i class="fas fa-phone-alt text-primary text-2xl" data-icon="phone"></i>
+            </span>
+          </div>
+          <!-- Right: Image -->
+          <div class="flex-1 min-w-[320px] max-w-[520px] relative z-0">
+            <img src="https://placehold.co/520x220" alt="A professional cleaner in uniform using a pool vacuum machine" class="w-full h-full object-cover object-center" style="min-height:220px;">
+            <div class="absolute inset-0 bg-black/10"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

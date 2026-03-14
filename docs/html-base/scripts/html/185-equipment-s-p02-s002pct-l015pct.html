@@ -1,0 +1,174 @@
+<html>
+<head>
+  <title>Equipment Install | Poolax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    /* Custom logo font and style */
+    .logo-text {
+      font-family: 'Montserrat', 'Arial', sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      letter-spacing: -0.03em;
+      color: #0f1c18;
+      display: flex;
+      align-items: center;
+    }
+    .logo-swim {
+      position: relative;
+      margin-right: 0.15em;
+    }
+    .logo-swim .fa-swimmer {
+      position: absolute;
+      left: 0.13em;
+      top: -0.7em;
+      font-size: 0.7em;
+      color: #02a26a;
+      z-index: 2;
+    }
+    .logo-swim .fa-water {
+      position: absolute;
+      left: 0.13em;
+      top: 0.2em;
+      font-size: 0.7em;
+      color: #3ad69e;
+      z-index: 1;
+    }
+    /* Responsive logo container */
+    @media (max-width: 640px) {
+      .logo-text {
+        font-size: 1.5rem;
+      }
+    }
+    /* Hide scrollbars for hero bg overlay */
+    .hero-section {
+      overflow: hidden;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-background text-text">
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="relative z-20">
+    <nav class="w-full bg-[#1792f6]">
+      <div class="container mx-auto px-4 max-w-7xl flex items-center justify-between h-24">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <div class="bg-background rounded-bl-[80px] rounded-br-[60px] rounded-tl-none rounded-tr-[80px] shadow-none px-0 py-0 h-[110px] flex items-center -ml-4 pr-8">
+            <a href="#" class="logo-text">
+              <span class="logo-swim relative mr-1">
+                <i class="fas fa-swimmer" data-icon="swimmer"></i>
+                <i class="fas fa-water" data-icon="water"></i>
+                <span class="opacity-0">P</span>
+              </span>
+              <span>oolax</span>
+            </a>
+          </div>
+        </div>
+        <!-- Navigation Links -->
+        <ul class="hidden lg:flex items-center space-x-8 text-on-primary font-medium text-base">
+          <li>
+            <a href="#" class="hover:underline flex items-center gap-1">
+              HOME <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline flex items-center gap-1">
+              SERVICES <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline flex items-center gap-1">
+              PAGES <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline flex items-center gap-1">
+              BLOGS <i class="fas fa-plus text-xs ml-1" data-icon="plus"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">CONTACT US</a>
+          </li>
+        </ul>
+        <!-- Right icons -->
+        <div class="flex items-center space-x-4">
+          <button class="w-11 h-11 rounded-full bg-background flex items-center justify-center text-[#1792f6] text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+            <i class="fas fa-search" data-icon="search"></i>
+          </button>
+          <button class="w-11 h-11 rounded-full bg-background flex items-center justify-center text-[#1792f6] text-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 lg:hidden" aria-label="Open menu">
+            <i class="fas fa-bars" data-icon="bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section relative bg-[#1792f6] min-h-[340px] flex items-end pb-16 md:pb-24">
+    <!-- Background image with overlay -->
+    <div class="absolute inset-0 w-full h-full z-0">
+      <img src="https://placehold.co/1600x600/1792f6/ffffff?text=Pool+background+with+equipment+and+bubbles" alt="Pool background with equipment and bubbles" class="w-full h-full object-cover object-center opacity-80">
+      <!-- Blue overlay with diagonal shapes -->
+      <div class="absolute inset-0 bg-gradient-to-br from-[#1792f6]/90 via-[#0e5e9c]/80 to-[#0e5e9c]/90"></div>
+      <!-- Diagonal overlay shapes -->
+      <svg class="absolute left-0 top-0 w-full h-full" viewBox="0 0 1600 600" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <polygon points="0,0 900,0 0,600" fill="#0e5e9c" fill-opacity="0.25"/>
+        <polygon points="1600,0 1600,600 700,600" fill="#0e5e9c" fill-opacity="0.18"/>
+      </svg>
+      <!-- Bubbles (decorative) -->
+      <span class="absolute left-[18%] top-[70%] w-10 h-10 bg-white/30 rounded-full blur-[2px]"></span>
+      <span class="absolute left-[22%] top-[85%] w-6 h-6 bg-white/30 rounded-full blur-[1px]"></span>
+      <span class="absolute left-[80%] top-[40%] w-12 h-12 bg-white/30 rounded-full blur-[2px]"></span>
+      <span class="absolute left-[90%] top-[70%] w-8 h-8 bg-white/30 rounded-full blur-[1px]"></span>
+      <span class="absolute left-[85%] top-[80%] w-7 h-7 bg-white/30 rounded-full blur-[1px]"></span>
+    </div>
+    <!-- Content -->
+    <div class="container relative z-10 mx-auto px-4 max-w-6xl">
+      <div class="pt-24 md:pt-32">
+        <h1 class="text-4xl md:text-5xl font-bold text-on-primary mb-6">Equipment Install</h1>
+        <nav class="flex items-center space-x-2 text-on-primary text-lg" aria-label="Breadcrumb">
+          <a href="#" class="text-on-primary hover:underline text-base">Home</a>
+          <span class="mx-1 text-on-primary text-base"><i class="fas fa-arrow-right text-base" data-icon="arrow-right"></i></span>
+          <span class="text-on-primary text-base">Equipment Install</span>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

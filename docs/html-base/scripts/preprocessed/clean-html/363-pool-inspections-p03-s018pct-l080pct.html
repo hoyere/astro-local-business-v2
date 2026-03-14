@@ -1,0 +1,220 @@
+  <!-- Main Section -->
+  <main class="pt-10 pb-0 bg-background min-h-screen">
+    <div class="container mx-auto px-4 max-w-6xl flex flex-col lg:flex-row gap-8">
+      <!-- Left Sidebar -->
+      <aside class="flex flex-col gap-6 w-full lg:w-1/3 max-w-xs">
+        <!-- Search Box -->
+        <div class="bg-surface rounded-xl shadow-sm px-6 py-4">
+          <form class="flex items-center gap-2">
+            <input type="text" placeholder="Enter Keyword" class="flex-1 px-4 py-2 rounded-lg border border-border bg-surface text-text focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 text-sm" aria-label="Search services">
+            <button type="submit" class="bg-primary hover:bg-primary-dark text-on-primary rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Search">
+              <i class="fas fa-search" data-icon="search"></i>
+            </button>
+          </form>
+        </div>
+        <!-- Services List -->
+        <nav class="bg-surface rounded-xl shadow-sm px-0 py-4">
+          <h2 class="px-6 pb-2 font-bold text-lg text-text">All Services</h2>
+          <ul class="flex flex-col gap-1" data-collection="services">
+            <li data-item="service-1">
+              <a href="#" class="flex items-center justify-between px-6 py-2 text-text-secondary hover:bg-surface-alt rounded-lg transition">
+                <span class="flex items-center gap-2">
+                  <i class="fas fa-th-large text-primary" data-icon="tiles"></i>
+                  <span class="text-sm">Tile & Surface Cleaning</span>
+                </span>
+                <i class="fas fa-arrow-right text-text-muted text-xs" data-icon="arrow-right"></i>
+              </a>
+            </li>
+            <li data-item="service-2">
+              <a href="#" class="flex items-center justify-between px-6 py-2 text-text-secondary hover:bg-surface-alt rounded-lg transition">
+                <span class="flex items-center gap-2">
+                  <i class="fas fa-swimmer text-primary" data-icon="pool"></i>
+                  <span class="text-sm">Pool Cleaning</span>
+                </span>
+                <i class="fas fa-arrow-right text-text-muted text-xs" data-icon="arrow-right"></i>
+              </a>
+            </li>
+            <li data-item="service-3">
+              <a href="#" class="flex items-center justify-between px-6 py-2 text-text-secondary hover:bg-surface-alt rounded-lg transition">
+                <span class="flex items-center gap-2">
+                  <i class="fas fa-tint text-primary" data-icon="water"></i>
+                  <span class="text-sm">Water Analysis</span>
+                </span>
+                <i class="fas fa-arrow-right text-text-muted text-xs" data-icon="arrow-right"></i>
+              </a>
+            </li>
+            <li data-item="service-4">
+              <a href="#" class="flex items-center justify-between px-6 py-2 text-text-secondary hover:bg-surface-alt rounded-lg transition">
+                <span class="flex items-center gap-2">
+                  <i class="fas fa-tools text-primary" data-icon="tools"></i>
+                  <span class="text-sm">Equipment Install</span>
+                </span>
+                <i class="fas fa-arrow-right text-text-muted text-xs" data-icon="arrow-right"></i>
+              </a>
+            </li>
+            <li data-item="service-5">
+              <a href="#" class="flex items-center justify-between px-6 py-2 text-text-secondary hover:bg-surface-alt rounded-lg transition">
+                <span class="flex items-center gap-2">
+                  <i class="fas fa-search text-primary" data-icon="inspection"></i>
+                  <span class="text-sm">Pool Inspections</span>
+                </span>
+                <i class="fas fa-arrow-right text-text-muted text-xs" data-icon="arrow-right"></i>
+              </a>
+            </li>
+            <li data-item="service-6">
+              <a href="#" class="flex items-center justify-between px-6 py-2 text-text-secondary hover:bg-surface-alt rounded-lg transition">
+                <span class="flex items-center gap-2">
+                  <i class="fas fa-lightbulb text-primary" data-icon="lighting"></i>
+                  <span class="text-sm">Pool Lighting</span>
+                </span>
+                <i class="fas fa-arrow-right text-text-muted text-xs" data-icon="arrow-right"></i>
+              </a>
+            </li>
+            <li data-item="service-7">
+              <a href="#" class="flex items-center justify-between px-6 py-2 text-text-secondary hover:bg-surface-alt rounded-lg transition">
+                <span class="flex items-center gap-2">
+                  <i class="fas fa-eraser text-primary" data-icon="stain"></i>
+                  <span class="text-sm">Stain Removal</span>
+                </span>
+                <i class="fas fa-arrow-right text-text-muted text-xs" data-icon="arrow-right"></i>
+              </a>
+            </li>
+            <li data-item="service-8">
+              <a href="#" class="flex items-center justify-between px-6 py-2 text-text-secondary hover:bg-surface-alt rounded-lg transition">
+                <span class="flex items-center gap-2">
+                  <i class="fas fa-water text-primary" data-icon="drain"></i>
+                  <span class="text-sm">Drain & Clean</span>
+                </span>
+                <i class="fas fa-arrow-right text-text-muted text-xs" data-icon="arrow-right"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Help Card -->
+        <div class="bg-[url('https://placehold.co/400x300')] bg-cover bg-center rounded-xl shadow-sm flex flex-col items-center justify-center px-6 py-8 text-center relative overflow-hidden">
+          <div class="absolute inset-0 bg-black/60 rounded-xl"></div>
+          <div class="relative z-10 flex flex-col items-center">
+            <img src="https://placehold.co/120x40?text=Poolax" alt="Poolax logo" class="mb-2">
+            <p class="text-on-primary font-semibold text-lg mb-1">Need Help? We Are Here<br>To Help You</p>
+            <div class="bg-surface rounded-lg px-4 py-3 mt-4 mb-3 w-full">
+              <span class="block text-primary font-bold text-sm">POOLAX SPECIAL</span>
+              <span class="block text-text-muted text-xs mt-1">Save up to 60% off</span>
+            </div>
+            <a href="#" class="bg-primary hover:bg-primary-dark text-on-primary font-semibold rounded-lg px-6 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition">GET A QUOTE</a>
+          </div>
+        </div>
+      </aside>
+      <!-- Main Content -->
+      <section class="flex-1">
+        <div class="bg-surface rounded-2xl shadow-md px-8 py-8">
+          <img src="https://placehold.co/800x400?text=Pool+Inspection+Equipment+in+Water" alt="Pool inspection equipment in a clear blue swimming pool" class="rounded-xl w-full mb-6 object-cover h-64">
+          <h1 class="text-3xl md:text-4xl font-extrabold text-text mb-4">Pool Inspections</h1>
+          <p class="text-text-muted text-base mb-6">
+            At poolax, we take pride in our specialized Pool Tile & Surface Cleaning Services. Our team of trained technicians is committed to rejuvenating your pool's appearance by ensuring the tiles and surfaces are spotless and inviting. We inspect critical pool equipment, including pump, motor, heaters, and filters, to ensure everything is in good working order.<br><br>
+            We identify any issue we promptly address them to prevent costly repairs down the road. With our simple 4-step process, we keep your pool clean, safe, and ready for enjoyment year-round.
+          </p>
+          <h2 class="text-2xl font-extrabold text-text mb-2">Regular Cleaning and Skimming</h2>
+          <p class="text-text-muted text-base mb-4">
+            Our certified technicians perform routine pool cleaning and skimming. This includes removing debris, leaves, and any foreign matter from the pool surface and skimmers to ensure proper water flow.
+          </p>
+          <div class="flex flex-col md:flex-row gap-4 mb-6" data-collection="cleaning-images">
+            <img src="https://placehold.co/400x200?text=Technician+Cleaning+Pool" alt="Technician cleaning pool with vacuum equipment" class="rounded-lg w-full md:w-1/2 object-cover h-40" data-item="cleaning-image-1">
+            <img src="https://placehold.co/400x200?text=Pool+Skimmer+in+Action" alt="Pool skimmer in action removing debris from water" class="rounded-lg w-full md:w-1/2 object-cover h-40" data-item="cleaning-image-2">
+          </div>
+          <h2 class="text-2xl font-extrabold text-text mb-2">We help you with the dedication & affection</h2>
+          <p class="text-text-muted text-base">
+            We pay close attention to the grout lines, cleaning and restoring them to their original color and condition, giving the entire surface a refreshed look.<br><br>
+            We meticulously test and balance the water chemistry during each service visit. This involves adjusting pH, alkalinity, and chlorine levels to maintain a safe and comfortable swimming environment.
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- Contact Bar -->
+  <section class="w-full bg-surface-alt py-0">
+    <div class="container mx-auto px-4 max-w-6xl flex flex-col md:flex-row items-center justify-between gap-0 md:gap-0">
+      <div class="w-full md:w-1/2 bg-primary rounded-t-xl md:rounded-t-none md:rounded-l-xl flex items-center px-8 py-6 md:py-8 gap-4">
+        <i class="fas fa-phone-alt text-3xl text-on-primary" data-icon="phone"></i>
+        <div>
+          <span class="block text-on-primary text-base font-medium">Call Us For Pool Services</span>
+          <span class="block text-on-primary text-xl font-bold mt-1">+(468) 254 76243</span>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 bg-surface-alt md:bg-primary-dark rounded-b-xl md:rounded-b-none md:rounded-r-xl flex items-center px-8 py-6 md:py-8 gap-4">
+        <i class="fas fa-envelope text-3xl text-primary" data-icon="envelope"></i>
+        <div>
+          <span class="block text-text-secondary text-base font-medium">Email Us For Any Info.</span>
+          <span class="block text-text font-bold mt-1">info@poolax.com</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-[#0f1c18] pt-16 pb-8 mt-0">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="flex flex-col md:flex-row md:justify-between gap-12 md:gap-8">
+        <!-- About -->
+        <div class="w-full md:w-1/4">
+          <img src="https://placehold.co/120x40?text=Poolax" alt="Poolax logo" class="mb-4">
+          <h3 class="text-on-primary font-bold text-lg mb-2">About Company</h3>
+          <p class="text-text-muted text-sm mb-4">
+            We provide specialized winterization services to safeguard your pool during the off-season, and when spring arrives, we handle the thorough opening process.
+          </p>
+          <div class="flex gap-3 mt-2">
+            <a href="#" class="text-on-primary hover:text-primary text-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-full" aria-label="Facebook"><i class="fab fa-facebook-f" data-icon="facebook"></i></a>
+            <a href="#" class="text-on-primary hover:text-primary text-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-full" aria-label="Twitter"><i class="fab fa-twitter" data-icon="twitter"></i></a>
+            <a href="#" class="text-on-primary hover:text-primary text-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-full" aria-label="LinkedIn"><i class="fab fa-linkedin-in" data-icon="linkedin"></i></a>
+            <a href="#" class="text-on-primary hover:text-primary text-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-full" aria-label="YouTube"><i class="fab fa-youtube" data-icon="youtube"></i></a>
+          </div>
+        </div>
+        <!-- Quick Link -->
+        <div class="w-full md:w-1/4">
+          <h3 class="text-on-primary font-bold text-lg mb-4">Quick Link</h3>
+          <ul class="flex flex-col gap-2 text-text-muted text-sm">
+            <li><a href="#" class="hover:text-primary transition">About Us</a></li>
+            <li><a href="#" class="hover:text-primary transition">Gallery</a></li>
+            <li><a href="#" class="hover:text-primary transition">Testimonials</a></li>
+            <li><a href="#" class="hover:text-primary transition">Blog</a></li>
+            <li><a href="#" class="hover:text-primary transition">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- Recent Post -->
+        <div class="w-full md:w-1/4">
+          <h3 class="text-on-primary font-bold text-lg mb-4">Recent Post</h3>
+          <div class="flex flex-col gap-4" data-collection="recent-posts">
+            <div class="flex gap-3 items-center" data-item="post-1">
+              <img src="https://placehold.co/60x40?text=Post+1" alt="How to Revamp Your Pool Area thumbnail" class="rounded-md w-16 h-10 object-cover">
+              <div>
+                <a href="#" class="text-on-primary font-semibold text-sm hover:text-primary transition">How to Revamp Your Pool Area</a>
+                <div class="text-text-muted text-xs mt-1 flex items-center gap-1">
+                  <i class="far fa-calendar-alt" data-icon="calendar"></i>
+                  02 Jan 2024
+                </div>
+              </div>
+            </div>
+            <div class="flex gap-3 items-center" data-item="post-2">
+              <img src="https://placehold.co/60x40?text=Post+2" alt="Science of the Pool Chemistry Keeping thumbnail" class="rounded-md w-16 h-10 object-cover">
+              <div>
+                <a href="#" class="text-on-primary font-semibold text-sm hover:text-primary transition">Science of the Pool Chemistry Keeping</a>
+                <div class="text-text-muted text-xs mt-1 flex items-center gap-1">
+                  <i class="far fa-calendar-alt" data-icon="calendar"></i>
+                  02 Jan 2024
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Working Hours -->
+        <div class="w-full md:w-1/4">
+          <h3 class="text-on-primary font-bold text-lg mb-4">Working Hours</h3>
+          <ul class="text-text-muted text-sm flex flex-col gap-1">
+            <li>Monday to Wed.......... 9am - 8pm</li>
+            <li>Thursday..................... 9am - 7pm</li>
+            <li>Friday............................ 8am - 6pm</li>
+            <li>Saturday..................... 10am - 4pm</li>
+            <li>Sunday....................... Closed</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>

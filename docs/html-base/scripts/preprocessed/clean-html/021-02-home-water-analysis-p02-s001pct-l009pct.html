@@ -1,0 +1,55 @@
+  <section class="hero-section relative min-h-screen flex flex-col justify-between bg-background">
+    <!-- Background image and overlays -->
+    <div class="absolute inset-0 w-full h-full z-0">
+      <img src="https://placehold.co/1920x1080/0074d9/ffffff?text=Pool+Water+Background" alt="Close-up of clear blue pool water with gentle ripples" class="w-full h-full object-cover object-center" />
+      <!-- Blue overlays for geometric shapes -->
+      <div class="absolute inset-0 bg-blue-900 opacity-40" style="clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);"></div>
+      <div class="absolute inset-0 bg-blue-700 opacity-30" style="clip-path: polygon(100% 0, 100% 100%, 60% 100%, 80% 0);"></div>
+    </div>
+    <!-- Main content -->
+    <div class="relative z-10 flex flex-col flex-1 justify-center items-center min-h-[80vh]">
+      <div class="container mx-auto px-4 max-w-6xl flex flex-col md:flex-row items-center justify-between">
+        <!-- Glassmorphism box -->
+        <div class="glass-box md:w-[60%] w-full p-12 md:p-16 flex flex-col justify-center" style="box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);">
+          <header>
+            <div class="flex items-center mb-2">
+              <span class="uppercase tracking-wide text-white text-base font-semibold">Clean Water, Clear Choice</span>
+              <span class="ml-3 flex-1 border-t border-white opacity-60"></span>
+            </div>
+            <h1 class="text-white text-4xl md:text-6xl font-extrabold leading-tight mb-4">Trust Our Pool<br>Water Analysis</h1>
+            <p class="text-white text-base md:text-lg font-normal mb-8 max-w-xl">Regular pool cleaning is recommended at least once a week to maintain water clarity and hygiene.</p>
+            <button class="bg-black bg-opacity-80 text-white text-base font-semibold px-8 py-3 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition hover:bg-opacity-100" type="button">
+              DISCOVER MORE
+            </button>
+          </header>
+        </div>
+        <!-- Play button -->
+        <div class="flex flex-col items-center justify-center md:w-[40%] w-full mt-10 md:mt-0">
+          <div class="play-circle mx-auto" aria-label="Play video">
+            <span class="outer"></span>
+            <span class="middle"></span>
+            <span class="inner flex items-center justify-center">
+              <i class="fas fa-play" data-icon="play" aria-hidden="true"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Social icons -->
+    <footer class="relative z-20 flex justify-center items-center pb-8">
+      <nav class="flex space-x-3">
+        <a href="#" class="social-icon w-9 h-9 flex items-center justify-center rounded-md border border-white text-white text-lg transition hover:bg-primary hover:text-on-primary hover:border-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Facebook">
+          <i class="fab fa-facebook-f" data-icon="facebook"></i>
+        </a>
+        <a href="#" class="social-icon w-9 h-9 flex items-center justify-center rounded-md border border-white text-white text-lg transition hover:bg-primary hover:text-on-primary hover:border-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="X">
+          <i class="fab fa-x-twitter" data-icon="x"></i>
+        </a>
+        <a href="#" class="social-icon w-9 h-9 flex items-center justify-center rounded-md border border-white text-white text-lg transition hover:bg-primary hover:text-on-primary hover:border-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in" data-icon="linkedin"></i>
+        </a>
+        <a href="#" class="social-icon w-9 h-9 flex items-center justify-center rounded-md border border-white text-white text-lg transition hover:bg-primary hover:text-on-primary hover:border-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label="Instagram">
+          <i class="fab fa-instagram" data-icon="instagram"></i>
+        </a>
+      </nav>
+    </footer>
+  </section>

@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <section class="services-section py-0 bg-background">
+      <div class="container mx-auto px-0 max-w-full">
+        <div data-collection="service-images" class="flex flex-row gap-0">
+          <div data-item="service-1" class="flex-1">
+            <img 
+              src="https://placehold.co/600x600?text=Pool+vacuum+cleaner+head+on+blue+tile+pool+floor" 
+              alt="Close-up of a pool vacuum cleaner head on a blue tile pool floor" 
+              class="w-full h-[320px] object-cover rounded-l-2xl rounded-r-none"
+              draggable="false"
+            >
+          </div>
+          <div data-item="service-2" class="flex-1">
+            <img 
+              src="https://placehold.co/600x600?text=Pool+filter+system+with+blue+hose+in+pool" 
+              alt="Pool filter system with blue hose submerged in a swimming pool" 
+              class="w-full h-[320px] object-cover rounded-none"
+              draggable="false"
+            >
+          </div>
+          <div data-item="service-3" class="flex-1">
+            <img 
+              src="https://placehold.co/600x600?text=Hand+pouring+chemical+into+pool+water" 
+              alt="Hand pouring pool chemical from a bottle into the pool water" 
+              class="w-full h-[320px] object-cover rounded-r-2xl rounded-l-none"
+              draggable="false"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

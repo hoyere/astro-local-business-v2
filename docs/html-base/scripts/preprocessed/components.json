@@ -1,0 +1,6597 @@
+[
+  {
+    "id": "pattern-001",
+    "hash": "a928c8127d919c00a7c6407517ef639e",
+    "representative": "001-01-home-pool-maintaining-services-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "001-01-home-pool-maintaining-services-p01-s000pct-l001pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-002",
+    "hash": "049f02de6abb44b15b605c39a497c3fa",
+    "representative": "002-01-home-pool-maintaining-services-p02-s001pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "002-01-home-pool-maintaining-services-p02-s001pct-l001pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-003",
+    "hash": "5574ae1aaa540e1950a7d381d4d75069",
+    "representative": "003-01-home-pool-maintaining-services-p03-s001pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "003-01-home-pool-maintaining-services-p03-s001pct-l010pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-004",
+    "hash": "241872afa61d551edfe761f1dcfed515",
+    "representative": "004-01-home-pool-maintaining-services-p04-s011pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "004-01-home-pool-maintaining-services-p04-s011pct-l002pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-005",
+    "hash": "f585860a015f17aeb6b7afc89da9c752",
+    "representative": "005-01-home-pool-maintaining-services-p05-s013pct-l017pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "005-01-home-pool-maintaining-services-p05-s013pct-l017pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-006",
+    "hash": "7c5759660c0a47e6908528b59a322159",
+    "representative": "006-01-home-pool-maintaining-services-p06-s030pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "01-home-pool-maintaining-services",
+      "logo"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "006-01-home-pool-maintaining-services-p06-s030pct-l002pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 6
+      },
+      {
+        "file": "216-logo-p08-s030pct-l002pct.html",
+        "page": "logo",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-007",
+    "hash": "da98c0c0dcb76733a464902abd6957eb",
+    "representative": "007-01-home-pool-maintaining-services-p07-s032pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "007-01-home-pool-maintaining-services-p07-s032pct-l003pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-008",
+    "hash": "7a4bf465d00688d1761929e65c36b38b",
+    "representative": "008-01-home-pool-maintaining-services-p08-s035pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "008-01-home-pool-maintaining-services-p08-s035pct-l002pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-009",
+    "hash": "4bc1c98f7b6f172d2364f6e017481de8",
+    "representative": "009-01-home-pool-maintaining-services-p09-s037pct-l016pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "009-01-home-pool-maintaining-services-p09-s037pct-l016pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-010",
+    "hash": "de740875c760568a8e5c912e46993b02",
+    "representative": "010-01-home-pool-maintaining-services-p10-s053pct-l008pct.html",
+    "occurrences": 2,
+    "pages": [
+      "01-home-pool-maintaining-services",
+      "logo"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "010-01-home-pool-maintaining-services-p10-s053pct-l008pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 10
+      },
+      {
+        "file": "220-logo-p12-s053pct-l008pct.html",
+        "page": "logo",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "pattern-011",
+    "hash": "8b1695a4ff78a1494bc3d1e5246d98f6",
+    "representative": "011-01-home-pool-maintaining-services-p11-s061pct-l012pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "011-01-home-pool-maintaining-services-p11-s061pct-l012pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "pattern-012",
+    "hash": "a47d0eb71375ec0e6694acab1f846e65",
+    "representative": "012-01-home-pool-maintaining-services-p12-s073pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "012-01-home-pool-maintaining-services-p12-s073pct-l003pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "pattern-013",
+    "hash": "b32973814196c84b607425d386fb0ab3",
+    "representative": "013-01-home-pool-maintaining-services-p13-s076pct-l011pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "013-01-home-pool-maintaining-services-p13-s076pct-l011pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "pattern-014",
+    "hash": "727cd83c7df1d665fb434791090a4e69",
+    "representative": "014-01-home-pool-maintaining-services-p14-s087pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "014-01-home-pool-maintaining-services-p14-s087pct-l002pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 14
+      }
+    ]
+  },
+  {
+    "id": "pattern-015",
+    "hash": "91b02b8a1149db5a56de44d45e9da501",
+    "representative": "015-01-home-pool-maintaining-services-p15-s089pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "015-01-home-pool-maintaining-services-p15-s089pct-l001pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "pattern-016",
+    "hash": "2d5a11a227903d747770622f56ea0c7f",
+    "representative": "016-01-home-pool-maintaining-services-p16-s090pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "016-01-home-pool-maintaining-services-p16-s090pct-l001pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 16
+      }
+    ]
+  },
+  {
+    "id": "pattern-017",
+    "hash": "bc7488d9ff45444326a2d55da01e7779",
+    "representative": "017-01-home-pool-maintaining-services-p17-s091pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "017-01-home-pool-maintaining-services-p17-s091pct-l002pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 17
+      }
+    ]
+  },
+  {
+    "id": "pattern-018",
+    "hash": "f16541dda508b13a38108a71cac387cd",
+    "representative": "018-01-home-pool-maintaining-services-p18-s093pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "018-01-home-pool-maintaining-services-p18-s093pct-l001pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 18
+      }
+    ]
+  },
+  {
+    "id": "pattern-019",
+    "hash": "d26c13a6171f38f93384cc73c85e9482",
+    "representative": "019-01-home-pool-maintaining-services-p19-s094pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "01-home-pool-maintaining-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "019-01-home-pool-maintaining-services-p19-s094pct-l006pct.html",
+        "page": "01-home-pool-maintaining-services",
+        "position": 19
+      }
+    ]
+  },
+  {
+    "id": "pattern-020",
+    "hash": "79e0999a0c3aec279e49f689e357e589",
+    "representative": "020-02-home-water-analysis-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "020-02-home-water-analysis-p01-s000pct-l001pct.html",
+        "page": "02-home-water-analysis",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-021",
+    "hash": "83a473db806e2cadd6a26b06897712b2",
+    "representative": "021-02-home-water-analysis-p02-s001pct-l009pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "021-02-home-water-analysis-p02-s001pct-l009pct.html",
+        "page": "02-home-water-analysis",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-022",
+    "hash": "df01e692e408e56ab2f9ee8257f2654f",
+    "representative": "022-02-home-water-analysis-p03-s010pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "022-02-home-water-analysis-p03-s010pct-l006pct.html",
+        "page": "02-home-water-analysis",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-023",
+    "hash": "f9e365a84557a2c371d3597db8003b1a",
+    "representative": "023-02-home-water-analysis-p04-s016pct-l007pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "023-02-home-water-analysis-p04-s016pct-l007pct.html",
+        "page": "02-home-water-analysis",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-024",
+    "hash": "1f01770d2e9aa1e99b6f494a5f93f5f9",
+    "representative": "024-02-home-water-analysis-p05-s023pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "024-02-home-water-analysis-p05-s023pct-l001pct.html",
+        "page": "02-home-water-analysis",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-025",
+    "hash": "903d6e5d616130ddb411eb395b9967ed",
+    "representative": "025-02-home-water-analysis-p06-s023pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "025-02-home-water-analysis-p06-s023pct-l002pct.html",
+        "page": "02-home-water-analysis",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-026",
+    "hash": "0a0457c3ea5b211bc1af462ad0da8760",
+    "representative": "026-02-home-water-analysis-p07-s026pct-l005pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "026-02-home-water-analysis-p07-s026pct-l005pct.html",
+        "page": "02-home-water-analysis",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-027",
+    "hash": "0a88b3fbc6087c5d496b84d8f7ae9b39",
+    "representative": "027-02-home-water-analysis-p08-s031pct-l004pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "027-02-home-water-analysis-p08-s031pct-l004pct.html",
+        "page": "02-home-water-analysis",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-028",
+    "hash": "0bdb4a38c9fe90cdc44f448f3e5897a3",
+    "representative": "028-02-home-water-analysis-p09-s035pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "028-02-home-water-analysis-p09-s035pct-l002pct.html",
+        "page": "02-home-water-analysis",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-029",
+    "hash": "6115a61ffcefd3ad8dab39197379e101",
+    "representative": "029-02-home-water-analysis-p10-s037pct-l063pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-home-water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "029-02-home-water-analysis-p10-s037pct-l063pct.html",
+        "page": "02-home-water-analysis",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "pattern-030",
+    "hash": "a58e2eac6281d177eecb82fb26c68872",
+    "representative": "030-02-jan-2024-p01-s000pct-l001pct.html",
+    "occurrences": 13,
+    "pages": [
+      "02-jan-2024",
+      "blog-s-1-5-70x70",
+      "commercial-pool",
+      "drain-clean",
+      "how-to-revamp-your-pool-area-for",
+      "maintenance",
+      "october-2-2023",
+      "pool-water-cleaning",
+      "poolax-shop",
+      "team-details",
+      "water-analysis"
+    ],
+    "page_count": 11,
+    "members": [
+      {
+        "file": "030-02-jan-2024-p01-s000pct-l001pct.html",
+        "page": "02-jan-2024",
+        "position": 1
+      },
+      {
+        "file": "031-02-jan-2024-p01-s000pct-l001pct.html",
+        "page": "02-jan-2024",
+        "position": 1
+      },
+      {
+        "file": "142-blog-s-1-5-70x70-p01-s000pct-l001pct.html",
+        "page": "blog-s-1-5-70x70",
+        "position": 1
+      },
+      {
+        "file": "158-commercial-pool-p01-s000pct-l001pct.html",
+        "page": "commercial-pool",
+        "position": 1
+      },
+      {
+        "file": "172-drain-clean-p01-s000pct-l001pct.html",
+        "page": "drain-clean",
+        "position": 1
+      },
+      {
+        "file": "201-how-to-revamp-your-pool-area-for-p01-s000pct-l001pct.html",
+        "page": "how-to-revamp-your-pool-area-for",
+        "position": 1
+      },
+      {
+        "file": "250-maintenance-p01-s000pct-l001pct.html",
+        "page": "maintenance",
+        "position": 1
+      },
+      {
+        "file": "280-october-2-2023-p01-s000pct-l002pct.html",
+        "page": "october-2-2023",
+        "position": 1
+      },
+      {
+        "file": "374-pool-water-cleaning-p01-s000pct-l001pct.html",
+        "page": "pool-water-cleaning",
+        "position": 1
+      },
+      {
+        "file": "386-poolax-shop-p01-s000pct-l002pct.html",
+        "page": "poolax-shop",
+        "position": 1
+      },
+      {
+        "file": "437-team-details-p01-s000pct-l002pct.html",
+        "page": "team-details",
+        "position": 1
+      },
+      {
+        "file": "449-water-analysis-p01-s000pct-l001pct.html",
+        "page": "water-analysis",
+        "position": 1
+      },
+      {
+        "file": "450-water-analysis-p01-s000pct-l001pct.html",
+        "page": "water-analysis",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-031",
+    "hash": "ce5238eebbe3c65016e2781161f320f5",
+    "representative": "032-02-jan-2024-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-jan-2024"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "032-02-jan-2024-p02-s001pct-l013pct.html",
+        "page": "02-jan-2024",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-032",
+    "hash": "2654dc98d5117f29229a5325b952105b",
+    "representative": "033-02-jan-2024-p02-s001pct-l014pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-jan-2024"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "033-02-jan-2024-p02-s001pct-l014pct.html",
+        "page": "02-jan-2024",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-033",
+    "hash": "d90fab20a98b6f1647dc8cb61f427374",
+    "representative": "034-02-jan-2024-p03-s014pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-jan-2024"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "034-02-jan-2024-p03-s014pct-l084pct.html",
+        "page": "02-jan-2024",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-034",
+    "hash": "851a9c275a10e01413bb199aa39da490",
+    "representative": "035-02-jan-2024-p03-s015pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-jan-2024"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "035-02-jan-2024-p03-s015pct-l084pct.html",
+        "page": "02-jan-2024",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-035",
+    "hash": "3cb444b12deb20e1d3ca2d9703a7579a",
+    "representative": "036-02-jan-2024-p04-s098pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-jan-2024"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "036-02-jan-2024-p04-s098pct-l002pct.html",
+        "page": "02-jan-2024",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-036",
+    "hash": "d7c9f60b110cd20b1820521d44adf229",
+    "representative": "037-02-jan-2024-p04-s099pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "02-jan-2024"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "037-02-jan-2024-p04-s099pct-l001pct.html",
+        "page": "02-jan-2024",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-037",
+    "hash": "7b6359c2b7130a54ca347a145ea4a883",
+    "representative": "038-04-home-pool-cleaning-service-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "04-home-pool-cleaning-service"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "038-04-home-pool-cleaning-service-p01-s000pct-l001pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-038",
+    "hash": "a767058ffffdd5808f23637052e872f7",
+    "representative": "039-04-home-pool-cleaning-service-p02-s001pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "04-home-pool-cleaning-service"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "039-04-home-pool-cleaning-service-p02-s001pct-l001pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-039",
+    "hash": "8f55f6a9f4731419d64a65ab966e15c7",
+    "representative": "040-04-home-pool-cleaning-service-p03-s002pct-l028pct.html",
+    "occurrences": 1,
+    "pages": [
+      "04-home-pool-cleaning-service"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "040-04-home-pool-cleaning-service-p03-s002pct-l028pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-040",
+    "hash": "b9d7cb10ad9f2620c14b5e1000cecef2",
+    "representative": "041-04-home-pool-cleaning-service-p04-s030pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "04-home-pool-cleaning-service"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "041-04-home-pool-cleaning-service-p04-s030pct-l003pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-041",
+    "hash": "04e510991413aa07c765fdb568f302f5",
+    "representative": "042-04-home-pool-cleaning-service-p05-s033pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "04-home-pool-cleaning-service"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "042-04-home-pool-cleaning-service-p05-s033pct-l002pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-042",
+    "hash": "a14fe8b00cdb1ca52dadadce00598514",
+    "representative": "043-04-home-pool-cleaning-service-p06-s035pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "04-home-pool-cleaning-service",
+      "blog"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "043-04-home-pool-cleaning-service-p06-s035pct-l002pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 6
+      },
+      {
+        "file": "137-blog-p04-s100pct-l001pct.html",
+        "page": "blog",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-043",
+    "hash": "cf2ef811193850323b8b5f90698c42ca",
+    "representative": "044-04-home-pool-cleaning-service-p07-s037pct-l011pct.html",
+    "occurrences": 1,
+    "pages": [
+      "04-home-pool-cleaning-service"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "044-04-home-pool-cleaning-service-p07-s037pct-l011pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-044",
+    "hash": "31e104ddc67bc3c47ba8927a0fd8934a",
+    "representative": "045-04-home-pool-cleaning-service-p08-s048pct-l047pct.html",
+    "occurrences": 1,
+    "pages": [
+      "04-home-pool-cleaning-service"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "045-04-home-pool-cleaning-service-p08-s048pct-l047pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-045",
+    "hash": "dc6ffde2533e92a9d51e4f63e2166317",
+    "representative": "046-04-home-pool-cleaning-service-p09-s095pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "04-home-pool-cleaning-service"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "046-04-home-pool-cleaning-service-p09-s095pct-l003pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-046",
+    "hash": "0ed9d04d03e831cd4ea4a52fd6cbc3f4",
+    "representative": "047-04-home-pool-cleaning-service-p10-s098pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "04-home-pool-cleaning-service"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "047-04-home-pool-cleaning-service-p10-s098pct-l002pct.html",
+        "page": "04-home-pool-cleaning-service",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "pattern-047",
+    "hash": "adfc6c9aa5582deb4a04ba8690391b17",
+    "representative": "048-05-home-pool-inspection-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "05-home-pool-inspection"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "048-05-home-pool-inspection-p01-s000pct-l001pct.html",
+        "page": "05-home-pool-inspection",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-048",
+    "hash": "0e749744f808242459aa841841ab6b44",
+    "representative": "049-05-home-pool-inspection-p02-s001pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "05-home-pool-inspection"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "049-05-home-pool-inspection-p02-s001pct-l001pct.html",
+        "page": "05-home-pool-inspection",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-049",
+    "hash": "73bab3038a56e4dea4e02eb67d66ea17",
+    "representative": "050-05-home-pool-inspection-p03-s002pct-l008pct.html",
+    "occurrences": 1,
+    "pages": [
+      "05-home-pool-inspection"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "050-05-home-pool-inspection-p03-s002pct-l008pct.html",
+        "page": "05-home-pool-inspection",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-050",
+    "hash": "2167142c2ddfe54cfcb51f5df5ed5ad4",
+    "representative": "051-05-home-pool-inspection-p04-s011pct-l024pct.html",
+    "occurrences": 1,
+    "pages": [
+      "05-home-pool-inspection"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "051-05-home-pool-inspection-p04-s011pct-l024pct.html",
+        "page": "05-home-pool-inspection",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-051",
+    "hash": "47151fcfd29f3dd5eb5144db61595b76",
+    "representative": "052-05-home-pool-inspection-p05-s035pct-l007pct.html",
+    "occurrences": 1,
+    "pages": [
+      "05-home-pool-inspection"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "052-05-home-pool-inspection-p05-s035pct-l007pct.html",
+        "page": "05-home-pool-inspection",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-052",
+    "hash": "371a48d4c87dec6caa44a618e109c31f",
+    "representative": "053-05-home-pool-inspection-p06-s042pct-l018pct.html",
+    "occurrences": 1,
+    "pages": [
+      "05-home-pool-inspection"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "053-05-home-pool-inspection-p06-s042pct-l018pct.html",
+        "page": "05-home-pool-inspection",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-053",
+    "hash": "39999b434a5be6e8e33f4fbc389128fd",
+    "representative": "054-05-home-pool-inspection-p07-s060pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "05-home-pool-inspection"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "054-05-home-pool-inspection-p07-s060pct-l003pct.html",
+        "page": "05-home-pool-inspection",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-054",
+    "hash": "aff82949c61a04e120fd63ff5e75f8ce",
+    "representative": "055-05-home-pool-inspection-p08-s063pct-l037pct.html",
+    "occurrences": 1,
+    "pages": [
+      "05-home-pool-inspection"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "055-05-home-pool-inspection-p08-s063pct-l037pct.html",
+        "page": "05-home-pool-inspection",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-055",
+    "hash": "2f76e1439fe05a294d8bf140cabb8c27",
+    "representative": "056-08-home-pool-education-and-training-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "056-08-home-pool-education-and-training-p01-s000pct-l001pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-056",
+    "hash": "5291c41c8c54fb2c973fdaeac7d6c4ae",
+    "representative": "057-08-home-pool-education-and-training-p02-s001pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "057-08-home-pool-education-and-training-p02-s001pct-l010pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-057",
+    "hash": "44024010d5c70f21b0e83fed159ab5b1",
+    "representative": "058-08-home-pool-education-and-training-p03-s011pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "058-08-home-pool-education-and-training-p03-s011pct-l002pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-058",
+    "hash": "d0042917d6c93e8fe94f2ff0b41190ed",
+    "representative": "059-08-home-pool-education-and-training-p04-s013pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "059-08-home-pool-education-and-training-p04-s013pct-l001pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-059",
+    "hash": "dd17e171b161b4fa3671592c090bb52c",
+    "representative": "060-08-home-pool-education-and-training-p05-s014pct-l021pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "060-08-home-pool-education-and-training-p05-s014pct-l021pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-060",
+    "hash": "4af8823b6d68d37af0cad601f500414a",
+    "representative": "061-08-home-pool-education-and-training-p06-s035pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "061-08-home-pool-education-and-training-p06-s035pct-l003pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-061",
+    "hash": "f39bec80dde15635fc9f837d430e2281",
+    "representative": "062-08-home-pool-education-and-training-p07-s038pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "062-08-home-pool-education-and-training-p07-s038pct-l002pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-062",
+    "hash": "de9f42fc806518bf4f3273eb1e75ce54",
+    "representative": "063-08-home-pool-education-and-training-p08-s040pct-l011pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "063-08-home-pool-education-and-training-p08-s040pct-l011pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-063",
+    "hash": "c2e5d50df6badd4f31c55d283f54f959",
+    "representative": "064-08-home-pool-education-and-training-p09-s051pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "064-08-home-pool-education-and-training-p09-s051pct-l010pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-064",
+    "hash": "3161f77f51509683ea42e2ee3ee20ef7",
+    "representative": "065-08-home-pool-education-and-training-p10-s061pct-l019pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "065-08-home-pool-education-and-training-p10-s061pct-l019pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "pattern-065",
+    "hash": "6069a99d5cc3432151614672812d6ee1",
+    "representative": "066-08-home-pool-education-and-training-p11-s080pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "066-08-home-pool-education-and-training-p11-s080pct-l002pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "pattern-066",
+    "hash": "b0d9e06bbcf2f72faf93393946d4b0b3",
+    "representative": "067-08-home-pool-education-and-training-p12-s082pct-l011pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "067-08-home-pool-education-and-training-p12-s082pct-l011pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "pattern-067",
+    "hash": "52057ab0255d41af978cd7cfde59b56b",
+    "representative": "068-08-home-pool-education-and-training-p13-s093pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "068-08-home-pool-education-and-training-p13-s093pct-l003pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "pattern-068",
+    "hash": "6e88ef2a3a246a83f18130ac46b673df",
+    "representative": "069-08-home-pool-education-and-training-p14-s096pct-l004pct.html",
+    "occurrences": 1,
+    "pages": [
+      "08-home-pool-education-and-training"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "069-08-home-pool-education-and-training-p14-s096pct-l004pct.html",
+        "page": "08-home-pool-education-and-training",
+        "position": 14
+      }
+    ]
+  },
+  {
+    "id": "pattern-069",
+    "hash": "dcfd7bd9bd2fa4e543c9703a38583678",
+    "representative": "070-10-home-indoor-swimming-pool-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "070-10-home-indoor-swimming-pool-p01-s000pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-070",
+    "hash": "4d6b7a857415511f2ed1c34ee6f12159",
+    "representative": "071-10-home-indoor-swimming-pool-p02-s001pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "071-10-home-indoor-swimming-pool-p02-s001pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-071",
+    "hash": "34a9042614ba6f627cbf4d1937255679",
+    "representative": "072-10-home-indoor-swimming-pool-p03-s002pct-l017pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "072-10-home-indoor-swimming-pool-p03-s002pct-l017pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-072",
+    "hash": "1830471d91a0362fbb40815572482242",
+    "representative": "073-10-home-indoor-swimming-pool-p04-s019pct-l014pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "073-10-home-indoor-swimming-pool-p04-s019pct-l014pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-073",
+    "hash": "c01dbaf27c685eedd82f9638af90f47c",
+    "representative": "074-10-home-indoor-swimming-pool-p05-s033pct-l008pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "074-10-home-indoor-swimming-pool-p05-s033pct-l008pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-074",
+    "hash": "94bf9d741587fdb48daafe7ad799283b",
+    "representative": "075-10-home-indoor-swimming-pool-p06-s041pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "075-10-home-indoor-swimming-pool-p06-s041pct-l003pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-075",
+    "hash": "29efa4ac872a66b9c0a2a87ec9953501",
+    "representative": "076-10-home-indoor-swimming-pool-p07-s044pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "076-10-home-indoor-swimming-pool-p07-s044pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-076",
+    "hash": "cefd35a758dd651546b06783bff52e97",
+    "representative": "077-10-home-indoor-swimming-pool-p08-s045pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "077-10-home-indoor-swimming-pool-p08-s045pct-l003pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-077",
+    "hash": "ac976a8c6f577b6e6fcc01f841ccebbb",
+    "representative": "078-10-home-indoor-swimming-pool-p09-s048pct-l026pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "078-10-home-indoor-swimming-pool-p09-s048pct-l026pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-078",
+    "hash": "c64c0ee64793eeabe45b3e195c69d7b1",
+    "representative": "079-10-home-indoor-swimming-pool-p10-s074pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "079-10-home-indoor-swimming-pool-p10-s074pct-l003pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "pattern-079",
+    "hash": "5341adbb82fd9cccf2a8b2256acde6b7",
+    "representative": "080-10-home-indoor-swimming-pool-p11-s077pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "080-10-home-indoor-swimming-pool-p11-s077pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "pattern-080",
+    "hash": "dfe061b40521ef30c2307d5d7266bef4",
+    "representative": "081-10-home-indoor-swimming-pool-p12-s078pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "081-10-home-indoor-swimming-pool-p12-s078pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "pattern-081",
+    "hash": "6349c8898536095d44d4874336b3ec02",
+    "representative": "082-10-home-indoor-swimming-pool-p13-s078pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "082-10-home-indoor-swimming-pool-p13-s078pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "pattern-082",
+    "hash": "084b8acd248483cac2ee3d8a9423ca94",
+    "representative": "083-10-home-indoor-swimming-pool-p14-s078pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "083-10-home-indoor-swimming-pool-p14-s078pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 14
+      }
+    ]
+  },
+  {
+    "id": "pattern-083",
+    "hash": "969f78be450336960fd403226f1372e4",
+    "representative": "084-10-home-indoor-swimming-pool-p15-s079pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "084-10-home-indoor-swimming-pool-p15-s079pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "pattern-084",
+    "hash": "22d95ea2aa53a6df331e0d0cfe51f8a0",
+    "representative": "085-10-home-indoor-swimming-pool-p16-s079pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "085-10-home-indoor-swimming-pool-p16-s079pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 16
+      }
+    ]
+  },
+  {
+    "id": "pattern-085",
+    "hash": "43fde2c69ffa41fee0f21fc501ad5525",
+    "representative": "086-10-home-indoor-swimming-pool-p17-s079pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "086-10-home-indoor-swimming-pool-p17-s079pct-l006pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 17
+      }
+    ]
+  },
+  {
+    "id": "pattern-086",
+    "hash": "fa8f08643a4c330818ffca3ef7a7198c",
+    "representative": "087-10-home-indoor-swimming-pool-p18-s085pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "087-10-home-indoor-swimming-pool-p18-s085pct-l003pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 18
+      }
+    ]
+  },
+  {
+    "id": "pattern-087",
+    "hash": "863b5ca5dfe382ad1676d847c3cb85da",
+    "representative": "088-10-home-indoor-swimming-pool-p19-s088pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "088-10-home-indoor-swimming-pool-p19-s088pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 19
+      }
+    ]
+  },
+  {
+    "id": "pattern-088",
+    "hash": "2b6f29bb8c7209917ff1bc671a2d1ade",
+    "representative": "089-10-home-indoor-swimming-pool-p20-s089pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "089-10-home-indoor-swimming-pool-p20-s089pct-l001pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 20
+      }
+    ]
+  },
+  {
+    "id": "pattern-089",
+    "hash": "4533b1ab1e864a800974f95c8f7caf56",
+    "representative": "090-10-home-indoor-swimming-pool-p21-s090pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "10-home-indoor-swimming-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "090-10-home-indoor-swimming-pool-p21-s090pct-l010pct.html",
+        "page": "10-home-indoor-swimming-pool",
+        "position": 21
+      }
+    ]
+  },
+  {
+    "id": "pattern-090",
+    "hash": "4691ca52d33a7fc55946fef9ba873780",
+    "representative": "091-12-home-pool-safety-cleaning-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "091-12-home-pool-safety-cleaning-p01-s000pct-l001pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-091",
+    "hash": "46f56c656c8c110f4c56de2fb1aa2f4f",
+    "representative": "092-12-home-pool-safety-cleaning-p02-s001pct-l009pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "092-12-home-pool-safety-cleaning-p02-s001pct-l009pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-092",
+    "hash": "f3786b9d442a967be54406ea9efb14c7",
+    "representative": "093-12-home-pool-safety-cleaning-p03-s010pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "093-12-home-pool-safety-cleaning-p03-s010pct-l001pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-093",
+    "hash": "11ba4f2934ddd1001a5fc8a93d7023cd",
+    "representative": "094-12-home-pool-safety-cleaning-p04-s011pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "094-12-home-pool-safety-cleaning-p04-s011pct-l001pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-094",
+    "hash": "6656bdee3e56357710cd48c4a6ac1c49",
+    "representative": "095-12-home-pool-safety-cleaning-p05-s012pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "095-12-home-pool-safety-cleaning-p05-s012pct-l002pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-095",
+    "hash": "2017875731f4e86dacf361aa5c6eb116",
+    "representative": "096-12-home-pool-safety-cleaning-p06-s014pct-l037pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "096-12-home-pool-safety-cleaning-p06-s014pct-l037pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-096",
+    "hash": "ea06632a355c5629ad21a0fda45fbbec",
+    "representative": "097-12-home-pool-safety-cleaning-p07-s051pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "097-12-home-pool-safety-cleaning-p07-s051pct-l013pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-097",
+    "hash": "8aafac410a2143026d40e8aa6951755c",
+    "representative": "098-12-home-pool-safety-cleaning-p08-s064pct-l021pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "098-12-home-pool-safety-cleaning-p08-s064pct-l021pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-098",
+    "hash": "3167b05fef683a0f61255a5e96429ba8",
+    "representative": "099-12-home-pool-safety-cleaning-p09-s085pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "099-12-home-pool-safety-cleaning-p09-s085pct-l002pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-099",
+    "hash": "72ea05b5afb7de5b25547422f5e7c93f",
+    "representative": "100-12-home-pool-safety-cleaning-p10-s087pct-l004pct.html",
+    "occurrences": 2,
+    "pages": [
+      "12-home-pool-safety-cleaning",
+      "onepage"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "100-12-home-pool-safety-cleaning-p10-s087pct-l004pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 10
+      },
+      {
+        "file": "313-onepage-p10-s087pct-l004pct.html",
+        "page": "onepage",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "pattern-100",
+    "hash": "154e828497e8ca25fd33021528e1b9b6",
+    "representative": "101-12-home-pool-safety-cleaning-p11-s092pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "101-12-home-pool-safety-cleaning-p11-s092pct-l002pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "pattern-101",
+    "hash": "c51076db60d808faf95f2fb172c312ab",
+    "representative": "102-12-home-pool-safety-cleaning-p12-s094pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "12-home-pool-safety-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "102-12-home-pool-safety-cleaning-p12-s094pct-l006pct.html",
+        "page": "12-home-pool-safety-cleaning",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "pattern-102",
+    "hash": "a00bdb7a040c8687f5c0bf40dfdd817b",
+    "representative": "103-13-home-pool-maintanance-p01-s000pct-l001pct.html",
+    "occurrences": 24,
+    "pages": [
+      "13-home-pool-maintanance",
+      "about-us",
+      "by-poolax",
+      "cleaner",
+      "contact-us",
+      "discover-more",
+      "equipment-install",
+      "faq",
+      "multipage",
+      "november-5-2023",
+      "onepage",
+      "pool-inspections",
+      "pool-maintenance",
+      "poolax-cart",
+      "poolax-my-account",
+      "price-package",
+      "register-now",
+      "schedule-services",
+      "science-of-the-pool-chemistry-keeping-your",
+      "swimming-class",
+      "team"
+    ],
+    "page_count": 21,
+    "members": [
+      {
+        "file": "103-13-home-pool-maintanance-p01-s000pct-l001pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 1
+      },
+      {
+        "file": "124-about-us-p01-s000pct-l001pct.html",
+        "page": "about-us",
+        "position": 1
+      },
+      {
+        "file": "146-by-poolax-p01-s000pct-l001pct.html",
+        "page": "by-poolax",
+        "position": 1
+      },
+      {
+        "file": "154-cleaner-p01-s000pct-l001pct.html",
+        "page": "cleaner",
+        "position": 1
+      },
+      {
+        "file": "162-contact-us-p01-s000pct-l002pct.html",
+        "page": "contact-us",
+        "position": 1
+      },
+      {
+        "file": "166-discover-more-p01-s000pct-l001pct.html",
+        "page": "discover-more",
+        "position": 1
+      },
+      {
+        "file": "176-equipment-install-p01-s000pct-l001pct.html",
+        "page": "equipment-install",
+        "position": 1
+      },
+      {
+        "file": "188-faq-p01-s000pct-l002pct.html",
+        "page": "faq",
+        "position": 1
+      },
+      {
+        "file": "254-multipage-p01-s000pct-l001pct.html",
+        "page": "multipage",
+        "position": 1
+      },
+      {
+        "file": "276-november-5-2023-p01-s000pct-l002pct.html",
+        "page": "november-5-2023",
+        "position": 1
+      },
+      {
+        "file": "284-onepage-p01-s000pct-l001pct.html",
+        "page": "onepage",
+        "position": 1
+      },
+      {
+        "file": "285-onepage-p01-s000pct-l001pct.html",
+        "page": "onepage",
+        "position": 1
+      },
+      {
+        "file": "286-onepage-p01-s000pct-l001pct.html",
+        "page": "onepage",
+        "position": 1
+      },
+      {
+        "file": "358-pool-inspections-p01-s000pct-l001pct.html",
+        "page": "pool-inspections",
+        "position": 1
+      },
+      {
+        "file": "359-pool-inspections-p01-s000pct-l002pct.html",
+        "page": "pool-inspections",
+        "position": 1
+      },
+      {
+        "file": "366-pool-maintenance-p01-s000pct-l001pct.html",
+        "page": "pool-maintenance",
+        "position": 1
+      },
+      {
+        "file": "378-poolax-cart-p01-s000pct-l003pct.html",
+        "page": "poolax-cart",
+        "position": 1
+      },
+      {
+        "file": "382-poolax-my-account-p01-s000pct-l003pct.html",
+        "page": "poolax-my-account",
+        "position": 1
+      },
+      {
+        "file": "390-price-package-p01-s000pct-l002pct.html",
+        "page": "price-package",
+        "position": 1
+      },
+      {
+        "file": "409-register-now-p01-s000pct-l002pct.html",
+        "page": "register-now",
+        "position": 1
+      },
+      {
+        "file": "413-schedule-services-p01-s000pct-l002pct.html",
+        "page": "schedule-services",
+        "position": 1
+      },
+      {
+        "file": "417-science-of-the-pool-chemistry-keeping-your-p01-s000pct-l001pct.html",
+        "page": "science-of-the-pool-chemistry-keeping-your",
+        "position": 1
+      },
+      {
+        "file": "431-swimming-class-p01-s000pct-l001pct.html",
+        "page": "swimming-class",
+        "position": 1
+      },
+      {
+        "file": "441-team-p01-s000pct-l002pct.html",
+        "page": "team",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-103",
+    "hash": "2bff0ff842a95ed4340d4ed794fa89ec",
+    "representative": "104-13-home-pool-maintanance-p02-s001pct-l009pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "104-13-home-pool-maintanance-p02-s001pct-l009pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-104",
+    "hash": "f18977b57589acbcb2ce1c4db18b27df",
+    "representative": "105-13-home-pool-maintanance-p03-s010pct-l003pct.html",
+    "occurrences": 3,
+    "pages": [
+      "13-home-pool-maintanance",
+      "onepage"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "105-13-home-pool-maintanance-p03-s010pct-l003pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 3
+      },
+      {
+        "file": "290-onepage-p03-s009pct-l003pct.html",
+        "page": "onepage",
+        "position": 3
+      },
+      {
+        "file": "291-onepage-p03-s009pct-l003pct.html",
+        "page": "onepage",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-105",
+    "hash": "a3c7eaaf6ae46b72789ac77235ef8324",
+    "representative": "106-13-home-pool-maintanance-p04-s013pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "106-13-home-pool-maintanance-p04-s013pct-l002pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-106",
+    "hash": "345365aa296be958e224c854188f2f7e",
+    "representative": "107-13-home-pool-maintanance-p05-s015pct-l007pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "107-13-home-pool-maintanance-p05-s015pct-l007pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-107",
+    "hash": "1a3afa0d2698493c807022429eafcfca",
+    "representative": "108-13-home-pool-maintanance-p06-s022pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "108-13-home-pool-maintanance-p06-s022pct-l001pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-108",
+    "hash": "0cff4f923a34636fdb528f8500e23073",
+    "representative": "109-13-home-pool-maintanance-p07-s023pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "109-13-home-pool-maintanance-p07-s023pct-l002pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-109",
+    "hash": "6c0c1f139283167ba76c78d68399e9f6",
+    "representative": "110-13-home-pool-maintanance-p08-s025pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "110-13-home-pool-maintanance-p08-s025pct-l003pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-110",
+    "hash": "268658116aac2b7efa29425ed57fb74f",
+    "representative": "111-13-home-pool-maintanance-p09-s028pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "111-13-home-pool-maintanance-p09-s028pct-l002pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-111",
+    "hash": "3c126d9f44c07e164d496c0e7503141d",
+    "representative": "112-13-home-pool-maintanance-p10-s030pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "112-13-home-pool-maintanance-p10-s030pct-l001pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "pattern-112",
+    "hash": "6d606f7882c5ba489257f97a1f0893f0",
+    "representative": "113-13-home-pool-maintanance-p11-s031pct-l004pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "113-13-home-pool-maintanance-p11-s031pct-l004pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "pattern-113",
+    "hash": "b216516a5ec90f34f266328635908dec",
+    "representative": "114-13-home-pool-maintanance-p12-s035pct-l001pct.html",
+    "occurrences": 4,
+    "pages": [
+      "13-home-pool-maintanance",
+      "multipage",
+      "onepage"
+    ],
+    "page_count": 3,
+    "members": [
+      {
+        "file": "114-13-home-pool-maintanance-p12-s035pct-l001pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 12
+      },
+      {
+        "file": "264-multipage-p11-s035pct-l001pct.html",
+        "page": "multipage",
+        "position": 11
+      },
+      {
+        "file": "324-onepage-p15-s031pct-l002pct.html",
+        "page": "onepage",
+        "position": 15
+      },
+      {
+        "file": "325-onepage-p15-s031pct-l002pct.html",
+        "page": "onepage",
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "pattern-114",
+    "hash": "9530d7cdceb4594c3caa81d8c741f27a",
+    "representative": "115-13-home-pool-maintanance-p13-s036pct-l012pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "115-13-home-pool-maintanance-p13-s036pct-l012pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "pattern-115",
+    "hash": "64c59905f9588eb12dda8b8ccf5b093b",
+    "representative": "116-13-home-pool-maintanance-p14-s048pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "116-13-home-pool-maintanance-p14-s048pct-l006pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 14
+      }
+    ]
+  },
+  {
+    "id": "pattern-116",
+    "hash": "cd9018e312c609599f59e3533ce211e8",
+    "representative": "117-13-home-pool-maintanance-p15-s054pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "117-13-home-pool-maintanance-p15-s054pct-l010pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "pattern-117",
+    "hash": "3fa1e686f1037ce435a1ba4f8318e5e8",
+    "representative": "118-13-home-pool-maintanance-p16-s064pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "13-home-pool-maintanance",
+      "multipage"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "118-13-home-pool-maintanance-p16-s064pct-l002pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 16
+      },
+      {
+        "file": "268-multipage-p15-s064pct-l002pct.html",
+        "page": "multipage",
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "pattern-118",
+    "hash": "1473e896e82007046ff0878e093b4359",
+    "representative": "119-13-home-pool-maintanance-p17-s066pct-l008pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "119-13-home-pool-maintanance-p17-s066pct-l008pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 17
+      }
+    ]
+  },
+  {
+    "id": "pattern-119",
+    "hash": "68fefb0bc6ee32ab6e2b9361991155b0",
+    "representative": "120-13-home-pool-maintanance-p18-s074pct-l008pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "120-13-home-pool-maintanance-p18-s074pct-l008pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 18
+      }
+    ]
+  },
+  {
+    "id": "pattern-120",
+    "hash": "0d5745570772362b23588ff41febc661",
+    "representative": "121-13-home-pool-maintanance-p19-s082pct-l009pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "121-13-home-pool-maintanance-p19-s082pct-l009pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 19
+      }
+    ]
+  },
+  {
+    "id": "pattern-121",
+    "hash": "e29d9e6b38cf67aa226e3da79c015ea7",
+    "representative": "122-13-home-pool-maintanance-p20-s092pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "122-13-home-pool-maintanance-p20-s092pct-l001pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 20
+      }
+    ]
+  },
+  {
+    "id": "pattern-122",
+    "hash": "c12ec2673b728da5f7050f95608c0d28",
+    "representative": "123-13-home-pool-maintanance-p21-s093pct-l007pct.html",
+    "occurrences": 1,
+    "pages": [
+      "13-home-pool-maintanance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "123-13-home-pool-maintanance-p21-s093pct-l007pct.html",
+        "page": "13-home-pool-maintanance",
+        "position": 21
+      }
+    ]
+  },
+  {
+    "id": "pattern-123",
+    "hash": "6474b48265541c17eca163031a649a06",
+    "representative": "125-about-us-p02-s001pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "about-us"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "125-about-us-p02-s001pct-l010pct.html",
+        "page": "about-us",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-124",
+    "hash": "09f2110d1a971852f3aa9cebb6c02354",
+    "representative": "126-about-us-p03-s011pct-l039pct.html",
+    "occurrences": 1,
+    "pages": [
+      "about-us"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "126-about-us-p03-s011pct-l039pct.html",
+        "page": "about-us",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-125",
+    "hash": "1d325104fc0a53eac993013e8362e37b",
+    "representative": "127-about-us-p04-s050pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "about-us"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "127-about-us-p04-s050pct-l006pct.html",
+        "page": "about-us",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-126",
+    "hash": "e87b71d24b217b7c7c7d2ebd679d7d7a",
+    "representative": "128-about-us-p05-s056pct-l043pct.html",
+    "occurrences": 1,
+    "pages": [
+      "about-us"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "128-about-us-p05-s056pct-l043pct.html",
+        "page": "about-us",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-127",
+    "hash": "d0ba0121bc7b2183d30cf24d54fd23ff",
+    "representative": "129-about-us-p06-s099pct-l001pct.html",
+    "occurrences": 17,
+    "pages": [
+      "about-us",
+      "commercial-pool",
+      "contact-us",
+      "drain-clean",
+      "how-to-revamp-your-pool-area-for",
+      "january-2-2024",
+      "november-5-2023",
+      "october-2-2023",
+      "pool-maintenance",
+      "poolax-cart",
+      "poolax-my-account",
+      "poolax-shop",
+      "schedule-services",
+      "services",
+      "shop-details",
+      "swimming-class",
+      "team-details"
+    ],
+    "page_count": 17,
+    "members": [
+      {
+        "file": "129-about-us-p06-s099pct-l001pct.html",
+        "page": "about-us",
+        "position": 6
+      },
+      {
+        "file": "161-commercial-pool-p04-s098pct-l002pct.html",
+        "page": "commercial-pool",
+        "position": 4
+      },
+      {
+        "file": "165-contact-us-p04-s097pct-l003pct.html",
+        "page": "contact-us",
+        "position": 4
+      },
+      {
+        "file": "175-drain-clean-p04-s098pct-l002pct.html",
+        "page": "drain-clean",
+        "position": 4
+      },
+      {
+        "file": "204-how-to-revamp-your-pool-area-for-p04-s098pct-l002pct.html",
+        "page": "how-to-revamp-your-pool-area-for",
+        "position": 4
+      },
+      {
+        "file": "208-january-2-2024-p04-s098pct-l002pct.html",
+        "page": "january-2-2024",
+        "position": 4
+      },
+      {
+        "file": "279-november-5-2023-p04-s098pct-l002pct.html",
+        "page": "november-5-2023",
+        "position": 4
+      },
+      {
+        "file": "283-october-2-2023-p04-s098pct-l002pct.html",
+        "page": "october-2-2023",
+        "position": 4
+      },
+      {
+        "file": "369-pool-maintenance-p04-s098pct-l002pct.html",
+        "page": "pool-maintenance",
+        "position": 4
+      },
+      {
+        "file": "381-poolax-cart-p04-s096pct-l004pct.html",
+        "page": "poolax-cart",
+        "position": 4
+      },
+      {
+        "file": "385-poolax-my-account-p04-s096pct-l004pct.html",
+        "page": "poolax-my-account",
+        "position": 4
+      },
+      {
+        "file": "389-poolax-shop-p04-s098pct-l002pct.html",
+        "page": "poolax-shop",
+        "position": 4
+      },
+      {
+        "file": "416-schedule-services-p04-s097pct-l003pct.html",
+        "page": "schedule-services",
+        "position": 4
+      },
+      {
+        "file": "426-services-p06-s098pct-l002pct.html",
+        "page": "services",
+        "position": 6
+      },
+      {
+        "file": "430-shop-details-p04-s098pct-l002pct.html",
+        "page": "shop-details",
+        "position": 4
+      },
+      {
+        "file": "436-swimming-class-p06-s098pct-l002pct.html",
+        "page": "swimming-class",
+        "position": 6
+      },
+      {
+        "file": "440-team-details-p04-s098pct-l002pct.html",
+        "page": "team-details",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-128",
+    "hash": "fc0a28d64eeab6266479aa5249732a9f",
+    "representative": "130-blog-details-p01-s000pct-l001pct.html",
+    "occurrences": 4,
+    "pages": [
+      "blog-details",
+      "class-details",
+      "equipment-install",
+      "services"
+    ],
+    "page_count": 4,
+    "members": [
+      {
+        "file": "130-blog-details-p01-s000pct-l001pct.html",
+        "page": "blog-details",
+        "position": 1
+      },
+      {
+        "file": "150-class-details-p01-s000pct-l002pct.html",
+        "page": "class-details",
+        "position": 1
+      },
+      {
+        "file": "177-equipment-install-p01-s000pct-l002pct.html",
+        "page": "equipment-install",
+        "position": 1
+      },
+      {
+        "file": "421-services-p01-s000pct-l001pct.html",
+        "page": "services",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-129",
+    "hash": "703515c3fc2c6348364df177ee84ed67",
+    "representative": "131-blog-details-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "131-blog-details-p02-s001pct-l013pct.html",
+        "page": "blog-details",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-130",
+    "hash": "13266b3b317d15befb6ab47857be37df",
+    "representative": "132-blog-details-p03-s014pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "132-blog-details-p03-s014pct-l084pct.html",
+        "page": "blog-details",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-131",
+    "hash": "17bf5eec40ea14d2d5ee377199caf83e",
+    "representative": "133-blog-details-p04-s098pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "133-blog-details-p04-s098pct-l002pct.html",
+        "page": "blog-details",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-132",
+    "hash": "9cb04a12bb60105c220ac411aa08bb64",
+    "representative": "134-blog-p01-s000pct-l001pct.html",
+    "occurrences": 5,
+    "pages": [
+      "blog",
+      "blog-s-1-4-70x70",
+      "equipment-s",
+      "january-2-2024",
+      "shop-details"
+    ],
+    "page_count": 5,
+    "members": [
+      {
+        "file": "134-blog-p01-s000pct-l001pct.html",
+        "page": "blog",
+        "position": 1
+      },
+      {
+        "file": "138-blog-s-1-4-70x70-p01-s000pct-l001pct.html",
+        "page": "blog-s-1-4-70x70",
+        "position": 1
+      },
+      {
+        "file": "184-equipment-s-p01-s000pct-l002pct.html",
+        "page": "equipment-s",
+        "position": 1
+      },
+      {
+        "file": "205-january-2-2024-p01-s000pct-l002pct.html",
+        "page": "january-2-2024",
+        "position": 1
+      },
+      {
+        "file": "427-shop-details-p01-s000pct-l001pct.html",
+        "page": "shop-details",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-133",
+    "hash": "f8f480c127714148760b54835c1dbe1c",
+    "representative": "135-blog-p02-s001pct-l011pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "135-blog-p02-s001pct-l011pct.html",
+        "page": "blog",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-134",
+    "hash": "a06b1cf1ebbe6b60cbd383150d0ff63d",
+    "representative": "136-blog-p03-s012pct-l088pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "136-blog-p03-s012pct-l088pct.html",
+        "page": "blog",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-135",
+    "hash": "1db206801a77db54df8cfa1d23a8f58a",
+    "representative": "139-blog-s-1-4-70x70-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog-s-1-4-70x70"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "139-blog-s-1-4-70x70-p02-s001pct-l013pct.html",
+        "page": "blog-s-1-4-70x70",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-136",
+    "hash": "6908047f95cfb612cb8f79a69103040f",
+    "representative": "140-blog-s-1-4-70x70-p03-s014pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog-s-1-4-70x70"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "140-blog-s-1-4-70x70-p03-s014pct-l084pct.html",
+        "page": "blog-s-1-4-70x70",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-137",
+    "hash": "6e9a470baf7cae0376d8fa292d1b9807",
+    "representative": "141-blog-s-1-4-70x70-p04-s098pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog-s-1-4-70x70"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "141-blog-s-1-4-70x70-p04-s098pct-l002pct.html",
+        "page": "blog-s-1-4-70x70",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-138",
+    "hash": "e8d931661cde4b40b7331d78fdada5e6",
+    "representative": "143-blog-s-1-5-70x70-p02-s001pct-l014pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog-s-1-5-70x70"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "143-blog-s-1-5-70x70-p02-s001pct-l014pct.html",
+        "page": "blog-s-1-5-70x70",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-139",
+    "hash": "b930a5e38d6ad44df70575278c37a0e4",
+    "representative": "144-blog-s-1-5-70x70-p03-s015pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog-s-1-5-70x70"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "144-blog-s-1-5-70x70-p03-s015pct-l084pct.html",
+        "page": "blog-s-1-5-70x70",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-140",
+    "hash": "4dfd48470bf6a4b27e25ca5a4f7e1a32",
+    "representative": "145-blog-s-1-5-70x70-p04-s099pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "blog-s-1-5-70x70"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "145-blog-s-1-5-70x70-p04-s099pct-l001pct.html",
+        "page": "blog-s-1-5-70x70",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-141",
+    "hash": "a3cc952f3126e10d371e2becc14f32ad",
+    "representative": "147-by-poolax-p02-s001pct-l011pct.html",
+    "occurrences": 1,
+    "pages": [
+      "by-poolax"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "147-by-poolax-p02-s001pct-l011pct.html",
+        "page": "by-poolax",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-142",
+    "hash": "45e27d30488f77c34c7d5424c6a5ee59",
+    "representative": "148-by-poolax-p03-s012pct-l088pct.html",
+    "occurrences": 1,
+    "pages": [
+      "by-poolax"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "148-by-poolax-p03-s012pct-l088pct.html",
+        "page": "by-poolax",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-143",
+    "hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "representative": "149-by-poolax-p04-s100pct-l001pct.html",
+    "occurrences": 4,
+    "pages": [
+      "by-poolax",
+      "gallery",
+      "multipage",
+      "quick-link"
+    ],
+    "page_count": 4,
+    "members": [
+      {
+        "file": "149-by-poolax-p04-s100pct-l001pct.html",
+        "page": "by-poolax",
+        "position": 4
+      },
+      {
+        "file": "194-gallery-p03-s011pct-l002pct.html",
+        "page": "gallery",
+        "position": 3
+      },
+      {
+        "file": "273-multipage-p20-s090pct-l001pct.html",
+        "page": "multipage",
+        "position": 20
+      },
+      {
+        "file": "405-quick-link-p06-s089pct-l001pct.html",
+        "page": "quick-link",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-144",
+    "hash": "3882d6db48b19c98d6cb25cf218e2099",
+    "representative": "151-class-details-p02-s002pct-l017pct.html",
+    "occurrences": 1,
+    "pages": [
+      "class-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "151-class-details-p02-s002pct-l017pct.html",
+        "page": "class-details",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-145",
+    "hash": "828a2b3c1bcd19760bf1a26177e49a0a",
+    "representative": "152-class-details-p03-s019pct-l079pct.html",
+    "occurrences": 1,
+    "pages": [
+      "class-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "152-class-details-p03-s019pct-l079pct.html",
+        "page": "class-details",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-146",
+    "hash": "643bbf4179244f082152f7c79ec443d9",
+    "representative": "153-class-details-p04-s098pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "class-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "153-class-details-p04-s098pct-l002pct.html",
+        "page": "class-details",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-147",
+    "hash": "c52783c8dd57a588024c9e5b3d85da9c",
+    "representative": "155-cleaner-p02-s001pct-l015pct.html",
+    "occurrences": 1,
+    "pages": [
+      "cleaner"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "155-cleaner-p02-s001pct-l015pct.html",
+        "page": "cleaner",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-148",
+    "hash": "d9d583a8a4204807e210948bcc404102",
+    "representative": "156-cleaner-p03-s016pct-l082pct.html",
+    "occurrences": 1,
+    "pages": [
+      "cleaner"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "156-cleaner-p03-s016pct-l082pct.html",
+        "page": "cleaner",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-149",
+    "hash": "4e09736e3cc6fc9ada7169ac1fe7a592",
+    "representative": "157-cleaner-p04-s098pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "cleaner",
+      "testimonials"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "157-cleaner-p04-s098pct-l002pct.html",
+        "page": "cleaner",
+        "position": 4
+      },
+      {
+        "file": "448-testimonials-p04-s098pct-l002pct.html",
+        "page": "testimonials",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-150",
+    "hash": "c13e5eab5488064a36b4fd124817e5af",
+    "representative": "159-commercial-pool-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "commercial-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "159-commercial-pool-p02-s001pct-l013pct.html",
+        "page": "commercial-pool",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-151",
+    "hash": "4702bb3baacb942d658d1d8ea40b85aa",
+    "representative": "160-commercial-pool-p03-s014pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "commercial-pool"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "160-commercial-pool-p03-s014pct-l084pct.html",
+        "page": "commercial-pool",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-152",
+    "hash": "c65a194a1677a10c6af182c21d9359a7",
+    "representative": "163-contact-us-p02-s002pct-l019pct.html",
+    "occurrences": 1,
+    "pages": [
+      "contact-us"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "163-contact-us-p02-s002pct-l019pct.html",
+        "page": "contact-us",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-153",
+    "hash": "018de0f4b05fbe653d486f05509efebb",
+    "representative": "164-contact-us-p03-s021pct-l076pct.html",
+    "occurrences": 1,
+    "pages": [
+      "contact-us"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "164-contact-us-p03-s021pct-l076pct.html",
+        "page": "contact-us",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-154",
+    "hash": "6bc82da76360379cefd9fe80b650fc59",
+    "representative": "167-discover-more-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "discover-more"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "167-discover-more-p02-s001pct-l013pct.html",
+        "page": "discover-more",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-155",
+    "hash": "6bb7a469259c88822f347e650b952467",
+    "representative": "168-discover-more-p03-s014pct-l033pct.html",
+    "occurrences": 1,
+    "pages": [
+      "discover-more"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "168-discover-more-p03-s014pct-l033pct.html",
+        "page": "discover-more",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-156",
+    "hash": "dc1863a70bf19a56954f333a895d16c8",
+    "representative": "169-discover-more-p04-s047pct-l009pct.html",
+    "occurrences": 1,
+    "pages": [
+      "discover-more"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "169-discover-more-p04-s047pct-l009pct.html",
+        "page": "discover-more",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-157",
+    "hash": "652b24f0879ab0775808caaab6214995",
+    "representative": "170-discover-more-p05-s057pct-l041pct.html",
+    "occurrences": 1,
+    "pages": [
+      "discover-more"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "170-discover-more-p05-s057pct-l041pct.html",
+        "page": "discover-more",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-158",
+    "hash": "5e66f8e43c31956582ac4dd8d53792bc",
+    "representative": "171-discover-more-p06-s098pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "discover-more"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "171-discover-more-p06-s098pct-l002pct.html",
+        "page": "discover-more",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-159",
+    "hash": "9986c08246ea4e5967cdbcfad6bb2967",
+    "representative": "173-drain-clean-p02-s001pct-l015pct.html",
+    "occurrences": 1,
+    "pages": [
+      "drain-clean"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "173-drain-clean-p02-s001pct-l015pct.html",
+        "page": "drain-clean",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-160",
+    "hash": "ce834cb57487ae953fbc811460f2ddb1",
+    "representative": "174-drain-clean-p03-s016pct-l082pct.html",
+    "occurrences": 1,
+    "pages": [
+      "drain-clean"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "174-drain-clean-p03-s016pct-l082pct.html",
+        "page": "drain-clean",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-161",
+    "hash": "80a3cb03827dabcc917f5df0bf0655b3",
+    "representative": "178-equipment-install-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "equipment-install"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "178-equipment-install-p02-s001pct-l013pct.html",
+        "page": "equipment-install",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-162",
+    "hash": "6627837425a582d1d5645a3ee363b64a",
+    "representative": "179-equipment-install-p02-s002pct-l015pct.html",
+    "occurrences": 1,
+    "pages": [
+      "equipment-install"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "179-equipment-install-p02-s002pct-l015pct.html",
+        "page": "equipment-install",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-163",
+    "hash": "8e3744e94fdab679469950a6589d2271",
+    "representative": "180-equipment-install-p03-s014pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "equipment-install"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "180-equipment-install-p03-s014pct-l084pct.html",
+        "page": "equipment-install",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-164",
+    "hash": "eb31804a0bcc48668a489d7af18f67cd",
+    "representative": "181-equipment-install-p03-s017pct-l081pct.html",
+    "occurrences": 1,
+    "pages": [
+      "equipment-install"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "181-equipment-install-p03-s017pct-l081pct.html",
+        "page": "equipment-install",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-165",
+    "hash": "b71fcbaef17c81a30a59804be0f3ef03",
+    "representative": "182-equipment-install-p04-s098pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "equipment-install"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "182-equipment-install-p04-s098pct-l002pct.html",
+        "page": "equipment-install",
+        "position": 4
+      },
+      {
+        "file": "183-equipment-install-p04-s098pct-l002pct.html",
+        "page": "equipment-install",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-166",
+    "hash": "1fc696d973a07e9978f35d7e3225e507",
+    "representative": "185-equipment-s-p02-s002pct-l015pct.html",
+    "occurrences": 1,
+    "pages": [
+      "equipment-s"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "185-equipment-s-p02-s002pct-l015pct.html",
+        "page": "equipment-s",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-167",
+    "hash": "6331abb34952cb6d156184883f688369",
+    "representative": "186-equipment-s-p03-s017pct-l081pct.html",
+    "occurrences": 1,
+    "pages": [
+      "equipment-s"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "186-equipment-s-p03-s017pct-l081pct.html",
+        "page": "equipment-s",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-168",
+    "hash": "87174e28c5ccab2cde84a6e0c6c07b28",
+    "representative": "187-equipment-s-p04-s098pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "equipment-s",
+      "team"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "187-equipment-s-p04-s098pct-l002pct.html",
+        "page": "equipment-s",
+        "position": 4
+      },
+      {
+        "file": "444-team-p04-s098pct-l002pct.html",
+        "page": "team",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-169",
+    "hash": "03bad0b1abf2c0175cb660fd543903d0",
+    "representative": "189-faq-p02-s002pct-l017pct.html",
+    "occurrences": 1,
+    "pages": [
+      "faq"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "189-faq-p02-s002pct-l017pct.html",
+        "page": "faq",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-170",
+    "hash": "35de6649d97105d98151cc8827a5b796",
+    "representative": "190-faq-p03-s019pct-l078pct.html",
+    "occurrences": 1,
+    "pages": [
+      "faq"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "190-faq-p03-s019pct-l078pct.html",
+        "page": "faq",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-171",
+    "hash": "5586501a17e4bbc42b22ee7e62a5f9c7",
+    "representative": "191-faq-p04-s098pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "faq",
+      "pool-services"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "191-faq-p04-s098pct-l002pct.html",
+        "page": "faq",
+        "position": 4
+      },
+      {
+        "file": "373-pool-services-p04-s098pct-l002pct.html",
+        "page": "pool-services",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-172",
+    "hash": "5bf3a4c683f036153a5aca1fc8a54761",
+    "representative": "192-gallery-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "gallery"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "192-gallery-p01-s000pct-l001pct.html",
+        "page": "gallery",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-173",
+    "hash": "50614a72343f463425fdfbc1afb9bb57",
+    "representative": "193-gallery-p02-s001pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "gallery"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "193-gallery-p02-s001pct-l010pct.html",
+        "page": "gallery",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-174",
+    "hash": "0a01dfa12d556d96b9768949cda3063b",
+    "representative": "195-gallery-p04-s013pct-l035pct.html",
+    "occurrences": 1,
+    "pages": [
+      "gallery"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "195-gallery-p04-s013pct-l035pct.html",
+        "page": "gallery",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-175",
+    "hash": "0bd4e12130680795fbc28589072db1d3",
+    "representative": "196-gallery-p05-s048pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "gallery"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "196-gallery-p05-s048pct-l001pct.html",
+        "page": "gallery",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-176",
+    "hash": "6852ce8469b897f2306caa5948707f27",
+    "representative": "197-gallery-p06-s049pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "gallery"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "197-gallery-p06-s049pct-l001pct.html",
+        "page": "gallery",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-177",
+    "hash": "3e7eb46b2fbb1d40edaedd4f392369b1",
+    "representative": "198-gallery-p07-s050pct-l020pct.html",
+    "occurrences": 1,
+    "pages": [
+      "gallery"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "198-gallery-p07-s050pct-l020pct.html",
+        "page": "gallery",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-178",
+    "hash": "04f734ba0013d21587a67de07b40c5bb",
+    "representative": "199-gallery-p08-s070pct-l029pct.html",
+    "occurrences": 1,
+    "pages": [
+      "gallery"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "199-gallery-p08-s070pct-l029pct.html",
+        "page": "gallery",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-179",
+    "hash": "e48ae4757d04755465ee39ba50ddd553",
+    "representative": "200-gallery-p09-s099pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "gallery"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "200-gallery-p09-s099pct-l001pct.html",
+        "page": "gallery",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-180",
+    "hash": "0fed1e793cd1eec4e0387569d4e02796",
+    "representative": "202-how-to-revamp-your-pool-area-for-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "how-to-revamp-your-pool-area-for"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "202-how-to-revamp-your-pool-area-for-p02-s001pct-l013pct.html",
+        "page": "how-to-revamp-your-pool-area-for",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-181",
+    "hash": "c4875c02c69655065c8838f71d048c7d",
+    "representative": "203-how-to-revamp-your-pool-area-for-p03-s014pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "how-to-revamp-your-pool-area-for"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "203-how-to-revamp-your-pool-area-for-p03-s014pct-l084pct.html",
+        "page": "how-to-revamp-your-pool-area-for",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-182",
+    "hash": "94169426477f7a6a02aefa015e4aa318",
+    "representative": "206-january-2-2024-p02-s002pct-l017pct.html",
+    "occurrences": 1,
+    "pages": [
+      "january-2-2024"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "206-january-2-2024-p02-s002pct-l017pct.html",
+        "page": "january-2-2024",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-183",
+    "hash": "f854ee10ca40c8c5db6fb9a11c961b1c",
+    "representative": "207-january-2-2024-p03-s019pct-l079pct.html",
+    "occurrences": 1,
+    "pages": [
+      "january-2-2024"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "207-january-2-2024-p03-s019pct-l079pct.html",
+        "page": "january-2-2024",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-184",
+    "hash": "8163c46639186554ffbe68bd5539c10a",
+    "representative": "209-logo-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "209-logo-p01-s000pct-l001pct.html",
+        "page": "logo",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-185",
+    "hash": "49ef2131354a948c0445c05f78e177a5",
+    "representative": "210-logo-p02-s001pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "logo",
+      "logo3"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "210-logo-p02-s001pct-l001pct.html",
+        "page": "logo",
+        "position": 2
+      },
+      {
+        "file": "235-logo3-p02-s001pct-l001pct.html",
+        "page": "logo3",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-186",
+    "hash": "9c16abdbf681899bf541c8e94935c33e",
+    "representative": "211-logo-p03-s001pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "211-logo-p03-s001pct-l010pct.html",
+        "page": "logo",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-187",
+    "hash": "4f47891108d6488f1840207520a71ab1",
+    "representative": "212-logo-p04-s011pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "212-logo-p04-s011pct-l002pct.html",
+        "page": "logo",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-188",
+    "hash": "66ab707e4d6dcd4ae451969c06c9272d",
+    "representative": "213-logo-p05-s013pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "213-logo-p05-s013pct-l013pct.html",
+        "page": "logo",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-189",
+    "hash": "963630cc5be8a9d20a6f0047c8b9a6d2",
+    "representative": "214-logo-p06-s026pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "214-logo-p06-s026pct-l001pct.html",
+        "page": "logo",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-190",
+    "hash": "13b5367eb4f660db3f45a5e7f6857b9c",
+    "representative": "215-logo-p07-s027pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "215-logo-p07-s027pct-l003pct.html",
+        "page": "logo",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-191",
+    "hash": "b08de9b79be6d951ce8681505756d555",
+    "representative": "217-logo-p09-s032pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "217-logo-p09-s032pct-l003pct.html",
+        "page": "logo",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-192",
+    "hash": "9f0b5bbbb79d174e5a9df0fca09d1db0",
+    "representative": "218-logo-p10-s035pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "logo",
+      "logo3"
+    ],
+    "page_count": 2,
+    "members": [
+      {
+        "file": "218-logo-p10-s035pct-l002pct.html",
+        "page": "logo",
+        "position": 10
+      },
+      {
+        "file": "240-logo3-p07-s035pct-l002pct.html",
+        "page": "logo3",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-193",
+    "hash": "f5b76e39f6ed9b265871fc4447486065",
+    "representative": "219-logo-p11-s037pct-l016pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "219-logo-p11-s037pct-l016pct.html",
+        "page": "logo",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "pattern-194",
+    "hash": "8d800f10c85bb7c3a86b1154ee9aa986",
+    "representative": "221-logo-p13-s061pct-l012pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "221-logo-p13-s061pct-l012pct.html",
+        "page": "logo",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "pattern-195",
+    "hash": "522d69ec539b2725ea84f97864fe7de2",
+    "representative": "222-logo-p14-s073pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "222-logo-p14-s073pct-l003pct.html",
+        "page": "logo",
+        "position": 14
+      }
+    ]
+  },
+  {
+    "id": "pattern-196",
+    "hash": "d393ada508aed4515b3fd1f523051726",
+    "representative": "223-logo-p15-s076pct-l011pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "223-logo-p15-s076pct-l011pct.html",
+        "page": "logo",
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "pattern-197",
+    "hash": "98ca241a26df11807c2746783eb186e9",
+    "representative": "224-logo-p16-s087pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "224-logo-p16-s087pct-l002pct.html",
+        "page": "logo",
+        "position": 16
+      }
+    ]
+  },
+  {
+    "id": "pattern-198",
+    "hash": "844a74e071d5188b019ac9ec04f8a6ea",
+    "representative": "225-logo-p17-s089pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "225-logo-p17-s089pct-l001pct.html",
+        "page": "logo",
+        "position": 17
+      }
+    ]
+  },
+  {
+    "id": "pattern-199",
+    "hash": "c0df9d1d4a8abb874e087c41d8bac99c",
+    "representative": "226-logo-p18-s090pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "226-logo-p18-s090pct-l001pct.html",
+        "page": "logo",
+        "position": 18
+      }
+    ]
+  },
+  {
+    "id": "pattern-200",
+    "hash": "e5cb70b2b763bde82c2a54272f4188e7",
+    "representative": "227-logo-p19-s090pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "227-logo-p19-s090pct-l001pct.html",
+        "page": "logo",
+        "position": 19
+      }
+    ]
+  },
+  {
+    "id": "pattern-201",
+    "hash": "64526cf188a2ee600a69fb1793623af2",
+    "representative": "228-logo-p20-s090pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "228-logo-p20-s090pct-l001pct.html",
+        "page": "logo",
+        "position": 20
+      }
+    ]
+  },
+  {
+    "id": "pattern-202",
+    "hash": "4e36402c1f1ba9361afc64f93187e473",
+    "representative": "229-logo-p21-s090pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "229-logo-p21-s090pct-l001pct.html",
+        "page": "logo",
+        "position": 21
+      }
+    ]
+  },
+  {
+    "id": "pattern-203",
+    "hash": "d3718e0d804bff53893c09bcf35ff451",
+    "representative": "230-logo-p22-s090pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "230-logo-p22-s090pct-l001pct.html",
+        "page": "logo",
+        "position": 22
+      }
+    ]
+  },
+  {
+    "id": "pattern-204",
+    "hash": "0ba521d9a7cfa3835719c40cd3680144",
+    "representative": "231-logo-p23-s091pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "231-logo-p23-s091pct-l002pct.html",
+        "page": "logo",
+        "position": 23
+      }
+    ]
+  },
+  {
+    "id": "pattern-205",
+    "hash": "b347782d9ae18a94f58c10ee310cf1f4",
+    "representative": "232-logo-p24-s093pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "232-logo-p24-s093pct-l001pct.html",
+        "page": "logo",
+        "position": 24
+      }
+    ]
+  },
+  {
+    "id": "pattern-206",
+    "hash": "9d1e55a1cb98e1f9c61bdb9af0465458",
+    "representative": "233-logo-p25-s094pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "233-logo-p25-s094pct-l006pct.html",
+        "page": "logo",
+        "position": 25
+      }
+    ]
+  },
+  {
+    "id": "pattern-207",
+    "hash": "c372796fcbb58088fce01bf9e201c38e",
+    "representative": "234-logo3-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "234-logo3-p01-s000pct-l001pct.html",
+        "page": "logo3",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-208",
+    "hash": "a802d23ea41f62c844c815bad87509fe",
+    "representative": "236-logo3-p03-s001pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "236-logo3-p03-s001pct-l010pct.html",
+        "page": "logo3",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-209",
+    "hash": "99f6099fa3be7109ab1c79733e4834a2",
+    "representative": "237-logo3-p04-s011pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "237-logo3-p04-s011pct-l002pct.html",
+        "page": "logo3",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-210",
+    "hash": "a59260ef49e6c921e4163ab034f852f6",
+    "representative": "238-logo3-p05-s013pct-l019pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "238-logo3-p05-s013pct-l019pct.html",
+        "page": "logo3",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-211",
+    "hash": "593ae3565641c68ffb858a4e84417140",
+    "representative": "239-logo3-p06-s032pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "239-logo3-p06-s032pct-l003pct.html",
+        "page": "logo3",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-212",
+    "hash": "c1f001251d863e7c62c413360afc442c",
+    "representative": "241-logo3-p08-s037pct-l016pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "241-logo3-p08-s037pct-l016pct.html",
+        "page": "logo3",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-213",
+    "hash": "f725de4b354e95bc806404da7af028aa",
+    "representative": "242-logo3-p09-s053pct-l008pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "242-logo3-p09-s053pct-l008pct.html",
+        "page": "logo3",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-214",
+    "hash": "6780e2e558b279e5204c23f8dd07eb01",
+    "representative": "243-logo3-p10-s061pct-l012pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "243-logo3-p10-s061pct-l012pct.html",
+        "page": "logo3",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "pattern-215",
+    "hash": "8614e4b6fc9baa5a14ee47f9ef565807",
+    "representative": "244-logo3-p11-s073pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "244-logo3-p11-s073pct-l003pct.html",
+        "page": "logo3",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "pattern-216",
+    "hash": "a85d27955d0548a61d1d7471dd14cc60",
+    "representative": "245-logo3-p12-s076pct-l011pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "245-logo3-p12-s076pct-l011pct.html",
+        "page": "logo3",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "pattern-217",
+    "hash": "ad2ffc0d5c2ac1bbdf335589cad158f8",
+    "representative": "246-logo3-p13-s087pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "246-logo3-p13-s087pct-l002pct.html",
+        "page": "logo3",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "pattern-218",
+    "hash": "78bbad6949c761255d5b4f8f61759ad7",
+    "representative": "247-logo3-p14-s089pct-l004pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "247-logo3-p14-s089pct-l004pct.html",
+        "page": "logo3",
+        "position": 14
+      }
+    ]
+  },
+  {
+    "id": "pattern-219",
+    "hash": "35ec0712f74afa0f5da180425bdd70bf",
+    "representative": "248-logo3-p15-s093pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "248-logo3-p15-s093pct-l001pct.html",
+        "page": "logo3",
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "pattern-220",
+    "hash": "4e484608b7e3cb9577e3c1b3d47381d9",
+    "representative": "249-logo3-p16-s094pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "logo3"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "249-logo3-p16-s094pct-l006pct.html",
+        "page": "logo3",
+        "position": 16
+      }
+    ]
+  },
+  {
+    "id": "pattern-221",
+    "hash": "9de312656cb8b458ad2b636f9b642019",
+    "representative": "251-maintenance-p02-s001pct-l014pct.html",
+    "occurrences": 1,
+    "pages": [
+      "maintenance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "251-maintenance-p02-s001pct-l014pct.html",
+        "page": "maintenance",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-222",
+    "hash": "a1e9e84ff58e677d7b88e0d78defc2d8",
+    "representative": "252-maintenance-p03-s015pct-l083pct.html",
+    "occurrences": 1,
+    "pages": [
+      "maintenance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "252-maintenance-p03-s015pct-l083pct.html",
+        "page": "maintenance",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-223",
+    "hash": "d1d9f305594475fda1d61752334246a8",
+    "representative": "253-maintenance-p04-s098pct-l002pct.html",
+    "occurrences": 4,
+    "pages": [
+      "maintenance",
+      "price-package",
+      "water-analysis"
+    ],
+    "page_count": 3,
+    "members": [
+      {
+        "file": "253-maintenance-p04-s098pct-l002pct.html",
+        "page": "maintenance",
+        "position": 4
+      },
+      {
+        "file": "395-price-package-p06-s098pct-l002pct.html",
+        "page": "price-package",
+        "position": 6
+      },
+      {
+        "file": "455-water-analysis-p04-s098pct-l002pct.html",
+        "page": "water-analysis",
+        "position": 4
+      },
+      {
+        "file": "456-water-analysis-p04-s098pct-l002pct.html",
+        "page": "water-analysis",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-224",
+    "hash": "2c2a510c9f5af1e658b68d5ae11783de",
+    "representative": "255-multipage-p02-s001pct-l009pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "255-multipage-p02-s001pct-l009pct.html",
+        "page": "multipage",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-225",
+    "hash": "e5b2f9ac1fd682d54715830d8d152f02",
+    "representative": "256-multipage-p03-s010pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "256-multipage-p03-s010pct-l003pct.html",
+        "page": "multipage",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-226",
+    "hash": "40e0d97b09c11ab4b9f429a1dd768898",
+    "representative": "257-multipage-p04-s013pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "257-multipage-p04-s013pct-l002pct.html",
+        "page": "multipage",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-227",
+    "hash": "33cf70e0c222702eb289f32cd54b2997",
+    "representative": "258-multipage-p05-s015pct-l007pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "258-multipage-p05-s015pct-l007pct.html",
+        "page": "multipage",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-228",
+    "hash": "5b56fb20d0ac83d6f12b2cf479716f0b",
+    "representative": "259-multipage-p06-s022pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "259-multipage-p06-s022pct-l001pct.html",
+        "page": "multipage",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-229",
+    "hash": "d091d0faab2c962b68c1d6e732003dd0",
+    "representative": "260-multipage-p07-s023pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "260-multipage-p07-s023pct-l002pct.html",
+        "page": "multipage",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-230",
+    "hash": "922de8d42c4269cf5aecf03b77e61095",
+    "representative": "261-multipage-p08-s025pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "261-multipage-p08-s025pct-l003pct.html",
+        "page": "multipage",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-231",
+    "hash": "b85266ec7ce410497852b92030e2e7ca",
+    "representative": "262-multipage-p09-s028pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "262-multipage-p09-s028pct-l003pct.html",
+        "page": "multipage",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-232",
+    "hash": "316f60992ba0e10b7db171220181375d",
+    "representative": "263-multipage-p10-s031pct-l004pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "263-multipage-p10-s031pct-l004pct.html",
+        "page": "multipage",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "pattern-233",
+    "hash": "c93e5f3a79cef82a1e8bdd7126c10b2c",
+    "representative": "265-multipage-p12-s036pct-l012pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "265-multipage-p12-s036pct-l012pct.html",
+        "page": "multipage",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "pattern-234",
+    "hash": "646b5e514c710546057521ab4ec22029",
+    "representative": "266-multipage-p13-s048pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "266-multipage-p13-s048pct-l006pct.html",
+        "page": "multipage",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "pattern-235",
+    "hash": "e978b9ef9fc4ff724d14f5452b6eba7a",
+    "representative": "267-multipage-p14-s054pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "267-multipage-p14-s054pct-l010pct.html",
+        "page": "multipage",
+        "position": 14
+      }
+    ]
+  },
+  {
+    "id": "pattern-236",
+    "hash": "4a8043ac20cdd8371b30fdb27a1e3b60",
+    "representative": "269-multipage-p16-s066pct-l008pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "269-multipage-p16-s066pct-l008pct.html",
+        "page": "multipage",
+        "position": 16
+      }
+    ]
+  },
+  {
+    "id": "pattern-237",
+    "hash": "9bcb769be6cf106985f19fe1a1fc3cbf",
+    "representative": "270-multipage-p17-s074pct-l008pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "270-multipage-p17-s074pct-l008pct.html",
+        "page": "multipage",
+        "position": 17
+      }
+    ]
+  },
+  {
+    "id": "pattern-238",
+    "hash": "5038263f5365fe867c0803912aa8997f",
+    "representative": "271-multipage-p18-s082pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "271-multipage-p18-s082pct-l003pct.html",
+        "page": "multipage",
+        "position": 18
+      }
+    ]
+  },
+  {
+    "id": "pattern-239",
+    "hash": "45e8c8676924faec67c6b4b5f1f5f1a4",
+    "representative": "272-multipage-p19-s085pct-l005pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "272-multipage-p19-s085pct-l005pct.html",
+        "page": "multipage",
+        "position": 19
+      }
+    ]
+  },
+  {
+    "id": "pattern-240",
+    "hash": "2afeca863de97a4545e90ba5ca562ba3",
+    "representative": "274-multipage-p21-s092pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "274-multipage-p21-s092pct-l001pct.html",
+        "page": "multipage",
+        "position": 21
+      }
+    ]
+  },
+  {
+    "id": "pattern-241",
+    "hash": "2616518a70f126d25c6746935eaf9e1d",
+    "representative": "275-multipage-p22-s093pct-l007pct.html",
+    "occurrences": 1,
+    "pages": [
+      "multipage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "275-multipage-p22-s093pct-l007pct.html",
+        "page": "multipage",
+        "position": 22
+      }
+    ]
+  },
+  {
+    "id": "pattern-242",
+    "hash": "a80b2587171417d51cd371dc4f95ef57",
+    "representative": "277-november-5-2023-p02-s002pct-l017pct.html",
+    "occurrences": 1,
+    "pages": [
+      "november-5-2023"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "277-november-5-2023-p02-s002pct-l017pct.html",
+        "page": "november-5-2023",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-243",
+    "hash": "3062e12e5cc3ba70a3e76c871f508f26",
+    "representative": "278-november-5-2023-p03-s019pct-l079pct.html",
+    "occurrences": 1,
+    "pages": [
+      "november-5-2023"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "278-november-5-2023-p03-s019pct-l079pct.html",
+        "page": "november-5-2023",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-244",
+    "hash": "9a5042cd5612bbbed2f8f66be9d61441",
+    "representative": "281-october-2-2023-p02-s002pct-l017pct.html",
+    "occurrences": 1,
+    "pages": [
+      "october-2-2023"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "281-october-2-2023-p02-s002pct-l017pct.html",
+        "page": "october-2-2023",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-245",
+    "hash": "9939e5f207a1e1cf17e8de2aeaa27b5e",
+    "representative": "282-october-2-2023-p03-s019pct-l079pct.html",
+    "occurrences": 1,
+    "pages": [
+      "october-2-2023"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "282-october-2-2023-p03-s019pct-l079pct.html",
+        "page": "october-2-2023",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-246",
+    "hash": "10c1bf8f2415f95bb7f44f9085dd301a",
+    "representative": "287-onepage-p02-s001pct-l008pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "287-onepage-p02-s001pct-l008pct.html",
+        "page": "onepage",
+        "position": 2
+      },
+      {
+        "file": "288-onepage-p02-s001pct-l008pct.html",
+        "page": "onepage",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-247",
+    "hash": "a38ac719e1b956547673caf0470f5962",
+    "representative": "289-onepage-p02-s001pct-l009pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "289-onepage-p02-s001pct-l009pct.html",
+        "page": "onepage",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-248",
+    "hash": "0bfa4c5f88db92d71ab83743e210d9f6",
+    "representative": "292-onepage-p03-s010pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "292-onepage-p03-s010pct-l001pct.html",
+        "page": "onepage",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-249",
+    "hash": "cbf6484bb1199e74a0f0edc17e2d9b9b",
+    "representative": "293-onepage-p04-s011pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "293-onepage-p04-s011pct-l001pct.html",
+        "page": "onepage",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-250",
+    "hash": "d6b1f0f97618ec916f889013bbcdc9d9",
+    "representative": "294-onepage-p04-s012pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "294-onepage-p04-s012pct-l002pct.html",
+        "page": "onepage",
+        "position": 4
+      },
+      {
+        "file": "295-onepage-p04-s012pct-l002pct.html",
+        "page": "onepage",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-251",
+    "hash": "b6fd2d2687f4586777bbf026706216a0",
+    "representative": "296-onepage-p05-s012pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "296-onepage-p05-s012pct-l002pct.html",
+        "page": "onepage",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-252",
+    "hash": "db11242a79bcd16d625cd874070126a6",
+    "representative": "297-onepage-p05-s014pct-l006pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "297-onepage-p05-s014pct-l006pct.html",
+        "page": "onepage",
+        "position": 5
+      },
+      {
+        "file": "298-onepage-p05-s014pct-l006pct.html",
+        "page": "onepage",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-253",
+    "hash": "86b687068ef745737ccc66f5f77f68d6",
+    "representative": "299-onepage-p06-s014pct-l037pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "299-onepage-p06-s014pct-l037pct.html",
+        "page": "onepage",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-254",
+    "hash": "f036e2484996f1b4f2b2296df75a130d",
+    "representative": "300-onepage-p06-s020pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "300-onepage-p06-s020pct-l001pct.html",
+        "page": "onepage",
+        "position": 6
+      },
+      {
+        "file": "301-onepage-p06-s020pct-l001pct.html",
+        "page": "onepage",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "id": "pattern-255",
+    "hash": "f458a09d608e7f88de904356714ef440",
+    "representative": "302-onepage-p07-s021pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "302-onepage-p07-s021pct-l002pct.html",
+        "page": "onepage",
+        "position": 7
+      },
+      {
+        "file": "303-onepage-p07-s021pct-l002pct.html",
+        "page": "onepage",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-256",
+    "hash": "c6975b26fa8d35efeae23eb53b5eae2b",
+    "representative": "304-onepage-p07-s051pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "304-onepage-p07-s051pct-l013pct.html",
+        "page": "onepage",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-257",
+    "hash": "519b9495547d6daf9feed30302866a66",
+    "representative": "305-onepage-p08-s023pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "305-onepage-p08-s023pct-l002pct.html",
+        "page": "onepage",
+        "position": 8
+      },
+      {
+        "file": "306-onepage-p08-s023pct-l002pct.html",
+        "page": "onepage",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-258",
+    "hash": "269797b2bd14453db95577adbcbd552d",
+    "representative": "307-onepage-p08-s064pct-l021pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "307-onepage-p08-s064pct-l021pct.html",
+        "page": "onepage",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-259",
+    "hash": "28187c5f5b23eb3299995678ca296a83",
+    "representative": "308-onepage-p09-s025pct-l003pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "308-onepage-p09-s025pct-l003pct.html",
+        "page": "onepage",
+        "position": 9
+      },
+      {
+        "file": "309-onepage-p09-s025pct-l003pct.html",
+        "page": "onepage",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-260",
+    "hash": "0dabaca5d2a521c24ff2616c1cd302ac",
+    "representative": "310-onepage-p09-s085pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "310-onepage-p09-s085pct-l002pct.html",
+        "page": "onepage",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-261",
+    "hash": "f5e4b02ff0f6c8f4bb42e47a2286bb79",
+    "representative": "311-onepage-p10-s028pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "311-onepage-p10-s028pct-l001pct.html",
+        "page": "onepage",
+        "position": 10
+      },
+      {
+        "file": "312-onepage-p10-s028pct-l001pct.html",
+        "page": "onepage",
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "pattern-262",
+    "hash": "c98114b6cc4d2ef80ecb6b94868cd551",
+    "representative": "314-onepage-p11-s028pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "314-onepage-p11-s028pct-l001pct.html",
+        "page": "onepage",
+        "position": 11
+      },
+      {
+        "file": "315-onepage-p11-s028pct-l001pct.html",
+        "page": "onepage",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "pattern-263",
+    "hash": "adaa193fde95fdef22037bb660fff2ec",
+    "representative": "316-onepage-p11-s092pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "316-onepage-p11-s092pct-l002pct.html",
+        "page": "onepage",
+        "position": 11
+      }
+    ]
+  },
+  {
+    "id": "pattern-264",
+    "hash": "9478148ac0b522687f1ca514e38606e0",
+    "representative": "317-onepage-p12-s029pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "317-onepage-p12-s029pct-l001pct.html",
+        "page": "onepage",
+        "position": 12
+      },
+      {
+        "file": "318-onepage-p12-s029pct-l001pct.html",
+        "page": "onepage",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "pattern-265",
+    "hash": "6eb74df61f534c8b7dc2b757999705a1",
+    "representative": "319-onepage-p12-s094pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "319-onepage-p12-s094pct-l006pct.html",
+        "page": "onepage",
+        "position": 12
+      }
+    ]
+  },
+  {
+    "id": "pattern-266",
+    "hash": "ddfb326ced761f3c36447501ff2c2836",
+    "representative": "320-onepage-p13-s030pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "320-onepage-p13-s030pct-l001pct.html",
+        "page": "onepage",
+        "position": 13
+      },
+      {
+        "file": "321-onepage-p13-s030pct-l001pct.html",
+        "page": "onepage",
+        "position": 13
+      }
+    ]
+  },
+  {
+    "id": "pattern-267",
+    "hash": "c1c229fde0e8a6ab2561d004aca472a9",
+    "representative": "322-onepage-p14-s030pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "322-onepage-p14-s030pct-l001pct.html",
+        "page": "onepage",
+        "position": 14
+      },
+      {
+        "file": "323-onepage-p14-s030pct-l001pct.html",
+        "page": "onepage",
+        "position": 14
+      }
+    ]
+  },
+  {
+    "id": "pattern-268",
+    "hash": "6530c207fbeeeefab6b8a6758d890150",
+    "representative": "326-onepage-p16-s033pct-l010pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "326-onepage-p16-s033pct-l010pct.html",
+        "page": "onepage",
+        "position": 16
+      },
+      {
+        "file": "327-onepage-p16-s033pct-l010pct.html",
+        "page": "onepage",
+        "position": 16
+      }
+    ]
+  },
+  {
+    "id": "pattern-269",
+    "hash": "b79bc87ab738bcdf87da1f437b4cdb1b",
+    "representative": "328-onepage-p17-s043pct-l006pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "328-onepage-p17-s043pct-l006pct.html",
+        "page": "onepage",
+        "position": 17
+      },
+      {
+        "file": "329-onepage-p17-s043pct-l006pct.html",
+        "page": "onepage",
+        "position": 17
+      }
+    ]
+  },
+  {
+    "id": "pattern-270",
+    "hash": "99fd11cb6642e2ef5ff4af92c79b732e",
+    "representative": "330-onepage-p18-s049pct-l009pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "330-onepage-p18-s049pct-l009pct.html",
+        "page": "onepage",
+        "position": 18
+      },
+      {
+        "file": "331-onepage-p18-s049pct-l009pct.html",
+        "page": "onepage",
+        "position": 18
+      }
+    ]
+  },
+  {
+    "id": "pattern-271",
+    "hash": "cac02dd184f4cf145dc3b0433a1a6355",
+    "representative": "332-onepage-p19-s058pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "332-onepage-p19-s058pct-l002pct.html",
+        "page": "onepage",
+        "position": 19
+      },
+      {
+        "file": "333-onepage-p19-s058pct-l002pct.html",
+        "page": "onepage",
+        "position": 19
+      }
+    ]
+  },
+  {
+    "id": "pattern-272",
+    "hash": "b7d153bb98f6452c11775db6e1bb1bdd",
+    "representative": "334-onepage-p20-s060pct-l006pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "334-onepage-p20-s060pct-l006pct.html",
+        "page": "onepage",
+        "position": 20
+      },
+      {
+        "file": "335-onepage-p20-s060pct-l006pct.html",
+        "page": "onepage",
+        "position": 20
+      }
+    ]
+  },
+  {
+    "id": "pattern-273",
+    "hash": "1b04fbf95f06e87b1bae1871b4af8aca",
+    "representative": "336-onepage-p21-s067pct-l007pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "336-onepage-p21-s067pct-l007pct.html",
+        "page": "onepage",
+        "position": 21
+      },
+      {
+        "file": "337-onepage-p21-s067pct-l007pct.html",
+        "page": "onepage",
+        "position": 21
+      }
+    ]
+  },
+  {
+    "id": "pattern-274",
+    "hash": "fa55c5360a0fafc0915dc8c63097641e",
+    "representative": "338-onepage-p22-s074pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "338-onepage-p22-s074pct-l001pct.html",
+        "page": "onepage",
+        "position": 22
+      },
+      {
+        "file": "339-onepage-p22-s074pct-l001pct.html",
+        "page": "onepage",
+        "position": 22
+      }
+    ]
+  },
+  {
+    "id": "pattern-275",
+    "hash": "46b86b51b927c6734cb63a972ed0369b",
+    "representative": "340-onepage-p23-s075pct-l003pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "340-onepage-p23-s075pct-l003pct.html",
+        "page": "onepage",
+        "position": 23
+      },
+      {
+        "file": "341-onepage-p23-s075pct-l003pct.html",
+        "page": "onepage",
+        "position": 23
+      }
+    ]
+  },
+  {
+    "id": "pattern-276",
+    "hash": "8e30f1acc753bc9ca4e07b7ffc2fee73",
+    "representative": "342-onepage-p24-s078pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "342-onepage-p24-s078pct-l001pct.html",
+        "page": "onepage",
+        "position": 24
+      },
+      {
+        "file": "343-onepage-p24-s078pct-l001pct.html",
+        "page": "onepage",
+        "position": 24
+      }
+    ]
+  },
+  {
+    "id": "pattern-277",
+    "hash": "da907f9c6e7df0d2307a42bc6c59384e",
+    "representative": "344-onepage-p25-s079pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "344-onepage-p25-s079pct-l001pct.html",
+        "page": "onepage",
+        "position": 25
+      },
+      {
+        "file": "345-onepage-p25-s079pct-l001pct.html",
+        "page": "onepage",
+        "position": 25
+      }
+    ]
+  },
+  {
+    "id": "pattern-278",
+    "hash": "8d1eddd1ce6830e067b4c1e2d7d23a16",
+    "representative": "346-onepage-p26-s079pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "346-onepage-p26-s079pct-l001pct.html",
+        "page": "onepage",
+        "position": 26
+      },
+      {
+        "file": "347-onepage-p26-s079pct-l001pct.html",
+        "page": "onepage",
+        "position": 26
+      }
+    ]
+  },
+  {
+    "id": "pattern-279",
+    "hash": "a83e3dc84aba91d010c3ee07334b1fc9",
+    "representative": "348-onepage-p27-s079pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "348-onepage-p27-s079pct-l001pct.html",
+        "page": "onepage",
+        "position": 27
+      },
+      {
+        "file": "349-onepage-p27-s079pct-l001pct.html",
+        "page": "onepage",
+        "position": 27
+      }
+    ]
+  },
+  {
+    "id": "pattern-280",
+    "hash": "22bb99da540148e0d6c8e46734d4ad92",
+    "representative": "350-onepage-p28-s079pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "350-onepage-p28-s079pct-l001pct.html",
+        "page": "onepage",
+        "position": 28
+      },
+      {
+        "file": "351-onepage-p28-s079pct-l001pct.html",
+        "page": "onepage",
+        "position": 28
+      }
+    ]
+  },
+  {
+    "id": "pattern-281",
+    "hash": "ac60cb1dab48228a329a68f6af63c203",
+    "representative": "352-onepage-p29-s080pct-l001pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "352-onepage-p29-s080pct-l001pct.html",
+        "page": "onepage",
+        "position": 29
+      },
+      {
+        "file": "353-onepage-p29-s080pct-l001pct.html",
+        "page": "onepage",
+        "position": 29
+      }
+    ]
+  },
+  {
+    "id": "pattern-282",
+    "hash": "0a0fd6d1f2f0b21a321b762401444f31",
+    "representative": "354-onepage-p30-s081pct-l011pct.html",
+    "occurrences": 2,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "354-onepage-p30-s081pct-l011pct.html",
+        "page": "onepage",
+        "position": 30
+      },
+      {
+        "file": "355-onepage-p30-s081pct-l011pct.html",
+        "page": "onepage",
+        "position": 30
+      }
+    ]
+  },
+  {
+    "id": "pattern-283",
+    "hash": "9f0cc05efd1343ef92294649ff2b5936",
+    "representative": "356-onepage-p31-s092pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "356-onepage-p31-s092pct-l002pct.html",
+        "page": "onepage",
+        "position": 31
+      }
+    ]
+  },
+  {
+    "id": "pattern-284",
+    "hash": "8409cf7df96f0f714a18f2483e470609",
+    "representative": "357-onepage-p32-s094pct-l006pct.html",
+    "occurrences": 1,
+    "pages": [
+      "onepage"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "357-onepage-p32-s094pct-l006pct.html",
+        "page": "onepage",
+        "position": 32
+      }
+    ]
+  },
+  {
+    "id": "pattern-285",
+    "hash": "5aaf6d2c6cc07cd8e3142f1fdf7424b4",
+    "representative": "360-pool-inspections-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-inspections"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "360-pool-inspections-p02-s001pct-l013pct.html",
+        "page": "pool-inspections",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-286",
+    "hash": "898c676e99a4ede997c1e581e7bc002c",
+    "representative": "361-pool-inspections-p02-s002pct-l016pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-inspections"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "361-pool-inspections-p02-s002pct-l016pct.html",
+        "page": "pool-inspections",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-287",
+    "hash": "8d8694d1c3e760c0b0effbea7fe6e7d5",
+    "representative": "362-pool-inspections-p03-s014pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-inspections"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "362-pool-inspections-p03-s014pct-l084pct.html",
+        "page": "pool-inspections",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-288",
+    "hash": "91eee7a05b19ae9570ca43a84d7cfbfa",
+    "representative": "363-pool-inspections-p03-s018pct-l080pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-inspections"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "363-pool-inspections-p03-s018pct-l080pct.html",
+        "page": "pool-inspections",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-289",
+    "hash": "9d86430de52b4e281ea1aa027e4f7076",
+    "representative": "364-pool-inspections-p04-s098pct-l002pct.html",
+    "occurrences": 2,
+    "pages": [
+      "pool-inspections"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "364-pool-inspections-p04-s098pct-l002pct.html",
+        "page": "pool-inspections",
+        "position": 4
+      },
+      {
+        "file": "365-pool-inspections-p04-s098pct-l002pct.html",
+        "page": "pool-inspections",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-290",
+    "hash": "87d8cbe1a419403266d105ac5ab3506a",
+    "representative": "367-pool-maintenance-p02-s001pct-l014pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-maintenance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "367-pool-maintenance-p02-s001pct-l014pct.html",
+        "page": "pool-maintenance",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-291",
+    "hash": "9afdb3f0abc164c9944705b03a9887bf",
+    "representative": "368-pool-maintenance-p03-s015pct-l083pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-maintenance"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "368-pool-maintenance-p03-s015pct-l083pct.html",
+        "page": "pool-maintenance",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-292",
+    "hash": "ddc3590f7f6e4dbaa7322ab616101a64",
+    "representative": "370-pool-services-p01-s000pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "370-pool-services-p01-s000pct-l002pct.html",
+        "page": "pool-services",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-293",
+    "hash": "8aabc855a30faf12c1f67ce7f41ead54",
+    "representative": "371-pool-services-p02-s002pct-l016pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "371-pool-services-p02-s002pct-l016pct.html",
+        "page": "pool-services",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-294",
+    "hash": "94def3238c277e7a8c961cf5bcfcccce",
+    "representative": "372-pool-services-p03-s018pct-l080pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "372-pool-services-p03-s018pct-l080pct.html",
+        "page": "pool-services",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-295",
+    "hash": "28702f26e4f0f1e38678a9ad9bfbdd27",
+    "representative": "375-pool-water-cleaning-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-water-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "375-pool-water-cleaning-p02-s001pct-l013pct.html",
+        "page": "pool-water-cleaning",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-296",
+    "hash": "d5e150e6e6115044e7cb0e9a3216286a",
+    "representative": "376-pool-water-cleaning-p03-s014pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-water-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "376-pool-water-cleaning-p03-s014pct-l084pct.html",
+        "page": "pool-water-cleaning",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-297",
+    "hash": "6a6051943c0ea87a09238beb3b376a0d",
+    "representative": "377-pool-water-cleaning-p04-s098pct-l002pct.html",
+    "occurrences": 1,
+    "pages": [
+      "pool-water-cleaning"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "377-pool-water-cleaning-p04-s098pct-l002pct.html",
+        "page": "pool-water-cleaning",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-298",
+    "hash": "41fd550ab66978a1515911b90a58fb07",
+    "representative": "379-poolax-cart-p02-s003pct-l027pct.html",
+    "occurrences": 1,
+    "pages": [
+      "poolax-cart"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "379-poolax-cart-p02-s003pct-l027pct.html",
+        "page": "poolax-cart",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-299",
+    "hash": "6fd3879a6564537a332bda6322583a81",
+    "representative": "380-poolax-cart-p03-s030pct-l066pct.html",
+    "occurrences": 1,
+    "pages": [
+      "poolax-cart"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "380-poolax-cart-p03-s030pct-l066pct.html",
+        "page": "poolax-cart",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-300",
+    "hash": "cdc9f0a6abbe8ed2b35df7a6c03d3c54",
+    "representative": "383-poolax-my-account-p02-s003pct-l025pct.html",
+    "occurrences": 1,
+    "pages": [
+      "poolax-my-account"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "383-poolax-my-account-p02-s003pct-l025pct.html",
+        "page": "poolax-my-account",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-301",
+    "hash": "521c9c3fcb888ff09b4b67ef85067128",
+    "representative": "384-poolax-my-account-p03-s028pct-l068pct.html",
+    "occurrences": 1,
+    "pages": [
+      "poolax-my-account"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "384-poolax-my-account-p03-s028pct-l068pct.html",
+        "page": "poolax-my-account",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-302",
+    "hash": "cd4a42fcd9a6ab83b1857311f9fc4cb9",
+    "representative": "387-poolax-shop-p02-s002pct-l017pct.html",
+    "occurrences": 1,
+    "pages": [
+      "poolax-shop"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "387-poolax-shop-p02-s002pct-l017pct.html",
+        "page": "poolax-shop",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-303",
+    "hash": "4f1774516a04b9546c9f39de87488276",
+    "representative": "388-poolax-shop-p03-s019pct-l078pct.html",
+    "occurrences": 1,
+    "pages": [
+      "poolax-shop"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "388-poolax-shop-p03-s019pct-l078pct.html",
+        "page": "poolax-shop",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-304",
+    "hash": "d271d022fc2be0e2374cde9604319d2b",
+    "representative": "391-price-package-p02-s002pct-l015pct.html",
+    "occurrences": 1,
+    "pages": [
+      "price-package"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "391-price-package-p02-s002pct-l015pct.html",
+        "page": "price-package",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-305",
+    "hash": "6caf2aca0bcf45f515c6559f689e4ff5",
+    "representative": "392-price-package-p03-s017pct-l029pct.html",
+    "occurrences": 1,
+    "pages": [
+      "price-package"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "392-price-package-p03-s017pct-l029pct.html",
+        "page": "price-package",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-306",
+    "hash": "b1bcbf60f6f8ac3ebb139c791377c321",
+    "representative": "393-price-package-p04-s046pct-l011pct.html",
+    "occurrences": 1,
+    "pages": [
+      "price-package"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "393-price-package-p04-s046pct-l011pct.html",
+        "page": "price-package",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-307",
+    "hash": "6184511323340415c72837f2c7be58cb",
+    "representative": "394-price-package-p05-s057pct-l041pct.html",
+    "occurrences": 1,
+    "pages": [
+      "price-package"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "394-price-package-p05-s057pct-l041pct.html",
+        "page": "price-package",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-308",
+    "hash": "634a7107a4b5dac2bf67ce83526e0d25",
+    "representative": "396-quick-link-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "396-quick-link-p01-s000pct-l001pct.html",
+        "page": "quick-link",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-309",
+    "hash": "41df58350570e5defabb133f95ed275a",
+    "representative": "397-quick-link-p01-s000pct-l010pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "397-quick-link-p01-s000pct-l010pct.html",
+        "page": "quick-link",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-310",
+    "hash": "2306f286f23f34a8184e605f150eb9e8",
+    "representative": "398-quick-link-p02-s001pct-l030pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "398-quick-link-p02-s001pct-l030pct.html",
+        "page": "quick-link",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-311",
+    "hash": "d3807923350a48caf2eca5c2c445e2c7",
+    "representative": "399-quick-link-p02-s011pct-l005pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "399-quick-link-p02-s011pct-l005pct.html",
+        "page": "quick-link",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-312",
+    "hash": "7cd832a9ffbbc317e338b96257468899",
+    "representative": "400-quick-link-p03-s016pct-l008pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "400-quick-link-p03-s016pct-l008pct.html",
+        "page": "quick-link",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-313",
+    "hash": "4e9405650012fa44cbda1a5724d6a37f",
+    "representative": "401-quick-link-p03-s031pct-l050pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "401-quick-link-p03-s031pct-l050pct.html",
+        "page": "quick-link",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-314",
+    "hash": "b2b0ed9bf403a8318f3848d4d284827d",
+    "representative": "402-quick-link-p04-s024pct-l005pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "402-quick-link-p04-s024pct-l005pct.html",
+        "page": "quick-link",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-315",
+    "hash": "f3ce653b42b20c365b3dc1e9f2c1ef87",
+    "representative": "403-quick-link-p04-s081pct-l019pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "403-quick-link-p04-s081pct-l019pct.html",
+        "page": "quick-link",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-316",
+    "hash": "056e77400a720fa4fed73c24c16340c0",
+    "representative": "404-quick-link-p05-s029pct-l060pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "404-quick-link-p05-s029pct-l060pct.html",
+        "page": "quick-link",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-317",
+    "hash": "263cb274844c831fe87c2a4e6732fe24",
+    "representative": "406-quick-link-p07-s089pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "406-quick-link-p07-s089pct-l001pct.html",
+        "page": "quick-link",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "id": "pattern-318",
+    "hash": "9ba26871f200b714fd14ccddfa44260e",
+    "representative": "407-quick-link-p08-s091pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "407-quick-link-p08-s091pct-l001pct.html",
+        "page": "quick-link",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "id": "pattern-319",
+    "hash": "a5f905477793b90eab1957a0fbe2ed26",
+    "representative": "408-quick-link-p09-s092pct-l008pct.html",
+    "occurrences": 1,
+    "pages": [
+      "quick-link"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "408-quick-link-p09-s092pct-l008pct.html",
+        "page": "quick-link",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "id": "pattern-320",
+    "hash": "bdb041ed4bed81ef5e9c136c1fecdacb",
+    "representative": "410-register-now-p02-s002pct-l019pct.html",
+    "occurrences": 1,
+    "pages": [
+      "register-now"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "410-register-now-p02-s002pct-l019pct.html",
+        "page": "register-now",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-321",
+    "hash": "dad1b63af2bf135e36d40ffc69fda490",
+    "representative": "411-register-now-p03-s021pct-l076pct.html",
+    "occurrences": 1,
+    "pages": [
+      "register-now"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "411-register-now-p03-s021pct-l076pct.html",
+        "page": "register-now",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-322",
+    "hash": "d200b5939e3f448c14eff33c47306c09",
+    "representative": "412-register-now-p04-s097pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "register-now"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "412-register-now-p04-s097pct-l003pct.html",
+        "page": "register-now",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-323",
+    "hash": "a2ae69ffedfbe9730f5adc4f9f36c61b",
+    "representative": "414-schedule-services-p02-s002pct-l019pct.html",
+    "occurrences": 1,
+    "pages": [
+      "schedule-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "414-schedule-services-p02-s002pct-l019pct.html",
+        "page": "schedule-services",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-324",
+    "hash": "27b66d2b4565ce698149cfdb91695d75",
+    "representative": "415-schedule-services-p03-s021pct-l076pct.html",
+    "occurrences": 1,
+    "pages": [
+      "schedule-services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "415-schedule-services-p03-s021pct-l076pct.html",
+        "page": "schedule-services",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-325",
+    "hash": "52f5ea41c6abf1fa3b92e1ce9271a230",
+    "representative": "418-science-of-the-pool-chemistry-keeping-your-p02-s001pct-l014pct.html",
+    "occurrences": 1,
+    "pages": [
+      "science-of-the-pool-chemistry-keeping-your"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "418-science-of-the-pool-chemistry-keeping-your-p02-s001pct-l014pct.html",
+        "page": "science-of-the-pool-chemistry-keeping-your",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-326",
+    "hash": "fabd0d1682cc2eb7c1cc87a96986b427",
+    "representative": "419-science-of-the-pool-chemistry-keeping-your-p03-s015pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "science-of-the-pool-chemistry-keeping-your"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "419-science-of-the-pool-chemistry-keeping-your-p03-s015pct-l084pct.html",
+        "page": "science-of-the-pool-chemistry-keeping-your",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-327",
+    "hash": "3868b1baba9c58fd11f184561e4b693d",
+    "representative": "420-science-of-the-pool-chemistry-keeping-your-p04-s099pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "science-of-the-pool-chemistry-keeping-your"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "420-science-of-the-pool-chemistry-keeping-your-p04-s099pct-l001pct.html",
+        "page": "science-of-the-pool-chemistry-keeping-your",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-328",
+    "hash": "681d9f1666e0a96e21b646b230588624",
+    "representative": "422-services-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "422-services-p02-s001pct-l013pct.html",
+        "page": "services",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-329",
+    "hash": "6737b556ec723d92aad1cd1c7c0bfbae",
+    "representative": "423-services-p03-s014pct-l033pct.html",
+    "occurrences": 1,
+    "pages": [
+      "services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "423-services-p03-s014pct-l033pct.html",
+        "page": "services",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-330",
+    "hash": "a639fb9d851e2314c94582de7af475c0",
+    "representative": "424-services-p04-s047pct-l009pct.html",
+    "occurrences": 1,
+    "pages": [
+      "services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "424-services-p04-s047pct-l009pct.html",
+        "page": "services",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-331",
+    "hash": "86b3e99875a29fa654f91b5b909c4dc6",
+    "representative": "425-services-p05-s057pct-l041pct.html",
+    "occurrences": 1,
+    "pages": [
+      "services"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "425-services-p05-s057pct-l041pct.html",
+        "page": "services",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-332",
+    "hash": "e15e73d5bfe1e91d1a4972cbd75eeafc",
+    "representative": "428-shop-details-p02-s001pct-l015pct.html",
+    "occurrences": 1,
+    "pages": [
+      "shop-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "428-shop-details-p02-s001pct-l015pct.html",
+        "page": "shop-details",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-333",
+    "hash": "973b327d559ad0e25efad39a4346a099",
+    "representative": "429-shop-details-p03-s016pct-l082pct.html",
+    "occurrences": 1,
+    "pages": [
+      "shop-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "429-shop-details-p03-s016pct-l082pct.html",
+        "page": "shop-details",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-334",
+    "hash": "79c2f45add5008733722b3aabb0e9ccf",
+    "representative": "432-swimming-class-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "swimming-class"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "432-swimming-class-p02-s001pct-l013pct.html",
+        "page": "swimming-class",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-335",
+    "hash": "f784fa95cc57ad968b10077c08fe3ef5",
+    "representative": "433-swimming-class-p03-s014pct-l034pct.html",
+    "occurrences": 1,
+    "pages": [
+      "swimming-class"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "433-swimming-class-p03-s014pct-l034pct.html",
+        "page": "swimming-class",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-336",
+    "hash": "325e87e1345d5172757792d305c6b40c",
+    "representative": "434-swimming-class-p04-s048pct-l009pct.html",
+    "occurrences": 1,
+    "pages": [
+      "swimming-class"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "434-swimming-class-p04-s048pct-l009pct.html",
+        "page": "swimming-class",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "id": "pattern-337",
+    "hash": "e84aa5cd3a3e7cf02d4ea41ed740678b",
+    "representative": "435-swimming-class-p05-s057pct-l041pct.html",
+    "occurrences": 1,
+    "pages": [
+      "swimming-class"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "435-swimming-class-p05-s057pct-l041pct.html",
+        "page": "swimming-class",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": "pattern-338",
+    "hash": "ae376b1b638cde9f1b3c50a1ceebcd20",
+    "representative": "438-team-details-p02-s002pct-l016pct.html",
+    "occurrences": 1,
+    "pages": [
+      "team-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "438-team-details-p02-s002pct-l016pct.html",
+        "page": "team-details",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-339",
+    "hash": "9172c5028041c83bc4e54aab6c9ab1a1",
+    "representative": "439-team-details-p03-s018pct-l080pct.html",
+    "occurrences": 1,
+    "pages": [
+      "team-details"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "439-team-details-p03-s018pct-l080pct.html",
+        "page": "team-details",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-340",
+    "hash": "9f8058a4ec82c63dfda656574b7bf59d",
+    "representative": "442-team-p02-s002pct-l015pct.html",
+    "occurrences": 1,
+    "pages": [
+      "team"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "442-team-p02-s002pct-l015pct.html",
+        "page": "team",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-341",
+    "hash": "186986bcb2e4cbf04153d853dec5d766",
+    "representative": "443-team-p03-s017pct-l081pct.html",
+    "occurrences": 1,
+    "pages": [
+      "team"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "443-team-p03-s017pct-l081pct.html",
+        "page": "team",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-342",
+    "hash": "a88a3a5a790cf8cacee4d204f17231da",
+    "representative": "445-testimonials-p01-s000pct-l001pct.html",
+    "occurrences": 1,
+    "pages": [
+      "testimonials"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "445-testimonials-p01-s000pct-l001pct.html",
+        "page": "testimonials",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-343",
+    "hash": "948c47151a3ecb5e1b2e9a46a55b6a0d",
+    "representative": "446-testimonials-p02-s001pct-l014pct.html",
+    "occurrences": 1,
+    "pages": [
+      "testimonials"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "446-testimonials-p02-s001pct-l014pct.html",
+        "page": "testimonials",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-344",
+    "hash": "59f03b10788f829a2bf2b6616e23e1c2",
+    "representative": "447-testimonials-p03-s015pct-l083pct.html",
+    "occurrences": 1,
+    "pages": [
+      "testimonials"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "447-testimonials-p03-s015pct-l083pct.html",
+        "page": "testimonials",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-345",
+    "hash": "52eb6928b2753b207cc5b0145ed36c1c",
+    "representative": "451-water-analysis-p02-s001pct-l013pct.html",
+    "occurrences": 1,
+    "pages": [
+      "water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "451-water-analysis-p02-s001pct-l013pct.html",
+        "page": "water-analysis",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-346",
+    "hash": "b7f18393b5cb14dd22fc3d4b8c9e515b",
+    "representative": "452-water-analysis-p02-s001pct-l015pct.html",
+    "occurrences": 1,
+    "pages": [
+      "water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "452-water-analysis-p02-s001pct-l015pct.html",
+        "page": "water-analysis",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-347",
+    "hash": "25e6f76810e3943899ff528d469f93ca",
+    "representative": "453-water-analysis-p03-s014pct-l084pct.html",
+    "occurrences": 1,
+    "pages": [
+      "water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "453-water-analysis-p03-s014pct-l084pct.html",
+        "page": "water-analysis",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-348",
+    "hash": "c09917b07bba58b208dc78d6bb0c88e1",
+    "representative": "454-water-analysis-p03-s016pct-l082pct.html",
+    "occurrences": 1,
+    "pages": [
+      "water-analysis"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "454-water-analysis-p03-s016pct-l082pct.html",
+        "page": "water-analysis",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-349",
+    "hash": "b7dea1967b7669b76a9ecbaca6e53522",
+    "representative": "457-wishlist-p01-s000pct-l003pct.html",
+    "occurrences": 1,
+    "pages": [
+      "wishlist"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "457-wishlist-p01-s000pct-l003pct.html",
+        "page": "wishlist",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": "pattern-350",
+    "hash": "28c51cb45c025fbf33e9fa736f85af81",
+    "representative": "458-wishlist-p02-s003pct-l033pct.html",
+    "occurrences": 1,
+    "pages": [
+      "wishlist"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "458-wishlist-p02-s003pct-l033pct.html",
+        "page": "wishlist",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "id": "pattern-351",
+    "hash": "69d17e17541e269fcec6aff17208d91f",
+    "representative": "459-wishlist-p03-s037pct-l058pct.html",
+    "occurrences": 1,
+    "pages": [
+      "wishlist"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "459-wishlist-p03-s037pct-l058pct.html",
+        "page": "wishlist",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "pattern-352",
+    "hash": "e5333d666d2884e3a0cdee3436b592dc",
+    "representative": "460-wishlist-p04-s095pct-l005pct.html",
+    "occurrences": 1,
+    "pages": [
+      "wishlist"
+    ],
+    "page_count": 1,
+    "members": [
+      {
+        "file": "460-wishlist-p04-s095pct-l005pct.html",
+        "page": "wishlist",
+        "position": 4
+      }
+    ]
+  }
+]

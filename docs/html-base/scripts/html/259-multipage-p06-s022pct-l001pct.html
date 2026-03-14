@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <section class="review-bar-section relative h-[100px] overflow-hidden bg-background">
+      <div class="container mx-auto px-4 max-w-6xl h-full flex items-center justify-between">
+        <!-- Left SVG/Shape and image -->
+        <div class="relative flex-shrink-0 h-full flex items-center">
+          <!-- Curved SVG background left -->
+          <svg class="absolute left-[-80px] top-[-60px] h-[180px] w-[400px] z-0" viewBox="0 0 400 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,0 Q100,120 400,80 Q350,180 0,180 Z" fill="#e6f2fd"/>
+            <path d="M0,0 Q100,120 400,80" stroke="#00112a" stroke-width="4" fill="none"/>
+          </svg>
+          <!-- Pool robot image (cropped) -->
+          <div class="relative z-10 ml-8">
+            <img src="https://placehold.co/180x60" alt="Robotic pool cleaner on a pool surface, cropped" class="rounded-lg shadow-lg object-cover w-[180px] h-[60px]"/>
+          </div>
+        </div>
+        <!-- Center avatars and review count -->
+        <div class="flex items-center space-x-6">
+          <!-- Avatars -->
+          <div class="flex -space-x-4">
+            <img src="https://placehold.co/48x48" alt="Reviewer avatar 1" class="w-12 h-12 rounded-full border-2 border-background object-cover z-30"/>
+            <img src="https://placehold.co/48x48" alt="Reviewer avatar 2" class="w-12 h-12 rounded-full border-2 border-background object-cover z-20"/>
+            <img src="https://placehold.co/48x48" alt="Reviewer avatar 3" class="w-12 h-12 rounded-full border-2 border-background object-cover z-10"/>
+            <img src="https://placehold.co/48x48" alt="Reviewer avatar 4" class="w-12 h-12 rounded-full border-2 border-background object-cover"/>
+          </div>
+          <!-- Review count and link -->
+          <div class="flex flex-col justify-center">
+            <span class="text-[28px] font-semibold text-text leading-tight">1500+</span>
+            <a href="#" class="text-[16px] text-primary hover:text-primary-dark underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">Active Reviews</a>
+          </div>
+        </div>
+        <!-- Signature and right illustration -->
+        <div class="flex items-center space-x-6">
+          <!-- Signature -->
+          <div>
+            <span class="block text-[28px] font-signature text-text" style="font-family: 'Dancing Script', cursive;">Huey Kree</span>
+          </div>
+          <!-- Right illustration (cropped beach chair) -->
+          <div class="relative w-[80px] h-[80px] flex items-center">
+            <img src="https://placehold.co/80x80" alt="Cropped illustration of a beach chair with blue stripes" class="object-cover w-[80px] h-[80px]"/>
+            <!-- Chair legs (SVG overlay for realism) -->
+            <svg class="absolute left-0 top-0 w-full h-full pointer-events-none" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="10" width="8" height="60" rx="4" fill="#e6be46" transform="rotate(20 10 10)"/>
+              <rect x="62" y="10" width="8" height="60" rx="4" fill="#e6be46" transform="rotate(-20 62 10)"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Google Fonts for signature style -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background">
+    <!-- HERO SECTION -->
+    <section class="hero-section relative min-h-[70vh] md:min-h-[80vh] flex items-end bg-background overflow-hidden">
+      <div class="absolute inset-0 z-0">
+        <!-- Subtle pool water pattern background with a faded pool maintenance worker image on the right -->
+        <img src="https://placehold.co/1600x900/edf7f5/edf7f5?text=" alt="Subtle pool water pattern background" class="w-full h-full object-cover opacity-60 pointer-events-none select-none" style="mix-blend-mode: lighten;">
+        <img src="https://placehold.co/600x800?text=Pool+maintenance+worker" alt="Smiling pool maintenance worker holding a brush and bucket" class="absolute right-0 bottom-0 h-full object-contain opacity-30 pointer-events-none select-none hidden md:block" style="mix-blend-mode: lighten;">
+      </div>
+      <div class="container mx-auto px-4 max-w-6xl relative z-10 flex flex-col justify-end min-h-[60vh] md:min-h-[70vh]">
+        <h1 class="text-[2.5rem] md:text-[3.5rem] font-extrabold leading-tight text-text-secondary max-w-3xl mb-0 mt-0" style="letter-spacing:-0.02em;">
+          Clear Waters,<br>
+          Clear Mind Smart<br>
+          Pool Maintenance
+        </h1>
+      </div>
+      <!-- Curved white bottom with scroll indicator -->
+      <div class="absolute left-0 right-0 bottom-0 z-20 pointer-events-none select-none">
+        <svg viewBox="0 0 1920 180" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-[110px] md:h-[180px] block">
+          <path d="M0 0C0 0 480 180 960 180C1440 180 1920 0 1920 0V180H0V0Z" fill="#fff"/>
+        </svg>
+        <div class="absolute left-1/2 -translate-x-1/2 -top-10 md:-top-16 z-30 flex flex-col items-center">
+          <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-[#0f223d] flex items-center justify-center shadow-lg border-4 border-white">
+            <span class="text-xs md:text-sm text-white font-semibold tracking-widest uppercase text-center leading-tight" style="writing-mode: vertical-lr; transform: rotate(180deg); letter-spacing: 0.2em;">
+              S<br>C<br>R<br>O<br>L<br>L
+            </span>
+            <i class="fas fa-arrow-down ml-1 text-white text-lg md:text-xl" data-icon="arrow-down"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNER COUNT SECTION -->
+    <section class="relative bg-background pt-8 pb-4">
+      <div class="container mx-auto px-4 max-w-6xl">
+        <div class="flex justify-center items-center">
+          <hr class="flex-1 border-t border-border mr-4">
+          <span class="text-[1.1rem] md:text-lg font-semibold text-text-secondary">
+            <span class="text-[#0d6efd] font-bold">10K+</span>
+            <span class="ml-1">Our Trusted Partner</span>
+          </span>
+          <hr class="flex-1 border-t border-border ml-4">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

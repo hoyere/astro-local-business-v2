@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-[#11141c]">
+    <section class="footer-section py-12 bg-[#11141c] relative overflow-hidden">
+      <div class="container mx-auto px-4 max-w-7xl flex flex-row items-start justify-between">
+        <!-- Logo + Description -->
+        <div class="flex flex-col min-w-[220px]">
+          <div class="flex items-center mb-2">
+            <span class="text-[44px] font-bold text-white leading-none flex items-center">
+              P
+              <!-- Pool icon with water effect -->
+              <span class="relative inline-block mx-0.5" style="width:44px;height:44px;">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true" class="inline-block align-middle">
+                  <rect x="0" y="18" width="44" height="18" rx="9" fill="#3ad6fe"/>
+                  <ellipse cx="13" cy="18" rx="4" ry="4" fill="#fff"/>
+                  <ellipse cx="31" cy="18" rx="4" ry="4" fill="#fff"/>
+                  <rect x="10" y="8" width="6" height="14" rx="3" fill="#fff"/>
+                  <rect x="28" y="8" width="6" height="14" rx="3" fill="#fff"/>
+                  <rect x="12" y="6" width="2" height="6" rx="1" fill="#3ad6fe"/>
+                  <rect x="30" y="6" width="2" height="6" rx="1" fill="#3ad6fe"/>
+                </svg>
+              </span>
+              olax
+            </span>
+          </div>
+        </div>
+        <!-- Quick Link -->
+        <div class="flex-1 flex flex-col items-center">
+          <h2 class="text-white text-xl font-semibold mb-1">Quick Link</h2>
+          <div class="w-16 h-1 bg-primary mb-2"></div>
+        </div>
+        <!-- Popular Services -->
+        <div class="flex-1 flex flex-col items-center">
+          <h2 class="text-white text-xl font-semibold mb-1">Popular Services</h2>
+          <div class="w-20 h-1 bg-primary mb-2"></div>
+        </div>
+        <!-- Contact Us -->
+        <div class="flex-1 flex flex-col items-center">
+          <h2 class="text-white text-xl font-semibold mb-1">Contact Us</h2>
+          <div class="w-20 h-1 bg-primary mb-2"></div>
+        </div>
+      </div>
+      <!-- Decorative background lines (optional, for visual accuracy) -->
+      <div class="pointer-events-none absolute inset-0 z-0">
+        <svg width="100%" height="100%" viewBox="0 0 1440 180" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 w-full h-full">
+          <path d="M0 0C200 80 400 160 720 80C1040 0 1240 80 1440 160" stroke="#232736" stroke-width="2" fill="none"/>
+          <path d="M0 40C200 120 400 200 720 120C1040 40 1240 120 1440 200" stroke="#232736" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+    </section>
+  </body>
+</html>

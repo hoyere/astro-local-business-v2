@@ -1,0 +1,208 @@
+<html>
+<head>
+  <title>Pool Services Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+    body {
+      font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    }
+    .pattern-bg {
+      background-image: url('https://svgshare.com/i/14kA.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top right;
+    }
+    .pattern-bg-alt {
+      background-image: url('https://svgshare.com/i/14kA.svg');
+      background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: top right;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background text-text pattern-bg">
+
+  <!-- HERO SECTION -->
+  <section class="hero-section py-16 md:py-24 bg-background">
+    <div class="container mx-auto px-4 max-w-6xl flex flex-col md:flex-row items-center gap-10">
+      <!-- Left: Experience Badge + Main Image -->
+      <div class="relative flex-shrink-0 w-full md:w-[380px]">
+        <!-- Experience Badge -->
+        <div class="absolute -top-8 -left-8 z-20">
+          <div class="bg-primary rounded-2xl shadow-lg px-7 py-6 flex flex-col items-center text-on-primary w-[160px]">
+            <span class="text-3xl font-extrabold leading-none mb-1">25+</span>
+            <span class="text-base leading-tight font-medium">Years Experience<br>In Pool Service.</span>
+          </div>
+        </div>
+        <!-- Main Image -->
+        <img src="https://placehold.co/400x420" alt="Pool technician cleaning a pool with a net" class="rounded-2xl w-full h-[420px] object-cover shadow-lg">
+        <!-- Overlay Image -->
+        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-right-8 md:bottom-8 z-30">
+          <img src="https://placehold.co/220x140" alt="Technician installing pool equipment beside a pool" class="rounded-xl border-4 border-background shadow-md w-[220px] h-[140px] object-cover">
+        </div>
+      </div>
+      <!-- Right: Text Content -->
+      <div class="flex-1 pt-8 md:pt-0">
+        <div class="mb-2">
+          <span class="text-primary font-semibold text-base">About Us</span>
+          <span class="inline-block align-middle ml-2 w-12 h-1 bg-primary rounded"></span>
+        </div>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-4">Simplify Pool Maintenance<br class="hidden md:block"> with Our Expert Services</h1>
+        <p class="text-text-secondary text-base mb-4 max-w-xl">
+          Brand team building results after premium web-readiness value web enabled e-business engage web enabled strategic...<br>
+          We take pride in offering comprehensive pool cleaning and maintenance services to ensure your pool remains a pristine oasis for relaxation and enjoyment. Our team of certified technicians is dedicated.
+        </p>
+        <div class="flex flex-col md:flex-row md:items-center gap-4 mb-4">
+          <button class="bg-primary text-on-primary font-semibold px-7 py-3 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition hover:bg-primary-dark text-base">
+            MORE ABOUT US
+          </button>
+          <ul class="flex flex-col md:flex-row gap-2 md:gap-6 text-text-muted text-sm">
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check text-accent" data-icon="check"></i>
+              Regular Cleaning and Skimming
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check text-accent" data-icon="check"></i>
+              Brushing and Vacuuming
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Features Row -->
+    <div class="container mx-auto px-4 max-w-6xl mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-surface border border-border rounded-xl px-6 py-6 flex items-start gap-4" data-item="feature-1">
+        <i class="fa-solid fa-user-cog text-primary text-2xl mt-1" data-icon="user-cog"></i>
+        <div>
+          <h3 class="font-semibold text-lg mb-1">Experienced Technicians</h3>
+          <p class="text-text-muted text-sm">Our team consists of certified and experienced pool technicians who are knowledgeable.</p>
+        </div>
+      </div>
+      <div class="bg-surface border border-border rounded-xl px-6 py-6 flex items-start gap-4" data-item="feature-2">
+        <i class="fa-solid fa-star text-primary text-2xl mt-1" data-icon="star"></i>
+        <div>
+          <h3 class="font-semibold text-lg mb-1">Satisfaction Guarantee</h3>
+          <p class="text-text-muted text-sm">Your satisfaction is our priority. If you're not completely happy with our service, we'll work.</p>
+        </div>
+      </div>
+      <div class="bg-surface border border-border rounded-xl px-6 py-6 flex items-start gap-4" data-item="feature-3">
+        <i class="fa-solid fa-clock text-primary text-2xl mt-1" data-icon="clock"></i>
+        <div>
+          <h3 class="font-semibold text-lg mb-1">24/7 hours clients support</h3>
+          <p class="text-text-muted text-sm">We offer flexible service plans that can be tailored to your specific preferences and pool.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services-section py-20 bg-surface-alt pattern-bg-alt">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="text-center mb-10">
+        <span class="text-primary font-semibold text-base">Our Best Services</span>
+        <span class="inline-block align-middle ml-2 w-12 h-1 bg-primary rounded"></span>
+        <h2 class="text-3xl md:text-4xl font-extrabold mt-3 mb-6">Our Best Pool Services For You!</h2>
+        <div class="inline-flex rounded-lg bg-surface border border-border overflow-hidden shadow-sm">
+          <button class="bg-primary text-on-primary font-semibold px-6 py-2 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition hover:bg-primary-dark text-base">
+            Residential Pool Services
+          </button>
+          <button class="bg-surface text-text font-semibold px-6 py-2 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition hover:bg-primary-light text-base">
+            Commercial Pool Services
+          </button>
+        </div>
+      </div>
+      <!-- Services Grid -->
+      <div data-collection="services" class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+        <!-- Pool Cleaning -->
+        <article data-item="service-1" class="bg-surface rounded-2xl shadow-md px-6 py-7 flex items-start gap-5 border border-border">
+          <img src="https://placehold.co/120x90" alt="Technician cleaning pool with net and equipment" class="rounded-xl w-[120px] h-[90px] object-cover flex-shrink-0">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <i class="fa-solid fa-broom text-primary text-xl" data-icon="broom"></i>
+              <span class="font-bold text-lg">Pool Cleaning</span>
+            </div>
+            <p class="text-text-muted text-sm mb-4">Comprehensive pool inspections ensuring safety and functionality for your peace of mind</p>
+            <button class="bg-surface border border-border rounded-md px-5 py-2 text-primary font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 hover:bg-primary-light transition">
+              READ MORE
+            </button>
+          </div>
+        </article>
+        <!-- Water Analysis -->
+        <article data-item="service-2" class="bg-surface rounded-2xl shadow-md px-6 py-7 flex items-start gap-5 border border-border">
+          <img src="https://placehold.co/120x90" alt="Hand using pool water analysis kit" class="rounded-xl w-[120px] h-[90px] object-cover flex-shrink-0">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <i class="fa-solid fa-search text-primary text-xl" data-icon="search"></i>
+              <span class="font-bold text-lg">Water Analysis</span>
+            </div>
+            <p class="text-text-muted text-sm mb-4">Customized pool lighting solutions, creating a for evening relaxation and entertainment.</p>
+            <button class="bg-surface border border-border rounded-md px-5 py-2 text-primary font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 hover:bg-primary-light transition">
+              READ MORE
+            </button>
+          </div>
+        </article>
+        <!-- Equipment Install -->
+        <article data-item="service-3" class="bg-surface rounded-2xl shadow-md px-6 py-7 flex items-start gap-5 border border-border">
+          <img src="https://placehold.co/120x90" alt="Technician installing pool equipment" class="rounded-xl w-[120px] h-[90px] object-cover flex-shrink-0">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <i class="fa-solid fa-tools text-primary text-xl" data-icon="tools"></i>
+              <span class="font-bold text-lg">Equipment Install</span>
+            </div>
+            <p class="text-text-muted text-sm mb-4">Efficient drain and clean services to keep your systems running smoothly and hygienically</p>
+            <button class="bg-surface border border-border rounded-md px-5 py-2 text-primary font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 hover:bg-primary-light transition">
+              READ MORE
+            </button>
+          </div>
+        </article>
+        <!-- Tile & Surface Cleaning -->
+        <article data-item="service-4" class="bg-surface rounded-2xl shadow-md px-6 py-7 flex items-start gap-5 border border-border">
+          <img src="https://placehold.co/120x90" alt="Technician cleaning pool tiles and surface" class="rounded-xl w-[120px] h-[90px] object-cover flex-shrink-0">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <i class="fa-solid fa-spray-can text-primary text-xl" data-icon="spray-can"></i>
+              <span class="font-bold text-lg">Tile & Surface Cleaning</span>
+            </div>
+            <p class="text-text-muted text-sm mb-4">Reliable pool maintenance services for crystal-clear water and hassle-free enjoyment</p>
+            <button class="bg-surface border border-border rounded-md px-5 py-2 text-primary font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 hover:bg-primary-light transition">
+              READ MORE
+            </button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

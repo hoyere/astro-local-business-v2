@@ -1,0 +1,75 @@
+<html>
+<head>
+  <style>
+    :root {
+      /* Primary (Emerald Green) */
+      --color-primary: #02a26a;
+      --color-primary-light: #3ad69e;
+      --color-primary-dark: #0c7e5a;
+
+      /* Accent (Golden Yellow) */
+      --color-accent: #ffdd6a;
+      --color-accent-dark: #e6be46;
+
+      /* Text (Green-Black Tones) */
+      --color-text: #0f1c18;
+      --color-text-secondary: #374b44;
+      --color-text-muted: #64786e;
+      --color-text-inverse: #ffffff;
+      --color-on-primary: #ffffff;
+      --color-on-accent: #0f1c18;
+
+      /* Surfaces */
+      --color-background: #ffffff;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f5fbf8;
+      --color-border: #dcebe4;
+
+      /* Status */
+      --color-success: #0d9668;
+      --color-error: #dc2626;
+      --color-warning: #d97706;
+      --color-info: #0284c7;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-background">
+  <section class="header-top-section">
+    <div class="container mx-auto px-4 max-w-6xl flex items-center justify-between py-6">
+      <!-- Logo -->
+      <a href="#" class="flex-shrink-0" aria-label="Poolax Home">
+        <img src="https://placehold.co/140x60?text=Poolax+Logo" alt="Poolax logo with swimming pool graphic in the double 'o'" class="h-12 w-auto">
+      </a>
+      <!-- Contact Info -->
+      <div class="flex items-center gap-10">
+        <!-- Email -->
+        <div class="flex items-center gap-3">
+          <span class="flex items-center justify-center rounded-full bg-surface-alt w-12 h-12">
+            <i class="far fa-envelope text-primary text-2xl" data-icon="envelope"></i>
+          </span>
+          <div class="flex flex-col">
+            <span class="text-text-muted text-sm leading-tight">Email Address</span>
+            <a href="mailto:info@poolax.com" class="text-text font-medium text-base hover:underline">info@poolax.com</a>
+          </div>
+        </div>
+        <!-- Phone -->
+        <div class="flex items-center gap-3">
+          <span class="flex items-center justify-center rounded-full bg-surface-alt w-12 h-12">
+            <i class="fas fa-phone-alt text-primary text-2xl" data-icon="phone"></i>
+          </span>
+          <div class="flex flex-col">
+            <span class="text-text-muted text-sm leading-tight">Phone Number:</span>
+            <a href="tel:+468254762443" class="text-text font-medium text-base hover:underline">(+468) 254 762 443</a>
+          </div>
+        </div>
+      </div>
+      <!-- Request a Quote Button -->
+      <a href="#" class="ml-6 bg-[#071a3c] text-on-primary font-semibold rounded-xl px-8 py-3 text-base shadow-sm transition hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+        REQUEST A QUOTE
+      </a>
+    </div>
+  </section>
+</body>
+</html>

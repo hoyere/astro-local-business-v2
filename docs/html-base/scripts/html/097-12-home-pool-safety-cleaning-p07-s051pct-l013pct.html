@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <title>Pool Cleaning & Services Experience Section</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      :root {
+        /* Primary (Emerald Green) */
+        --color-primary: #02a26a;
+        --color-primary-light: #3ad69e;
+        --color-primary-dark: #0c7e5a;
+
+        /* Accent (Golden Yellow) */
+        --color-accent: #ffdd6a;
+        --color-accent-dark: #e6be46;
+
+        /* Text (Green-Black Tones) */
+        --color-text: #0f1c18;
+        --color-text-secondary: #374b44;
+        --color-text-muted: #64786e;
+        --color-text-inverse: #ffffff;
+        --color-on-primary: #ffffff;
+        --color-on-accent: #0f1c18;
+
+        /* Surfaces */
+        --color-background: #ffffff;
+        --color-surface: #ffffff;
+        --color-surface-alt: #f5fbf8;
+        --color-border: #dcebe4;
+
+        /* Status */
+        --color-success: #0d9668;
+        --color-error: #dc2626;
+        --color-warning: #d97706;
+        --color-info: #0284c7;
+      }
+      /* Custom scrollbar for progress bars */
+      .progress-bar::-webkit-progress-bar {
+        background-color: #232933;
+        border-radius: 4px;
+      }
+      .progress-bar::-webkit-progress-value {
+        background-color: #2196f3;
+        border-radius: 4px;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-background text-text font-sans">
+    <!-- Experience Section -->
+    <section class="experience-section bg-[#181d23] pt-16 pb-10 md:pt-24 md:pb-20 relative">
+      <div class="container mx-auto px-4 max-w-6xl flex flex-col md:flex-row items-start md:items-stretch relative z-10">
+        <!-- Left: Experience Content -->
+        <div class="w-full md:w-1/2 pr-0 md:pr-12 flex flex-col justify-center">
+          <span class="text-primary text-base font-semibold mb-2 block">Experience Of Pool Services</span>
+          <h1 class="text-on-primary text-4xl md:text-5xl font-bold leading-tight mb-4">
+            25 Years Experiences of Pool Cleaning &amp; Services
+          </h1>
+          <p class="text-text-muted text-base md:text-lg mb-8 max-w-xl">
+            Our team consists of certified technicians with a wealth of experience in pool maintenance and servicing. We stay updated on the latest industry trends and best practices to deliver exceptional results.
+          </p>
+          <!-- Progress Bars -->
+          <div class="space-y-5 mb-10">
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-on-primary text-sm font-medium">Equipment Installation</span>
+                <span class="text-on-primary text-sm font-medium">85%</span>
+              </div>
+              <div class="w-full h-1.5 bg-[#232933] rounded">
+                <div class="h-1.5 rounded bg-[#2196f3]" style="width:85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-on-primary text-sm font-medium">Pool Cleaning</span>
+                <span class="text-on-primary text-sm font-medium">90%</span>
+              </div>
+              <div class="w-full h-1.5 bg-[#232933] rounded">
+                <div class="h-1.5 rounded bg-[#2196f3]" style="width:90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-on-primary text-sm font-medium">Water Analysis</span>
+                <span class="text-on-primary text-sm font-medium">65%</span>
+              </div>
+              <div class="w-full h-1.5 bg-[#232933] rounded">
+                <div class="h-1.5 rounded bg-[#2196f3]" style="width:65%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Contact Info -->
+          <div class="flex flex-col sm:flex-row items-start sm:items-center gap-8">
+            <div class="flex items-center gap-3">
+              <span class="w-10 h-10 flex items-center justify-center rounded-full bg-[#eaf6ff] text-[#2196f3] text-xl">
+                <i class="fas fa-phone-alt" data-icon="phone"></i>
+              </span>
+              <div>
+                <span class="block text-text-muted text-xs">Phone Number:</span>
+                <span class="block text-on-primary text-lg font-semibold">(+468) 254 76243</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="w-10 h-10 flex items-center justify-center rounded-full bg-[#eaf6ff] text-[#2196f3] text-xl">
+                <i class="fas fa-envelope" data-icon="envelope"></i>
+              </span>
+              <div>
+                <span class="block text-text-muted text-xs">Email Address</span>
+                <span class="block text-on-primary text-lg font-semibold">info@poolax.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Right: Booking Appointment Form -->
+        <div class="w-full md:w-[420px] mt-12 md:mt-0 md:ml-auto relative z-20">
+          <div class="bg-surface rounded-xl shadow-xl p-8 md:p-10">
+            <h2 class="text-text font-bold text-2xl mb-6">Booking Appointment</h2>
+            <form class="space-y-4">
+              <div>
+                <label for="name" class="sr-only">Your Name</label>
+                <input id="name" name="name" type="text" placeholder="Your Name" class="w-full bg-surface-alt border border-border rounded-md px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition" required>
+              </div>
+              <div>
+                <label for="email" class="sr-only">Your Email</label>
+                <input id="email" name="email" type="email" placeholder="Your Email" class="w-full bg-surface-alt border border-border rounded-md px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition" required>
+              </div>
+              <div>
+                <label for="subject" class="sr-only">Select Subject</label>
+                <select id="subject" name="subject" class="w-full bg-surface-alt border border-border rounded-md px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition appearance-none">
+                  <option>Select Subject</option>
+                  <option>Pool Cleaning</option>
+                  <option>Equipment Installation</option>
+                  <option>Water Analysis</option>
+                </select>
+              </div>
+              <div class="relative">
+                <label for="message" class="sr-only">Write message</label>
+                <textarea id="message" name="message" rows="3" placeholder="Write message..." class="w-full bg-surface-alt border border-border rounded-md px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition resize-none"></textarea>
+                <span class="absolute right-4 top-3 text-text-muted">
+                  <i class="far fa-comment-dots" data-icon="comment-dots"></i>
+                </span>
+              </div>
+              <button type="submit" class="w-full bg-[#2196f3] text-white font-semibold rounded-md py-3 mt-2 transition hover:bg-[#1769aa] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                APPOINTMENT NOW
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Pool Water Image BG (top right) -->
+      <div class="hidden md:block absolute top-0 right-0 w-1/2 h-full z-0">
+        <img src="https://placehold.co/800x600" alt="Bright blue swimming pool water with sunlight reflections" class="w-full h-full object-cover rounded-bl-3xl" />
+      </div>
+      <!-- Decorative lines (optional, top left) -->
+      <div class="absolute top-0 left-0 w-1/2 h-40 z-0 pointer-events-none">
+        <img src="https://placehold.co/400x160/181d23/232933?text=Decorative+Lines" alt="Decorative abstract lines" class="w-full h-full object-cover opacity-60" />
+      </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section class="work-process-section bg-background py-16 md:py-24">
+      <div class="container mx-auto px-4 max-w-4xl text-center">
+        <span class="text-primary text-base font-semibold mb-2 block">Work Process</span>
+        <h2 class="text-text font-bold text-3xl md:text-4xl mb-2">
+          What is the process behind<br class="hidden md:block"> its operation?
+        </h2>
+      </div>
+    </section>
+  </body>
+</html>
